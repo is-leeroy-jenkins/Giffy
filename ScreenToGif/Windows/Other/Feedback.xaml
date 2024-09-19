@@ -1,0 +1,186 @@
+<n:ExWindow x:Class="ScreenToGif.Windows.Other.Feedback"
+            xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+            xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+            xmlns:n="clr-namespace:ScreenToGif.Controls"
+            xmlns:t="clr-namespace:ScreenToGif.Util.Settings;assembly=ScreenToGif.Util"
+            Title="{DynamicResource S.Feedback.Feedback}" MinHeight="500" MinWidth="700" Height="500" Width="750"
+            Icon="/ScreenToGif;component/Resources/Logo.ico" WindowStartupLocation="CenterScreen" UseLayoutRounding="True" 
+            Loaded="Feedback_Loaded">
+
+    <Grid x:Name="MainGrid">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="40"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="40"/>
+        </Grid.RowDefinitions>
+
+        <Grid Grid.Row="0" Background="{DynamicResource Panel.Background.Level4}">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="40"/>
+                <ColumnDefinition Width="1*"/>
+                <ColumnDefinition Width="Auto"/>
+            </Grid.ColumnDefinitions>
+
+            <Border Grid.Column="0" Margin="6" Background="{StaticResource Vector.Application}" Opacity="{DynamicResource Element.Opacity}"/>
+
+            <TextBlock Grid.Column="1" x:Name="TypeLabel" Text="{DynamicResource S.Feedback.Header}" Margin="5" VerticalAlignment="Center" 
+                       FontFamily="Segoe UI Semilight" FontSize="18" Foreground="{DynamicResource Element.Foreground.Header}"/>
+
+            <TextBlock Grid.Column="2" FontSize="13" Foreground="{DynamicResource Element.Foreground.Header}" TextAlignment="Center" VerticalAlignment="Center" Margin="3">
+                <TextBlock Text="{DynamicResource S.Feedback.LanguageInfo1}"/>
+                <LineBreak></LineBreak>
+                <TextBlock Text="{DynamicResource S.Feedback.LanguageInfo2}"/>
+            </TextBlock>
+        </Grid>
+       
+        <n:StatusBand Grid.Row="1" x:Name="StatusBand"/>
+
+        <Grid Grid.Row="2">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="21"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="21"/>
+                <RowDefinition/>
+                <RowDefinition Height="21"/>
+                <RowDefinition Height="Auto"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+
+            <n:LabelSeparator Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2" Text="{DynamicResource S.Feedback.Title}"/>
+            <n:ExtendedTextBox Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="2" x:Name="TitleTextBox" Margin="5" Height="24" MaxLength="255" TextWrapping="Wrap" IsObligatory="True"/>
+
+            <n:LabelSeparator Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="2" Text="{DynamicResource S.Feedback.Message}"/>
+            <n:ExtendedTextBox Grid.Row="3" Grid.Column="0" Grid.ColumnSpan="2" x:Name="MessageTextBox" Margin="5" AcceptsReturn="True" TextWrapping="Wrap" VerticalContentAlignment="Top"
+                               AcceptsTab="True" VerticalScrollBarVisibility="Auto" IsObligatory="True" Watermark="{DynamicResource S.Feedback.Message.Info}"/>
+
+            <n:LabelSeparator Grid.Row="4" Grid.Column="0" Text="{DynamicResource S.Feedback.Type}"/>
+            <StackPanel Grid.Row="5" Grid.Column="0" Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center">
+                <n:ExtendedCheckBox x:Name="IssueCheckBox" Text="{DynamicResource S.Feedback.IssueBug}" Margin="5,3" IsChecked="True"/>
+                <n:ExtendedCheckBox x:Name="SuggestionCheckBox" Text="{DynamicResource S.Feedback.Suggestion}" Margin="5,3" IsChecked="True"/>
+            </StackPanel>
+
+            <n:LabelSeparator Grid.Row="4" Grid.Column="1" Text="{DynamicResource S.Feedback.YourEmail}" BorderThickness="0,1,0,0"/>
+            <n:ExtendedTextBox Grid.Row="5" Grid.Column="1" x:Name="EmailTextBox" Margin="5" Height="24" MaxLength="255" VerticalContentAlignment="Center" IsObligatory="True"
+                               Text="{Binding Source={x:Static t:UserSettings.All}, Path=LatestFeedbackEmail, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"/>
+        </Grid>
+
+        <Grid Grid.Row="3" x:Name="AttachmentsGrid">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+            </Grid.RowDefinitions>
+
+            <n:LabelSeparator Grid.Row="0" Text="{DynamicResource S.Feedback.Attachments}"/>
+            <ListBox Grid.Row="1" x:Name="AttachmentListBox" Margin="3" MaxHeight="100" MinHeight="30" BorderThickness="0"
+                     Background="Transparent" ScrollViewer.HorizontalScrollBarVisibility="Disabled" ScrollViewer.CanContentScroll="False">
+                <ListBox.ItemsPanel>
+                    <ItemsPanelTemplate>
+                        <WrapPanel Orientation="Horizontal" IsItemsHost="True"/>
+                    </ItemsPanelTemplate>
+                </ListBox.ItemsPanel>
+
+                <ListBox.ItemContainerStyle>
+                    <Style TargetType="{x:Type ListBoxItem}">
+                        <Setter Property="SnapsToDevicePixels" Value="True"/>
+                        <Setter Property="Padding" Value="2"/>
+                        <Setter Property="HorizontalContentAlignment" Value="{Binding HorizontalContentAlignment, RelativeSource={RelativeSource AncestorType={x:Type ItemsControl}}}"/>
+                        <Setter Property="VerticalContentAlignment" Value="{Binding VerticalContentAlignment, RelativeSource={RelativeSource AncestorType={x:Type ItemsControl}}}"/>
+                        <Setter Property="Background" Value="Transparent"/>
+                        <Setter Property="BorderBrush" Value="Transparent"/>
+                        <Setter Property="BorderThickness" Value="1"/>
+                        <Setter Property="FocusVisualStyle" Value="{StaticResource Style.FocusVisual.NoMargin}"/>
+
+                        <Setter Property="Template">
+                            <Setter.Value>
+                                <ControlTemplate TargetType="{x:Type n:AttachmentListBoxItem}">
+                                    <Border x:Name="Bd" BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="{TemplateBinding BorderThickness}" 
+                                            Background="{TemplateBinding Background}" Padding="{TemplateBinding Padding}" ToolTip="{TemplateBinding Attachment}">
+                                        <Grid>
+                                            <Grid.ColumnDefinitions>
+                                                <ColumnDefinition Width="Auto"/>
+                                                <ColumnDefinition/>
+                                                <ColumnDefinition Width="Auto"/>
+                                            </Grid.ColumnDefinitions>
+
+                                            <Viewbox Grid.Column="0" x:Name="ViewBoxInternal" VerticalAlignment="Center" HorizontalAlignment="Center" 
+                                                     Stretch="Uniform" StretchDirection="Both" MaxWidth="20" MaxHeight="20" Effect="{x:Null}">
+                                                <Image Source="{TemplateBinding FileIcon}" Width="Auto" Height="Auto" Opacity="{DynamicResource Element.Opacity}"/>
+                                            </Viewbox>
+
+                                            <Label Grid.Column="1" x:Name="ShortNameLabel" Content="{TemplateBinding ShortName}" Foreground="{DynamicResource Element.Foreground.Medium}" 
+                                                   HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Padding="1"/>
+
+                                            <n:ExtendedButton Grid.Column="2" x:Name="RemoveButton" Icon="{StaticResource Vector.Close}" VerticalAlignment="Stretch"
+                                                              Style="{StaticResource Style.Button.NoText}" ContentWidth="12" ContentHeight="12" Width="12" Visibility="Collapsed" 
+                                                              PreviewMouseLeftButtonUp="RemoveButton_OnMouseLeftButtonDown" Margin="2,0,0,0"/>
+                                        </Grid>
+                                    </Border>
+
+                                    <ControlTemplate.Triggers>
+                                        <MultiTrigger>
+                                            <MultiTrigger.Conditions>
+                                                <Condition Property="IsMouseOver" Value="True"/>
+                                            </MultiTrigger.Conditions>
+                                            <Setter Property="Background" TargetName="Bd" Value="{DynamicResource Item.MouseOver.Background}"/>
+                                            <Setter Property="BorderBrush" TargetName="Bd" Value="{DynamicResource Item.MouseOver.Border}"/>
+                                        </MultiTrigger>
+
+                                        <MultiTrigger>
+                                            <MultiTrigger.Conditions>
+                                                <Condition Property="Selector.IsSelectionActive" Value="False"/>
+                                                <Condition Property="IsSelected" Value="True"/>
+                                            </MultiTrigger.Conditions>
+
+                                            <Setter Property="Background" TargetName="Bd" Value="{DynamicResource Item.SelectedInactive.Background}"/>
+                                            <Setter Property="BorderBrush" TargetName="Bd" Value="{DynamicResource Item.SelectedInactive.Border}"/>
+                                            <Setter Property="Visibility" TargetName="RemoveButton" Value="Visible"/>
+                                        </MultiTrigger>
+
+                                        <MultiTrigger>
+                                            <MultiTrigger.Conditions>
+                                                <Condition Property="Selector.IsSelectionActive" Value="True"/>
+                                                <Condition Property="IsSelected" Value="True"/>
+                                            </MultiTrigger.Conditions>
+
+                                            <Setter Property="Background" TargetName="Bd" Value="{DynamicResource Item.SelectedActive.Background}"/>
+                                            <Setter Property="BorderBrush" TargetName="Bd" Value="{DynamicResource Item.SelectedActive.Border}"/>
+                                            <Setter Property="Visibility" TargetName="RemoveButton" Value="Visible"/>
+                                        </MultiTrigger>
+                                    </ControlTemplate.Triggers>
+                                </ControlTemplate>
+                            </Setter.Value>
+                        </Setter>
+                    </Style>
+                </ListBox.ItemContainerStyle>
+            </ListBox>
+        </Grid>
+
+        <Grid Grid.Row="4" Background="{DynamicResource Panel.Background.Level3}" Height="40">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto" MinWidth="100"/>
+                <ColumnDefinition Width="Auto" MinWidth="100"/>
+                <ColumnDefinition/>
+                <ColumnDefinition Width="Auto" MinWidth="100"/>
+                <ColumnDefinition Width="Auto" MinWidth="100"/>
+                <ColumnDefinition Width="Auto" MinWidth="100"/>
+            </Grid.ColumnDefinitions>
+
+            <n:ExtendedButton Grid.Column="0" x:Name="AddAttachmentButton" Text="{DynamicResource S.Feedback.AddAttachments}" Icon="{StaticResource Vector.Add}" 
+                              ContentWidth="18" ContentHeight="18" Padding="5,0" MinWidth="90" Margin="5" Click="AddAttachmentButton_Click"/>
+            <n:ExtendedButton Grid.Column="1" x:Name="RemoveAllAttachmentButton" Text="{DynamicResource S.Feedback.RemoveAttachments}" Icon="{StaticResource Vector.Remove}" 
+                              ContentWidth="18" ContentHeight="18" Padding="5,0" MinWidth="90" Margin="5"  Click="RemoveAllAttachmentButton_Click"/>
+
+            <n:ExtendedButton Grid.Column="3" x:Name="OkButton" Text="{DynamicResource S.Feedback.Send}" Icon="{StaticResource Vector.Ok}" 
+                              ContentWidth="18" ContentHeight="18" Padding="5,0" MinWidth="90" Margin="5" Click="SendButton_Click"/>
+            <n:ExtendedButton Grid.Column="4" x:Name="PreviewButton" Text="{DynamicResource S.Feedback.Preview}" Icon="{StaticResource Vector.Report}" 
+                              ContentWidth="18" ContentHeight="18" Padding="5,0" MinWidth="90" Margin="5" Click="PreviewButton_Click"/>
+            <n:ExtendedButton Grid.Column="5" x:Name="CancelButton" Text="{DynamicResource S.Cancel}" Icon="{StaticResource Vector.Cancel}" 
+                              ContentWidth="18" ContentHeight="18" Padding="5,0" MinWidth="90" Margin="5" IsCancel="True" Click="CancelButton_Click"/>
+        </Grid>
+    </Grid>
+</n:ExWindow>

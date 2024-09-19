@@ -1,0 +1,28 @@
+<n:ExWindow x:Class="ScreenToGif.Windows.Other.FeedbackPreview"
+            xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+            xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+            xmlns:n="clr-namespace:ScreenToGif.Controls"
+            Title="Feedback Preview" Height="600" Width="700" MinHeight="450" MinWidth="700" WindowStartupLocation="CenterScreen"
+            Icon="/ScreenToGif;component/Resources/Logo.ico" Loaded="FeedbackPreview_Loaded">
+    
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition Height="40"/>
+        </Grid.RowDefinitions>
+        
+        <WebBrowser Grid.Row="0" x:Name="MainBrowser"/>
+
+        <Grid Grid.Row="1" Background="{DynamicResource Panel.Background.Level3}" Height="40">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition Width="Auto" MinWidth="100"/>
+            </Grid.ColumnDefinitions>
+
+            <TextBlock Grid.Column="0" TextAlignment="Center" VerticalAlignment="Center" Margin="5" Text="{DynamicResource S.Feedback.Preview.Info}" Foreground="{DynamicResource Element.Foreground.Header}"/>
+
+            <n:ExtendedButton Grid.Column="1" x:Name="CancelButton" Text="{DynamicResource S.Ok}" Icon="{StaticResource Vector.Ok}" 
+                              ContentWidth="18" ContentHeight="18" Padding="5,0" MinWidth="90" Margin="5" Click="OkButton_Click" IsCancel="True"/>
+        </Grid>
+    </Grid>
+</n:ExWindow>

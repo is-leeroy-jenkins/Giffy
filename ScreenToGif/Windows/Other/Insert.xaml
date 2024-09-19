@@ -1,0 +1,252 @@
+<n:ExWindow x:Class="ScreenToGif.Windows.Other.Insert"
+            xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+            xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+            xmlns:n="clr-namespace:ScreenToGif.Controls"
+            xmlns:t="clr-namespace:ScreenToGif.Util.Settings;assembly=ScreenToGif.Util"
+            Title="{DynamicResource S.InsertFrames.Title}" 
+            Icon="/ScreenToGif;component/Resources/Logo.ico" SnapsToDevicePixels="True" 
+            UseLayoutRounding="True" WindowStartupLocation="CenterOwner" 
+            Height="500" Width="870" MinWidth="800" MinHeight="600" SizeToContent="Width" 
+            Loaded="Window_Loaded" Closing="Window_Closing" Activated="Window_Activated">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="40"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="40"/>
+        </Grid.RowDefinitions>
+
+        <Grid Grid.Row="0" Background="{DynamicResource Panel.Background.Level4}">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="40"/>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition/>
+                <ColumnDefinition Width="1"/>
+                <ColumnDefinition Width="Auto" MinWidth="120"/>
+            </Grid.ColumnDefinitions>
+
+            <Border Grid.Column="0" Margin="6" Background="{StaticResource Vector.Add}" Opacity="{DynamicResource Element.Opacity}"/>
+
+            <Label Grid.Column="1" Content="{DynamicResource S.InsertFrames.Title}" Margin="5,0,5,0" VerticalAlignment="Center" Padding="2" 
+                   FontSize="18" FontFamily="Segoe UI Semilight" Foreground="{DynamicResource Element.Foreground.Header}"/>
+
+            <Grid Grid.Column="2">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="15"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+
+                <Border Grid.Column="0" Background="{StaticResource Vector.Info}" Opacity="{DynamicResource Element.Opacity}"/>
+                <TextBlock Grid.Column="1" Text="{DynamicResource S.InsertFrames.Info}" Margin="5,0" Foreground="{DynamicResource Element.Foreground.Detail}" FontStyle="Italic" FontSize="12" 
+                           TextWrapping="WrapWithOverflow" VerticalAlignment="Center"/>
+            </Grid>
+
+            <Separator Grid.Column="3" Width="1"/>
+
+            <Grid Grid.Column="4">
+                <Grid.RowDefinitions>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto"/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition Width="Auto"/>
+                </Grid.ColumnDefinitions>
+
+                <Border Grid.Row="0" Grid.Column="0" Grid.RowSpan="2" Margin="5" Width="25" Height="25" VerticalAlignment="Center" HorizontalAlignment="Center"
+                        Background="{StaticResource Vector.WidthHeight}" Opacity="{DynamicResource Element.Opacity}"/>
+
+                <Label Grid.Row="0" Grid.Column="1" Content="{DynamicResource S.InsertFrames.CanvasSize}" VerticalAlignment="Center" Padding="2" Foreground="{DynamicResource Element.Foreground.Medium}"/>
+
+                <TextBlock Grid.Row="1" Grid.Column="1" x:Name="CanvasSizeTextBlock" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="{DynamicResource Element.Foreground.Medium}" Text="0 × 0"/>
+
+                <n:ExtendedButton Grid.Row="0" Grid.Column="2" Grid.RowSpan="2" x:Name="ResetCanvasButton" Margin="10,0,0,0" TextWrapping="Wrap"
+                                  Text="{DynamicResource S.InsertFrames.FitCanvas}" Icon="{StaticResource Vector.PictureFit}" ContentWidth="40" ContentHeight="40" 
+                                  Style="{StaticResource Style.Button.Horizontal}" ToolTip="{DynamicResource S.InsertFrames.FitCanvas.Info}" Click="ResetCanvasButton_Click"/>
+            </Grid>
+        </Grid>
+
+        <n:StatusBand Grid.Row="1" x:Name="StatusBand"/>
+
+        <Grid Grid.Row="2" x:Name="ContentGrid">
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition Width="5"/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+
+            <ScrollViewer Grid.Row="0" Grid.Column="0" x:Name="LeftScrollViewer" VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Auto"
+                          Background="{StaticResource Checker.DrawingBrush}" BorderThickness="1,1,0,1" BorderBrush="{DynamicResource Element.Border}" PanningMode="Both"
+                          PreviewMouseWheel="ScrollViewer_MouseWheel" PreviewMouseRightButtonDown="ScrollViewer_PreviewMouseRightButtonDown">
+                <Canvas x:Name="LeftCanvas" Background="{Binding InsertFillColor, Source={x:Static t:UserSettings.All}, Converter={StaticResource ColorToBrushConverter}, Mode=TwoWay}">
+                    <Image Canvas.Left="0" Canvas.Top="0" x:Name="LeftImage" Stretch="Fill" SizeChanged="LeftImage_SizeChanged"/>
+                </Canvas>
+            </ScrollViewer>
+
+            <Separator Grid.Row="0" Grid.Column="1" Grid.RowSpan="2" Width="2" Margin="2,0"/>
+
+            <ScrollViewer Grid.Row="0" Grid.Column="2" x:Name="RightScrollViewer" VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Auto"
+                          Background="{StaticResource Checker.DrawingBrush}" BorderThickness="0,1,1,1" BorderBrush="{DynamicResource Element.Border}" PanningMode="Both"
+                          PreviewMouseWheel="ScrollViewer_MouseWheel" PreviewMouseRightButtonDown="ScrollViewer_PreviewMouseRightButtonDown">
+                <Canvas x:Name="RightCanvas" Background="{Binding InsertFillColor, Source={x:Static t:UserSettings.All}, Converter={StaticResource ColorToBrushConverter}, Mode=TwoWay}">
+                    <Image Canvas.Left="0" Canvas.Top="0" x:Name="RightImage" Stretch="Fill" SizeChanged="RightImage_SizeChanged"/>
+                </Canvas>
+            </ScrollViewer>
+
+            <TextBlock Grid.Row="0" Grid.Column="0" Text="{DynamicResource S.InsertFrames.InsertedFrames}" HorizontalAlignment="Center" VerticalAlignment="Top"
+                       FontSize="16" Foreground="{DynamicResource Element.Foreground.Header}" Background="{DynamicResource Panel.Background.Level4}" Effect="{StaticResource Shadow.Background.Small}" Opacity="0.9"/>
+            <TextBlock Grid.Row="0" Grid.Column="2" Text="{DynamicResource S.InsertFrames.CurrentFrames}" HorizontalAlignment="Center" VerticalAlignment="Top"
+                       FontSize="16" Foreground="{DynamicResource Element.Foreground.Header}" Background="{DynamicResource Panel.Background.Level4}" Effect="{StaticResource Shadow.Background.Small}" Opacity="0.9"/>
+
+            <Border Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="3" Background="{StaticResource Vector.Arrow.Blue.Right}" Width="22" Height="22" 
+                    HorizontalAlignment="Center" VerticalAlignment="Top" Opacity="{DynamicResource Element.Opacity}"/>
+            
+            <Grid Grid.Row="1" Grid.Column="0" HorizontalAlignment="Center">
+                <Grid.RowDefinitions>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="35"/>
+                    <ColumnDefinition Width="Auto"/>
+                    <ColumnDefinition Width="1"/>
+                    <ColumnDefinition Width="35"/>
+                    <ColumnDefinition Width="Auto"/>
+                    <ColumnDefinition Width="Auto" MinWidth="120"/>
+                </Grid.ColumnDefinitions>
+
+                <Border Grid.Row="0" Grid.Column="0" Grid.RowSpan="2" Margin="5" Background="{StaticResource Vector.WidthHeight}" Opacity="{DynamicResource Element.Opacity}"/>
+                <TextBlock Grid.Row="0" Grid.Column="1" Text="{DynamicResource S.InsertFrames.ImageSize}" Padding="3,0" Foreground="{DynamicResource Element.Foreground}"/>
+
+                <TextBlock Grid.Row="1" Grid.Column="1" x:Name="LeftImageSizeTextBlock" VerticalAlignment="Center" HorizontalAlignment="Center"
+                           Margin="0,0,3,0" Foreground="{DynamicResource Element.Foreground}" Text="0 × 0"/>
+
+                <Separator Grid.Row="0" Grid.Column="2" Grid.RowSpan="2" Width="1"/>
+
+                <Border Grid.Row="0" Grid.Column="3" Grid.RowSpan="2" Margin="5" Background="{StaticResource Vector.Move}" Opacity="{DynamicResource Element.Opacity}"/>
+                <TextBlock Grid.Row="0" Grid.Column="4" Text="{DynamicResource S.InsertFrames.ImagePosition}" Padding="3,0" Foreground="{DynamicResource Element.Foreground}"/>
+
+                <TextBlock Grid.Row="1" Grid.Column="4" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="{DynamicResource Element.Foreground}">
+                    <TextBlock.Text>
+                        <MultiBinding StringFormat="{}X: {0:0.#}  Y: {1:0.#}">
+                            <Binding ElementName="LeftImage" Path="(Canvas.Left)" Mode="OneWay"/>
+                            <Binding ElementName="LeftImage" Path="(Canvas.Top)" Mode="OneWay"/>
+                        </MultiBinding>
+                    </TextBlock.Text>
+                </TextBlock>
+
+                <n:ExtendedButton Grid.Row="0" Grid.Column="5" Grid.RowSpan="2" x:Name="ResetLeftButton" Text="{DynamicResource S.InsertFrames.ResetImageSizePosition}" Icon="{StaticResource Vector.Repeat}" 
+                                  ContentWidth="20" ContentHeight="20" Style="{StaticResource Style.Button.Horizontal}" Click="ResetLeftButton_Click" Margin="10,0,0,0"/>
+            </Grid>
+
+            <Grid Grid.Row="1" Grid.Column="2" HorizontalAlignment="Center">
+                <Grid.RowDefinitions>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="35"/>
+                    <ColumnDefinition Width="Auto"/>
+                    <ColumnDefinition Width="1"/>
+                    <ColumnDefinition Width="35"/>
+                    <ColumnDefinition Width="Auto"/>
+                    <ColumnDefinition Width="Auto" MinWidth="120"/>
+                </Grid.ColumnDefinitions>
+
+                <Border Grid.Row="0" Grid.Column="0" Grid.RowSpan="2" Margin="5" Background="{StaticResource Vector.WidthHeight}" Opacity="{DynamicResource Element.Opacity}"/>
+                <TextBlock Grid.Row="0" Grid.Column="1" Text="{DynamicResource S.InsertFrames.ImageSize}" Padding="3,0" Foreground="{DynamicResource Element.Foreground}"/>
+
+                <TextBlock Grid.Row="1" Grid.Column="1" x:Name="RightImageSizeTextBlock" VerticalAlignment="Center" HorizontalAlignment="Center"
+                           Margin="0,0,3,0" Foreground="{DynamicResource Element.Foreground}" Text="0 × 0"/>
+
+                <Separator Grid.Row="0" Grid.Column="2" Grid.RowSpan="2" Width="1"/>
+
+                <Border Grid.Row="0" Grid.Column="3" Grid.RowSpan="2" Margin="5" Background="{StaticResource Vector.Move}" Opacity="{DynamicResource Element.Opacity}"/>
+                <TextBlock Grid.Row="0" Grid.Column="4" Text="{DynamicResource S.InsertFrames.ImagePosition}" Padding="3,0" Foreground="{DynamicResource Element.Foreground}"/>
+
+                <TextBlock Grid.Row="1" Grid.Column="4" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="{DynamicResource Element.Foreground}">
+                    <TextBlock.Text>
+                        <MultiBinding StringFormat="{}X: {0:0.#}  Y: {1:0.#}">
+                            <Binding ElementName="RightImage" Path="(Canvas.Left)" Mode="OneWay"/>
+                            <Binding ElementName="RightImage" Path="(Canvas.Top)" Mode="OneWay"/>
+                        </MultiBinding>
+                    </TextBlock.Text>
+                </TextBlock>
+
+                <n:ExtendedButton Grid.Row="0" Grid.Column="5" Grid.RowSpan="2" x:Name="ResetRightButton" Text="{DynamicResource S.InsertFrames.ResetImageSizePosition}" Icon="{StaticResource Vector.Repeat}" 
+                                  ContentWidth="20" ContentHeight="20" Style="{StaticResource Style.Button.Horizontal}" Click="ResetRightButton_Click" Margin="10,0,0,0"/>
+            </Grid>
+        </Grid>
+
+        <Grid Grid.Row="4" Background="{DynamicResource Panel.Background.Level3}">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition Width="Auto" MinWidth="150"/>
+                <ColumnDefinition Width="Auto" MinWidth="100"/>
+                <ColumnDefinition Width="Auto" MinWidth="100"/>
+            </Grid.ColumnDefinitions>
+
+            <Grid Grid.Column="0" x:Name="ProgressGrid" Visibility="Hidden">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+
+                <Label x:Name="StatusLabel" Content="{DynamicResource S.InsertFrames.Importing}" Margin="5,0,0,0" Foreground="{DynamicResource Element.Foreground.Medium}" VerticalAlignment="Center"/>
+                <ProgressBar x:Name="InsertProgressBar" Grid.Column="1" Height="4" Margin="5,0"/>
+            </Grid>
+
+            <Grid Grid.Column="0" x:Name="InsertionGrid">
+                <Grid.RowDefinitions>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto"/>
+                    <ColumnDefinition Width="Auto"/>
+                    <ColumnDefinition Width="Auto"/>
+                    <ColumnDefinition Width="Auto"/>
+                    <ColumnDefinition Width="Auto"/>
+                    <ColumnDefinition Width="Auto"/>
+                </Grid.ColumnDefinitions>
+
+                <TextBlock Grid.Row="0" Grid.Column="0" Grid.RowSpan="2" Text="{DynamicResource S.InsertFrames.Info2}" FontSize="13" Margin="5,3"
+                           Foreground="{DynamicResource Element.Foreground.Medium}" VerticalAlignment="Center" TextWrapping="Wrap"/>
+
+                <RadioButton Grid.Row="0" Grid.Column="1" x:Name="BeforeRadioButton" Content="{DynamicResource S.InsertFrames.Before}" VerticalContentAlignment="Center" Margin="10,0,0,0" IsChecked="True"/>
+                <RadioButton Grid.Row="1" Grid.Column="1" x:Name="AfterRadioButton" Content="{DynamicResource S.InsertFrames.After}" VerticalContentAlignment="Center" Margin="10,0,00,0"/>
+
+                <TextBlock Grid.Row="0" Grid.Column="3" Grid.RowSpan="2" Text="{DynamicResource S.InsertFrames.Frame}" Padding="0" Margin="20,0,0,0" Foreground="{DynamicResource Element.Foreground.Detail}" FontSize="14" VerticalAlignment="Center"/>
+                <TextBlock  Grid.Row="0" Grid.Column="4" Grid.RowSpan="2" x:Name="FrameNumberTextBlock" Text="0" Margin="10,0,0,0" Foreground="{DynamicResource Element.Foreground.Detail}" FontSize="14" VerticalAlignment="Center"/>
+            </Grid>
+
+            <n:ExtendedButton Grid.Column="1" x:Name="FillColorButton" Text="{DynamicResource S.InsertFrames.SelectColorFill}" 
+                              ContentWidth="18" ContentHeight="18" Padding="5,0" MinWidth="90" Margin="5" Click="FillColorButton_Click">
+                <n:ExtendedButton.Icon>
+                    <DrawingBrush>
+                        <DrawingBrush.Drawing>
+                            <GeometryDrawing Brush="{Binding InsertFillColor, Source={x:Static t:UserSettings.All}, Converter={StaticResource ColorToBrushConverter}}" Geometry="M 0,40 L 40,40 L 40,0 L 0,0 L 0,40 Z">
+                                <GeometryDrawing.Pen>
+                                    <Pen Thickness="1" Brush="{DynamicResource Element.Border}"/>
+                                </GeometryDrawing.Pen>
+                            </GeometryDrawing>
+                        </DrawingBrush.Drawing>
+                    </DrawingBrush>
+                </n:ExtendedButton.Icon>
+            </n:ExtendedButton>
+
+            <n:ExtendedButton x:Name="OkButton" Grid.Column="2" Text="{DynamicResource S.Ok}" Padding="5,0" MinWidth="90" Margin="5" 
+                              ContentWidth="18" ContentHeight="18" Icon="{StaticResource Vector.Ok}" Click="OkButton_Click"/>
+            <n:ExtendedButton x:Name="CancelButton" Grid.Column="3" Text="{DynamicResource S.Cancel}" Padding="5,0" MinWidth="90" Margin="5" 
+                              ContentWidth="18" ContentHeight="18" Icon="{StaticResource Vector.Cancel}" Click="CancelButton_Click"/>
+        </Grid>
+    </Grid>
+</n:ExWindow>

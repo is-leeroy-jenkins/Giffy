@@ -1,0 +1,54 @@
+<n:ExWindow x:Class="ScreenToGif.Windows.Other.PickAlbumDialog"
+            xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+            xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+            xmlns:n="clr-namespace:ScreenToGif.Controls"
+            Title="ScreenToGif" Height="250" Width="500" MinHeight="230" MinWidth="400" SizeToContent="Height" Topmost="True" 
+            WindowStartupLocation="CenterScreen" Icon="/ScreenToGif;component/Resources/Logo.ico"
+            Loaded="Dialog_Loaded" KeyDown="DialogKeyDown">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="48"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="40" />
+        </Grid.RowDefinitions>
+
+        <Grid Grid.Row="0" Background="{DynamicResource Panel.Background.Level4}">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="40"/>
+                <ColumnDefinition Width="Auto"/>
+            </Grid.ColumnDefinitions>
+
+            <Border Margin="6" Background="{StaticResource Vector.ImageStack}" Opacity="{DynamicResource Element.Opacity}"/>
+
+            <TextBlock x:Name="InstructionLabel" Text="{DynamicResource S.Options.Upload.Pick.Album}" Margin="5" Grid.Column="1" VerticalAlignment="Center" FontFamily="Segoe UI Semilight" 
+                       FontSize="18" Foreground="{DynamicResource Element.Foreground.Header}"/>
+        </Grid>
+
+        <ScrollViewer Grid.Row="1" VerticalScrollBarVisibility="Auto">
+            <TextBlock x:Name="ObservationTextBlock" Margin="25,5,10,5" Text="{DynamicResource S.Options.Upload.Pick.Album.Info}" FontSize="14" TextWrapping="WrapWithOverflow" Foreground="{DynamicResource Element.Foreground}"/>
+        </ScrollViewer>
+
+        <DataGrid Grid.Row="2" x:Name="MainDataGrid" Margin="5" MinHeight="60" SelectionMode="Single" SelectionUnit="FullRow" MouseDoubleClick="DataGrid_MouseDoubleClick" PreviewKeyDown="DataGrid_PreviewKeyDown">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="{DynamicResource S.Id}" Width="Auto" IsReadOnly="True" Binding="{Binding Path=Id, UpdateSourceTrigger=PropertyChanged}"/>
+                <DataGridTextColumn Header="{DynamicResource S.Title}" Width="Auto" IsReadOnly="True" FontWeight="SemiBold" Binding="{Binding Path=Title, UpdateSourceTrigger=PropertyChanged}"/>
+                <DataGridTextColumn Header="{DynamicResource S.Description}" Width="*" IsReadOnly="True" FontStyle="Italic" Binding="{Binding Path=Description, UpdateSourceTrigger=PropertyChanged}"/>
+            </DataGrid.Columns>
+        </DataGrid>
+
+        <Grid Grid.Row="3" Background="{DynamicResource Panel.Background.Level3}" Height="40">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="Auto"/>
+            </Grid.ColumnDefinitions>
+
+            <n:ExtendedButton Grid.Column="1" x:Name="OkButton" Text="{DynamicResource S.Recorder.Accept}" Icon="{StaticResource Vector.Ok}" 
+                              ContentWidth="18" ContentHeight="18" Padding="5,0" MinWidth="90" Margin="5" Click="TrueActionButton_Click"/>
+            <n:ExtendedButton Grid.Column="2" x:Name="CancelButton" Text="{DynamicResource S.Cancel}" Icon="{StaticResource Vector.Cancel}" 
+                              ContentWidth="18" ContentHeight="18" Padding="5,0" MinWidth="90" Margin="5" IsCancel="True" Click="FalseActionButton_Click"/>
+        </Grid>
+    </Grid>
+</n:ExWindow>

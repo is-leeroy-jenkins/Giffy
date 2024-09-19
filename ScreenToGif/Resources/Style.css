@@ -1,0 +1,119 @@
+﻿body {
+    background: #F3F3F4;
+    color: #1E1E1F;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+h1 {
+    padding: 10px 10px 5px 5px; /*top right bottom left*/
+    font-size: 21pt;
+    background-color: #E2E2E2;
+    border-bottom: 1px #C1C1C2 solid;
+    color: #201F20;
+    vertical-align: middle;
+    font-weight: normal;
+}
+
+h2 {
+    color: #002387;
+    font-size: 16pt;
+    font-weight: normal;
+    padding: 5px 0 5px 0;
+    margin: 2px 0 2px 5px; /*top right bottom left*/
+}
+
+h3 {
+    font-weight: normal;
+    font-size: 13pt;
+    margin: 10px 10px 5px 10px; /*top right bottom left*/
+    padding: 15px 0 5px 0; /*top right bottom left*/
+    color: #02033F;
+    background-color: transparent;
+}
+
+p {
+    font-weight: normal;
+    font-size: 10pt;
+    margin-left: 10px;
+    margin-bottom: 3px;
+    margin-top: 3px;
+}
+
+a {
+    color: #1382CE;
+}
+
+table {
+    border-spacing: 0 0;
+    border-collapse: collapse;
+    font-size: 10pt;
+}
+
+table th {
+    background: #E7E7E8;
+    text-align: left;
+    text-decoration: none;
+    font-weight: normal;
+    padding: 3px 6px 3px 6px;
+}
+
+table td {
+    vertical-align: top;
+    padding: 3px 6px 3px 5px; /*top right bottom left*/
+    margin: 0px;
+    border: 1px solid #E7E7E8;
+    background: #F7F7F8;
+}
+
+.localLink {
+    color: #1E1E1F;
+    background: #EEEEED;
+    text-decoration: none;
+}
+
+.localLink:hover {
+    color: #1382CE;
+    background: #FFFF99;
+    text-decoration: none;
+}
+
+.textCentered {
+    text-align: center;
+}
+
+.textRight {
+    text-align: right;
+}
+
+.messageHeader {
+    /*padding: 0 4pt 0 4pt;*/
+    margin: 0 4px 2px 0;
+    width: 100%;
+}
+
+.messageCell {
+    color: #004373;
+    /*padding: 0 4pt 0 4pt;*/
+    margin: 0 4px 2px 0;
+    width: 100%;
+}
+
+.headerCell {
+    margin: 0 0 2px 0;
+    width: 100%;
+}
+
+#content {
+    margin: 10px 5px;
+}
+
+#overview table {
+    width: auto;
+    max-width: 97%;
+}
+
+#messages table {
+    width: 97%;
+}

@@ -1,0 +1,493 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net8.0-windows10.0.17763.0</TargetFramework>
+    <OutputType>WinExe</OutputType>
+    <ExpressionBlendVersion>12.0.51020.0</ExpressionBlendVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>2.37.0.0</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <IncludeNativeLibrariesForSelfExtract>true</IncludeNativeLibrariesForSelfExtract>
+    <UseWindowsForms>True</UseWindowsForms>
+    <UseWPF>true</UseWPF>
+    <ImportWindowsDesktopTargets>true</ImportWindowsDesktopTargets>
+    <Platforms>AnyCPU;ARM64;x64;x86</Platforms>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>ScreenToGif.App</StartupObject>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Resources\Logo.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <UseVSHostingProcess>true</UseVSHostingProcess>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <GenerateSerializationAssemblies>Off</GenerateSerializationAssemblies>
+    <CodeAnalysisRuleSet>ManagedMinimumRules.ruleset</CodeAnalysisRuleSet>
+    <DefineConstants>$(DefineConstants)</DefineConstants>
+    <Optimize>True</Optimize>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <GenerateSerializationAssemblies>Off</GenerateSerializationAssemblies>
+    <CodeAnalysisRuleSet>ManagedMinimumRules.ruleset</CodeAnalysisRuleSet>
+    <DefineConstants>$(DefineConstants)</DefineConstants>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <PlatformTarget>x64</PlatformTarget>
+    <GenerateSerializationAssemblies>Off</GenerateSerializationAssemblies>
+    <CodeAnalysisRuleSet>ManagedMinimumRules.ruleset</CodeAnalysisRuleSet>
+    <DefineConstants>$(DefineConstants)</DefineConstants>
+    <Optimize>True</Optimize>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <PlatformTarget>x64</PlatformTarget>
+    <GenerateSerializationAssemblies>Off</GenerateSerializationAssemblies>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <DefineConstants>$(DefineConstants)</DefineConstants>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <PlatformTarget>x86</PlatformTarget>
+    <GenerateSerializationAssemblies>Off</GenerateSerializationAssemblies>
+    <CodeAnalysisRuleSet>ManagedMinimumRules.ruleset</CodeAnalysisRuleSet>
+    <DefineConstants>$(DefineConstants)</DefineConstants>
+    <Optimize>True</Optimize>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <PlatformTarget>x86</PlatformTarget>
+    <GenerateSerializationAssemblies>Off</GenerateSerializationAssemblies>
+    <CodeAnalysisRuleSet>ManagedMinimumRules.ruleset</CodeAnalysisRuleSet>
+    <DefineConstants>$(DefineConstants)</DefineConstants>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM64'">
+    <PlatformTarget>ARM64</PlatformTarget>
+    <GenerateSerializationAssemblies>Off</GenerateSerializationAssemblies>
+    <CodeAnalysisRuleSet>ManagedMinimumRules.ruleset</CodeAnalysisRuleSet>
+    <DefineConstants>$(DefineConstants)</DefineConstants>
+    <Optimize>True</Optimize>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM64'">
+    <PlatformTarget>ARM64</PlatformTarget>
+    <GenerateSerializationAssemblies>Off</GenerateSerializationAssemblies>
+    <CodeAnalysisRuleSet>ManagedMinimumRules.ruleset</CodeAnalysisRuleSet>
+    <DefineConstants>$(DefineConstants)</DefineConstants>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppDesigner Include="Properties\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Assets\CalculatorImages\Cancel.png" />
+    <Resource Include="Resources\Assets\CalculatorImages\Main.png" />
+    <Resource Include="Resources\Assets\DialogImages\AddColumnButton.png" />
+    <Resource Include="Resources\Assets\DialogImages\AddRecordButton.png" />
+    <Resource Include="Resources\Assets\DialogImages\AddTableButton.png" />
+    <Resource Include="Resources\Assets\DialogImages\ApplicationError.ico" />
+    <Resource Include="Resources\Assets\DialogImages\Calendar.png" />
+    <Resource Include="Resources\Assets\DialogImages\ColumnConfiguration.png" />
+    <Resource Include="Resources\Assets\DialogImages\CopyRecordButton.png" />
+    <Resource Include="Resources\Assets\DialogImages\DataSettings.png" />
+    <Resource Include="Resources\Assets\DialogImages\DeleteColumnButton.png" />
+    <Resource Include="Resources\Assets\DialogImages\DeleteRecordButton.png" />
+    <Resource Include="Resources\Assets\DialogImages\DeleteTableButton.png" />
+    <Resource Include="Resources\Assets\DialogImages\EditColumnButton.png" />
+    <Resource Include="Resources\Assets\DialogImages\EditRecordButton.png" />
+    <Resource Include="Resources\Assets\DialogImages\EditSqlButton.png" />
+    <Resource Include="Resources\Assets\DialogImages\Error.ico" />
+    <Resource Include="Resources\Assets\DialogImages\Error.png" />
+    <Resource Include="Resources\Assets\DialogImages\ErrorDialog.png" />
+    <Resource Include="Resources\Assets\DialogImages\Error_16.png" />
+    <Resource Include="Resources\Assets\DialogImages\Error_64.png" />
+    <Resource Include="Resources\Assets\DialogImages\FileBrowse.png" />
+    <Resource Include="Resources\Assets\DialogImages\FolderBrowse.png" />
+    <Resource Include="Resources\Assets\DialogImages\InputDialog.png" />
+    <Resource Include="Resources\Assets\DialogImages\MenuDialog.png" />
+    <Resource Include="Resources\Assets\DialogImages\Message.ico" />
+    <Resource Include="Resources\Assets\DialogImages\Message.png" />
+    <Resource Include="Resources\Assets\DialogImages\SplashNotification.png" />
+    <Resource Include="Resources\Assets\DialogImages\TextDialog.png" />
+    <Resource Include="Resources\Assets\ExtensionImages\ACCDB.png" />
+    <Resource Include="Resources\Assets\ExtensionImages\CSV.png" />
+    <Resource Include="Resources\Assets\ExtensionImages\DB.png" />
+    <Resource Include="Resources\Assets\ExtensionImages\DLL.png" />
+    <Resource Include="Resources\Assets\ExtensionImages\DOC.png" />
+    <Resource Include="Resources\Assets\ExtensionImages\DOCX.png" />
+    <Resource Include="Resources\Assets\ExtensionImages\EXE.png" />
+    <Resource Include="Resources\Assets\ExtensionImages\HTML.png" />
+    <Resource Include="Resources\Assets\ExtensionImages\MDB.png" />
+    <Resource Include="Resources\Assets\ExtensionImages\MDF.png" />
+    <Resource Include="Resources\Assets\ExtensionImages\PDF.png" />
+    <Resource Include="Resources\Assets\ExtensionImages\PNG.png" />
+    <Resource Include="Resources\Assets\ExtensionImages\PPTX.png" />
+    <Resource Include="Resources\Assets\ExtensionImages\PY.png" />
+    <Resource Include="Resources\Assets\ExtensionImages\SDF.png" />
+    <Resource Include="Resources\Assets\ExtensionImages\SQL.png" />
+    <Resource Include="Resources\Assets\ExtensionImages\TXT.png" />
+    <Resource Include="Resources\Assets\ExtensionImages\XLS.png" />
+    <Resource Include="Resources\Assets\ExtensionImages\XLSX.png" />
+    <Resource Include="Resources\Assets\ExtensionImages\XML.png" />
+    <Resource Include="Resources\Assets\FileImages\Add.png" />
+    <Resource Include="Resources\Assets\FileImages\Bin.png" />
+    <Resource Include="Resources\Assets\FileImages\Copy.png" />
+    <Resource Include="Resources\Assets\FileImages\CSV.png" />
+    <Resource Include="Resources\Assets\FileImages\Delete.png" />
+    <Resource Include="Resources\Assets\FileImages\DLL.png" />
+    <Resource Include="Resources\Assets\FileImages\DOC.png" />
+    <Resource Include="Resources\Assets\FileImages\Download.png" />
+    <Resource Include="Resources\Assets\FileImages\Edit.png" />
+    <Resource Include="Resources\Assets\FileImages\EditFile.png" />
+    <Resource Include="Resources\Assets\FileImages\EditTable.png" />
+    <Resource Include="Resources\Assets\FileImages\Excel.png" />
+    <Resource Include="Resources\Assets\FileImages\EXE.png" />
+    <Resource Include="Resources\Assets\FileImages\Export.png" />
+    <Resource Include="Resources\Assets\FileImages\HTML.png" />
+    <Resource Include="Resources\Assets\FileImages\Import.png" />
+    <Resource Include="Resources\Assets\FileImages\Lock.png" />
+    <Resource Include="Resources\Assets\FileImages\Log.png" />
+    <Resource Include="Resources\Assets\FileImages\PDF.png" />
+    <Resource Include="Resources\Assets\FileImages\PNG.png" />
+    <Resource Include="Resources\Assets\FileImages\Py.png" />
+    <Resource Include="Resources\Assets\FileImages\Save.png" />
+    <Resource Include="Resources\Assets\FileImages\Search.png" />
+    <Resource Include="Resources\Assets\FileImages\SQL.png" />
+    <Resource Include="Resources\Assets\FileImages\TXT.png" />
+    <Resource Include="Resources\Assets\FileImages\VerifyData1.png" />
+    <Resource Include="Resources\Assets\FileImages\Word.png" />
+    <Resource Include="Resources\Assets\FileImages\XLS.png" />
+    <Resource Include="Resources\Assets\FileImages\XML.png" />
+    <Resource Include="Resources\Assets\FileImages\ZIP.png" />
+    <Resource Include="Resources\Assets\FolderImages\Browse.png" />
+    <Resource Include="Resources\Assets\FolderImages\Delete.png" />
+    <Resource Include="Resources\Assets\FolderImages\Directory.png" />
+    <Resource Include="Resources\Assets\FolderImages\Download.png" />
+    <Resource Include="Resources\Assets\FolderImages\GoogleDrive.png" />
+    <Resource Include="Resources\Assets\FolderImages\Import.png" />
+    <Resource Include="Resources\Assets\FolderImages\NetworkShared.png" />
+    <Resource Include="Resources\Assets\FolderImages\Open.png" />
+    <Resource Include="Resources\Assets\FolderImages\Search.png" />
+    <Resource Include="Resources\Assets\FolderImages\Tree.png" />
+    <Resource Include="Resources\Assets\FolderImages\ZIP.png" />
+    <Resource Include="Resources\Assets\FormImages\AppIcon.ico" />
+    <Resource Include="Resources\Assets\FormImages\Application.ico" />
+    <Resource Include="Resources\Assets\LoaderImages\Loading.gif" />
+    <Resource Include="Resources\Assets\LoaderImages\Processing.gif" />
+    <Resource Include="Resources\Assets\LoaderImages\Waiting.gif" />
+    <Resource Include="Resources\Assets\MenuImages\CalculatorItem.png" />
+    <Resource Include="Resources\Assets\MenuImages\CalendarItem.png" />
+    <Resource Include="Resources\Assets\MenuImages\ChromeItem.png" />
+    <Resource Include="Resources\Assets\MenuImages\ClockItem.png" />
+    <Resource Include="Resources\Assets\MenuImages\CloseItem.png" />
+    <Resource Include="Resources\Assets\MenuImages\ControlPanelItem.png" />
+    <Resource Include="Resources\Assets\MenuImages\DocumentaionItem.png" />
+    <Resource Include="Resources\Assets\MenuImages\EdgeItem.png" />
+    <Resource Include="Resources\Assets\MenuImages\ExitItem.png" />
+    <Resource Include="Resources\Assets\MenuImages\FileItem.png" />
+    <Resource Include="Resources\Assets\MenuImages\FirefoxItem.png" />
+    <Resource Include="Resources\Assets\MenuImages\FolderItem.png" />
+    <Resource Include="Resources\Assets\MenuImages\MapItem.png" />
+    <Resource Include="Resources\Assets\MenuImages\MediaPlayerItem.png" />
+    <Resource Include="Resources\Assets\MenuImages\OneDriveItem.png" />
+    <Resource Include="Resources\Assets\MenuImages\RefreshItem.png" />
+    <Resource Include="Resources\Assets\MenuImages\SaveItem.png" />
+    <Resource Include="Resources\Assets\MenuImages\TaskManagerItem.png" />
+    <Resource Include="Resources\Assets\NinjaImages\BudExNinjaGrey.ico" />
+    <Resource Include="Resources\Assets\ToolStripImages\AddColumnButton.png" />
+    <Resource Include="Resources\Assets\ToolStripImages\AddRecordButton.png" />
+    <Resource Include="Resources\Assets\ToolStripImages\AreaButton.png" />
+    <Resource Include="Resources\Assets\ToolStripImages\BackButton.png" />
+    <Resource Include="Resources\Assets\ToolStripImages\BarButton.png" />
+    <Resource Include="Resources\Assets\ToolStripImages\BrowseButton.png" />
+    <Resource Include="Resources\Assets\ToolStripImages\ColumnButton.png" />
+    <Resource Include="Resources\Assets\ToolStripImages\DataSourceButton.png" />
+    <Resource Include="Resources\Assets\ToolStripImages\DateButton.png" />
+    <Resource Include="Resources\Assets\ToolStripImages\DecreaseButton.png" />
+    <Resource Include="Resources\Assets\ToolStripImages\DeleteButton.png" />
+    <Resource Include="Resources\Assets\ToolStripImages\EditButton.png" />
+    <Resource Include="Resources\Assets\ToolStripImages\ExcelButton.png" />
+    <Resource Include="Resources\Assets\ToolStripImages\ExitButton.png" />
+    <Resource Include="Resources\Assets\ToolStripImages\ExportButton.png" />
+    <Resource Include="Resources\Assets\ToolStripImages\FilterButton.png" />
+    <Resource Include="Resources\Assets\ToolStripImages\FirstButton.png" />
+    <Resource Include="Resources\Assets\ToolStripImages\GanttButton.png" />
+    <Resource Include="Resources\Assets\ToolStripImages\GraphButton.png" />
+    <Resource Include="Resources\Assets\ToolStripImages\GridButton.png" />
+    <Resource Include="Resources\Assets\ToolStripImages\GroupButton.png" />
+    <Resource Include="Resources\Assets\ToolStripImages\HeatButton.png" />
+    <Resource Include="Resources\Assets\ToolStripImages\HistogramButton.png" />
+    <Resource Include="Resources\Assets\ToolStripImages\IncreaseButton.png" />
+    <Resource Include="Resources\Assets\ToolStripImages\LastButton.png" />
+    <Resource Include="Resources\Assets\ToolStripImages\LookUpButton.png" />
+    <Resource Include="Resources\Assets\ToolStripImages\MapTile.png" />
+    <Resource Include="Resources\Assets\ToolStripImages\MenuButton.png" />
+    <Resource Include="Resources\Assets\ToolStripImages\NextButton.png" />
+    <Resource Include="Resources\Assets\ToolStripImages\PieButton.png" />
+    <Resource Include="Resources\Assets\ToolStripImages\PlottButton.png" />
+    <Resource Include="Resources\Assets\ToolStripImages\PolarButton.png" />
+    <Resource Include="Resources\Assets\ToolStripImages\PreviousButton.png" />
+    <Resource Include="Resources\Assets\ToolStripImages\PrintButton.png" />
+    <Resource Include="Resources\Assets\ToolStripImages\RefreshButton.png" />
+    <Resource Include="Resources\Assets\ToolStripImages\SaveButton.png" />
+    <Resource Include="Resources\Assets\ToolStripImages\SchemaButton.png" />
+    <Resource Include="Resources\Assets\ToolStripImages\SmithButton.png" />
+    <Resource Include="Resources\Assets\ToolStripImages\SqlButton.png" />
+    <Resource Include="Resources\Assets\ToolStripImages\SunButton.png" />
+    <Resource Include="Resources\Assets\ToolStripImages\ToggleButton.png" />
+    <Resource Include="Resources\Logo.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\Style.css" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="KGySoft.Drawing" Version="8.1.0" />
+    <PackageReference Include="KGySoft.Drawing.Wpf" Version="8.1.0" />
+    <PackageReference Include="Microsoft.DotNet.UpgradeAssistant.Extensions.Default.Analyzers" Version="0.4.421302">
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.CSharp" Version="4.7.0" />
+    <PackageReference Include="Microsoft.Windows.Compatibility" Version="8.0.8" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="SharpDX.Direct3D11" Version="4.2.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Remove="Util\Commands.cs" />
+    <None Remove="Resources\Assets\CalculatorImages\Cancel.png" />
+    <None Remove="Resources\Assets\CalculatorImages\Main.png" />
+    <None Remove="Resources\Assets\DialogImages\AddColumnButton.png" />
+    <None Remove="Resources\Assets\DialogImages\AddRecordButton.png" />
+    <None Remove="Resources\Assets\DialogImages\AddTableButton.png" />
+    <None Remove="Resources\Assets\DialogImages\ApplicationError.ico" />
+    <None Remove="Resources\Assets\DialogImages\Calendar.png" />
+    <None Remove="Resources\Assets\DialogImages\ColumnConfiguration.png" />
+    <None Remove="Resources\Assets\DialogImages\CopyRecordButton.png" />
+    <None Remove="Resources\Assets\DialogImages\DataSettings.png" />
+    <None Remove="Resources\Assets\DialogImages\DeleteColumnButton.png" />
+    <None Remove="Resources\Assets\DialogImages\DeleteRecordButton.png" />
+    <None Remove="Resources\Assets\DialogImages\DeleteTableButton.png" />
+    <None Remove="Resources\Assets\DialogImages\EditColumnButton.png" />
+    <None Remove="Resources\Assets\DialogImages\EditRecordButton.png" />
+    <None Remove="Resources\Assets\DialogImages\EditSqlButton.png" />
+    <None Remove="Resources\Assets\DialogImages\Error.ico" />
+    <None Remove="Resources\Assets\DialogImages\Error.png" />
+    <None Remove="Resources\Assets\DialogImages\ErrorDialog.png" />
+    <None Remove="Resources\Assets\DialogImages\Error_16.png" />
+    <None Remove="Resources\Assets\DialogImages\Error_64.png" />
+    <None Remove="Resources\Assets\DialogImages\FileBrowse.png" />
+    <None Remove="Resources\Assets\DialogImages\FolderBrowse.png" />
+    <None Remove="Resources\Assets\DialogImages\InputDialog.png" />
+    <None Remove="Resources\Assets\DialogImages\MenuDialog.png" />
+    <None Remove="Resources\Assets\DialogImages\Message.ico" />
+    <None Remove="Resources\Assets\DialogImages\Message.png" />
+    <None Remove="Resources\Assets\DialogImages\SplashNotification.png" />
+    <None Remove="Resources\Assets\DialogImages\TextDialog.png" />
+    <None Remove="Resources\Assets\ExtensionImages\ACCDB.png" />
+    <None Remove="Resources\Assets\ExtensionImages\CSV.png" />
+    <None Remove="Resources\Assets\ExtensionImages\DB.png" />
+    <None Remove="Resources\Assets\ExtensionImages\DLL.png" />
+    <None Remove="Resources\Assets\ExtensionImages\DOC.png" />
+    <None Remove="Resources\Assets\ExtensionImages\DOCX.png" />
+    <None Remove="Resources\Assets\ExtensionImages\EXE.png" />
+    <None Remove="Resources\Assets\ExtensionImages\HTML.png" />
+    <None Remove="Resources\Assets\ExtensionImages\MDB.png" />
+    <None Remove="Resources\Assets\ExtensionImages\MDF.png" />
+    <None Remove="Resources\Assets\ExtensionImages\PDF.png" />
+    <None Remove="Resources\Assets\ExtensionImages\PNG.png" />
+    <None Remove="Resources\Assets\ExtensionImages\PPTX.png" />
+    <None Remove="Resources\Assets\ExtensionImages\PY.png" />
+    <None Remove="Resources\Assets\ExtensionImages\SDF.png" />
+    <None Remove="Resources\Assets\ExtensionImages\SQL.png" />
+    <None Remove="Resources\Assets\ExtensionImages\TXT.png" />
+    <None Remove="Resources\Assets\ExtensionImages\XLS.png" />
+    <None Remove="Resources\Assets\ExtensionImages\XLSX.png" />
+    <None Remove="Resources\Assets\ExtensionImages\XML.png" />
+    <None Remove="Resources\Assets\FileImages\Add.png" />
+    <None Remove="Resources\Assets\FileImages\Bin.png" />
+    <None Remove="Resources\Assets\FileImages\Copy.png" />
+    <None Remove="Resources\Assets\FileImages\CSV.png" />
+    <None Remove="Resources\Assets\FileImages\Delete.png" />
+    <None Remove="Resources\Assets\FileImages\DLL.png" />
+    <None Remove="Resources\Assets\FileImages\DOC.png" />
+    <None Remove="Resources\Assets\FileImages\Download.png" />
+    <None Remove="Resources\Assets\FileImages\Edit.png" />
+    <None Remove="Resources\Assets\FileImages\EditFile.png" />
+    <None Remove="Resources\Assets\FileImages\EditTable.png" />
+    <None Remove="Resources\Assets\FileImages\Excel.png" />
+    <None Remove="Resources\Assets\FileImages\EXE.png" />
+    <None Remove="Resources\Assets\FileImages\Export.png" />
+    <None Remove="Resources\Assets\FileImages\HTML.png" />
+    <None Remove="Resources\Assets\FileImages\Import.png" />
+    <None Remove="Resources\Assets\FileImages\Lock.png" />
+    <None Remove="Resources\Assets\FileImages\Log.png" />
+    <None Remove="Resources\Assets\FileImages\PDF.png" />
+    <None Remove="Resources\Assets\FileImages\PNG.png" />
+    <None Remove="Resources\Assets\FileImages\Py.png" />
+    <None Remove="Resources\Assets\FileImages\Save.png" />
+    <None Remove="Resources\Assets\FileImages\Search.png" />
+    <None Remove="Resources\Assets\FileImages\SQL.png" />
+    <None Remove="Resources\Assets\FileImages\TXT.png" />
+    <None Remove="Resources\Assets\FileImages\VerifyData1.png" />
+    <None Remove="Resources\Assets\FileImages\Word.png" />
+    <None Remove="Resources\Assets\FileImages\XLS.png" />
+    <None Remove="Resources\Assets\FileImages\XML.png" />
+    <None Remove="Resources\Assets\FileImages\ZIP.png" />
+    <None Remove="Resources\Assets\FolderImages\Browse.png" />
+    <None Remove="Resources\Assets\FolderImages\Delete.png" />
+    <None Remove="Resources\Assets\FolderImages\Directory.png" />
+    <None Remove="Resources\Assets\FolderImages\Download.png" />
+    <None Remove="Resources\Assets\FolderImages\GoogleDrive.png" />
+    <None Remove="Resources\Assets\FolderImages\Import.png" />
+    <None Remove="Resources\Assets\FolderImages\NetworkShared.png" />
+    <None Remove="Resources\Assets\FolderImages\Open.png" />
+    <None Remove="Resources\Assets\FolderImages\Search.png" />
+    <None Remove="Resources\Assets\FolderImages\Tree.png" />
+    <None Remove="Resources\Assets\FolderImages\ZIP.png" />
+    <None Remove="Resources\Assets\FormImages\AppIcon.ico" />
+    <None Remove="Resources\Assets\FormImages\Application.ico" />
+    <None Remove="Resources\Assets\LoaderImages\Loading.gif" />
+    <None Remove="Resources\Assets\LoaderImages\Processing.gif" />
+    <None Remove="Resources\Assets\LoaderImages\Waiting.gif" />
+    <None Remove="Resources\Assets\MenuImages\CalculatorItem.png" />
+    <None Remove="Resources\Assets\MenuImages\CalendarItem.png" />
+    <None Remove="Resources\Assets\MenuImages\ChromeItem.png" />
+    <None Remove="Resources\Assets\MenuImages\ClockItem.png" />
+    <None Remove="Resources\Assets\MenuImages\CloseItem.png" />
+    <None Remove="Resources\Assets\MenuImages\ControlPanelItem.png" />
+    <None Remove="Resources\Assets\MenuImages\DocumentaionItem.png" />
+    <None Remove="Resources\Assets\MenuImages\EdgeItem.png" />
+    <None Remove="Resources\Assets\MenuImages\ExitItem.png" />
+    <None Remove="Resources\Assets\MenuImages\FileItem.png" />
+    <None Remove="Resources\Assets\MenuImages\FirefoxItem.png" />
+    <None Remove="Resources\Assets\MenuImages\FolderItem.png" />
+    <None Remove="Resources\Assets\MenuImages\MapItem.png" />
+    <None Remove="Resources\Assets\MenuImages\MediaPlayerItem.png" />
+    <None Remove="Resources\Assets\MenuImages\OneDriveItem.png" />
+    <None Remove="Resources\Assets\MenuImages\RefreshItem.png" />
+    <None Remove="Resources\Assets\MenuImages\SaveItem.png" />
+    <None Remove="Resources\Assets\MenuImages\TaskManagerItem.png" />
+    <None Remove="Resources\Assets\NinjaImages\BudExNinjaGrey.ico" />
+    <None Remove="Resources\Assets\ToolStripImages\AddColumnButton.png" />
+    <None Remove="Resources\Assets\ToolStripImages\AddRecordButton.png" />
+    <None Remove="Resources\Assets\ToolStripImages\AreaButton.png" />
+    <None Remove="Resources\Assets\ToolStripImages\BackButton.png" />
+    <None Remove="Resources\Assets\ToolStripImages\BarButton.png" />
+    <None Remove="Resources\Assets\ToolStripImages\BrowseButton.png" />
+    <None Remove="Resources\Assets\ToolStripImages\ColumnButton.png" />
+    <None Remove="Resources\Assets\ToolStripImages\DataSourceButton.png" />
+    <None Remove="Resources\Assets\ToolStripImages\DateButton.png" />
+    <None Remove="Resources\Assets\ToolStripImages\DecreaseButton.png" />
+    <None Remove="Resources\Assets\ToolStripImages\DeleteButton.png" />
+    <None Remove="Resources\Assets\ToolStripImages\EditButton.png" />
+    <None Remove="Resources\Assets\ToolStripImages\ExcelButton.png" />
+    <None Remove="Resources\Assets\ToolStripImages\ExitButton.png" />
+    <None Remove="Resources\Assets\ToolStripImages\ExportButton.png" />
+    <None Remove="Resources\Assets\ToolStripImages\FilterButton.png" />
+    <None Remove="Resources\Assets\ToolStripImages\FirstButton.png" />
+    <None Remove="Resources\Assets\ToolStripImages\GanttButton.png" />
+    <None Remove="Resources\Assets\ToolStripImages\GraphButton.png" />
+    <None Remove="Resources\Assets\ToolStripImages\GridButton.png" />
+    <None Remove="Resources\Assets\ToolStripImages\GroupButton.png" />
+    <None Remove="Resources\Assets\ToolStripImages\HeatButton.png" />
+    <None Remove="Resources\Assets\ToolStripImages\HistogramButton.png" />
+    <None Remove="Resources\Assets\ToolStripImages\IncreaseButton.png" />
+    <None Remove="Resources\Assets\ToolStripImages\LastButton.png" />
+    <None Remove="Resources\Assets\ToolStripImages\LookUpButton.png" />
+    <None Remove="Resources\Assets\ToolStripImages\MapTile.png" />
+    <None Remove="Resources\Assets\ToolStripImages\MenuButton.png" />
+    <None Remove="Resources\Assets\ToolStripImages\NextButton.png" />
+    <None Remove="Resources\Assets\ToolStripImages\PieButton.png" />
+    <None Remove="Resources\Assets\ToolStripImages\PlottButton.png" />
+    <None Remove="Resources\Assets\ToolStripImages\PolarButton.png" />
+    <None Remove="Resources\Assets\ToolStripImages\PreviousButton.png" />
+    <None Remove="Resources\Assets\ToolStripImages\PrintButton.png" />
+    <None Remove="Resources\Assets\ToolStripImages\RefreshButton.png" />
+    <None Remove="Resources\Assets\ToolStripImages\SaveButton.png" />
+    <None Remove="Resources\Assets\ToolStripImages\SchemaButton.png" />
+    <None Remove="Resources\Assets\ToolStripImages\SmithButton.png" />
+    <None Remove="Resources\Assets\ToolStripImages\SqlButton.png" />
+    <None Remove="Resources\Assets\ToolStripImages\SunButton.png" />
+    <None Remove="Resources\Assets\ToolStripImages\ToggleButton.png" />
+    <Page Remove="Themes\Old.xaml" />
+  </ItemGroup>
+  <Target Name="AfterBuild">
+    <PropertyGroup>
+      <TargetUWP>..\ScreenToGif.UWP\win32\</TargetUWP>
+    </PropertyGroup>
+    <ItemGroup>
+      <Win32Binaries Include="$(TargetDir)\*" />
+    </ItemGroup>
+    <Copy SourceFiles="@(Win32Binaries)" DestinationFolder="$(TargetUWP)" />
+  </Target>
+  <PropertyGroup>
+    <PostBuildEvent>
+      if exist "$(DevEnvDir)..\..\VC\Auxiliary\Build\vsvars32.bat" (
+      call "$(DevEnvDir)..\..\VC\Auxiliary\Build\vsvars32.bat"
+      editbin /largeaddressaware "$(TargetPath)"
+      )
+    </PostBuildEvent>
+    <MinimumPlatformVersion>7.0</MinimumPlatformVersion>
+    <Nullable>disable</Nullable>
+    <DebugType>embedded</DebugType>
+    <RunPostBuildEvent>OnBuildSuccess</RunPostBuildEvent>
+    <Company>Terry Eppler</Company>
+    <Authors>Terry Eppler</Authors>
+    <Version>1.0.0</Version>
+    <Copyright>Copyright© Terry Eppler 2023</Copyright>
+    <PackageProjectUrl></PackageProjectUrl>
+    <PackageReadmeFile>Readme.md</PackageReadmeFile>
+    <RepositoryUrl></RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>gif; recorder; screen-recorder; gif-editor; editor; </PackageTags>
+    <Description>Screen, webcam and sketchboard recorder, with integrated editor!</Description>
+    <SignAssembly>False</SignAssembly>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <SupportedOSPlatformVersion>10.0.17763.0</SupportedOSPlatformVersion>
+    <GenerateDocumentationFile>True</GenerateDocumentationFile>
+    <Title>GifRecorder</Title>
+    <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
+    <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Include="..\LICENSE.txt">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ScreenToGif.Native\ScreenToGif.Native.csproj" />
+    <ProjectReference Include="..\ScreenToGif.ViewModel\ScreenToGif.ViewModel.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Update="app.manifest">
+      <SubType>Designer</SubType>
+    </None>
+    <None Update="Readme.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,60 @@
+<n:ExWindow x:Class="ScreenToGif.Windows.Other.ExceptionDialog"
+            xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+            xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+            xmlns:n="clr-namespace:ScreenToGif.Controls"
+            Title="ScreenToGif - Error" WindowStartupLocation="CenterScreen" Topmost="True" SnapsToDevicePixels="True"
+            Height="300" Width="560" MinHeight="250" MinWidth="560" SizeToContent="Height"
+            Icon="/Resources/Logo.ico" Loaded="Window_Loaded">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="40"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="40"/>
+        </Grid.RowDefinitions>
+
+        <Grid Grid.Row="0" Background="{DynamicResource Panel.Background.Level4}">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="40"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="Auto" MinWidth="110"/>
+            </Grid.ColumnDefinitions>
+
+            <Border x:Name="IconBorder" Margin="6" Background="{DynamicResource Vector.Cancel.Round}" Opacity="{DynamicResource Element.Opacity}"/>
+
+            <TextBlock Grid.Column="1" x:Name="TypeTextBlock" Text="Instruction" Margin="5,0" VerticalAlignment="Center" 
+                       FontFamily="Segoe UI Semilight" FontSize="18" Foreground="{DynamicResource Element.Foreground.Header}"/>
+
+            <n:ExtendedButton Grid.Column="2" x:Name="DetailsButton" Text="{DynamicResource S.Encoder.Details}" Icon="{DynamicResource Vector.Table}" 
+                              ContentWidth="20" ContentHeight="20" Margin="3" Padding="2" Style="{StaticResource Style.Button.Horizontal}" TextWrapping="NoWrap"
+                              Click="DetailsButton_Click" FontSize="14" FontFamily="Segoe UI Semilight"/>
+        </Grid>
+
+        <Grid Grid.Row="1">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+
+            <TextBlock Grid.Row="0" x:Name="HeaderTextBlock" Text="{DynamicResource S.Crash}" Foreground="{DynamicResource Element.Foreground.Header}" 
+                       FontSize="22" Margin="10" HorizontalAlignment="Center"/>
+
+            <TextBlock Grid.Row="1" x:Name="DetailsTextBlock" FontSize="16" Margin="6,6,6,15" TextWrapping="Wrap" 
+                       Foreground="{DynamicResource Element.Foreground}" ScrollViewer.CanContentScroll="True"/>
+        </Grid>
+
+        <Grid Grid.Row="2" Background="{DynamicResource Panel.Background.Level3}">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="Auto"/>
+            </Grid.ColumnDefinitions>
+
+            <n:ExtendedButton Grid.Column="1" x:Name="OkButton" Text="{DynamicResource S.Ok}" Icon="{DynamicResource Vector.Ok}" ContentWidth="18" ContentHeight="18" 
+                              Padding="5,0" MinWidth="90" Margin="5" IsDefault="True" Click="OkButton_Click"/>
+
+            <n:ExtendedButton Grid.Column="2" x:Name="SendButton" Text="{DynamicResource S.ErrorDialog.Send}" Icon="{DynamicResource Vector.Email}" ContentWidth="18" ContentHeight="20" 
+                              Padding="4,0" MinWidth="90" Margin="5" Click="SendButton_Click"/>
+        </Grid>
+    </Grid>
+</n:ExWindow>
