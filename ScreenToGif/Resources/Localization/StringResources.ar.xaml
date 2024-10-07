@@ -14,7 +14,9 @@
     
     
     
+    
     <!--  To use a new line: &#x0d; or CarriageReturn + NewLine: &#x0d;&#x0a; or &#10;  --> 
+    
     
     
     
@@ -36,7 +38,9 @@
     
     
     
+    
     <!--  Special texts like {0}, are place holders for dynamic values, such as numbers.  -->
+    
     
     
     
@@ -83,9 +87,11 @@
     
     
     
+    
     <!--  Warning messages  -->
     <s:String x:Key="S.Crash">اوه لا ، التطبيق تحطمت:(</s:String>
     <s:String x:Key="S.Required">الحقل المطلوب.</s:String>
+    
     
     
     
@@ -107,7 +113,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Warning.Net.Header">Net Framework 4.8 is not present</s:String>-->
+    
     
     
     
@@ -129,6 +137,7 @@
     
     
     
+    
     <!--<s:String x:Key="S.Warning.Single.Title">Only one instance permitted</s:String>-->
     
     
@@ -140,7 +149,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Warning.Single.Header">The app is already running</s:String>-->
+    
     
     
     
@@ -166,11 +177,13 @@
     
     
     
+    
     <!--  Tray icon  -->
     <s:String x:Key="S.NewRecording">تسجيل شاشه جديده</s:String>
     <s:String x:Key="S.NewWebcamRecording">تسجيل كاميرا ويب جديده</s:String>
     <s:String x:Key="S.NewBoardRecording">تسجيل لوحة  جديد</s:String>
     <s:String x:Key="S.Exit">خروج</s:String>
+    
     
     
     
@@ -262,6 +275,7 @@
     
     
     
+    
     <!--  StartUp  -->
     <s:String x:Key="S.StartUp.Title">بدء التشغيل - ScreenToGif </s:String>
     <s:String x:Key="S.StartUp.Recorder">مسجل</s:String>
@@ -286,8 +300,10 @@
     
     
     
+    
     <!--  Updater  -->
     <s:String x:Key="S.Updater.Title">تحديث</s:String>
+    
     
     
     
@@ -311,9 +327,11 @@
     
     
     
+    
     <!--<s:String x:Key="S.Updater.Version">Version</s:String>-->
     <s:String x:Key="S.Updater.Portable">المحموله</s:String>
     <s:String x:Key="S.Updater.Installer">المثبت</s:String>
+    
     
     
     
@@ -335,6 +353,7 @@
     
     
     
+    
     <!--<s:String x:Key="S.Updater.Info.BugFixes">Bug fixes:</s:String>-->
     
     
@@ -346,7 +365,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Updater.Info.NewVersionAvailable">A new version is available for you to download.&#x0d;Would you like to open the browser to download it?</s:String>-->
+    
     
     
     
@@ -369,7 +390,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Updater.Install">Install</s:String>-->
+    
     
     
     
@@ -391,6 +414,7 @@
     
     
     
+    
     <!--<s:String x:Key="S.Updater.Warning.Show">It was not possible to show the download details.</s:String>-->
     
     
@@ -402,7 +426,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Updater.Warning.Download">It was not possible to download the update.</s:String>-->
+    
     
     
     
@@ -440,7 +466,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Options.Warning.DesktopDuplication.Header">Missing dependencies for screen capture</s:String>-->
+    
     
     
     
@@ -463,7 +491,9 @@
     
     
     
+    
     <!--  Options • Application  -->
+    
     
     
     
@@ -485,7 +515,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Options.App.Startup.Mode.Manual">Start&#10;manually</s:String>-->
+    
     
     
     
@@ -507,7 +539,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Options.App.Startup.Mode.Automatic">Start with&#10;Windows</s:String>-->
+    
     
     
     
@@ -529,7 +563,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Options.App.Startup.Mode.Warning">Impossible to alternate between startup modes.</s:String>-->
+    
     
     
     
@@ -551,7 +587,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Options.App.Startup.Instance.Single.Info">You'll be able to run the app once per user and executable,&#10;meaning that different user or executable instances can co-exist.&#10;When trying to execute the app again, the second instance will try to give focus to the first one and end itself.</s:String>-->
+    
     
     
     
@@ -573,7 +611,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Options.App.Startup.Instance.Multiple.Info">You'll be able to run the app multiple times at the same time, without restriction.</s:String>-->
+    
     
     
     
@@ -595,7 +635,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Options.App.Startup.Tray.Info">(System tray icon will be visible while this option is active)</s:String>-->
+    
     
     
     
@@ -612,6 +654,7 @@
     <s:String x:Key="S.Options.App.Startup.Window.Webcam">مسجل كاميرا ويب</s:String>
     <s:String x:Key="S.Options.App.Startup.Window.Board">مسجلة لوحة</s:String>
     <s:String x:Key="S.Options.App.Startup.Window.Editor">نافذة محرر</s:String>
+    
     
     
     
@@ -641,7 +684,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Options.App.Theme.Scheme.Example">Example colors.</s:String>-->
+    
     
     
     
@@ -665,7 +710,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Options.App.Tray.Interactions.Nothing">Do nothing</s:String>-->
+    
     
     
     
@@ -687,7 +734,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Options.App.Tray.Interactions.Open.None">No window</s:String>-->
+    
     
     
     
@@ -709,7 +758,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Options.App.Tray.Interactions.Minimize">Minimize all windows</s:String>-->
+    
     
     
     
@@ -731,7 +782,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Options.App.Tray.Interactions.Left">Left click:</s:String>-->
+    
     
     
     
@@ -753,7 +806,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Options.App.Tray.Interactions.Middle">Middle click:</s:String>-->
+    
     
     
     
@@ -775,7 +830,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Options.App.Tray.Interactions.Else">Or else, opens:</s:String>-->
+    
     
     
     
@@ -797,7 +854,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Options.App.General.WorkaroundQuota">Workaround for the 'Not enough quota...' crash.</s:String>-->
+    
     
     
     
@@ -811,6 +870,7 @@
     <!--<s:String x:Key="S.Options.App.General.WorkaroundQuota.Info">(Experimental)</s:String>-->
     <s:String x:Key="S.Options.App.General.NotifyWhileClosingApp">(اسالني قبل اغلاق التطبيق (من خلال امر ' خروج '.</s:String>
     <s:String x:Key="S.Options.App.General.DisableHardwareAcceleration">تعطيل تسريع الاجهزه.</s:String>
+    
     
     
     
@@ -835,6 +895,7 @@
     
     
     
+    
     <!--<s:String x:Key="S.Options.App.General.UpdateOnClose">Automatically install updates after closing the app.</s:String>-->
     
     
@@ -846,7 +907,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Options.App.General.ForceUpdateAsAdmin">Force the update to run with elevated privileges.</s:String>-->
+    
     
     
     
@@ -869,7 +932,9 @@
     
     
     
+    
     <!--  Options • Recorder  -->
+    
     
     
     
@@ -891,7 +956,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Options.Recorder.Interface.Old">Old</s:String>-->
+    
     
     
     
@@ -914,7 +981,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Options.Recorder.Frequency">Capture frequency</s:String>-->
+    
     
     
     
@@ -936,7 +1005,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Options.Recorder.Frequency.Manual.Info">Each frame will be manually captured by you, by pressing the capture button or equivalent keyboard shortcut.</s:String>-->
+    
     
     
     
@@ -958,7 +1029,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Options.Recorder.Frequency.Second.Info">Frames will be captured in a 'per second' basis,&#10;given the framerate denominator set on the recorder screen.</s:String>-->
+    
     
     
     
@@ -980,7 +1053,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Options.Recorder.Frequency.Minute.Info">Frames will be captured in a 'per minute' basis (timelapse),&#10;given the framerate denominator set on the recorder screen.</s:String>-->
+    
     
     
     
@@ -1002,7 +1077,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Options.Recorder.Frequency.Hour.Info">Frames will be captured in a 'per hour' basis (timelapse),&#10;given the framerate denominator set on the recorder screen.</s:String>-->
+    
     
     
     
@@ -1024,7 +1101,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Options.Recorder.Frequency.Playback.Info">(In ms, each captured frame will be set to this delay)</s:String>-->
+    
     
     
     
@@ -1047,7 +1126,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Options.Recorder.Mode">Capture mode</s:String>-->
+    
     
     
     
@@ -1069,7 +1150,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Options.Recorder.DirectX.Info">Use the Desktop Duplication API capture method, which is faster and&#10;is able to capture fullscreen games, but requires the SharpDx plug-in and Windows 8 or newer.</s:String>-->
+    
     
     
     
@@ -1091,7 +1174,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Options.Recorder.File.Info">Each frame captured will be saved directly as an image on disk.</s:String>-->
+    
     
     
     
@@ -1113,7 +1198,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Options.Recorder.Cache.Info">Each frame captured will be stored as a pixel array on memory first (may be compressed before).</s:String>-->
+    
     
     
     
@@ -1135,7 +1222,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Options.Recorder.Compression.Optimal">Optimal</s:String>-->
+    
     
     
     
@@ -1157,7 +1246,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Options.Recorder.Compression.Fastest">Fastest</s:String>-->
+    
     
     
     
@@ -1179,7 +1270,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Options.Recorder.Compression.NoCompression">No compression</s:String>-->
+    
     
     
     
@@ -1201,7 +1294,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Options.Recorder.CacheSize">Cache size:</s:String>-->
+    
     
     
     
@@ -1229,7 +1324,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Options.Recorder.RemoteImprovement">Improve the capture performance on a remote desktop connection.</s:String>-->
+    
     
     
     
@@ -1251,6 +1348,7 @@
     <s:String x:Key="S.Options.Recorder.FollowMargin.Info">(هامش المخزن المؤقت بالبكسل ، حيث تبدا منطقه التسجيل في الحصول على موضع التشغيل)</s:String>
     <s:String x:Key="S.Options.Recorder.FollowMarginInvisible.Info">(هامش المخزن المؤقت اضافيه بالبكسل ، حيث يبدا واجهه المستخدم الحصول على مخفيه)</s:String>
 
+    
     
     
     
@@ -1288,6 +1386,7 @@
     
     
     
+    
     <!--<s:String x:Key="S.Options.Editor.Interface.DisplayEncoder">Display the encodings in a separated window.</s:String>-->
     <s:String x:Key="S.Options.Editor.Interface.ExtendChrome">(توسيع شريط العنوان (اطار الكروم</s:String>
     <s:String x:Key="S.Options.Editor.Interface.AutomaticallySizeOnContent">ضبط حجم الاطار تلقائيا استنادا الى حجم الاطار ، مباشره بعد التحميل.</s:String>
@@ -1297,6 +1396,7 @@
     <s:String x:Key="S.Options.Editor.General.NotifyWhileClosingEditor">(اسالني قبل اغلاق المحرر (اذا كان هناك مشروع مفتوح.</s:String>
     <s:String x:Key="S.Options.Editor.General.TripleClickSelection">تمكين النقر الثلاثي لتحديد النص.</s:String>
     <s:String x:Key="S.Options.Editor.General.DrawOutlineOutside">رسم الخطوط العريضة للتعليقات خارج الحروف.</s:String>
+    
     
     
     
@@ -1318,6 +1418,7 @@
     
     
     
+    
     <!--<s:String x:Key="S.Options.Editor.General.LimitHistory.Info">(Older actions will be removed when the limit is reached)</s:String>-->
     
     
@@ -1329,7 +1430,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Options.Editor.General.LimitHistory.Maximum">(Maximum number of actions stored)</s:String>-->
+    
     
     
     
@@ -1356,7 +1459,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Options.Tasks.List.Enabled">Enabled</s:String>-->
+    
     
     
     
@@ -1371,6 +1476,7 @@
     <s:String x:Key="S.Options.Tasks.SelectType">(اختر مهمة)</s:String>
     <s:String x:Key="S.Options.Tasks.Info">يتم تنفيذ هذه المهام بشكل تسلسلي من اعلي القائمة الى الاسفل. &#10;يحدث عند فتح مشروع لاول مره باستخدام المحرر.</s:String>
   
+    
     
     
     
@@ -1418,6 +1524,7 @@
     
     
     
+    
     <!--  Options • Language  -->
     <s:String x:Key="S.Options.Language.AppLanguage">لغة التطبيق</s:String>
     <s:String x:Key="S.Options.Language.AppLanguage.AutoDetect">الكشف التلقائي</s:String>
@@ -1444,7 +1551,9 @@
     
     
     
+    
     <!--  Options • Storage  -->
+    
     
     
     
@@ -1466,7 +1575,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Options.Storage.Status.Volume">Volume:</s:String>-->
+    
     
     
     
@@ -1488,7 +1599,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Options.Storage.Status.Check">Check again how much space left there is.</s:String>-->
+    
     
     
     
@@ -1511,7 +1624,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Options.Storage.Status.Error">Impossible to retrieve the drive details.</s:String>-->
+    
     
     
     
@@ -1533,7 +1648,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Options.Storage.Status.Files.Singular">{0:##,##0} file</s:String>-->
+    
     
     
     
@@ -1555,7 +1672,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Options.Storage.Status.Folders.None">No folders</s:String>-->
+    
     
     
     
@@ -1577,7 +1696,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Options.Storage.Status.Folders.Plural">{0:##,##0} folders</s:String>-->
+    
     
     
     
@@ -1599,7 +1720,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Options.Storage.Paths">Paths</s:String>-->
+    
     
     
     
@@ -1622,8 +1745,10 @@
     
     
     
+    
     <!--<s:String x:Key="S.Options.Storage.Paths.Logs">Logs:</s:String>-->
     <s:String x:Key="S.Options.Storage.Paths.Logs.Choose">اختيار موقع ملفات سجل الاخطاء</s:String>
+    
     
     
     
@@ -1657,7 +1782,9 @@
     
     
     
+    
     <!--  Options • Storage > Clear cache  -->
+    
     
     
     
@@ -1679,7 +1806,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Options.Storage.Cache.Header">Would you like to clear the cache folder?</s:String>-->
+    
     
     
     
@@ -1701,7 +1830,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Options.Storage.Cache.Question">Would you like to remove these projects from the cache folder?</s:String>-->
+    
     
     
     
@@ -1723,6 +1854,7 @@
     
     
     
+    
     <!--<s:String x:Key="S.Options.Storage.Cache.IgnoreRecent.Yes">(Only the projects older than {0} days, that are not currently in use, will be removed)</s:String>-->
     
     
@@ -1734,7 +1866,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Options.Storage.Cache.IgnoreRecent.No">(All the projects, that are not currently in use, will be removed)</s:String>-->
+    
     
     
     
@@ -1782,7 +1916,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Options.Upload.Preset.Imgur.Auth.Failed.Header">It was not possible to authorize the app</s:String>-->
+    
     
     
     
@@ -1816,6 +1952,7 @@
     
     
     
+    
     <!--  Options • Extras  -->
     <s:String x:Key="S.Options.Extras.External">الاداوت  الخارجية المتاحة</s:String>
     <s:String x:Key="S.Options.Extras.Download">#x0d;{0}انقر هنا لتحميل</s:String>
@@ -1825,6 +1962,7 @@
     <s:String x:Key="S.Options.Extras.DownloadRestriction">لا يمكن للتطبيقات الموزعة من قبل متجر ميكروسوفت تنزيل تطبيقات اخرى. سيكون لديك لتحميل الامر يدويا.</s:String>
     <s:String x:Key="S.Options.Extras.FfmpegLocation">FFmpeg موقع</s:String>
     <s:String x:Key="S.Options.Extras.FfmpegLocation.Select">FFmpeg حدد موقع قابل للتنفيذ</s:String>
+    
     
     
     
@@ -1849,8 +1987,10 @@
     
     
     
+    
     <!--<s:String x:Key="S.Options.Extras.GifskiLocation.File">Gifski library</s:String>-->
     <s:String x:Key="S.Options.Extras.GifskiLocation.Invalid">مسار القابل للتنفيذ جيرسكي يحتوي على واحد او اكثر من الاحرف غير صالحه. الرجاء تحديد موقع صالح له قابل للتنفيذ.</s:String>
+    
     
     
     
@@ -1872,7 +2012,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Options.Extras.SharpDxLocation.Select">Select the location of the SharpDx libraries</s:String>-->
+    
     
     
     
@@ -1896,8 +2038,10 @@
     
     
     
+    
     <!--<s:String x:Key="S.Options.Extras.License.SharpDx">SharpDx license</s:String>-->
 
+    
     
     
     
@@ -1925,7 +2069,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Options.Donate.Subscribe">Subscribe</s:String>-->
+    
     
     
     
@@ -1947,7 +2093,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Options.Donate.Subscribe.Flattr">Donate monthly via Flattr.</s:String>-->
+    
     
     
     
@@ -1969,6 +2117,7 @@
     
     
     
+    
     <!--<s:String x:Key="S.Options.Donate.Gift.Steam">Gift games via Steam.</s:String>-->
     
     
@@ -1980,7 +2129,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Options.Donate.Gift.Gog">Gift games via GOG.</s:String>-->
+    
     
     
     
@@ -2003,7 +2154,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Options.Donate.Crypto.BitcoinCash">Copy the BitcoinCash address.</s:String>-->
+    
     
     
     
@@ -2025,7 +2178,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Options.Donate.Support.Visit">If you wish to support the project :)</s:String>-->
+    
     
     
     
@@ -2059,9 +2214,11 @@
     
     
     
+    
     <!--<s:String x:Key="S.Options.About.Technical.Privacy">Privacy policy:</s:String>-->
     <s:String x:Key="S.Options.About.ABigThanksTo">شكرا كبيرا</s:String>
     <s:String x:Key="S.Options.About.ABigThanksTo.Everyone">جميع مؤيدي ، والناس الذين قدموا ردود الفعل و/او التبرعات.</s:String>
+    
     
     
     
@@ -2085,6 +2242,7 @@
     
     
     
+    
     <!--<s:String x:Key="S.Localization.GettingCodes">Getting language codes...</s:String>-->
     
     
@@ -2096,7 +2254,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Localization.Recognized">Recognized as {0}</s:String>-->
+    
     
     
     
@@ -2120,7 +2280,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Localization.Exporting">Exporting resource...</s:String>-->
+    
     
     
     
@@ -2142,7 +2304,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Localization.OpenResource">Open a resource dictionary</s:String>-->
+    
     
     
     
@@ -2164,7 +2328,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Localization.Importing">Importing resource...</s:String>-->
+    
     
     
     
@@ -2186,7 +2352,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Localization.Warning.Name.Info">Try renaming like: StringResources.en.xaml, where 'en' should be replaced by your language code.</s:String>-->
+    
     
     
     
@@ -2208,7 +2376,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Localization.Warning.Repeated.Info">Try removing the repeated resource or use other language code.</s:String>-->
+    
     
     
     
@@ -2230,7 +2400,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Localization.Warning.Redundant.Info">The "{0}" code is redundant. Try using "{1}" instead.</s:String>-->
+    
     
     
     
@@ -2252,7 +2424,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Localization.Warning.Unknown.Info">The "{0}" and its family were not recognized as valid language codes.</s:String>-->
+    
     
     
     
@@ -2265,6 +2439,7 @@
     
     <!--<s:String x:Key="S.Localization.Warning.NotPossible">It was not possible to import the localization resource.</s:String>-->
 
+    
     
     
     
@@ -2295,7 +2470,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Recorder.SwitchFrequency">Click to switch among capture frequency modes.</s:String>-->
+    
     
     
     
@@ -2319,7 +2496,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Recorder.Fps.Range">Ranges from 1 to 60 fps, with higher values meaning more frames will be captured.&#10;Each increment represents 16 milliseconds of difference.</s:String>-->
+    
     
     
     
@@ -2341,7 +2520,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Recorder.Fpm.Short">fpm</s:String>-->
+    
     
     
     
@@ -2363,6 +2544,7 @@
     
     
     
+    
     <!--<s:String x:Key="S.Recorder.Fph">Maximum frames per hour</s:String>-->
     
     
@@ -2374,7 +2556,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Recorder.Fph.Short">fph</s:String>-->
+    
     
     
     
@@ -2400,7 +2584,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Recorder.Stopping">Stopping...</s:String>-->
+    
     
     
     
@@ -2423,7 +2609,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Recorder.Warning.CaptureNotPossible.Info">It was not possible to capture the screen. The capture method returned no frame after 5 tries.</s:String>-->
+    
     
     
     
@@ -2445,7 +2633,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Recorder.Warning.Windows8">Windows 8 or newer is required for capturing the screen using the Desktop Duplication API.</s:String>-->
+    
     
     
     
@@ -2468,12 +2658,14 @@
     
     
     
+    
     <!--  New recorder  -->
     <s:String x:Key="S.Recorder.Area">منطقه</s:String>
     <s:String x:Key="S.Recorder.Window">اطار</s:String>
     <s:String x:Key="S.Recorder.Screen">الشاشة</s:String>
     <s:String x:Key="S.Recorder.Accept">قبول</s:String>
     <s:String x:Key="S.Recorder.Retry">اعادة المحاولة</s:String>
+    
     
     
     
@@ -2502,6 +2694,7 @@
     
     
     
+    
     <!--  Webcam recorder  -->
     <s:String x:Key="S.Webcam.Title">مسجل كاميرا ويب  - ScreenToGif </s:String>
     <s:String x:Key="S.Webcam.NoVideo">لم يتم الكشف عن اي جهاز فيديو:(</s:String>
@@ -2519,11 +2712,13 @@
     
     
     
+    
     <!--  Board recorder  -->
     <s:String x:Key="S.Board.Title">مسجلة لوحة - ScreenToGif</s:String>
     <s:String x:Key="S.Board.AutoRecord">سجل تلقائي</s:String>
     <s:String x:Key="S.Board.AutoRecordToolTip">يتيح التسجيل اثناء الرسم.</s:String>
     <s:String x:Key="S.Board.CtrlHold">Ctrl [Hold]</s:String>
+    
     
     
     
@@ -2559,9 +2754,11 @@
     
     
     
+    
     <!--  Exception/Error viewers  -->
     <s:String x:Key="S.ExceptionViewer.Title">عارض الاستثناء</s:String>
     <s:String x:Key="S.ExceptionViewer.OpenInner">فتح استثناء داخلي</s:String>
+    
     
     
     
@@ -2583,6 +2780,7 @@
     
     
     
+    
     <!--<s:String x:Key="S.ExceptionViewer.Message">Message</s:String>-->
     
     
@@ -2594,7 +2792,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.ExceptionViewer.Stack">Stack</s:String>-->
+    
     
     
     
@@ -2619,10 +2819,12 @@
     
     
     
+    
     <!--  FFmpeg preset  -->
     <s:String x:Key="S.FfmpegPreset.Title">ffmpeg المسبق ل</s:String>
     <s:String x:Key="S.FfmpegPreset.Name">الاسم</s:String>
     <s:String x:Key="S.FfmpegPreset.Parameters">معلمات</s:String>
+    
     
     
     
@@ -2638,6 +2840,7 @@
     <s:String x:Key="S.FfmpegPreset.Warning.Parameter">يجب كتابه بعض المعلمات لهذا الاعداد المسبق.</s:String>
     <s:String x:Key="S.FfmpegPreset.Warning.SameName">هناك مسبقا بنفس الاسم.</s:String>
 
+    
     
     
     
@@ -2677,8 +2880,10 @@
     
     
     
+    
     <!--  Import frames from video  -->
     <s:String x:Key="S.ImportVideo.Title">استيراد اطارات من الفيديو</s:String>
+    
     
     
     
@@ -2713,6 +2918,7 @@
     
     
     
+    
     <!--<s:String x:Key="S.ImportVideo.Error.Detail">The previewer could not start. Try with another importer or check if the video is not corrupted.&#x0d;If you are using the MediaPlayer, check if the Windows feature called "Media Features / Windows Media Player" is turned on and make sure that you have the necessary video codec.</s:String>-->
     
     
@@ -2724,7 +2930,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.ImportVideo.Timeout">Timeout in getting the frame preview.</s:String>-->
+    
     
     
     
@@ -2747,8 +2955,10 @@
     
     
     
+    
     <!--  Encoder  -->
     <s:String x:Key="S.Encoder.Title">تشفير</s:String>
+    
     
     
     
@@ -2781,7 +2991,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Encoder.Completed.Elapsed">Elapsed time, in minutes:</s:String>-->
+    
     
     
     
@@ -2803,7 +3015,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Encoder.Completed.Elapsed.Encoding">Encoding:</s:String>-->
+    
     
     
     
@@ -2825,7 +3039,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Encoder.Completed.Elapsed.Copy">Copy:</s:String>-->
+    
     
     
     
@@ -2855,6 +3071,7 @@
     
     
     
+    
     <!--<s:String x:Key="S.Encoder.Analyzing.Second">Preparing for second pass</s:String>-->
     
     
@@ -2866,7 +3083,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Encoder.Processing.Second">Processing {0} - 2nd pass</s:String>-->
+    
     
     
     
@@ -2889,11 +3108,13 @@
     
     
     
+    
     <!--<s:String x:Key="S.Encoder.SavingAnalysis">Saving analysis result</s:String>-->
     <s:String x:Key="S.Encoder.OpenFile">فتح ملف</s:String>
     <s:String x:Key="S.Encoder.ExploreFolder">استكشاف المجلد</s:String>
     <s:String x:Key="S.Encoder.Remove">ازاله من القائمة</s:String>
     <s:String x:Key="S.Encoder.Details">اظهار التفاصيل</s:String>
+    
     
     
     
@@ -2921,6 +3142,7 @@
     
     
     
+    
     <!--  Command output  -->
     <s:String x:Key="S.Encoder.Command.Title">اخراج الاوامر - ScreenToGif </s:String>
     <s:String x:Key="S.Encoder.Command.Header">اخراج الاوامر</s:String>
@@ -2935,9 +3157,11 @@
     
     
     
+    
     <!--  Notifications  -->
     <s:String x:Key="S.Notifications">الاخطارات</s:String>
     <s:String x:Key="S.Notifications.Dismiss">استبعاد كافة الاعلامات</s:String>
+    
     
     
     
@@ -2971,7 +3195,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Editor.UpdateAvailable">A new update is available!</s:String>-->
+    
     
     
     
@@ -2984,6 +3210,7 @@
     
     <!--<s:String x:Key="S.Editor.UpdateAvailable.Info">Click here to read more about it.</s:String>-->
     <s:String x:Key="S.Editor.FrameNumbersInfo">اجمالي العدد ، عدد الاختيارات ، فهرس التحديد</s:String>
+    
     
     
     
@@ -3010,9 +3237,11 @@
     
     
     
+    
     <!--  Editor • File dialogs (does not work with new line characters)  -->
     <s:String x:Key="S.Editor.File.OpenMedia">(فتح ملف الوسائط (صوره او فيديو</s:String>
     <s:String x:Key="S.Editor.File.OpenMediaProject">فتح الوسائط (صوره او فيديو) او ملف مشروع</s:String>
+    
     
     
     
@@ -3034,7 +3263,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Editor.File.Image">Image</s:String>-->
+    
     
     
     
@@ -3056,7 +3287,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Editor.File.Project">ScreenToGif project</s:String>-->
+    
     
     
     
@@ -3078,7 +3311,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Editor.File.Apng">Animated Png</s:String>-->
+    
     
     
     
@@ -3100,7 +3335,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Editor.File.Mkv">Matroska video</s:String>-->
+    
     
     
     
@@ -3122,7 +3359,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Editor.File.Webm">Webm video</s:String>-->
+    
     
     
     
@@ -3144,7 +3383,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Editor.File.Image.Zip">Zip file, all selected images</s:String>-->
+    
     
     
     
@@ -3166,6 +3407,7 @@
     
     
     
+    
     <!--<s:String x:Key="S.Editor.File.Project.Zip">ScreenToGif project as Zip</s:String>-->
     
     
@@ -3177,7 +3419,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Editor.File.Psd">Psd file</s:String>-->
+    
     
     
     
@@ -3208,12 +3452,14 @@
     
     
     
+    
     <!--  Editor • File tab • New  -->
     <s:String x:Key="S.Editor.File.New.Recording">تسجيل</s:String>
     <s:String x:Key="S.Editor.File.New.Webcam">التسجيل&#x0d;كاميرا على الإنترنت</s:String>
     <s:String x:Key="S.Editor.File.New.Board">التسجيل&#x0d;لوحة</s:String>
     <s:String x:Key="S.Editor.File.Blank">المشروعd&#x0d;الفارغ</s:String>
     <s:String x:Key="S.Editor.File.New">جديد</s:String>
+    
     
     
     
@@ -3242,6 +3488,7 @@
     
     
     
+    
     <!--  Editor • File tab • Save/Discard  -->
     <s:String x:Key="S.Editor.File.Save">حفظ باسم</s:String>
     <s:String x:Key="S.Editor.File.Load">تحميل</s:String>
@@ -3259,11 +3506,13 @@
     
     
     
+    
     <!--  Editor • Home tab • Action Stack  -->
     <s:String x:Key="S.Editor.Home.ActionStack">كومة الاجراءات</s:String>
     <s:String x:Key="S.Editor.Home.Undo">تراجع</s:String>
     <s:String x:Key="S.Editor.Home.Redo">تراجع</s:String>
     <s:String x:Key="S.Editor.Home.Reset">اعاده</s:String>
+    
     
     
     
@@ -3292,10 +3541,12 @@
     
     
     
+    
     <!--  Editor • Home tab • Zoom  -->
     <s:String x:Key="S.Editor.Home.Zoom">تكبير</s:String>
     <s:String x:Key="S.Editor.Home.SizeToContent">المحتوى&#x0d;عدل إلى</s:String>
     <s:String x:Key="S.Editor.Home.FitImage">احتواء الصورة</s:String>
+    
     
     
     
@@ -3313,6 +3564,7 @@
     <s:String x:Key="S.Editor.Home.GoTo">انتقل الى</s:String>
     <s:String x:Key="S.Editor.Home.Inverse">معكوس</s:String>
     <s:String x:Key="S.Editor.Home.Deselect">الغاء التحديد</s:String>
+    
     
     
     
@@ -3343,10 +3595,12 @@
     
     
     
+    
     <!--  Editor • Playback tab • Playback Options  -->
     <s:String x:Key="S.Editor.PlaybackOptions.Header">خيارات التشغيل</s:String>
     <s:String x:Key="S.Editor.PlaybackOptions.Loop">حلقه اثناء التشغيل.</s:String>
     <s:String x:Key="S.Editor.PlaybackOptions.Loop.Info">ستكون متوفرة داخل لوحه 'حفظ باسم' لبعض الترميزات.Gifs and Apngs,&#x0d;اذا كنت ترغب في تغيير اعدادات الحلقة لتصدير صور&#x0d;تستخدم فقط اثناء الإعادة</s:String>
+    
     
     
     
@@ -3376,12 +3630,14 @@
     
     
     
+    
     <!--  Editor • Edit tab • Reordering  -->
     <s:String x:Key="S.Editor.Edit.Reordering">اعاده ترتيب</s:String>
     <s:String x:Key="S.Editor.Edit.Reverse">عكس</s:String>
     <s:String x:Key="S.Editor.Edit.Yoyo">Yoyo</s:String>
     <s:String x:Key="S.Editor.Edit.MoveLeft">اليسار&#x0d;نقل</s:String>
     <s:String x:Key="S.Editor.Edit.MoveRight">اليمين&#x0d;نقل</s:String>
+    
     
     
     
@@ -3409,11 +3665,13 @@
     
     
     
+    
     <!--  Editor • Image • Size and Rotation  -->
     <s:String x:Key="S.Editor.Image.SizePosition">الحجم و الدوران</s:String>
     <s:String x:Key="S.Editor.Image.Resize">تحجيم</s:String>
     <s:String x:Key="S.Editor.Image.Crop">اقتصاص</s:String>
     <s:String x:Key="S.Editor.Image.FlipRotate">شقلبة/تدوير</s:String>
+    
     
     
     
@@ -3431,6 +3689,7 @@
     <s:String x:Key="S.Editor.Image.FreeText">النص الحر</s:String>
     <s:String x:Key="S.Editor.Image.TitleFrame">اطار العنوان</s:String>
     <s:String x:Key="S.Editor.Image.KeyStrokes">الضربات&#x0d;مفتاح</s:String>
+    
     
     
     
@@ -3464,10 +3723,12 @@
     
     
     
+    
     <!--  Editor • Transitions tab • Styles  -->
     <s:String x:Key="S.Editor.Transitions.Styles">انماط</s:String>
     <s:String x:Key="S.Editor.Transitions.Fade">تلاشي</s:String>
     <s:String x:Key="S.Editor.Transitions.Slide">شريحه</s:String>
+    
     
     
     
@@ -3489,6 +3750,7 @@
     <s:String x:Key="S.Editor.Statistics.CurrentTime.Info">الوقت الحالي (تراكمي) استنادا الى الاطار الحالي الذي يتم عرضه.</s:String>
     <s:String x:Key="S.Editor.Statistics.FrameDpi">نقاط الاطار والحجم</s:String>
     <s:String x:Key="S.Editor.Statistics.SelectedFrame">الاطار المحدد</s:String>
+    
     
     
     
@@ -3557,11 +3819,13 @@
     
     
     
+    
     <!--  Editor • Warnings  -->
     <s:String x:Key="S.Editor.Warning.Selection">يمكنك تحديد اطار واحد على الاقل لتطبيق التراكب عليه.</s:String>
     <s:String x:Key="S.Editor.Warning.Ffmpeg"> غير موجود. قم باضافته الى متغيرات بيئة مسار او انقر هنا لفتح خيارات > اضافات لتعيين الموقع.FFmpeg</s:String>
     <s:String x:Key="S.Editor.Warning.Gifski">الهدايا غير موجودة قم باضافته الى متغيرات بيئة مسار او انقر هنا لفتح خيارات > اضافات لتعيين الموقع.</s:String>
     <s:String x:Key="S.Editor.Warning.LowSpace">لا توجد مساحة كافيه لليسار على محرك الاقراص حيث يخزن هذا التطبيق ذاكره التخزين المؤقت ({0}% اليسار). انقر هنا لفتح خيارات > الملفات المؤقتة لتحرير بعض المساحة.</s:String>
+    
     
     
     
@@ -3584,7 +3848,9 @@
     
     
     
+    
     <!--  Editor • Status  -->
+    
     
     
     
@@ -3623,11 +3889,13 @@
     
     
     
+    
     <!--  Editor • Frame list  -->
     <s:String x:Key="S.Editor.List.Frame">اطار:</s:String>
     <s:String x:Key="S.Editor.List.OpenImage">فتح الصورة</s:String>
     <s:String x:Key="S.Editor.List.ExploreFolder">استكشاف مجلد</s:String>
     <s:String x:Key="S.Editor.List.ExportImage">تصدير الصورة</s:String>
+    
     
     
     
@@ -3653,6 +3921,7 @@
     
     
     
+    
     <!--  Editor • Context menu  -->
     <s:String x:Key="S.Context.SaveAs">حفظ باسم</s:String>
     <s:String x:Key="S.Context.RemoveFrames">ازاله الاطارات المحددة</s:String>
@@ -3662,6 +3931,7 @@
     <s:String x:Key="S.Context.NewBlankAnimation">مشروع جديد</s:String>
     <s:String x:Key="S.Context.NewFromMediaProject">جديد من الاعلام او المشروع</s:String>
    
+    
     
     
     
@@ -3719,6 +3989,7 @@
     
     
     
+    
     <!--  Editor • Action panel  -->
     <s:String x:Key="S.Action.Hide">اخفاء</s:String>
     <s:String x:Key="S.Action.Apply">تطبيق</s:String>
@@ -3726,6 +3997,7 @@
     <s:String x:Key="S.Action.Save">حفظ</s:String>
     <s:String x:Key="S.Action.Cancel">الغاء الامر</s:String>
 
+    
     
     
     
@@ -3752,8 +4024,10 @@
     
     
     
+    
     <!--<s:String x:Key="S.Recent.Warning.SameProject">This project is already being displayed by this editor instance.</s:String>-->
     <s:String x:Key="S.Recent.Warning.AnotherEditor">تم فتح هذا المشروع بالفعل من قبل مثيل محرر اخر. لا يمكن فتح مشروع مره ثانيه اذا كان مفتوحا بالفعل على محرر اخر.</s:String>
+    
     
     
     
@@ -3778,7 +4052,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Clipboard.Entry.Image">{0} image</s:String>-->
+    
     
     
     
@@ -3806,6 +4082,7 @@
     
     
     
+    
     <!--  Editor • Resize  -->
     <s:String x:Key="S.Resize.CurrentProperties">الخصائص الحالية</s:String>
     <s:String x:Key="S.Resize.Dpi">Dpi</s:String>
@@ -3813,6 +4090,7 @@
     <s:String x:Key="S.Resize.Dpi2">DPI:</s:String>
     <s:String x:Key="S.Resize.KeepAspect">حافظ على نسبه العرض الى الارتفاع.</s:String>
     <s:String x:Key="S.Resize.Warning">يمكنك تحديد قيمه مختلفه لتطبيق اجراء تغيير الحجم الى.</s:String>
+    
     
     
     
@@ -3843,11 +4121,13 @@
     
     
     
+    
     <!--  Editor • Flip/rotate  -->
     <s:String x:Key="S.FlipRotate.FlipHorizontal">شقلبة افقية</s:String>
     <s:String x:Key="S.FlipRotate.FlipVertical">شقلبة عمودية</s:String>
     <s:String x:Key="S.FlipRotate.RotateLeft">تدوير اليسار 90 º</s:String>
     <s:String x:Key="S.FlipRotate.RotateRight">استدارة لليمين 90 º</s:String>
+    
     
     
     
@@ -3873,7 +4153,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Reduce.Delay">Delay adjustment:</s:String>-->
+    
     
     
     
@@ -3895,7 +4177,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Reduce.Delay.Previous">Sum with the previous frame</s:String>-->
+    
     
     
     
@@ -3917,7 +4201,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Reduce.ApplyToAll">Reduce the framerate of the entire project.</s:String>-->
+    
     
     
     
@@ -3940,6 +4226,7 @@
     
     
     
+    
     <!--<s:String x:Key="S.Reduce.Warning.NoSelection">You must select the frames to apply the framerate reduction (or check the option to apply to the entire project).</s:String>-->
     
     
@@ -3951,7 +4238,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Reduce.Warning.NonConsecutive">The list of frames selected must be consecutive. You can't leave some frames unselected among selected ones.</s:String>-->
+    
     
     
     
@@ -3974,6 +4263,7 @@
     
     
     
+    
     <!--  Editor • Remove duplicates  -->
     <s:String x:Key="S.RemoveDuplicates.Header">ازالة التكرارات</s:String>
     <s:String x:Key="S.RemoveDuplicates.Similarity">(تشابه (٪:</s:String>
@@ -3985,6 +4275,7 @@
     <s:String x:Key="S.RemoveDuplicates.Delay.Average">استخدام المتوسط</s:String>
     <s:String x:Key="S.RemoveDuplicates.Delay.Sum">استخدم المبلغ</s:String>
     <s:String x:Key="S.RemoveDuplicates.Info">يحلل هذا الاجراء كل اطار (بكسل بكسل) ويزيل تلك التي لا تقل عن {0}% مشابهه لجارتها المباشرة. &#x0d; يمكنك اختيار ما اذا كنت ترغب في ضبط التاخير (مده المعرض) من الاطارات.</s:String>
+    
     
     
     
@@ -4021,6 +4312,7 @@
     
     
     
+    
     <!--  Editor • Key strokes  -->
     <s:String x:Key="S.KeyStrokes">ضربات المفاتيح</s:String>
     <s:String x:Key="S.KeyStrokes.Keys">مفاتيح</s:String>
@@ -4029,6 +4321,7 @@
     <s:String x:Key="S.KeyStrokes.IgnoreModifiers">تجاهل مفاتيح Ctrl و Alt و Shift و Windows اثناء عدم استخدامها كمعدلات.</s:String>
     <s:String x:Key="S.KeyStrokes.IgnoreModifiers.Info">"Control + C" وسوف تتجاهل المطابع مفتاح وحيد مثل  "السيطرة " ، لكنها لن تتجاهل </s:String>
     <s:String x:Key="S.KeyStrokes.Extend">توسيع المعرض من ضربات المفاتيح </s:String>
+    
     
     
     
@@ -4050,6 +4343,7 @@
     <s:String x:Key="S.KeyStrokes.Edit.Lower">حروف صغيره.</s:String>
     <s:String x:Key="S.KeyStrokes.Edit.Lower.Info">فانه يتيح لك ادراج احرف اقل حاله واحده.</s:String>
 
+    
     
     
     
@@ -4087,11 +4381,13 @@
     
     
     
+    
     <!--  Editor • Shapes  -->
     <s:String x:Key="S.Shapes.Mode.Insert">ادراج</s:String>
     <s:String x:Key="S.Shapes.Shapes">اشكال</s:String>
     <s:String x:Key="S.Shapes.Shapes.Radius">نصف القطر:</s:String>
     <s:String x:Key="S.Shapes.Shapes.Dashes">شرطات:</s:String>
+    
     
     
     
@@ -4113,9 +4409,11 @@
     
     
     
+    
     <!--<s:String x:Key="S.Shapes.Shapes.Remove">Remove</s:String>-->
     <s:String x:Key="S.Shapes.Fill">ملء</s:String>
 
+    
     
     
     
@@ -4140,9 +4438,11 @@
     
     
     
+    
     <!--  Editor • Watermark  -->
     <s:String x:Key="S.Watermark.Image">صورة</s:String>
     <s:String x:Key="S.Watermark.File">ملف:</s:String>
+    
     
     
     
@@ -4169,10 +4469,12 @@
     
     
     
+    
     <!--  Editor • Border  -->
     <s:String x:Key="S.Border.Appearance">مظهر</s:String>
     <s:String x:Key="S.Border.Info">استخدم القيم السالبة لجعل الحد يوسع الصورة. عند القيام بذلك ، سيتم تطبيق الحدود على كافة الاطارات. &#x0d;اذا لم يتم استخدام قيمه سالبه ، سيتم تطبيق الحدود على الاطارات المحددة فقط.</s:String>
 
+    
     
     
     
@@ -4200,12 +4502,14 @@
     
     
     
+    
     <!--  Editor • Obfuscate  -->
     <s:String x:Key="S.Obfuscate.Options">خيارات التشويش</s:String>
     <s:String x:Key="S.Obfuscate.PixelSize">حجم بكسل:</s:String>
     <s:String x:Key="S.Obfuscate.UseAverage">حساب متوسط اللون لكل كتله منقطه.</s:String>
     <s:String x:Key="S.Obfuscate.Info">استخدم اداه التحديد لتحديد المستطيل الذي يجب ان يكون منقطا.</s:String>
     <s:String x:Key="S.Obfuscate.Warning">لم تحدد اي شيء. الرجاء استخدام اداه التحديد لتحديد المستطيل الذي يجب ان تكون منقطه.</s:String>
+    
     
     
     
@@ -4241,7 +4545,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Progress.Format.Header">Format</s:String>-->
+    
     
     
     
@@ -4263,7 +4569,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Progress.Format.Seconds">$s = seconds</s:String>-->
+    
     
     
     
@@ -4285,7 +4593,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Progress.Format.Percentage">$p = percentage</s:String>-->
+    
     
     
     
@@ -4307,7 +4617,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Progress.Format.Totals">Totals:</s:String>-->
+    
     
     
     
@@ -4325,6 +4637,7 @@
     <s:String x:Key="S.Progress.Precision.StartNumber">عد من:</s:String>
     <s:String x:Key="S.Progress.Precision.StartNumber.ToolTip">يبدا في احتساب رقم الاطار من هذا الرقم المحدد.</s:String>
     <s:String x:Key="S.Progress.Orientation">التوجية:</s:String>
+    
     
     
     
@@ -4360,9 +4673,11 @@
     
     
     
+    
     <!--  Editor • Cinemagraph  -->
     <s:String x:Key="S.Cinemagraph.Info">استخدم القلم لتحديد البيكسلات التي لا يجب ان تبقي ثابته (التي يجب ان تتغير بين الاطارات) ، عن طريق الرسم على اعلي منها.</s:String>
 
+    
     
     
     
@@ -4392,6 +4707,7 @@
     
     
     
+    
     <!--  Editor • Save as  -->
     <s:String x:Key="S.SaveAs.Type">نوع الملف</s:String>
     <s:String x:Key="S.SaveAs.Gif">Gif</s:String>
@@ -4400,6 +4716,7 @@
     <s:String x:Key="S.SaveAs.Project">المشروع</s:String>
     <s:String x:Key="S.SaveAs.Psd">PSD</s:String>
     <s:String x:Key="S.SaveAs.Video">الفيديو</s:String>
+    
     
     
     
@@ -4432,8 +4749,10 @@
     
     
     
+    
     <!--  Editor • Save as > Gif options  -->
     <s:String x:Key="S.SaveAs.GifOptions"> Gif خيارات</s:String>
+    
     
     
     
@@ -4455,7 +4774,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.SaveAs.GifOptions.Quantizer.Neural">Neural network</s:String>-->
+    
     
     
     
@@ -4477,7 +4798,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.SaveAs.GifOptions.Quantizer.Octree">Octree</s:String>-->
+    
     
     
     
@@ -4499,7 +4822,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.SaveAs.GifOptions.Quantizer.MedianCut">Median cut</s:String>-->
+    
     
     
     
@@ -4521,7 +4846,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.SaveAs.GifOptions.Quantizer.Grayscale">Grayscale</s:String>-->
+    
     
     
     
@@ -4543,7 +4870,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.SaveAs.GifOptions.Quantizer.MostUsed">Most used colors</s:String>-->
+    
     
     
     
@@ -4565,7 +4894,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.SaveAs.GifOptions.Sampling">Sampling:</s:String>-->
+    
     
     
     
@@ -4590,7 +4921,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.SaveAs.GifOptions.GlobalColorTable">Use a global color table.</s:String>-->
+    
     
     
     
@@ -4616,7 +4949,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.SaveAs.GifOptions.Transparency.Enable">Enable transparency.</s:String>-->
+    
     
     
     
@@ -4638,7 +4973,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.SaveAs.GifOptions.Transparency.Pick">Select which color to display as transparent.</s:String>-->
+    
     
     
     
@@ -4661,7 +4998,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.SaveAs.GifOptions.DetectUnchanged.Info">By analyzing and detecting unchanged pixels between the frames,&#10;it will be possible to save only the necessary parts to the gif.</s:String>-->
+    
     
     
     
@@ -4683,7 +5022,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.SaveAs.GifOptions.PaintWithChroma.Info">Repeated/unchanged pixels will be replaced with this chroma key,&#10;making it possible to use less colors per frame.</s:String>-->
+    
     
     
     
@@ -4696,6 +5037,7 @@
     
     <!--<s:String x:Key="S.SaveAs.GifOptions.ChromaKey">Chroma key:</s:String>-->
 
+    
     
     
     
@@ -4722,6 +5064,7 @@
     
     
     
+    
     <!--  Editor • Save as > Video/Images/Psd/Project options  -->
     <s:String x:Key="S.SaveAs.VideoOptions">خيارات الفيديو</s:String>
     <s:String x:Key="S.SaveAs.VideoOptions.Fps">Fps:</s:String>
@@ -4733,6 +5076,7 @@
     <s:String x:Key="S.SaveAs.PsdOptions.Compress.Info">ضغط بيانات الصورة باستخدام خوارزميه RLE.</s:String>
     <s:String x:Key="S.SaveAs.PsdOptions.Timeline">حفظ بيانات المخطط الزمني.</s:String>
     <s:String x:Key="S.SaveAs.PsdOptions.Timeline.Info">تصدير توقيت الاطارات ، بدلا من الاطارات فقط.</s:String>
+    
     
     
     
@@ -4771,6 +5115,7 @@
     
     
     
+    
     <!--  Save As • Save options  -->
     <s:String x:Key="S.SaveAs.SaveOptions">حفظ الخيارات</s:String>
     <s:String x:Key="S.SaveAs.SaveOptions.PickFolder">احفظ الملف في مجلد من اختيارك.</s:String>
@@ -4789,6 +5134,7 @@
     <s:String x:Key="S.SaveAs.SaveOptions.CopyToClipboard.Link.Info">نسخ الارتباط الذي تم انشاؤه بواسطة خدمه التحميل في الحافظة.</s:String>
     <s:String x:Key="S.SaveAs.SaveOptions.ExecuteCommands">تنفيذ اوامر نشر الترميز.</s:String>
     <s:String x:Key="S.SaveAs.SaveOptions.ExecuteCommands.Info">اكتب الاوامر التي سيتم تنفيذها بعد الترميز. &#x0d; لتنفيذ اوامر متعددة ، اكتب كل واحد على سطر مفصول. &#x0d; وحدات الماكرو: &#x0d; {p} = اخراج مسار الملف. &#x0d; {f} = اخراج مسار المجلد. &#x0d; {u} = URL of the uploaded file.</s:String>
+    
     
     
     
@@ -4834,10 +5180,12 @@
     
     
     
+    
     <!--  SaveAs • Export  -->
     <s:String x:Key="S.SaveAs.Dialogs.Multiple.Title">تصدير الاطارات</s:String>
     <s:String x:Key="S.SaveAs.Dialogs.Multiple.Instruction">هل تريد بالتاكيد تصدير الاطارات ؟</s:String>
     <s:String x:Key="S.SaveAs.Dialogs.Multiple.Message">سيقوم هذا الاجراء بتصدير اطارات {0} مباشره الى المجلد المحدد.</s:String>
+    
     
     
     
@@ -4866,6 +5214,7 @@
     
     
     
+    
     <!--<s:String x:Key="S.Feedback.Message.Info">If you are experiencing a bug, don't forget to explain to me how you got it, step by step.</s:String>-->
     <s:String x:Key="S.Feedback.Type">نوع التغذية المرتدة</s:String>
     <s:String x:Key="S.Feedback.Suggestion">اقتراح</s:String>
@@ -4873,6 +5222,7 @@
     <s:String x:Key="S.Feedback.YourEmail">بريدك الالكتروني</s:String>
     <s:String x:Key="S.Feedback.Warning.Title">تحتاج الى ادخال عنوان للتعليقات.</s:String>
     <s:String x:Key="S.Feedback.Warning.Message">تحتاج الى ادخال رسالة في الملاحظات.</s:String>
+    
     
     
     
@@ -4891,6 +5241,7 @@
     <s:String x:Key="S.Feedback.LanguageInfo1">استطيع ان افهم الانجليزيه</s:String>
     <s:String x:Key="S.Feedback.LanguageInfo2">والبرتغالية (البرازيلية والاوروبيه).</s:String>
     <s:String x:Key="S.Feedback.Preview.Info">هذا ما سترسله بالاضافه الى كل المرفقات</s:String>
+    
     
     
     
@@ -4921,10 +5272,12 @@
     
     
     
+    
     <!--  FontStyles  -->
     <s:String x:Key="S.FontStyles.Normal">عادي</s:String>
     <s:String x:Key="S.FontStyles.Italic">مائل</s:String>
     <s:String x:Key="S.FontStyles.Oblique">المائل</s:String>
+    
     
     
     
@@ -4964,6 +5317,7 @@
     
     
     
+    
     <!--  VerticalAlignment  -->
     <s:String x:Key="S.VerticalAlignment.Top">اعلى</s:String>
     <s:String x:Key="S.VerticalAlignment.Center">توسيط</s:String>
@@ -4980,10 +5334,12 @@
     
     
     
+    
     <!--  HorizontalAlignment  -->
     <s:String x:Key="S.HorizontalAlignment.Left">يسار</s:String>
     <s:String x:Key="S.HorizontalAlignment.Center">توسيط</s:String>
     <s:String x:Key="S.HorizontalAlignment.Right">يمين</s:String>
+    
     
     
     

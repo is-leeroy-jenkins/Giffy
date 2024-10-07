@@ -14,7 +14,9 @@
     
     
     
+    
     <!--  To use a new line: &#x0d; or CarriageReturn + NewLine: &#x0d;&#x0a; or &#10;  --> 
+    
     
     
     
@@ -36,7 +38,9 @@
     
     
     
+    
     <!--  Special texts like {0}, are place holders for dynamic values, such as numbers.  -->
+    
     
     
     
@@ -85,6 +89,7 @@
     
     
     
+    
     <!--  Warnings  -->
     <s:String x:Key="S.Crash">Ale ne, aplikace přestala pracovat... :(</s:String>
     <s:String x:Key="S.Required">Vyžadováno</s:String>
@@ -113,6 +118,7 @@
     
     
     
+    
     <!--  Warnings • Graphics engine  -->
     <s:String x:Key="S.Warning.Graphics.Title">Přepnutí grafického adaptéru</s:String>
     <s:String x:Key="S.Warning.Graphics.Instruction">Přepnutí na správný grafický adaptér pro zachycení vybrané obrazovky</s:String>
@@ -120,6 +126,7 @@
     <s:String x:Key="S.Warning.Graphics.Action">Přepněte grafický adaptér pro aplikaci ScreenToGif otevřením nabídky Nastavení systému Windows > Systém > Obrazovka > Nastavení grafiky nebo kliknutím na níže uvedený odkaz.</s:String>
     <s:String x:Key="S.Warning.Graphics.Action.Legacy">Přepněte grafický adaptér pro ScreenToGif pomocí nastavení grafického adaptéru.</s:String>
     <s:String x:Key="S.Warning.Graphics.Switch">Otevřít Nastavení Windows</s:String>
+    
     
     
     
@@ -146,8 +153,10 @@
     
     
     
+    
     <!--  Mouse  -->
     <s:String x:Key="S.Mouse.Right">Pravý klik</s:String>
+    
     
     
     
@@ -164,6 +173,7 @@
     <s:String x:Key="S.NewWebcamRecording">Nový záznam webové kamery</s:String>
     <s:String x:Key="S.NewBoardRecording">Nový záznam plátna</s:String>
     <s:String x:Key="S.Exit">Ukončení</s:String>
+    
     
     
     
@@ -257,6 +267,7 @@
     
     
     
+    
     <!--  StartUp  -->
     <s:String x:Key="S.StartUp.Title">ScreenToGif - spuštění</s:String>
     <s:String x:Key="S.StartUp.Recorder">Záznamník</s:String>
@@ -271,6 +282,7 @@
     <s:String x:Key="S.StartUp.NewRelease">K dispozici je nová verze • {0}</s:String>
     <s:String x:Key="S.StartUp.NewRelease.Tooltip">Stáhnout nejnovější verzi ScreenToGif.</s:String>
 
+    
     
     
     
@@ -312,10 +324,12 @@
     
     
     
+    
     <!--  Downloader  -->
     <s:String x:Key="S.Downloader.Title">ScreenToGif - stažení</s:String>
     <s:String x:Key="S.Downloader.Header">Stažení</s:String>
     <s:String x:Key="S.Downloader.Size">{0} z {1}</s:String>
+    
     
     
     
@@ -344,6 +358,7 @@
     <s:String x:Key="S.Options.Warning.Follow.Header">Chybějící klávesová zkratka pro sledování kurzoru</s:String>
     <s:String x:Key="S.Options.Warning.Follow.Message">Chcete-li používat funkci sledování kurzoru myši, musíte nastavit klávesovou zkratku, která ji v případě potřeby přepne.</s:String>
 
+    
     
     
     
@@ -413,6 +428,7 @@
     <s:String x:Key="S.Options.App.General.ForceUpdateAsAdmin">Rychlá aktualizace se zvýšenými právy.</s:String>
     <s:String x:Key="S.Options.App.General.PromptToInstall">Potvrdit spuštění instalace.</s:String>
 
+    
     
     
     
@@ -515,6 +531,7 @@
     
     
     
+    
     <!--  Options • Editor  -->
     <s:String x:Key="S.Options.Editor.Previewer">Pozadí editoru</s:String>
     <s:String x:Key="S.Options.Editor.Previewer.GridSize">Velikost mřížky</s:String>
@@ -564,6 +581,7 @@
     
     
     
+    
     <!--  Options • Tasks  -->
     <s:String x:Key="S.Options.Tasks.Title">Automatická úloha</s:String>
     <s:String x:Key="S.Options.Tasks.List">Seznam úloh (spouštěných automaticky)</s:String>
@@ -575,6 +593,7 @@
     <s:String x:Key="S.Options.Tasks.SelectType.Info">Vyberte úlohu</s:String>
     <s:String x:Key="S.Options.Tasks.Info">Úlohy se spouští v pořadí shora dolů. Spustí se při prvním otevření projektu v editoru.&#10;(proto nefungují při připojení další části projektu)</s:String>
   
+    
     
     
     
@@ -622,6 +641,7 @@
     
     
     
+    
     <!--  Options • Language  -->
     <s:String x:Key="S.Options.Language.AppLanguage">Jazyk aplikace</s:String>
     <s:String x:Key="S.Options.Language.AppLanguage.AutoDetect">Zjištěný automaticky</s:String>
@@ -637,6 +657,7 @@
     <s:String x:Key="S.Options.Language.AppLanguage.Translate.ResourceLink.Tooltip">Kliknutím otevřete webovou stránku s pokyny.</s:String>
     <s:String x:Key="S.Options.Language.AppLanguage.Translate.ImportLink.Tooltip">Otevře okno pro import</s:String>
     <s:String x:Key="S.Options.Language.AppLanguage.Translate.EmailLink.Tooltip">Otevře vaši e-mailovou aplikaci</s:String>
+    
     
     
     
@@ -693,6 +714,7 @@
     
     
     
+    
     <!--  Options • Storage > Clear cache  -->
     <s:String x:Key="S.Options.Storage.Cache.Title">ScreenToGif - Vymazání mezipaměti/cache.</s:String>
     <s:String x:Key="S.Options.Storage.Cache.Header">Chcete vymazat složku mezipaměti/cache?</s:String>
@@ -701,6 +723,7 @@
     <s:String x:Key="S.Options.Storage.Cache.IgnoreRecent">Neodstraňujte poslední projekty.</s:String>
     <s:String x:Key="S.Options.Storage.Cache.IgnoreRecent.Yes">(Odstraněny budou pouze projekty starší než {0} dnů, které se nyní nepoužívají.)</s:String>
     <s:String x:Key="S.Options.Storage.Cache.IgnoreRecent.No">(Všechny projekty, které se v současné době nepoužívají, budou odstraněny.)</s:String>
+    
     
     
     
@@ -731,6 +754,7 @@
     <s:String x:Key="S.Options.Upload.Presets.Enabled">Zapnuto</s:String>
     
      
+    
     
     
     
@@ -796,9 +820,11 @@
     
     
     
+    
     <!--  Options • Upload > Album  -->
     <s:String x:Key="S.Options.Upload.Pick.Album">Vyberte album (volitelné):</s:String>
     <s:String x:Key="S.Options.Upload.Pick.Album.Info">Lze vybrat cílové album</s:String>
+    
     
     
     
@@ -829,6 +855,7 @@
     
     
     
+    
     <!--  Options • Upload > History  -->
     <s:String x:Key="S.Options.Upload.History.Title">Historie uploadu</s:String>
     <s:String x:Key="S.Options.Upload.History.Date">Datum</s:String>
@@ -840,6 +867,7 @@
     <s:String x:Key="S.Options.Upload.History.Detail.DeleteLink">Smazání odkazu:</s:String>
     <s:String x:Key="S.Options.Upload.History.Delete.Instruction">Jste si jisti, že chcete odstranit položku historie?</s:String>
     <s:String x:Key="S.Options.Upload.History.Delete.Message">Tuto akci nelze vzít zpět.&#10;&#10;Chcete vybranou položku historie vymazat?</s:String>
+    
     
     
     
@@ -882,6 +910,7 @@
     
     
     
+    
     <!--  Options • Donations  -->
     <s:String x:Key="S.Options.Donate.Donate">Přispět</s:String>
     <s:String x:Key="S.Options.Donate.Donate.Dollar">Přispět US$</s:String>
@@ -899,6 +928,7 @@
     <s:String x:Key="S.Options.Donate.Crypto.BitcoinCash">Kopírovat Bitcoin adresu.</s:String>
     <s:String x:Key="S.Options.Donate.Support">Podpora</s:String>
     <s:String x:Key="S.Options.Donate.Support.Visit">Chcete-li projekt podpořit :)</s:String>
+    
     
     
     
@@ -938,6 +968,7 @@
     
     
     
+    
     <!--  Localization  -->
     <s:String x:Key="S.Localization">Lokalizace</s:String>
     <s:String x:Key="S.Localization.GettingCodes">Zjištění kódu jazyka...</s:String>
@@ -960,6 +991,7 @@
     <s:String x:Key="S.Localization.Warning.Unknown.Info">Znak "{0}" a jemu příbuzné nejsou uznány jako platné jazykové kódy.</s:String>
     <s:String x:Key="S.Localization.Warning.NotPossible">Nebylo možné použít lokalizační soubor.</s:String>
 
+    
     
     
     
@@ -1022,6 +1054,7 @@
     
     
     
+    
     <!--  New recorder  -->
     <s:String x:Key="S.Recorder.Area">Oblast</s:String>
     <s:String x:Key="S.Recorder.Area.Select">Vyberte oblast</s:String>
@@ -1062,6 +1095,7 @@
     
     
     
+    
     <!--  Webcam recorder  -->
     <s:String x:Key="S.Webcam.Title">ScreenToGif - Záznamník webové kamery</s:String>
     <s:String x:Key="S.Webcam.NoVideo">Nebylo nalezeno žádné zařízení pro nahrávání:(</s:String>
@@ -1079,11 +1113,13 @@
     
     
     
+    
     <!--  Board recorder  -->
     <s:String x:Key="S.Board.Title">ScreenToGif - Záznamník plátna</s:String>
     <s:String x:Key="S.Board.AutoRecord">Automatické nahrávání</s:String>
     <s:String x:Key="S.Board.AutoRecordToolTip">Povoluje nahrávání během kreslení.</s:String>
     <s:String x:Key="S.Board.CtrlHold">Ctrl [podržet]</s:String>
+    
     
     
     
@@ -1119,6 +1155,7 @@
     
     
     
+    
     <!--  Exception/Error viewers  -->
     <s:String x:Key="S.ExceptionViewer.Title">Prohlížeč výjimek</s:String>
     <s:String x:Key="S.ExceptionViewer.OpenInner">Otevřít vnitřní výjimku</s:String>
@@ -1129,6 +1166,7 @@
     <s:String x:Key="S.ErrorDialog.Observation">Něco je špatně.</s:String>
     <s:String x:Key="S.ErrorDialog.Send">Poslat zprávu</s:String>
 
+    
     
     
     
@@ -1151,6 +1189,7 @@
     <s:String x:Key="S.Preset.Warning.Readonly">Některé vlastnosti předvolby jsou určeny pouze pro čtení.</s:String>
     <s:String x:Key="S.Preset.Warning.Name">Předvolbu je nutné pojmenovat.</s:String>
     <s:String x:Key="S.Preset.Warning.SameName">Předvolba se stejným názvem již existuje.</s:String>
+    
     
     
     
@@ -1220,6 +1259,7 @@
     
     
     
+    
     <!--  Insert frames  -->
     <s:String x:Key="S.InsertFrames.Title">Vložit snímky</s:String>
     <s:String x:Key="S.InsertFrames.Info">Obě strany by měly mít stejnou velikost, toto okno umožňuje změnit umístění a velikost snímkuu a plátna. Kliknutím vyberte a změňte velikost.</s:String>
@@ -1249,6 +1289,7 @@
     
     
     
+    
     <!--  Import frames from video  -->
     <s:String x:Key="S.ImportVideo.Title">Importovat snímky z videa</s:String>
     <s:String x:Key="S.ImportVideo.Importer">Způsob importu:</s:String>
@@ -1268,6 +1309,7 @@
     <s:String x:Key="S.ImportVideo.Error.Detail">Prohlížeč se nepodařilo spustit. Zkuste použít jiný způsob importu nebo zkontrolujte, zda video není poškozené.&#x0d;Pokud jste chtěli použít Windows MediaPlayer, zkontrolujte, zda je zapnuta funkce Windows nazvaná "Funkce médií/Windows Media Player", a ujistěte se, že máte potřebný kodek videa.</s:String>
     <s:String x:Key="S.ImportVideo.Timeout">Časový limit pro náhled snímku.</s:String>
     <s:String x:Key="S.ImportVideo.Nothing">Není vybrán snímek pro import.</s:String>
+    
     
     
     
@@ -1333,6 +1375,7 @@
     
     
     
+    
     <!--  Command output  -->
     <s:String x:Key="S.Encoder.Command.Title">ScreenToGif - příkaz výstupu</s:String>
     <s:String x:Key="S.Encoder.Command.Header">Příkaz výstupu</s:String>
@@ -1347,9 +1390,11 @@
     
     
     
+    
     <!--  Notifications  -->
     <s:String x:Key="S.Notifications">Upozornění</s:String>
     <s:String x:Key="S.Notifications.Dismiss">Skrýt všechna oznámení</s:String>
+    
     
     
     
@@ -1387,10 +1432,12 @@
     
     
     
+    
     <!--  Editor • Loading  -->
     <s:String x:Key="S.Editor.Preparing">Příprava snímků</s:String>
     <s:String x:Key="S.Editor.InvalidLoadingFiles">Chyba při nahrávání - Nelze importovat více souborů najednou. Vyberte pouze jeden soubor.</s:String>
     <s:String x:Key="S.Editor.InvalidLoadingProjects">Chyba při nahrávání - Nelze nahrávat více projektů najednou. Vyberte pouze jeden projekt.</s:String>
+    
     
     
     
@@ -1438,6 +1485,7 @@
     
     
     
+    
     <!--  Editor • Welcome  -->
     <s:String x:Key="S.Editor.Welcome.New">Vyberte, co chcete spustit, na kartě "Soubor "</s:String>
     <s:String x:Key="S.Editor.Welcome.Import">Pro import přetáhněte obrázky, videa nebo projekty</s:String>
@@ -1446,6 +1494,7 @@
     <s:String x:Key="S.Editor.Welcome.Contact">Máte dotazy či připomínky? Otevřete "Nastavení > O aplikaci" pro možnosti kontaktu.</s:String>
     <s:String x:Key="S.Editor.Welcome.Trouble">Máte potíže? Kontaktujte mě přes volbu Zpětná vazba.</s:String>
     <s:String x:Key="S.Editor.Welcome.NewRecorder">Nechcete vyzkoušet nové rozhraní záznamníku? Přejděte do "Nastavení > Nahrávání" a zapněte ho.</s:String>
+    
     
     
     
@@ -1474,12 +1523,14 @@
     
     
     
+    
     <!--  Editor • File tab • Insert  -->
     <s:String x:Key="S.Editor.File.Insert.Recording">Nahrávání</s:String>
     <s:String x:Key="S.Editor.File.Insert.Webcam">Nahrávání&#x0d;webkamery</s:String>
     <s:String x:Key="S.Editor.File.Insert.Board">Nahrávání&#x0d;plátna</s:String>
     <s:String x:Key="S.Editor.File.Insert.Media">Soubor</s:String>
     <s:String x:Key="S.Editor.File.Insert">Připojit</s:String>
+    
     
     
     
@@ -1508,11 +1559,13 @@
     
     
     
+    
     <!--  Editor • Home tab • Action Stack  -->
     <s:String x:Key="S.Editor.Home.ActionStack">Úpravy</s:String>
     <s:String x:Key="S.Editor.Home.Undo">Zpět</s:String>
     <s:String x:Key="S.Editor.Home.Redo">Znovu</s:String>
     <s:String x:Key="S.Editor.Home.Reset">Reset</s:String>
+    
     
     
     
@@ -1541,10 +1594,12 @@
     
     
     
+    
     <!--  Editor • Home tab • Zoom  -->
     <s:String x:Key="S.Editor.Home.Zoom">Zvětšení</s:String>
     <s:String x:Key="S.Editor.Home.SizeToContent">Přizpůsobit&#x0d;obsahu</s:String>
     <s:String x:Key="S.Editor.Home.FitImage">Přizpůsobit oknu</s:String>
+    
     
     
     
@@ -1562,6 +1617,7 @@
     <s:String x:Key="S.Editor.Home.GoTo">Přejít na</s:String>
     <s:String x:Key="S.Editor.Home.Inverse">Obrátit výběr</s:String>
     <s:String x:Key="S.Editor.Home.Deselect">Zrušit výběr</s:String>
+    
     
     
     
@@ -1592,10 +1648,12 @@
     
     
     
+    
     <!--  Editor • Playback tab • Playback Options  -->
     <s:String x:Key="S.Editor.PlaybackOptions.Header">Volby přehrávání</s:String>
     <s:String x:Key="S.Editor.PlaybackOptions.Loop">Opakovat přehrávání</s:String>
     <s:String x:Key="S.Editor.PlaybackOptions.Loop.Info">Používá se pouze pro přehrávání.&#x0d;Pokud si přejete změnit nastavení opakování pro exportovaný Gif či Apng.&#x0d;u některých enkodérů je tato volba k dispozici v "Uložit jako".</s:String>
+    
     
     
     
@@ -1626,12 +1684,14 @@
     
     
     
+    
     <!--  Editor • Edit tab • Reordering  -->
     <s:String x:Key="S.Editor.Edit.Reordering">Přeskupení</s:String>
     <s:String x:Key="S.Editor.Edit.Reverse">Obrátit</s:String>
     <s:String x:Key="S.Editor.Edit.Yoyo">JoJo</s:String>
     <s:String x:Key="S.Editor.Edit.MoveLeft">Posunout&#x0d;vlevo</s:String>
     <s:String x:Key="S.Editor.Edit.MoveRight">Posunout&#x0d;vpravo</s:String>
+    
     
     
     
@@ -1659,11 +1719,13 @@
     
     
     
+    
     <!--  Editor • Image • Size and Rotation  -->
     <s:String x:Key="S.Editor.Image.SizePosition">Velikost a rotace</s:String>
     <s:String x:Key="S.Editor.Image.Resize">Změnit&#x0d;velikost</s:String>
     <s:String x:Key="S.Editor.Image.Crop">Oříznout</s:String>
     <s:String x:Key="S.Editor.Image.FlipRotate">Převrátit/Otočit</s:String>
+    
     
     
     
@@ -1681,6 +1743,7 @@
     <s:String x:Key="S.Editor.Image.FreeText">Libovolný text</s:String>
     <s:String x:Key="S.Editor.Image.TitleFrame">Titulní strana</s:String>
     <s:String x:Key="S.Editor.Image.KeyStrokes">Stisknuté&#x0d;klávesy</s:String>
+    
     
     
     
@@ -1714,10 +1777,12 @@
     
     
     
+    
     <!--  Editor • Transitions tab • Styles  -->
     <s:String x:Key="S.Editor.Transitions.Styles">Způsob přechodu</s:String>
     <s:String x:Key="S.Editor.Transitions.Fade">Přechod do...</s:String>
     <s:String x:Key="S.Editor.Transitions.Slide">Prolnutí</s:String>
+    
     
     
     
@@ -1739,6 +1804,7 @@
     <s:String x:Key="S.Editor.Statistics.CurrentTime.Info">Aktuální čas (kumulativní) pro zobrazený aktuální snímek.</s:String>
     <s:String x:Key="S.Editor.Statistics.FrameDpi">DPI snímku a rozsah</s:String>
     <s:String x:Key="S.Editor.Statistics.SelectedFrame">Vybraný snímek</s:String>
+    
     
     
     
@@ -1807,6 +1873,7 @@
     
     
     
+    
     <!--  Editor • Warnings  -->
     <s:String x:Key="S.Editor.Warning.Selection">Vyberte alespoň jeden snímek k uložení vrstvy.</s:String>
     <s:String x:Key="S.Editor.Warning.Ffmpeg">FFmpeg nenalezen. Vstupte do "Nastavení > Doplňky" a tam  buď nastavte jeho umístění nebo ho stáhněte.</s:String>
@@ -1814,6 +1881,7 @@
     <s:String x:Key="S.Editor.Warning.LowSpace">Nedostatek místa na disku, na kterém si tato aplikace ukládá svou vyrovnávací paměť (zbývá {0}%). Kliknutí otevřete "Nastavení > Dočasné soubory" k uvolnění místa.</s:String>
     <s:String x:Key="S.Editor.Warning.DifferentDpi">Pokusili jste se importovat obrázky s různým DPI, což není podporováno. Některé z nich se importovaly, ostatní je třeba importovat samostatně.</s:String>
     <s:String x:Key="S.Editor.Warning.DifferentSize">Pokusili jste se importovat obrázky s různou velikostí, což není podporováno. Některé z nich se importovaly, ostatní je třeba importovat samostatně.</s:String>
+    
     
     
     
@@ -1857,10 +1925,12 @@
     
     
     
+    
     <!--  Editor • Frame list  -->
     <s:String x:Key="S.Editor.List.Frame">Snímek:</s:String>
     <s:String x:Key="S.Editor.List.OpenImage">Otevřít obrázek</s:String>
     <s:String x:Key="S.Editor.List.ExploreFolder">Prozkoumat složku</s:String>
+    
     
     
     
@@ -1886,6 +1956,7 @@
     
     
     
+    
     <!--  Editor • Context menu  -->
     <s:String x:Key="S.Context.SaveAs">Uložit jako</s:String>
     <s:String x:Key="S.Context.RemoveFrames">Odstranit vybrané snímky</s:String>
@@ -1895,6 +1966,7 @@
     <s:String x:Key="S.Context.NewBlankAnimation">Nový projekt</s:String>
     <s:String x:Key="S.Context.NewFromMediaProject">Nový záznam z média nebo projektu</s:String>
    
+    
     
     
     
@@ -1952,6 +2024,7 @@
     
     
     
+    
     <!--  Editor • Action panel  -->
     <s:String x:Key="S.Action.Hide">Skrýt</s:String>
     <s:String x:Key="S.Action.Apply">Použít</s:String>
@@ -1959,6 +2032,7 @@
     <s:String x:Key="S.Action.Save">Uložit</s:String>
     <s:String x:Key="S.Action.Cancel">Zrušit</s:String>
 
+    
     
     
     
@@ -1988,6 +2062,7 @@
     
     
     
+    
     <!--  Editor • Clipboard  -->
     <s:String x:Key="S.Clipboard.Entries">Položky schránky</s:String>
     <s:String x:Key="S.Clipboard.Entry">Položka schránky:</s:String>
@@ -1998,6 +2073,7 @@
     <s:String x:Key="S.Clipboard.Behavior">Vložit snímek ze schránky</s:String>
     <s:String x:Key="S.Clipboard.Before">před označený snímek</s:String>
     <s:String x:Key="S.Clipboard.After">za označený snímek</s:String>
+    
     
     
     
@@ -2034,6 +2110,7 @@
     
     
     
+    
     <!--  Editor • Crop  -->
     <s:String x:Key="S.Crop.Points">Oříznout</s:String>
     <s:String x:Key="S.Crop.Top">Shora:</s:String>
@@ -2053,11 +2130,13 @@
     
     
     
+    
     <!--  Editor • Flip/rotate  -->
     <s:String x:Key="S.FlipRotate.FlipHorizontal">Převrátit horizontálně</s:String>
     <s:String x:Key="S.FlipRotate.FlipVertical">Převrátit vertikálně</s:String>
     <s:String x:Key="S.FlipRotate.RotateLeft">Otočit 90° vlevo</s:String>
     <s:String x:Key="S.FlipRotate.RotateRight">Otočit 90° vpravo</s:String>
+    
     
     
     
@@ -2094,6 +2173,7 @@
     
     
     
+    
     <!--  Editor • Remove duplicates  -->
     <s:String x:Key="S.RemoveDuplicates.Header">Odstranit duplicity</s:String>
     <s:String x:Key="S.RemoveDuplicates.Similarity">Podobnost (%):</s:String>
@@ -2106,6 +2186,7 @@
     <s:String x:Key="S.RemoveDuplicates.Delay.Sum">Použít součet</s:String>
     <s:String x:Key="S.RemoveDuplicates.Info">Tato akce analyzuje každý snímek (pixel po pixelu) a odstraňuje ty, které jsou nejméně z {0} % podobné bezprostředně sousedícím snímkům.&#x0d;Je možné nastavit zpoždění (trvání zobrazení) snímků.</s:String>
 
+    
     
     
     
@@ -2137,6 +2218,7 @@
     
     
     
+    
     <!--  Editor • Captions  -->
     <s:String x:Key="S.Caption.Text">Text</s:String>
     <s:String x:Key="S.Caption.Font">Písmo</s:String>
@@ -2153,6 +2235,7 @@
     <s:String x:Key="S.Caption.TextAlignment">Zarovnání:</s:String>
     <s:String x:Key="S.Caption.TextDecoration">Efekty:</s:String>
 
+    
     
     
     
@@ -2194,6 +2277,7 @@
     
     
     
+    
     <!--  Editor • Free drawing  -->
     <s:String x:Key="S.FreeDrawing.Mode">Způsob</s:String>
     <s:String x:Key="S.FreeDrawing.Pen">Pero</s:String>
@@ -2210,6 +2294,7 @@
     <s:String x:Key="S.FreeDrawing.FitToCurve">Vyhladit křivky</s:String>
     <s:String x:Key="S.FreeDrawing.Warning.NoDrawing">Neexistují žádné kresby, které by měly být aplikovány na zvolené snímky.</s:String>
     <s:String x:Key="S.FreeDrawing.WarningSelection">Vyberte alespoň jeden snímek, na který se použije kresba.</s:String>
+    
     
     
     
@@ -2241,12 +2326,14 @@
     
     
     
+    
     <!--  Editor • Mouse events  -->
     <s:String x:Key="S.MouseEvents">Myš - události</s:String>
     <s:String x:Key="S.MouseHighlight.Color">Barva zvýraznění kurzoru:</s:String>
     <s:String x:Key="S.MouseClicks.Color.Left">Klik levým tlačítkem:</s:String>
     <s:String x:Key="S.MouseClicks.Color.Middle">Klik prostředním tlačítkem:</s:String>
     <s:String x:Key="S.MouseClicks.Color.Right">Klik pravým tlačítkem:</s:String>
+    
     
     
     
@@ -2277,10 +2364,12 @@
     
     
     
+    
     <!--  Editor • Border  -->
     <s:String x:Key="S.Border.Appearance">Vzhled</s:String>
     <s:String x:Key="S.Border.Info">Záporná hodnota způsobí přidání rámečku vně snímků.&#10;V případě kladné hodnoty bude rámeček zakrývat část snímku.</s:String>
 
+    
     
     
     
@@ -2308,6 +2397,7 @@
     
     
     
+    
     <!--  Editor • Obfuscate  -->
     <s:String x:Key="S.Obfuscate.Type.Pixelate">Pixelizace</s:String>
     <s:String x:Key="S.Obfuscate.Type.Blur">Rozmazání</s:String>
@@ -2324,6 +2414,7 @@
     <s:String x:Key="S.Obfuscate.Info">Pomocí nástroje vyberte část, která má být zakryta (rozpixelována).</s:String>
     <s:String x:Key="S.Obfuscate.Info2">Pomocí nástroje vyberte část, která nemá být zakryta (rozpixelována).</s:String>
     <s:String x:Key="S.Obfuscate.Warning">Nebyl proveden žádný výběr. Pomocí nástroje vyberte obdélník, který má být rozdělen do pixelů.</s:String>
+    
     
     
     
@@ -2374,6 +2465,7 @@
     
     
     
+    
     <!--  Editor • Delay  -->
     <s:String x:Key="S.Delay.Update">Použít nastavení</s:String>
     <s:String x:Key="S.Delay.Mode">Typ prodlevy:</s:String>
@@ -2398,9 +2490,11 @@
     
     
     
+    
     <!--  Editor • Cinemagraph  -->
     <s:String x:Key="S.Cinemagraph.Info">Použijte pero k označení oblasti (částí), které se budou měnit (animovat) - zamalujte je. Nezamalované části budou skryty.</s:String>
 
+    
     
     
     
@@ -2420,6 +2514,7 @@
     <s:String x:Key="S.Transitions.Color">Barva</s:String>
     <s:String x:Key="S.Transitions.Info">Přechod bude vytvořen mezi vybraným a následujícím snímkem.</s:String>
 
+    
     
     
     
@@ -2479,6 +2574,7 @@
     
     
     
+    
     <!--  Editor • Save as > Presets  -->
     <s:String x:Key="S.SaveAs.Presets">Předvolby:</s:String>
     <s:String x:Key="S.SaveAs.Presets.Default">Výchozí</s:String>
@@ -2498,6 +2594,7 @@
     
     
     
+    
     <!--  Editor • Save as > Presets > Dialogs  -->
     <s:String x:Key="S.SaveAs.Presets.Ask.Delete.Title">Smazat předvolbu</s:String>
     <s:String x:Key="S.SaveAs.Presets.Ask.Delete.Instruction">Opravdu chete smazat tuto předvolbu?</s:String>
@@ -2505,6 +2602,7 @@
     <s:String x:Key="S.SaveAs.Presets.Ask.Reset.Title">Obnovení přednastavení</s:String>
     <s:String x:Key="S.SaveAs.Presets.Ask.Reset.Instruction">Určitě chcete předvolbu resetovat?</s:String>
     <s:String x:Key="S.SaveAs.Presets.Ask.Reset.Message">Tuto akci nelze vrátit zpět.&#10;&#10;Chcete obnovit výchozí nastavení vybrané předvolby?</s:String>
+    
     
     
     
@@ -2542,6 +2640,7 @@
     
     
     
+    
     <!--  Editor • Save as > FFmpeg  -->
     <s:String x:Key="S.SaveAs.Ffmpeg.UseParameters">Použít rozšířený režim.</s:String>
     <s:String x:Key="S.SaveAs.Ffmpeg.UseParameters.Info">Ruční zadání parametrů pro nastavení enkodéru.</s:String>
@@ -2553,6 +2652,7 @@
     <s:String x:Key="S.SaveAs.Ffmpeg.Help.Code">Info o kodeku</s:String>
     <s:String x:Key="S.SaveAs.Ffmpeg.Help.Format">Info o formátu</s:String>
     <s:String x:Key="S.SaveAs.Ffmpeg.Help.Filters">Info o filtru</s:String>
+    
     
     
     
@@ -2604,6 +2704,7 @@
     <s:String x:Key="S.SaveAs.GifOptions.Dither">Rozptyl (Dither):</s:String>
     <s:String x:Key="S.SaveAs.GifOptions.Dither.Scale">Dither scale:</s:String>
 
+    
     
     
     
@@ -2681,7 +2782,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.SaveAs.KGySoft.Ditherer.ErrorDiffusionDitherer.Atkinson">Atkinson (Error Diffusion)</s:String>-->
+    
     
     
     
@@ -2703,7 +2806,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.SaveAs.KGySoft.Ditherer.ErrorDiffusionDitherer.Burkes">Burkes (Error Diffusion)</s:String>-->
+    
     
     
     
@@ -2725,7 +2830,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.SaveAs.KGySoft.Ditherer.ErrorDiffusionDitherer.FloydSteinberg">Floyd-Steinberg (Error Diffusion)</s:String>-->
+    
     
     
     
@@ -2747,7 +2854,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.SaveAs.KGySoft.Ditherer.ErrorDiffusionDitherer.JarvisJudiceNinke">Jarvis-Judice-Ninke (Error Diffusion)</s:String>-->
+    
     
     
     
@@ -2769,7 +2878,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.SaveAs.KGySoft.Ditherer.ErrorDiffusionDitherer.Sierra3">Sierra 3 (Error Diffusion)</s:String>-->
+    
     
     
     
@@ -2791,7 +2902,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.SaveAs.KGySoft.Ditherer.ErrorDiffusionDitherer.Sierra2">Sierra 2 (Error Diffusion)</s:String>-->
+    
     
     
     
@@ -2813,7 +2926,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.SaveAs.KGySoft.Ditherer.ErrorDiffusionDitherer.SierraLite">Sierra Lite (Error Diffusion)</s:String>-->
+    
     
     
     
@@ -2835,7 +2950,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.SaveAs.KGySoft.Ditherer.ErrorDiffusionDitherer.StevensonArce">Stevenson-Arce (Error Diffusion)</s:String>-->
+    
     
     
     
@@ -2857,7 +2974,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.SaveAs.KGySoft.Ditherer.ErrorDiffusionDitherer.Stucki">Stucki (Error Diffusion)</s:String>-->
+    
     
     
     
@@ -2879,7 +2998,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.SaveAs.KGySoft.Ditherer.RandomNoiseDitherer">Random Noise</s:String>-->
+    
     
     
     
@@ -2901,7 +3022,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.SaveAs.KGySoft.Ditherer.InterleavedGradientNoiseDitherer">Interleaved Gradient Noise</s:String>-->
+    
     
     
     
@@ -2924,7 +3047,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.SaveAs.KGySoft.Preview">Preview</s:String>-->
+    
     
     
     
@@ -2946,6 +3071,7 @@
     
     
     
+    
     <!--<s:String x:Key="S.SaveAs.KGySoft.Preview.ShowCurrentFrame.Info">When checked, the preview shows the current frame instead of a standard image example.</s:String>-->
     
     
@@ -2957,7 +3083,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.SaveAs.KGySoft.Preview.Refresh">Auto preview is disabled due to the high memory requirement of the current settings. Click to refresh the preview.</s:String>-->
+    
     
     
     
@@ -2980,7 +3108,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.SaveAs.KGySoft.Animation">Animation Settings</s:String>-->
+    
     
     
     
@@ -3002,7 +3132,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.SaveAs.KGySoft.Animation.EndlessLoop.Info">When checked, the animation will be looped indefinitely.</s:String>-->
+    
     
     
     
@@ -3024,7 +3156,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.SaveAs.KGySoft.Animation.PingPong.Info">When checked, the animation will be played back and forth.&#x0d;&#x0a;This is achieved by duplicating the frames meaning larger file size and longer encoding time.</s:String>-->
+    
     
     
     
@@ -3046,7 +3180,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.SaveAs.KGySoft.Animation.LoopCount.Info">Specifies how many times the animation will be played.</s:String>-->
+    
     
     
     
@@ -3068,7 +3204,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.SaveAs.KGySoft.Animation.AllowDeltaFrames.Info">When checked, unchanged pixels are attempted to be detected during the encoding.&#x0d;&#x0a;When using with an optimized quantizer, this option makes possible for a frame to have more than 256 colors.&#x0d;&#x0a;This option is ignored if the quantizer does not use transparency and Allow Clipped Frames is unchecked.</s:String>-->
+    
     
     
     
@@ -3090,7 +3228,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.SaveAs.KGySoft.Animation.DeltaTolerance.Info">Specifies the maximum tolerance when detecting changed pixels.&#x0d;&#x0a;If 0, then no difference is tolerated at all.&#x0d;&#x0a;If 255, then there might be frames (or even all of them) that are added with no content.&#x0d;&#x0a;Reasonable range is between 0 and 16 for an optimized quantizer. The ones with fixed colors can be used with somewhat larger values with dithering.</s:String>-->
+    
     
     
     
@@ -3112,7 +3252,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.SaveAs.KGySoft.Animation.AllowClippedFrames">Allow clipped frames.</s:String>-->
+    
     
     
     
@@ -3134,7 +3276,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.SaveAs.KGySoft.Animation.AllowDeltaIgnored">Allow Delta Frames is ignored because the current configuration does not use alpha and Allow Clipped Frames is unchecked. Click to enable clipped frames.</s:String>-->
+    
     
     
     
@@ -3147,6 +3291,7 @@
     
     <!--<s:String x:Key="S.SaveAs.KGySoft.Animation.AllowClippedIgnored">Allow Clipped Frames has no effect because the current configuration does not use alpha and Allow Delta Frames is unchecked. Click to enable delta frames.</s:String>-->
 
+    
     
     
     
@@ -3179,6 +3324,7 @@
     
     
     
+    
     <!--  Editor • Save as > Webp options  -->
     <s:String x:Key="S.SaveAs.WebpOptions.CodecPreset">Předvolby:</s:String>
     <s:String x:Key="S.SaveAs.WebpOptions.CodecPreset.None">Žádná</s:String>
@@ -3189,6 +3335,7 @@
     <s:String x:Key="S.SaveAs.WebpOptions.CodecPreset.Icon">Ikona</s:String>
     <s:String x:Key="S.SaveAs.WebpOptions.CodecPreset.Text">Text</s:String>
     <s:String x:Key="S.SaveAs.WebpOptions.Lossless">Bezztrátový režim</s:String>
+    
     
     
     
@@ -3273,9 +3420,11 @@
     
     
     
+    
     <!--  Editor • Save as > Image options  -->
     <s:String x:Key="S.SaveAs.ImageOptions.Zip">Zazipovat snímky.</s:String>
     <s:String x:Key="S.SaveAs.ImageOptions.Zip.Info">Exportuje snímky do ZIP archivu.</s:String>
+    
     
     
     
@@ -3292,6 +3441,7 @@
     <s:String x:Key="S.SaveAs.PsdOptions.Compress.Info">Komprimovat obrazová data pomocí algoritmu RLE.</s:String>
     <s:String x:Key="S.SaveAs.PsdOptions.Timeline">Uložit data časové osy.</s:String>
     <s:String x:Key="S.SaveAs.PsdOptions.Timeline.Info">Exportuje časování snímků namísto pouhých snímků.</s:String>
+    
     
     
     
@@ -3338,6 +3488,7 @@
     
     
     
+    
     <!--  Editor • Save As > Partial export  -->
     <s:String x:Key="S.SaveAs.Partial">Částečný export</s:String>
     <s:String x:Key="S.SaveAs.Partial.Mode">Režim:</s:String>
@@ -3368,6 +3519,7 @@
     
     
     
+    
     <!--  Editor • Save as > File  -->
     <s:String x:Key="S.SaveAs.File">Soubor</s:String>
     <s:String x:Key="S.SaveAs.File.Location">Cílová složka.</s:String>
@@ -3380,6 +3532,7 @@
     <s:String x:Key="S.SaveAs.File.Decrease">Snížit číslo souboru</s:String>
     <s:String x:Key="S.SaveAs.File.Exists">Soubor se stejným názvem již existuje.</s:String>
     <s:String x:Key="S.SaveAs.File.Clipboard">Uložit do schránky.</s:String>
+    
     
     
     
@@ -3421,6 +3574,7 @@
     
     
     
+    
     <!--  Editor • Save As > Upload  -->
     <s:String x:Key="S.SaveAs.Upload">Odeslání</s:String>
     <s:String x:Key="S.SaveAs.Upload.Info">Vyberte předvolbu, která obsahuje podrobnosti o službě používané pro odesílání.</s:String>
@@ -3444,10 +3598,12 @@
     
     
     
+    
     <!--  Editor • Save as > Upload > Dialogs  -->
     <s:String x:Key="S.SaveAs.Upload.Ask.Delete.Title">Odstranění předvolby pro odesílání</s:String>
     <s:String x:Key="S.SaveAs.Upload.Ask.Delete.Instruction">Jste si jisti, že chcete předvolbu pro odesílání odstranit?</s:String>
     <s:String x:Key="S.SaveAs.Upload.Ask.Delete.Message">Tuto akci nelze vrátit zpět.&#10;&#10;Chcete odstranit vybranou předvolbu odesílání?</s:String>
+    
     
     
     
@@ -3479,11 +3635,13 @@
     
     
     
+    
     <!--  Command Preview  -->
     <s:String x:Key="S.CommandPreviewer.Title">Prohlížeč příkazů</s:String>
     <s:String x:Key="S.CommandPreviewer.Command">Příkaz</s:String>
     <s:String x:Key="S.CommandPreviewer.Input">Cesta vstupu</s:String>
     <s:String x:Key="S.CommandPreviewer.Output">Cesta výstupu</s:String>
+    
     
     
     
@@ -3528,6 +3686,7 @@
     
     
     
+    
     <!--  Troubleshoot  -->
     <s:String x:Key="S.Troubleshoot.Title">Problémy?</s:String>
     <s:String x:Key="S.Troubleshoot.Windows">Nevidíte nějaké okno?</s:String>
@@ -3547,10 +3706,12 @@
     
     
     
+    
     <!--  FontStyles  -->
     <s:String x:Key="S.FontStyles.Normal">Obyčejné</s:String>
     <s:String x:Key="S.FontStyles.Italic">Kurzíva</s:String>
     <s:String x:Key="S.FontStyles.Oblique">Zkosené</s:String>
+    
     
     
     
@@ -3590,12 +3751,14 @@
     
     
     
+    
     <!--  VerticalAlignment  -->
     <s:String x:Key="S.VerticalAlignment.Top">Nahoru</s:String>
     <s:String x:Key="S.VerticalAlignment.Center">Na střed</s:String>
     <s:String x:Key="S.VerticalAlignment.Bottom">Dolů</s:String>
     <s:String x:Key="S.Alignment.Stretch">Roztáhnout</s:String>
 
+    
     
     
     
@@ -3621,9 +3784,11 @@
     
     
     
+    
     <!--  Orientation  -->
     <s:String x:Key="S.Orientation.Horizontal">Vodorovně</s:String>
     <s:String x:Key="S.Orientation.Vertical">Svisle</s:String>
+    
     
     
     
@@ -3640,6 +3805,7 @@
     <s:String x:Key="S.TextAlignment.Right">Vpravo</s:String>
     <s:String x:Key="S.TextAlignment.Center">Na střed</s:String>
     <s:String x:Key="S.TextAlignment.Justify">Na oba okraje</s:String>
+    
     
     
     

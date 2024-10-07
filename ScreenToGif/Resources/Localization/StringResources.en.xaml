@@ -14,7 +14,9 @@
     
     
     
+    
     <!--  To use a new line: &#x0d; or CarriageReturn + NewLine: &#x0d;&#x0a; or &#10;  --> 
+    
     
     
     
@@ -36,7 +38,9 @@
     
     
     
+    
     <!--  Special texts like {0}, are place holders for dynamic values, such as numbers.  -->
+    
     
     
     
@@ -85,6 +89,7 @@
     
     
     
+    
     <!--  Warnings  -->
     <s:String x:Key="S.Crash">Oh no, the app crashed :(</s:String>
     <s:String x:Key="S.Required">Required field</s:String>
@@ -113,6 +118,7 @@
     
     
     
+    
     <!--  Warnings • Graphics engine  -->
     <s:String x:Key="S.Warning.Graphics.Title">Switch Graphics Adapter</s:String>
     <s:String x:Key="S.Warning.Graphics.Instruction">Switch to the correct graphics adapter to capture the selected screen</s:String>
@@ -120,6 +126,7 @@
     <s:String x:Key="S.Warning.Graphics.Action">Switch the graphics adapter set for ScreenToGif by opening Windows Settings > System > Display > Graphics Settings, or by clicking on the link below.</s:String>
     <s:String x:Key="S.Warning.Graphics.Action.Legacy">Switch the graphics adapter for ScreenToGif by opening the graphics settings of your graphics adapter.</s:String>
     <s:String x:Key="S.Warning.Graphics.Switch">Open Windows Settings</s:String>
+    
     
     
     
@@ -146,8 +153,10 @@
     
     
     
+    
     <!--  Mouse  -->
     <s:String x:Key="S.Mouse.Right">Right-Click</s:String>  
+    
     
     
     
@@ -164,6 +173,7 @@
     <s:String x:Key="S.NewWebcamRecording">New webcam recording</s:String>
     <s:String x:Key="S.NewBoardRecording">New board recording</s:String>
     <s:String x:Key="S.Exit">Exit</s:String>
+    
     
     
     
@@ -257,6 +267,7 @@
     
     
     
+    
     <!--  StartUp  -->
     <s:String x:Key="S.StartUp.Title">ScreenToGif - StartUp</s:String>
     <s:String x:Key="S.StartUp.Recorder">Recorder</s:String>
@@ -271,6 +282,7 @@
     <s:String x:Key="S.StartUp.NewRelease">New version available</s:String>
     <s:String x:Key="S.StartUp.NewRelease.Tooltip">Downloads the latest version of ScreenToGif.</s:String>
 
+    
     
     
     
@@ -312,10 +324,12 @@
     
     
     
+    
     <!--  Downloader  -->
     <s:String x:Key="S.Downloader.Title">ScreenToGif - Downloader</s:String>
     <s:String x:Key="S.Downloader.Header">Downloader</s:String>
     <s:String x:Key="S.Downloader.Size">{0} of {1}</s:String>
+    
     
     
     
@@ -344,6 +358,7 @@
     <s:String x:Key="S.Options.Warning.Follow.Header">Missing shortcut key for cursor following</s:String>
     <s:String x:Key="S.Options.Warning.Follow.Message">In order to use the mouse cursor following feature, you must set a shortcut key to toggle it when needed.</s:String>
 
+    
     
     
     
@@ -415,6 +430,7 @@
     <s:String x:Key="S.Options.App.General.DownloadWithMeteredNetwork">Download updates on metered networks.</s:String>
     <s:String x:Key="S.Options.App.General.DownloadWithMeteredNetwork.Info">(Allows download of updates on metered networks)</s:String>
 
+    
     
     
     
@@ -517,6 +533,7 @@
     
     
     
+    
     <!--  Options • Editor  -->
     <s:String x:Key="S.Options.Editor.Previewer">Previewer background</s:String>
     <s:String x:Key="S.Options.Editor.Previewer.GridSize">Grid Size:</s:String>
@@ -566,6 +583,7 @@
     
     
     
+    
     <!--  Options • Tasks  -->
     <s:String x:Key="S.Options.Tasks.Title">Automated Task</s:String>
     <s:String x:Key="S.Options.Tasks.List">List of automated tasks</s:String>
@@ -577,6 +595,7 @@
     <s:String x:Key="S.Options.Tasks.SelectType.Info">Select a task above</s:String>
     <s:String x:Key="S.Options.Tasks.Info">These tasks are executed sequentially from the top of the list to the bottom.&#10;It happens when you first open a project using the editor.</s:String>
   
+    
     
     
     
@@ -624,6 +643,7 @@
     
     
     
+    
     <!--  Options • Language  -->
     <s:String x:Key="S.Options.Language.AppLanguage">App's Language</s:String>
     <s:String x:Key="S.Options.Language.AppLanguage.AutoDetect">Auto detect</s:String>
@@ -639,6 +659,7 @@
     <s:String x:Key="S.Options.Language.AppLanguage.Translate.ResourceLink.Tooltip">Click to open a webpage with the guidelines.</s:String>
     <s:String x:Key="S.Options.Language.AppLanguage.Translate.ImportLink.Tooltip">Opens the import page</s:String>
     <s:String x:Key="S.Options.Language.AppLanguage.Translate.EmailLink.Tooltip">Opens your email app</s:String>
+    
     
     
     
@@ -695,6 +716,7 @@
     
     
     
+    
     <!--  Options • Storage > Clear cache  -->
     <s:String x:Key="S.Options.Storage.Cache.Title">ScreenToGif - Clear Cache</s:String>
     <s:String x:Key="S.Options.Storage.Cache.Header">Would you like to clear the cache folder?</s:String>
@@ -703,6 +725,7 @@
     <s:String x:Key="S.Options.Storage.Cache.IgnoreRecent">Don't remove recent projects.</s:String>
     <s:String x:Key="S.Options.Storage.Cache.IgnoreRecent.Yes">(Only the projects older than {0} days, that are not currently in use, will be removed)</s:String>
     <s:String x:Key="S.Options.Storage.Cache.IgnoreRecent.No">(All the projects, that are not currently in use, will be removed)</s:String>
+    
     
     
     
@@ -733,6 +756,7 @@
     <s:String x:Key="S.Options.Upload.Presets.Enabled">Enabled</s:String>
     
      
+    
     
     
     
@@ -798,9 +822,11 @@
     
     
     
+    
     <!--  Options • Upload > Album  -->
     <s:String x:Key="S.Options.Upload.Pick.Album">Pick an album (optional)</s:String>
     <s:String x:Key="S.Options.Upload.Pick.Album.Info">If you wish so, you can select the destination album:</s:String>
+    
     
     
     
@@ -831,6 +857,7 @@
     
     
     
+    
     <!--  Options • Upload > History  -->
     <s:String x:Key="S.Options.Upload.History.Title">Upload history</s:String>
     <s:String x:Key="S.Options.Upload.History.Date">Date</s:String>
@@ -842,6 +869,7 @@
     <s:String x:Key="S.Options.Upload.History.Detail.DeleteLink">Deletion link:</s:String>
     <s:String x:Key="S.Options.Upload.History.Delete.Instruction">Are you sure that you want to delete the history entry?</s:String>
     <s:String x:Key="S.Options.Upload.History.Delete.Message">This action cannot be undone.&#10;&#10;Would you like to delete the selected history entry?</s:String>
+    
     
     
     
@@ -885,6 +913,7 @@
     
     
     
+    
     <!--  Options • Donations  -->
     <s:String x:Key="S.Options.Donate.Donate">Donate</s:String>
     <s:String x:Key="S.Options.Donate.Donate.Dollar">Donate US$</s:String>
@@ -903,6 +932,7 @@
     <s:String x:Key="S.Options.Donate.Crypto.BitcoinCash">Copy the BitcoinCash address.</s:String>
     <s:String x:Key="S.Options.Donate.Support">Support</s:String>
     <s:String x:Key="S.Options.Donate.Support.Visit">If you wish to support the project :)</s:String>
+    
     
     
     
@@ -942,6 +972,7 @@
     
     
     
+    
     <!--  Localization  -->
     <s:String x:Key="S.Localization">Localization</s:String>
     <s:String x:Key="S.Localization.GettingCodes">Getting language codes...</s:String>
@@ -964,6 +995,7 @@
     <s:String x:Key="S.Localization.Warning.Unknown.Info">The "{0}" and its family were not recognized as valid language codes.</s:String>
     <s:String x:Key="S.Localization.Warning.NotPossible">It was not possible to import the localization resource.</s:String>
 
+    
     
     
     
@@ -1026,6 +1058,7 @@
     
     
     
+    
     <!--  New recorder  -->
     <s:String x:Key="S.Recorder.Area">Area</s:String>
     <s:String x:Key="S.Recorder.Area.Select">Select an area</s:String>
@@ -1066,6 +1099,7 @@
     
     
     
+    
     <!--  Webcam recorder  -->
     <s:String x:Key="S.Webcam.Title">ScreenToGif - Webcam Recorder</s:String>
     <s:String x:Key="S.Webcam.NoVideo">No video device detected :(</s:String>
@@ -1083,11 +1117,13 @@
     
     
     
+    
     <!--  Board recorder  -->
     <s:String x:Key="S.Board.Title">ScreenToGif - Board Recorder</s:String>
     <s:String x:Key="S.Board.AutoRecord">Auto Record</s:String>
     <s:String x:Key="S.Board.AutoRecordToolTip">Enables recording while drawing.</s:String>
     <s:String x:Key="S.Board.CtrlHold">Ctrl [Hold]</s:String>
+    
     
     
     
@@ -1123,6 +1159,7 @@
     
     
     
+    
     <!--  Exception/Error viewers  -->
     <s:String x:Key="S.ExceptionViewer.Title">Exception Viewer</s:String>
     <s:String x:Key="S.ExceptionViewer.OpenInner">Open Inner Exception</s:String>
@@ -1133,6 +1170,7 @@
     <s:String x:Key="S.ErrorDialog.Observation">Something wrong happened.</s:String>
     <s:String x:Key="S.ErrorDialog.Send">Send report</s:String>
 
+    
     
     
     
@@ -1155,6 +1193,7 @@
     <s:String x:Key="S.Preset.Warning.Readonly">Some of the properties of a default preset are read-only.</s:String>
     <s:String x:Key="S.Preset.Warning.Name">You must give a name to this preset.</s:String>
     <s:String x:Key="S.Preset.Warning.SameName">There's already a preset with the same name.</s:String>
+    
     
     
     
@@ -1226,6 +1265,7 @@
     
     
     
+    
     <!--  Insert frames  -->
     <s:String x:Key="S.InsertFrames.Title">Insert Frames</s:String>
     <s:String x:Key="S.InsertFrames.Info">Both sides should have the same size, this window allows you to reposition and resize the image and the canvas. Click to select and resize.</s:String>
@@ -1255,6 +1295,7 @@
     
     
     
+    
     <!--  Import frames from video  -->
     <s:String x:Key="S.ImportVideo.Title">Import frames from video</s:String>
     <s:String x:Key="S.ImportVideo.Importer">Importer:</s:String>
@@ -1274,6 +1315,7 @@
     <s:String x:Key="S.ImportVideo.Error.Detail">The previewer could not start. Try with another importer or check if the video is not corrupted.&#x0d;If you are using the MediaPlayer, check if the Windows feature called "Media Features / Windows Media Player" is turned on and make sure that you have the necessary video codec.</s:String>
     <s:String x:Key="S.ImportVideo.Timeout">Timeout in getting the frame preview.</s:String>
     <s:String x:Key="S.ImportVideo.Nothing">No frame selected to be imported.</s:String>
+    
     
     
     
@@ -1339,6 +1381,7 @@
     
     
     
+    
     <!--  Command output  -->
     <s:String x:Key="S.Encoder.Command.Title">ScreenToGif - Command Output</s:String>
     <s:String x:Key="S.Encoder.Command.Header">Command output</s:String>
@@ -1353,9 +1396,11 @@
     
     
     
+    
     <!--  Notifications  -->
     <s:String x:Key="S.Notifications">Notifications</s:String>
     <s:String x:Key="S.Notifications.Dismiss">Dismiss all notifications</s:String>
+    
     
     
     
@@ -1393,10 +1438,12 @@
     
     
     
+    
     <!--  Editor • Loading  -->
     <s:String x:Key="S.Editor.Preparing">Preparing frames</s:String>
     <s:String x:Key="S.Editor.InvalidLoadingFiles">Invalid Loading - You can't import multiple files at once. Try choosing only one file.</s:String>
     <s:String x:Key="S.Editor.InvalidLoadingProjects">Invalid Loading - You can't load multiple projects at once. Try choosing only one project.</s:String>
+    
     
     
     
@@ -1444,6 +1491,7 @@
     
     
     
+    
     <!--  Editor • Welcome  -->
     <s:String x:Key="S.Editor.Welcome.New">Head over to "File > New" to start a new recording</s:String>
     <s:String x:Key="S.Editor.Welcome.Import">Drag and drop images, videos or projects to import</s:String>
@@ -1452,6 +1500,7 @@
     <s:String x:Key="S.Editor.Welcome.Contact">Do you want to talk? Open "Options > About" for contact methods</s:String>
     <s:String x:Key="S.Editor.Welcome.Trouble">Having trouble? Contact me via the Feedback tool</s:String>
     <s:String x:Key="S.Editor.Welcome.NewRecorder">Would you like to try out the new recorder?&#x0d;Head over to "Options > Recorder" to enable it.</s:String>
+    
     
     
     
@@ -1480,12 +1529,14 @@
     
     
     
+    
     <!--  Editor • File tab • Insert  -->
     <s:String x:Key="S.Editor.File.Insert.Recording">Recording</s:String>
     <s:String x:Key="S.Editor.File.Insert.Webcam">Webcam&#x0d;Recording</s:String>
     <s:String x:Key="S.Editor.File.Insert.Board">Board&#x0d;Recording</s:String>
     <s:String x:Key="S.Editor.File.Insert.Media">Media</s:String>
     <s:String x:Key="S.Editor.File.Insert">Insert</s:String>
+    
     
     
     
@@ -1514,11 +1565,13 @@
     
     
     
+    
     <!--  Editor • Home tab • Action Stack  -->
     <s:String x:Key="S.Editor.Home.ActionStack">Action Stack</s:String>
     <s:String x:Key="S.Editor.Home.Undo">Undo</s:String>
     <s:String x:Key="S.Editor.Home.Redo">Redo</s:String>
     <s:String x:Key="S.Editor.Home.Reset">Reset</s:String>
+    
     
     
     
@@ -1547,10 +1600,12 @@
     
     
     
+    
     <!--  Editor • Home tab • Zoom  -->
     <s:String x:Key="S.Editor.Home.Zoom">Zoom</s:String>
     <s:String x:Key="S.Editor.Home.SizeToContent">Adjust to&#x0d;Content</s:String>
     <s:String x:Key="S.Editor.Home.FitImage">Fit Image</s:String>
+    
     
     
     
@@ -1568,6 +1623,7 @@
     <s:String x:Key="S.Editor.Home.GoTo">Go To</s:String>
     <s:String x:Key="S.Editor.Home.Inverse">Inverse</s:String>
     <s:String x:Key="S.Editor.Home.Deselect">Deselect</s:String>
+    
     
     
     
@@ -1598,10 +1654,12 @@
     
     
     
+    
     <!--  Editor • Playback tab • Playback Options  -->
     <s:String x:Key="S.Editor.PlaybackOptions.Header">Playback Options</s:String>
     <s:String x:Key="S.Editor.PlaybackOptions.Loop">Loop during playback.</s:String>
     <s:String x:Key="S.Editor.PlaybackOptions.Loop.Info">Only used during playback.&#x0d;If you wish to change the loop settings for exporting Gifs and Apngs,&#x0d;it will be available inside the 'Save As' panel for some encoders.</s:String>
+    
     
     
     
@@ -1632,12 +1690,14 @@
     
     
     
+    
     <!--  Editor • Edit tab • Reordering  -->
     <s:String x:Key="S.Editor.Edit.Reordering">Reordering</s:String>
     <s:String x:Key="S.Editor.Edit.Reverse">Reverse</s:String>
     <s:String x:Key="S.Editor.Edit.Yoyo">Yo-yo</s:String>
     <s:String x:Key="S.Editor.Edit.MoveLeft">Move&#x0d;Left</s:String>
     <s:String x:Key="S.Editor.Edit.MoveRight">Move&#x0d;Right</s:String>
+    
     
     
     
@@ -1665,11 +1725,13 @@
     
     
     
+    
     <!--  Editor • Image • Size and Rotation  -->
     <s:String x:Key="S.Editor.Image.SizePosition">Size and Rotation</s:String>
     <s:String x:Key="S.Editor.Image.Resize">Resize</s:String>
     <s:String x:Key="S.Editor.Image.Crop">Crop</s:String>
     <s:String x:Key="S.Editor.Image.FlipRotate">Flip/Rotate</s:String>
+    
     
     
     
@@ -1687,6 +1749,7 @@
     <s:String x:Key="S.Editor.Image.FreeText">Free Text</s:String>
     <s:String x:Key="S.Editor.Image.TitleFrame">Title Frame</s:String>
     <s:String x:Key="S.Editor.Image.KeyStrokes">Key&#x0d;Strokes</s:String>
+    
     
     
     
@@ -1720,10 +1783,12 @@
     
     
     
+    
     <!--  Editor • Transitions tab • Styles  -->
     <s:String x:Key="S.Editor.Transitions.Styles">Styles</s:String>
     <s:String x:Key="S.Editor.Transitions.Fade">Fade</s:String>
     <s:String x:Key="S.Editor.Transitions.Slide">Slide</s:String>
+    
     
     
     
@@ -1745,6 +1810,7 @@
     <s:String x:Key="S.Editor.Statistics.CurrentTime.Info">The current time (cumulative) based on the current frame being displayed.</s:String>
     <s:String x:Key="S.Editor.Statistics.FrameDpi">Frame DPI and scale</s:String>
     <s:String x:Key="S.Editor.Statistics.SelectedFrame">Selected Frame</s:String>
+    
     
     
     
@@ -1813,6 +1879,7 @@
     
     
     
+    
     <!--  Editor • Warnings  -->
     <s:String x:Key="S.Editor.Warning.Selection">You have to select at least one frame to apply the overlay to.</s:String>
     <s:String x:Key="S.Editor.Warning.Ffmpeg">FFmpeg not present. Add it to the Path environment variables or click here to open Options > Extras to set the location.</s:String>
@@ -1820,6 +1887,7 @@
     <s:String x:Key="S.Editor.Warning.LowSpace">There's not enough space left on the drive where this app stores its cache ({0}% left). Click here to open Options > Temporary Files to free some space.</s:String>
     <s:String x:Key="S.Editor.Warning.DifferentDpi">You tried to import multiple images with different DPIs, which is not supported. Some of them got imported, others need to be imported separately.</s:String>
     <s:String x:Key="S.Editor.Warning.DifferentSize">You tried to import multiple images with different sizes, which is not supported. Some of them got imported, others need to be imported separately.</s:String>
+    
     
     
     
@@ -1863,10 +1931,12 @@
     
     
     
+    
     <!--  Editor • Frame list  -->
     <s:String x:Key="S.Editor.List.Frame">Frame:</s:String>
     <s:String x:Key="S.Editor.List.OpenImage">Open Image</s:String>
     <s:String x:Key="S.Editor.List.ExploreFolder">Explore Folder</s:String>
+    
     
     
     
@@ -1892,6 +1962,7 @@
     
     
     
+    
     <!--  Editor • Context menu  -->
     <s:String x:Key="S.Context.SaveAs">Save as...</s:String>
     <s:String x:Key="S.Context.RemoveFrames">Remove selected frames</s:String>
@@ -1901,6 +1972,7 @@
     <s:String x:Key="S.Context.NewBlankAnimation">New project</s:String>
     <s:String x:Key="S.Context.NewFromMediaProject">New from media or project</s:String>
    
+    
     
     
     
@@ -1958,6 +2030,7 @@
     
     
     
+    
     <!--  Editor • Action panel  -->
     <s:String x:Key="S.Action.Hide">Hide</s:String>
     <s:String x:Key="S.Action.Apply">Apply</s:String>
@@ -1965,6 +2038,7 @@
     <s:String x:Key="S.Action.Save">Save</s:String>
     <s:String x:Key="S.Action.Cancel">Cancel</s:String>
 
+    
     
     
     
@@ -1994,6 +2068,7 @@
     
     
     
+    
     <!--  Editor • Clipboard  -->
     <s:String x:Key="S.Clipboard.Entries">Clipboard entries</s:String>
     <s:String x:Key="S.Clipboard.Entry">Clipboard entry:</s:String>
@@ -2004,6 +2079,7 @@
     <s:String x:Key="S.Clipboard.Behavior">Paste behavior</s:String>
     <s:String x:Key="S.Clipboard.Before">Before selected frame</s:String>
     <s:String x:Key="S.Clipboard.After">After selected frame</s:String>
+    
     
     
     
@@ -2040,6 +2116,7 @@
     
     
     
+    
     <!--  Editor • Crop  -->
     <s:String x:Key="S.Crop.Points">Points</s:String>
     <s:String x:Key="S.Crop.Top">Top:</s:String>
@@ -2059,11 +2136,13 @@
     
     
     
+    
     <!--  Editor • Flip/rotate  -->
     <s:String x:Key="S.FlipRotate.FlipHorizontal">Flip Horizontal</s:String>
     <s:String x:Key="S.FlipRotate.FlipVertical">Flip Vertical</s:String>
     <s:String x:Key="S.FlipRotate.RotateLeft">Rotate Left 90º</s:String>
     <s:String x:Key="S.FlipRotate.RotateRight">Rotate Right 90º</s:String>
+    
     
     
     
@@ -2100,6 +2179,7 @@
     
     
     
+    
     <!--  Editor • Remove duplicates  -->
     <s:String x:Key="S.RemoveDuplicates.Header">Remove duplicates</s:String>
     <s:String x:Key="S.RemoveDuplicates.Similarity">Similarity (%):</s:String>
@@ -2112,6 +2192,7 @@
     <s:String x:Key="S.RemoveDuplicates.Delay.Sum">Use the sum</s:String>
     <s:String x:Key="S.RemoveDuplicates.Info">This action analyzes each frame (pixel by pixel) and removes the ones that are at least {0} % similar to its immediate neighbor.&#x0d;You can choose if you want to adjust the delay (duration of exhibition) of the frames.</s:String>
 
+    
     
     
     
@@ -2143,6 +2224,7 @@
     
     
     
+    
     <!--  Editor • Captions  -->
     <s:String x:Key="S.Caption.Text">Text</s:String>
     <s:String x:Key="S.Caption.Font">Font</s:String>
@@ -2160,6 +2242,7 @@
     <s:String x:Key="S.Caption.TextAlignment">Alignment:</s:String>
     <s:String x:Key="S.Caption.TextDecoration">Decoration:</s:String>
 
+    
     
     
     
@@ -2201,6 +2284,7 @@
     
     
     
+    
     <!--  Editor • Free drawing  -->
     <s:String x:Key="S.FreeDrawing.Mode">Mode</s:String>
     <s:String x:Key="S.FreeDrawing.Pen">Pen</s:String>
@@ -2217,6 +2301,7 @@
     <s:String x:Key="S.FreeDrawing.FitToCurve">Fit To Curve.</s:String>
     <s:String x:Key="S.FreeDrawing.Warning.NoDrawing">There are no drawings to be applied to the frames you selected.</s:String>
     <s:String x:Key="S.FreeDrawing.WarningSelection">You have to select at least one frame to apply the Free Drawing to.</s:String>
+    
     
     
     
@@ -2248,6 +2333,7 @@
     
     
     
+    
     <!--  Editor • Mouse events  -->
     <s:String x:Key="S.MouseEvents">Mouse Events</s:String>
     <s:String x:Key="S.MouseHighlight.Color">Mouse Highlight Color:</s:String>
@@ -2256,6 +2342,7 @@
     <s:String x:Key="S.MouseClicks.Color.Right">Right button color:</s:String>
     <s:String x:Key="S.MouseClicks.Color.FirstExtra">1st extra button color:</s:String>
     <s:String x:Key="S.MouseClicks.Color.SecondExtra">2nd extra button color:</s:String>
+    
     
     
     
@@ -2286,10 +2373,12 @@
     
     
     
+    
     <!--  Editor • Border  -->
     <s:String x:Key="S.Border.Appearance">Appearance</s:String>
     <s:String x:Key="S.Border.Info">Use negative values to make the border expand the image. When doing so, the border will be applied to all frames.&#10;If no negative value being used, the border will be applied only to the selected frames.</s:String>
 
+    
     
     
     
@@ -2317,6 +2406,7 @@
     
     
     
+    
     <!--  Editor • Obfuscate  -->
     <s:String x:Key="S.Obfuscate.Type.Pixelate">Pixelate</s:String>
     <s:String x:Key="S.Obfuscate.Type.Blur">Blur</s:String>
@@ -2333,6 +2423,7 @@
     <s:String x:Key="S.Obfuscate.Info">Use the selection tool to select the part of the frame that should be obfuscated.</s:String>
     <s:String x:Key="S.Obfuscate.Info2">Use the selection tool to select the part of the frame that should not be obfuscated.</s:String>
     <s:String x:Key="S.Obfuscate.Warning">You didn't select anything. Please use the selection tool to select the rectangle that should be obfuscated.</s:String>
+    
     
     
     
@@ -2383,6 +2474,7 @@
     
     
     
+    
     <!--  Editor • Delay  -->
     <s:String x:Key="S.Delay.Update">Delay update</s:String>
     <s:String x:Key="S.Delay.Mode">Delay mode:</s:String>
@@ -2407,9 +2499,11 @@
     
     
     
+    
     <!--  Editor • Cinemagraph  -->
     <s:String x:Key="S.Cinemagraph.Info">Use the pen to select the pixels that should not remain static (that should change among frames), by painting on top of them.</s:String>
 
+    
     
     
     
@@ -2429,6 +2523,7 @@
     <s:String x:Key="S.Transitions.Color">Color</s:String>
     <s:String x:Key="S.Transitions.Info">The transition will be applied between the selected frame and the next one.</s:String>
 
+    
     
     
     
@@ -2488,6 +2583,7 @@
     
     
     
+    
     <!--  Editor • Save as > Presets  -->
     <s:String x:Key="S.SaveAs.Presets">Presets:</s:String>
     <s:String x:Key="S.SaveAs.Presets.Default">Default</s:String>
@@ -2507,6 +2603,7 @@
     
     
     
+    
     <!--  Editor • Save as > Presets > Dialogs  -->
     <s:String x:Key="S.SaveAs.Presets.Ask.Delete.Title">Deleting the Preset</s:String>
     <s:String x:Key="S.SaveAs.Presets.Ask.Delete.Instruction">Are you sure that you want to delete the preset?</s:String>
@@ -2514,6 +2611,7 @@
     <s:String x:Key="S.SaveAs.Presets.Ask.Reset.Title">Reseting the Preset</s:String>
     <s:String x:Key="S.SaveAs.Presets.Ask.Reset.Instruction">Are you sure that you want to reset the preset?</s:String>
     <s:String x:Key="S.SaveAs.Presets.Ask.Reset.Message">This action cannot be undone.&#10;&#10;Would you like to reset the selected preset to its default settings?</s:String>
+    
     
     
     
@@ -2551,6 +2649,7 @@
     
     
     
+    
     <!--  Editor • Save as > FFmpeg  -->
     <s:String x:Key="S.SaveAs.Ffmpeg.UseParameters">Enable the advanced mode.</s:String>
     <s:String x:Key="S.SaveAs.Ffmpeg.UseParameters.Info">Manually input the parameters to control the encoder.</s:String>
@@ -2562,6 +2661,7 @@
     <s:String x:Key="S.SaveAs.Ffmpeg.Help.Code">Codec docs</s:String>
     <s:String x:Key="S.SaveAs.Ffmpeg.Help.Format">Format docs</s:String>
     <s:String x:Key="S.SaveAs.Ffmpeg.Help.Filters">Filter docs</s:String>
+    
     
     
     
@@ -2613,6 +2713,7 @@
     <s:String x:Key="S.SaveAs.GifOptions.Dither">Dither:</s:String>
     <s:String x:Key="S.SaveAs.GifOptions.Dither.Scale">Bayer scale:</s:String>
 
+    
     
     
     
@@ -2738,6 +2839,7 @@
     
     
     
+    
     <!--  Editor • Save as > Apng options  -->
     <s:String x:Key="S.SaveAs.ApngOptions">Apng options</s:String>
     <s:String x:Key="S.SaveAs.ApngOptions.Prediction">Prediction:</s:String>
@@ -2760,6 +2862,7 @@
     
     
     
+    
     <!--  Editor • Save as > Webp options  -->
     <s:String x:Key="S.SaveAs.WebpOptions.CodecPreset">Preset:</s:String>
     <s:String x:Key="S.SaveAs.WebpOptions.CodecPreset.None">None</s:String>
@@ -2770,6 +2873,7 @@
     <s:String x:Key="S.SaveAs.WebpOptions.CodecPreset.Icon">Icon</s:String>
     <s:String x:Key="S.SaveAs.WebpOptions.CodecPreset.Text">Text</s:String>
     <s:String x:Key="S.SaveAs.WebpOptions.Lossless">Use lossless mode.</s:String>
+    
     
     
     
@@ -2854,9 +2958,11 @@
     
     
     
+    
     <!--  Editor • Save as > Image options  -->
     <s:String x:Key="S.SaveAs.ImageOptions.Zip">Zip the images.</s:String>
     <s:String x:Key="S.SaveAs.ImageOptions.Zip.Info">Exports the images inside a zipped folder.</s:String>
+    
     
     
     
@@ -2873,6 +2979,7 @@
     <s:String x:Key="S.SaveAs.PsdOptions.Compress.Info">Compress the image data using the RLE algorithm.</s:String>
     <s:String x:Key="S.SaveAs.PsdOptions.Timeline">Save the timeline data.</s:String>
     <s:String x:Key="S.SaveAs.PsdOptions.Timeline.Info">Exports the timings of the frames, instead of just the frames.</s:String>
+    
     
     
     
@@ -2919,6 +3026,7 @@
     
     
     
+    
     <!--  Editor • Save As > Partial export  -->
     <s:String x:Key="S.SaveAs.Partial">Partial export</s:String>
     <s:String x:Key="S.SaveAs.Partial.Mode">Mode:</s:String>
@@ -2949,6 +3057,7 @@
     
     
     
+    
     <!--  Editor • Save as > File  -->
     <s:String x:Key="S.SaveAs.File">File</s:String>
     <s:String x:Key="S.SaveAs.File.Location">Destination folder.</s:String>
@@ -2961,6 +3070,7 @@
     <s:String x:Key="S.SaveAs.File.Decrease">Decrease the file number</s:String>
     <s:String x:Key="S.SaveAs.File.Exists">A file with the same name already exists.</s:String>
     <s:String x:Key="S.SaveAs.File.Clipboard">Save to the clipboard.</s:String>
+    
     
     
     
@@ -3002,6 +3112,7 @@
     
     
     
+    
     <!--  Editor • Save As > Upload  -->
     <s:String x:Key="S.SaveAs.Upload">Upload</s:String>
     <s:String x:Key="S.SaveAs.Upload.Info">Select the upload preset, which has details about the service in use for upload.</s:String>
@@ -3025,10 +3136,12 @@
     
     
     
+    
     <!--  Editor • Save as > Upload > Dialogs  -->
     <s:String x:Key="S.SaveAs.Upload.Ask.Delete.Title">Deleting the Upload Preset</s:String>
     <s:String x:Key="S.SaveAs.Upload.Ask.Delete.Instruction">Are you sure that you want to delete the upload preset?</s:String>
     <s:String x:Key="S.SaveAs.Upload.Ask.Delete.Message">This action cannot be undone.&#10;&#10;Would you like to delete the selected upload preset?</s:String>
+    
     
     
     
@@ -3060,11 +3173,13 @@
     
     
     
+    
     <!--  Command Preview  -->
     <s:String x:Key="S.CommandPreviewer.Title">Command Previewer</s:String>
     <s:String x:Key="S.CommandPreviewer.Command">Command</s:String>
     <s:String x:Key="S.CommandPreviewer.Input">Input path</s:String>
     <s:String x:Key="S.CommandPreviewer.Output">Output path</s:String>
+    
     
     
     
@@ -3109,6 +3224,7 @@
     
     
     
+    
     <!--  Troubleshoot  -->
     <s:String x:Key="S.Troubleshoot.Title">Troubleshoot</s:String>
     <s:String x:Key="S.Troubleshoot.Windows">Is there any window missing?</s:String>
@@ -3128,10 +3244,12 @@
     
     
     
+    
     <!--  FontStyles  -->
     <s:String x:Key="S.FontStyles.Normal">Normal</s:String>
     <s:String x:Key="S.FontStyles.Italic">Italic</s:String>
     <s:String x:Key="S.FontStyles.Oblique">Oblique</s:String>
+    
     
     
     
@@ -3171,12 +3289,14 @@
     
     
     
+    
     <!--  VerticalAlignment  -->
     <s:String x:Key="S.VerticalAlignment.Top">Top</s:String>
     <s:String x:Key="S.VerticalAlignment.Center">Center</s:String>
     <s:String x:Key="S.VerticalAlignment.Bottom">Bottom</s:String>
     <s:String x:Key="S.Alignment.Stretch">Stretch</s:String>
 
+    
     
     
     
@@ -3202,9 +3322,11 @@
     
     
     
+    
     <!--  Orientation  -->
     <s:String x:Key="S.Orientation.Horizontal">Horizontal</s:String>
     <s:String x:Key="S.Orientation.Vertical">Vertical</s:String>
+    
     
     
     
@@ -3221,6 +3343,7 @@
     <s:String x:Key="S.TextAlignment.Right">Right</s:String>
     <s:String x:Key="S.TextAlignment.Center">Center</s:String>
     <s:String x:Key="S.TextAlignment.Justify">Justify</s:String>
+    
     
     
     

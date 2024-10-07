@@ -1,28 +1,57 @@
-<n:LightWindow x:Class="ScreenToGif.Windows.Board"
-               xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
-               xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-               xmlns:n="clr-namespace:ScreenToGif.Controls"
-               xmlns:u2="clr-namespace:ScreenToGif.Util;assembly=ScreenToGif.Util"
-               xmlns:c="clr-namespace:ScreenToGif.Util.Converters;assembly=ScreenToGif.Util"
-               xmlns:t="clr-namespace:ScreenToGif.Util.Settings;assembly=ScreenToGif.Util"
-               x:Name="BoardLightWindow" Title="{DynamicResource S.Board.Title}" ResizeMode="NoResize" Topmost="True" WindowStartupLocation="CenterScreen" 
-               Width="{Binding BoardWidth, Source={x:Static t:UserSettings.All}, Mode=TwoWay}" Height="{Binding BoardHeight, Source={x:Static t:UserSettings.All},  Mode=TwoWay}"
-               IsThin="{Binding RecorderThinMode, Source={x:Static t:UserSettings.All}}" Icon="../Resources/Logo.ico" 
-               AllowsTransparency="True" WindowStyle="None" SnapsToDevicePixels="True" UseLayoutRounding="True" 
-               SizeChanged="LightWindow_SizeChanged" Loaded="Board_Loaded" KeyDown="Board_KeyDown" 
-               KeyUp="Board_KeyUp" Deactivated="Board_Deactivated" Closing="LightWindow_Closing">
+<n:LightWindow
+    x:Class="ScreenToGif.Windows.Board"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:c="clr-namespace:ScreenToGif.Util.Converters;assembly=ScreenToGif.Util"
+    xmlns:n="clr-namespace:ScreenToGif.Controls"
+    xmlns:t="clr-namespace:ScreenToGif.Util.Settings;assembly=ScreenToGif.Util"
+    xmlns:u2="clr-namespace:ScreenToGif.Util;assembly=ScreenToGif.Util"
+    x:Name="BoardLightWindow"
+    Title="{DynamicResource S.Board.Title}"
+    Width="{Binding BoardWidth, Source={x:Static t:UserSettings.All}, Mode=TwoWay}"
+    Height="{Binding BoardHeight, Source={x:Static t:UserSettings.All}, Mode=TwoWay}"
+    AllowsTransparency="True"
+    Closing="LightWindow_Closing"
+    Deactivated="Board_Deactivated"
+    Icon="../Resources/Logo.ico"
+    IsThin="{Binding RecorderThinMode, Source={x:Static t:UserSettings.All}}"
+    KeyDown="Board_KeyDown"
+    KeyUp="Board_KeyUp"
+    Loaded="Board_Loaded"
+    ResizeMode="NoResize"
+    SizeChanged="LightWindow_SizeChanged"
+    SnapsToDevicePixels="True"
+    Topmost="True"
+    UseLayoutRounding="True"
+    WindowStartupLocation="CenterScreen"
+    WindowStyle="None">
 
     <n:LightWindow.Resources>
         <Storyboard x:Key="ShowDiscardStoryboard">
-            <BooleanAnimationUsingKeyFrames Storyboard.TargetName="DiscardButton" Storyboard.TargetProperty="IsHitTestVisible" Duration="0:0:0" >
-                <DiscreteBooleanKeyFrame Value="True" KeyTime="0:0:0"/>
+            <BooleanAnimationUsingKeyFrames
+                Storyboard.TargetName="DiscardButton"
+                Storyboard.TargetProperty="IsHitTestVisible"
+                Duration="0:0:0">
+                <DiscreteBooleanKeyFrame
+                    KeyTime="0:0:0"
+                    Value="True" />
             </BooleanAnimationUsingKeyFrames>
 
-            <ObjectAnimationUsingKeyFrames Storyboard.TargetName="DiscardButton" Storyboard.TargetProperty="Visibility" Duration="0:0:0">
-                <DiscreteObjectKeyFrame Value="{x:Static Visibility.Visible}" KeyTime="0:0:0"/>
+            <ObjectAnimationUsingKeyFrames
+                Storyboard.TargetName="DiscardButton"
+                Storyboard.TargetProperty="Visibility"
+                Duration="0:0:0">
+                <DiscreteObjectKeyFrame
+                    KeyTime="0:0:0"
+                    Value="{x:Static Visibility.Visible}" />
             </ObjectAnimationUsingKeyFrames>
 
-            <DoubleAnimation Storyboard.TargetName="DiscardButton" Storyboard.TargetProperty="(Button.Opacity)" From="0" To="1" Duration="0:0:1">
+            <DoubleAnimation
+                Storyboard.TargetName="DiscardButton"
+                Storyboard.TargetProperty="(Button.Opacity)"
+                From="0"
+                To="1"
+                Duration="0:0:1">
                 <DoubleAnimation.EasingFunction>
                     <PowerEase Power="8" />
                 </DoubleAnimation.EasingFunction>
@@ -30,277 +59,612 @@
         </Storyboard>
 
         <Storyboard x:Key="HideDiscardStoryboard">
-            <BooleanAnimationUsingKeyFrames Storyboard.TargetName="DiscardButton" Storyboard.TargetProperty="IsHitTestVisible" Duration="0:0:0" >
-                <DiscreteBooleanKeyFrame Value="False" KeyTime="0:0:0"/>
+            <BooleanAnimationUsingKeyFrames
+                Storyboard.TargetName="DiscardButton"
+                Storyboard.TargetProperty="IsHitTestVisible"
+                Duration="0:0:0">
+                <DiscreteBooleanKeyFrame
+                    KeyTime="0:0:0"
+                    Value="False" />
             </BooleanAnimationUsingKeyFrames>
 
-            <ObjectAnimationUsingKeyFrames Storyboard.TargetName="DiscardButton" Storyboard.TargetProperty="Visibility" Duration="0:0:0">
-                <DiscreteObjectKeyFrame Value="{x:Static Visibility.Collapsed}" KeyTime="0:0:0"/>
+            <ObjectAnimationUsingKeyFrames
+                Storyboard.TargetName="DiscardButton"
+                Storyboard.TargetProperty="Visibility"
+                Duration="0:0:0">
+                <DiscreteObjectKeyFrame
+                    KeyTime="0:0:0"
+                    Value="{x:Static Visibility.Collapsed}" />
             </ObjectAnimationUsingKeyFrames>
 
-            <DoubleAnimation Storyboard.TargetName="DiscardButton" Storyboard.TargetProperty="(Button.Opacity)" 
-                             From="{Binding ElementName=DiscardButton,Path=Opacity}" To="0" Duration="0:0:1">
+            <DoubleAnimation
+                Storyboard.TargetName="DiscardButton"
+                Storyboard.TargetProperty="(Button.Opacity)"
+                From="{Binding ElementName=DiscardButton, Path=Opacity}"
+                To="0"
+                Duration="0:0:1">
                 <DoubleAnimation.EasingFunction>
                     <PowerEase Power="8" />
                 </DoubleAnimation.EasingFunction>
             </DoubleAnimation>
         </Storyboard>
 
-        <c:KeysToString x:Key="KeysToStringConverter"/>
-        <c:InvertedBoolToVisibility x:Key="InvertedBoolToVisibility"/>
-        <c:IntToString x:Key="IntToStringConverter"/>
+        <c:KeysToString x:Key="KeysToStringConverter" />
+        <c:InvertedBoolToVisibility x:Key="InvertedBoolToVisibility" />
+        <c:IntToString x:Key="IntToStringConverter" />
 
-        <c:StylusTipToBool x:Key="StylusTipToBoolConverter"/>
-        <c:SelectionToEditingMode x:Key="SelectionToEditingModeConverter"/>
-        <c:SelectionToDrawingAttributes x:Key="SelectionToDrawingAttributesConverter"/>
-        <c:SelectionToStylusShape x:Key="SelectionToStylusShapeConverter"/>
+        <c:StylusTipToBool x:Key="StylusTipToBoolConverter" />
+        <c:SelectionToEditingMode x:Key="SelectionToEditingModeConverter" />
+        <c:SelectionToDrawingAttributes x:Key="SelectionToDrawingAttributesConverter" />
+        <c:SelectionToStylusShape x:Key="SelectionToStylusShapeConverter" />
     </n:LightWindow.Resources>
 
     <n:LightWindow.CommandBindings>
-        <CommandBinding Command="{StaticResource Command.Options}" CanExecute="Options_CanExecute" Executed="Options_Executed"/>
+        <CommandBinding
+            CanExecute="Options_CanExecute"
+            Command="{StaticResource Command.Options}"
+            Executed="Options_Executed" />
     </n:LightWindow.CommandBindings>
 
-    <Grid Name="MainGrid" Background="{DynamicResource Panel.Background}">
+    <Grid
+        Name="MainGrid"
+        Background="{DynamicResource Panel.Background}">
         <Grid.RowDefinitions>
-            <RowDefinition Height="Auto"/>
-            <RowDefinition/>
-            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto" />
+            <RowDefinition />
+            <RowDefinition Height="Auto" />
         </Grid.RowDefinitions>
 
-        <!--Top-->
-        <Grid Grid.Row="0" MinHeight="30" MouseLeftButtonDown="Grid_MouseLeftButtonDown" Background="{DynamicResource Panel.Background}">
+        <!--  Top  -->
+        <Grid
+            Grid.Row="0"
+            MinHeight="30"
+            Background="{DynamicResource Panel.Background}"
+            MouseLeftButtonDown="Grid_MouseLeftButtonDown">
             <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="Auto"/>
-                <ColumnDefinition Width="Auto"/>
-                <ColumnDefinition Width="Auto"/>
-                <ColumnDefinition Width="Auto"/>
-                <ColumnDefinition/>
+                <ColumnDefinition Width="Auto" />
+                <ColumnDefinition Width="Auto" />
+                <ColumnDefinition Width="Auto" />
+                <ColumnDefinition Width="Auto" />
+                <ColumnDefinition />
             </Grid.ColumnDefinitions>
 
             <Grid Grid.Column="1">
                 <Grid.ColumnDefinitions>
-                    <ColumnDefinition/>
-                    <ColumnDefinition/>
-                    <ColumnDefinition/>
-                    <ColumnDefinition/>
+                    <ColumnDefinition />
+                    <ColumnDefinition />
+                    <ColumnDefinition />
+                    <ColumnDefinition />
                 </Grid.ColumnDefinitions>
 
-                <n:ExtendedRadioButton Grid.Row="0" Grid.Column="0" x:Name="PenModeRadioButton" Icon="{StaticResource Vector.Pen}" IsChecked="True"
-                                       Cursor="Hand" ContentWidth="20" Padding="0,5" Style="{StaticResource Style.ImageRadioButton.NoText}"
-                                       ToolTip="{DynamicResource S.FreeDrawing.Pen}" ToolTipService.Placement="Top"/>
-                <n:ExtendedRadioButton Grid.Column="1" x:Name="EraserModeRadioButton" Icon="{StaticResource Vector.Eraser}" 
-                                       Cursor="Hand" ContentWidth="20" Padding="0,5" Style="{StaticResource Style.ImageRadioButton.NoText}"
-                                       ToolTip="{DynamicResource S.FreeDrawing.Eraser}" ToolTipService.Placement="Top"/>
-                <n:ExtendedRadioButton Grid.Column="2" x:Name="SelectorModeRadioButton" Icon="{StaticResource Vector.Select}" 
-                                       Cursor="Hand" ContentWidth="20" Padding="0,5" Style="{StaticResource Style.ImageRadioButton.NoText}"
-                                       ToolTip="{DynamicResource S.FreeDrawing.Select}" ToolTipService.Placement="Top"/>
-                <n:ExtendedRadioButton Grid.Column="3" x:Name="EraserStrokeModeRadioButton" Icon="{StaticResource Vector.StrokeEraser}" 
-                                       Cursor="Hand" ContentWidth="20" Padding="0,5" Style="{StaticResource Style.ImageRadioButton.NoText}"
-                                       ToolTip="{DynamicResource S.FreeDrawing.StrokeEraser}" ToolTipService.Placement="Top"/>
+                <n:ExtendedRadioButton
+                    x:Name="PenModeRadioButton"
+                    Grid.Row="0"
+                    Grid.Column="0"
+                    Padding="0,5"
+                    ContentWidth="20"
+                    Cursor="Hand"
+                    Icon="{StaticResource Vector.Pen}"
+                    IsChecked="True"
+                    Style="{StaticResource Style.ImageRadioButton.NoText}"
+                    ToolTip="{DynamicResource S.FreeDrawing.Pen}"
+                    ToolTipService.Placement="Top" />
+                <n:ExtendedRadioButton
+                    x:Name="EraserModeRadioButton"
+                    Grid.Column="1"
+                    Padding="0,5"
+                    ContentWidth="20"
+                    Cursor="Hand"
+                    Icon="{StaticResource Vector.Eraser}"
+                    Style="{StaticResource Style.ImageRadioButton.NoText}"
+                    ToolTip="{DynamicResource S.FreeDrawing.Eraser}"
+                    ToolTipService.Placement="Top" />
+                <n:ExtendedRadioButton
+                    x:Name="SelectorModeRadioButton"
+                    Grid.Column="2"
+                    Padding="0,5"
+                    ContentWidth="20"
+                    Cursor="Hand"
+                    Icon="{StaticResource Vector.Select}"
+                    Style="{StaticResource Style.ImageRadioButton.NoText}"
+                    ToolTip="{DynamicResource S.FreeDrawing.Select}"
+                    ToolTipService.Placement="Top" />
+                <n:ExtendedRadioButton
+                    x:Name="EraserStrokeModeRadioButton"
+                    Grid.Column="3"
+                    Padding="0,5"
+                    ContentWidth="20"
+                    Cursor="Hand"
+                    Icon="{StaticResource Vector.StrokeEraser}"
+                    Style="{StaticResource Style.ImageRadioButton.NoText}"
+                    ToolTip="{DynamicResource S.FreeDrawing.StrokeEraser}"
+                    ToolTipService.Placement="Top" />
             </Grid>
 
-            <Grid Grid.Column="2" Visibility="{Binding IsChecked, ElementName=PenModeRadioButton, Converter={StaticResource Bool2Visibility}}">
+            <Grid
+                Grid.Column="2"
+                Visibility="{Binding IsChecked, ElementName=PenModeRadioButton, Converter={StaticResource Bool2Visibility}}">
                 <Grid.ColumnDefinitions>
-                    <ColumnDefinition Width="Auto"/>
-                    <ColumnDefinition Width="Auto"/>
-                    <ColumnDefinition/>
-                    <ColumnDefinition/>
-                    <ColumnDefinition/>
-                    <ColumnDefinition/>
-                    <ColumnDefinition/>
-                    <ColumnDefinition/>
+                    <ColumnDefinition Width="Auto" />
+                    <ColumnDefinition Width="Auto" />
+                    <ColumnDefinition />
+                    <ColumnDefinition />
+                    <ColumnDefinition />
+                    <ColumnDefinition />
+                    <ColumnDefinition />
+                    <ColumnDefinition />
                 </Grid.ColumnDefinitions>
 
-                <Separator Grid.Column="0" Width="1" Margin="0,1,10,1"/>
+                <Separator
+                    Grid.Column="0"
+                    Width="1"
+                    Margin="0,1,10,1" />
 
-                <n:ColorBox Grid.Column="1" x:Name="TipColorBox" Width="40" MinWidth="40" Margin="5,2"
-                            SelectedColor="{Binding BoardColor, Source={x:Static t:UserSettings.All}, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" />
+                <n:ColorBox
+                    x:Name="TipColorBox"
+                    Grid.Column="1"
+                    Width="40"
+                    MinWidth="40"
+                    Margin="5,2"
+                    SelectedColor="{Binding BoardColor, Source={x:Static t:UserSettings.All}, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" />
 
-                <n:IntegerUpDown Grid.Column="2" x:Name="FreeDrawingHeightNumericUpDown" Minimum="1" Maximum="100" Margin="2,2" MinWidth="50" 
-                                 Value="{Binding Source={x:Static t:UserSettings.All}, Path=BoardStylusHeight, Mode=TwoWay}"
-                                 ToolTip="{DynamicResource S.Recorder.Height}" ToolTipService.Placement="Bottom" ToolTipService.HorizontalOffset="-5"/>
+                <n:IntegerUpDown
+                    x:Name="FreeDrawingHeightNumericUpDown"
+                    Grid.Column="2"
+                    MinWidth="50"
+                    Margin="2,2"
+                    Maximum="100"
+                    Minimum="1"
+                    ToolTip="{DynamicResource S.Recorder.Height}"
+                    ToolTipService.HorizontalOffset="-5"
+                    ToolTipService.Placement="Bottom"
+                    Value="{Binding Source={x:Static t:UserSettings.All}, Path=BoardStylusHeight, Mode=TwoWay}" />
 
-                <n:IntegerUpDown Grid.Column="3" x:Name="FreeDrawingWidthNumericUpDown" Minimum="1" Maximum="100" Margin="2,2" MinWidth="50" 
-                                 Value="{Binding Source={x:Static t:UserSettings.All}, Path=BoardStylusWidth, Mode=TwoWay}"
-                                 ToolTip="{DynamicResource S.Recorder.Width}" ToolTipService.Placement="Bottom" ToolTipService.HorizontalOffset="-5"/>
+                <n:IntegerUpDown
+                    x:Name="FreeDrawingWidthNumericUpDown"
+                    Grid.Column="3"
+                    MinWidth="50"
+                    Margin="2,2"
+                    Maximum="100"
+                    Minimum="1"
+                    ToolTip="{DynamicResource S.Recorder.Width}"
+                    ToolTipService.HorizontalOffset="-5"
+                    ToolTipService.Placement="Bottom"
+                    Value="{Binding Source={x:Static t:UserSettings.All}, Path=BoardStylusWidth, Mode=TwoWay}" />
 
-                <n:ExtendedRadioButton Grid.Column="4" x:Name="EllipseRadioButton" Icon="{StaticResource Vector.Ellipse}" 
-                                       Cursor="Hand" ContentWidth="20" Padding="0" Style="{StaticResource Style.ImageRadioButton.NoText}"
-                                       IsChecked="{Binding BoardStylusTip, Source={x:Static t:UserSettings.All}, Converter={StaticResource StylusTipToBoolConverter}, ConverterParameter=Ellipse}"/>
+                <n:ExtendedRadioButton
+                    x:Name="EllipseRadioButton"
+                    Grid.Column="4"
+                    Padding="0"
+                    ContentWidth="20"
+                    Cursor="Hand"
+                    Icon="{StaticResource Vector.Ellipse}"
+                    IsChecked="{Binding BoardStylusTip, Source={x:Static t:UserSettings.All}, Converter={StaticResource StylusTipToBoolConverter}, ConverterParameter=Ellipse}"
+                    Style="{StaticResource Style.ImageRadioButton.NoText}" />
 
-                <n:ExtendedRadioButton Grid.Column="5" x:Name="RectangleRadioButton" Icon="{StaticResource Vector.Rectangle}" 
-                                       Cursor="Hand" ContentWidth="20" Padding="0" Style="{StaticResource Style.ImageRadioButton.NoText}"
-                                       IsChecked="{Binding BoardStylusTip, Source={x:Static t:UserSettings.All}, Converter={StaticResource StylusTipToBoolConverter}, ConverterParameter=Rectangle}"/>
+                <n:ExtendedRadioButton
+                    x:Name="RectangleRadioButton"
+                    Grid.Column="5"
+                    Padding="0"
+                    ContentWidth="20"
+                    Cursor="Hand"
+                    Icon="{StaticResource Vector.Rectangle}"
+                    IsChecked="{Binding BoardStylusTip, Source={x:Static t:UserSettings.All}, Converter={StaticResource StylusTipToBoolConverter}, ConverterParameter=Rectangle}"
+                    Style="{StaticResource Style.ImageRadioButton.NoText}" />
 
                 <Grid Grid.Column="6">
                     <Grid.RowDefinitions>
-                        <RowDefinition/>
-                        <RowDefinition/>
+                        <RowDefinition />
+                        <RowDefinition />
                     </Grid.RowDefinitions>
 
-                    <n:ExtendedCheckBox Grid.Row="0" x:Name="FitToCurveRadioButton" Text="{DynamicResource S.FreeDrawing.FitToCurve}" Cursor="Hand" Padding="0" Margin="3,0,0,0" VerticalAlignment="Center"
-                                        IsChecked="{Binding BoardFitToCurve, Source={x:Static t:UserSettings.All}}" FontSize="11"/>
+                    <n:ExtendedCheckBox
+                        x:Name="FitToCurveRadioButton"
+                        Grid.Row="0"
+                        Margin="3,0,0,0"
+                        Padding="0"
+                        VerticalAlignment="Center"
+                        Cursor="Hand"
+                        FontSize="11"
+                        IsChecked="{Binding BoardFitToCurve, Source={x:Static t:UserSettings.All}}"
+                        Text="{DynamicResource S.FreeDrawing.FitToCurve}" />
 
-                    <n:ExtendedCheckBox Grid.Row="1" x:Name="IsHighlighterRadioButton" Text="{DynamicResource S.FreeDrawing.Highlighter}" Cursor="Hand" Padding="0" Margin="3,0,0,0" VerticalAlignment="Center"
-                                        IsChecked="{Binding BoardIsHighlighter, Source={x:Static t:UserSettings.All}}" FontSize="11"/>
+                    <n:ExtendedCheckBox
+                        x:Name="IsHighlighterRadioButton"
+                        Grid.Row="1"
+                        Margin="3,0,0,0"
+                        Padding="0"
+                        VerticalAlignment="Center"
+                        Cursor="Hand"
+                        FontSize="11"
+                        IsChecked="{Binding BoardIsHighlighter, Source={x:Static t:UserSettings.All}}"
+                        Text="{DynamicResource S.FreeDrawing.Highlighter}" />
                 </Grid>
             </Grid>
 
-            <Grid Grid.Column="3" Visibility="{Binding IsChecked, ElementName=EraserModeRadioButton, Converter={StaticResource Bool2Visibility}}">
+            <Grid
+                Grid.Column="3"
+                Visibility="{Binding IsChecked, ElementName=EraserModeRadioButton, Converter={StaticResource Bool2Visibility}}">
                 <Grid.ColumnDefinitions>
-                    <ColumnDefinition/>
-                    <ColumnDefinition/>
-                    <ColumnDefinition/>
-                    <ColumnDefinition/>
-                    <ColumnDefinition/>
-                    <ColumnDefinition/>
+                    <ColumnDefinition />
+                    <ColumnDefinition />
+                    <ColumnDefinition />
+                    <ColumnDefinition />
+                    <ColumnDefinition />
+                    <ColumnDefinition />
                 </Grid.ColumnDefinitions>
 
-                <Separator Grid.Column="0" Width="1" Margin="0,1,10,1"/>
+                <Separator
+                    Grid.Column="0"
+                    Width="1"
+                    Margin="0,1,10,1" />
 
-                <n:IntegerUpDown Grid.Column="2" x:Name="BorderEraserHeightNumericUpDown" Minimum="1" Maximum="100" Margin="2,2" MinWidth="50" 
-                                 Value="{Binding Source={x:Static t:UserSettings.All}, Path=BoardEraserHeight, Mode=TwoWay}"
-                                 ToolTip="{DynamicResource S.Recorder.Height}" ToolTipService.Placement="Bottom" ToolTipService.HorizontalOffset="-5"/>
+                <n:IntegerUpDown
+                    x:Name="BorderEraserHeightNumericUpDown"
+                    Grid.Column="2"
+                    MinWidth="50"
+                    Margin="2,2"
+                    Maximum="100"
+                    Minimum="1"
+                    ToolTip="{DynamicResource S.Recorder.Height}"
+                    ToolTipService.HorizontalOffset="-5"
+                    ToolTipService.Placement="Bottom"
+                    Value="{Binding Source={x:Static t:UserSettings.All}, Path=BoardEraserHeight, Mode=TwoWay}" />
 
-                <n:IntegerUpDown Grid.Column="3" x:Name="BorderEraserWidthNumericUpDown" Minimum="1" Maximum="100" Margin="2,2" MinWidth="50" 
-                                 Value="{Binding Source={x:Static t:UserSettings.All}, Path=BoardEraserWidth, Mode=TwoWay}"
-                                 ToolTip="{DynamicResource S.Recorder.Width}" ToolTipService.Placement="Bottom" ToolTipService.HorizontalOffset="-5"/>
+                <n:IntegerUpDown
+                    x:Name="BorderEraserWidthNumericUpDown"
+                    Grid.Column="3"
+                    MinWidth="50"
+                    Margin="2,2"
+                    Maximum="100"
+                    Minimum="1"
+                    ToolTip="{DynamicResource S.Recorder.Width}"
+                    ToolTipService.HorizontalOffset="-5"
+                    ToolTipService.Placement="Bottom"
+                    Value="{Binding Source={x:Static t:UserSettings.All}, Path=BoardEraserWidth, Mode=TwoWay}" />
 
-                <n:ExtendedRadioButton Grid.Column="4" x:Name="EraserEllipseRadioButton" Icon="{StaticResource Vector.Ellipse}" 
-                                       Cursor="Hand" ContentWidth="20" Padding="0" Style="{StaticResource Style.ImageRadioButton.NoText}"
-                                       IsChecked="{Binding BoardEraserStylusTip, Source={x:Static t:UserSettings.All}, Converter={StaticResource StylusTipToBoolConverter}, ConverterParameter=Ellipse}"/>
+                <n:ExtendedRadioButton
+                    x:Name="EraserEllipseRadioButton"
+                    Grid.Column="4"
+                    Padding="0"
+                    ContentWidth="20"
+                    Cursor="Hand"
+                    Icon="{StaticResource Vector.Ellipse}"
+                    IsChecked="{Binding BoardEraserStylusTip, Source={x:Static t:UserSettings.All}, Converter={StaticResource StylusTipToBoolConverter}, ConverterParameter=Ellipse}"
+                    Style="{StaticResource Style.ImageRadioButton.NoText}" />
 
-                <n:ExtendedRadioButton Grid.Column="5" x:Name="EraserRectangleRadioButton" Icon="{StaticResource Vector.Rectangle}" 
-                                       Cursor="Hand" ContentWidth="20" Padding="0" Style="{StaticResource Style.ImageRadioButton.NoText}"
-                                       IsChecked="{Binding BoardEraserStylusTip, Source={x:Static t:UserSettings.All}, Converter={StaticResource StylusTipToBoolConverter}, ConverterParameter=Rectangle}"/>
+                <n:ExtendedRadioButton
+                    x:Name="EraserRectangleRadioButton"
+                    Grid.Column="5"
+                    Padding="0"
+                    ContentWidth="20"
+                    Cursor="Hand"
+                    Icon="{StaticResource Vector.Rectangle}"
+                    IsChecked="{Binding BoardEraserStylusTip, Source={x:Static t:UserSettings.All}, Converter={StaticResource StylusTipToBoolConverter}, ConverterParameter=Rectangle}"
+                    Style="{StaticResource Style.ImageRadioButton.NoText}" />
             </Grid>
         </Grid>
 
-        <!--Background="{StaticResource Checker.DrawingBrush}"-->
-        <Border Grid.Row="1" BorderThickness="1" BorderBrush="{DynamicResource Element.Border.Light}">
+        <!--  Background="{StaticResource Checker.DrawingBrush}"  -->
+        <Border
+            Grid.Row="1"
+            BorderBrush="{DynamicResource Element.Border.Light}"
+            BorderThickness="1">
             <Border x:Name="MainBorder">
-                <!--Background="{StaticResource Background.Lines}"-->
-                <n:InkCanvasExtended x:Name="MainInkCanvas" PreviewMouseDown="MainInkCanvas_OnPreviewMouseDown" PreviewMouseUp="MainInkCanvas_OnPreviewMouseUp">
+                <!--  Background="{StaticResource Background.Lines}"  -->
+                <n:InkCanvasExtended
+                    x:Name="MainInkCanvas"
+                    PreviewMouseDown="MainInkCanvas_OnPreviewMouseDown"
+                    PreviewMouseUp="MainInkCanvas_OnPreviewMouseUp">
 
                     <n:InkCanvasExtended.EditingMode>
                         <MultiBinding Converter="{StaticResource SelectionToEditingModeConverter}">
-                            <Binding ElementName="PenModeRadioButton" Path="IsChecked"/>
-                            <Binding ElementName="EraserModeRadioButton" Path="IsChecked"/>
-                            <Binding ElementName="SelectorModeRadioButton" Path="IsChecked"/>
+                            <Binding
+                                ElementName="PenModeRadioButton"
+                                Path="IsChecked" />
+                            <Binding
+                                ElementName="EraserModeRadioButton"
+                                Path="IsChecked" />
+                            <Binding
+                                ElementName="SelectorModeRadioButton"
+                                Path="IsChecked" />
                         </MultiBinding>
                     </n:InkCanvasExtended.EditingMode>
 
                     <n:InkCanvasExtended.DefaultDrawingAttributes>
                         <MultiBinding Converter="{StaticResource SelectionToDrawingAttributesConverter}">
-                            <Binding Source="{x:Static t:UserSettings.All}" Path="BoardStylusHeight"/>
-                            <Binding Source="{x:Static t:UserSettings.All}" Path="BoardStylusWidth"/>
-                            <Binding ElementName="TipColorBox" Path="SelectedColor"/>
-                            <Binding ElementName="FitToCurveRadioButton" Path="IsChecked"/>
-                            <Binding ElementName="IsHighlighterRadioButton" Path="IsChecked"/>
-                            <Binding ElementName="RectangleRadioButton" Path="IsChecked"/>
+                            <Binding
+                                Path="BoardStylusHeight"
+                                Source="{x:Static t:UserSettings.All}" />
+                            <Binding
+                                Path="BoardStylusWidth"
+                                Source="{x:Static t:UserSettings.All}" />
+                            <Binding
+                                ElementName="TipColorBox"
+                                Path="SelectedColor" />
+                            <Binding
+                                ElementName="FitToCurveRadioButton"
+                                Path="IsChecked" />
+                            <Binding
+                                ElementName="IsHighlighterRadioButton"
+                                Path="IsChecked" />
+                            <Binding
+                                ElementName="RectangleRadioButton"
+                                Path="IsChecked" />
                         </MultiBinding>
                     </n:InkCanvasExtended.DefaultDrawingAttributes>
 
                     <n:InkCanvasExtended.EraserShape>
-                        <MultiBinding Converter="{StaticResource SelectionToStylusShapeConverter}" UpdateSourceTrigger="PropertyChanged">
-                            <Binding Source="{x:Static t:UserSettings.All}" Path="BoardStylusWidth" UpdateSourceTrigger="PropertyChanged"/>
-                            <Binding Source="{x:Static t:UserSettings.All}" Path="BoardStylusHeight" UpdateSourceTrigger="PropertyChanged"/>
-                            <Binding ElementName="EraserRectangleRadioButton" Path="IsChecked" UpdateSourceTrigger="PropertyChanged"/>
+                        <MultiBinding
+                            Converter="{StaticResource SelectionToStylusShapeConverter}"
+                            UpdateSourceTrigger="PropertyChanged">
+                            <Binding
+                                Path="BoardStylusWidth"
+                                Source="{x:Static t:UserSettings.All}"
+                                UpdateSourceTrigger="PropertyChanged" />
+                            <Binding
+                                Path="BoardStylusHeight"
+                                Source="{x:Static t:UserSettings.All}"
+                                UpdateSourceTrigger="PropertyChanged" />
+                            <Binding
+                                ElementName="EraserRectangleRadioButton"
+                                Path="IsChecked"
+                                UpdateSourceTrigger="PropertyChanged" />
                         </MultiBinding>
                     </n:InkCanvasExtended.EraserShape>
                 </n:InkCanvasExtended>
             </Border>
         </Border>
 
-        <Grid Grid.Row="2" x:Name="LowerGrid" Height="31" Background="{DynamicResource Panel.Background}" KeyboardNavigation.TabNavigation="Cycle" MouseLeftButtonDown="Grid_MouseLeftButtonDown">
+        <Grid
+            x:Name="LowerGrid"
+            Grid.Row="2"
+            Height="31"
+            Background="{DynamicResource Panel.Background}"
+            KeyboardNavigation.TabNavigation="Cycle"
+            MouseLeftButtonDown="Grid_MouseLeftButtonDown">
             <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="Auto"/>
-                <ColumnDefinition/>
+                <ColumnDefinition Width="Auto" />
+                <ColumnDefinition />
             </Grid.ColumnDefinitions>
 
-            <Grid Grid.Column="0" Visibility="{Binding RecorderThinMode, Source={x:Static t:UserSettings.All}, Converter={StaticResource Bool2Visibility}}">
+            <Grid
+                Grid.Column="0"
+                Visibility="{Binding RecorderThinMode, Source={x:Static t:UserSettings.All}, Converter={StaticResource Bool2Visibility}}">
                 <Grid.RowDefinitions>
-                    <RowDefinition/>
-                    <RowDefinition/>
+                    <RowDefinition />
+                    <RowDefinition />
                 </Grid.RowDefinitions>
                 <Grid.ColumnDefinitions>
-                    <ColumnDefinition Width="Auto"/>
-                    <ColumnDefinition Width="Auto"/>
+                    <ColumnDefinition Width="Auto" />
+                    <ColumnDefinition Width="Auto" />
                 </Grid.ColumnDefinitions>
 
-                <n:ExtendedButton Grid.Row="0" Grid.Column="0" Grid.RowSpan="2"  x:Name="CloseButton" Icon="{StaticResource Vector.Close}" Style="{StaticResource Style.Button.NoText}"
-                                  ContentHeight="10" ContentWidth="10" Padding="4,1" TabIndex="1" Click="CloseButton_Click"/>
+                <n:ExtendedButton
+                    x:Name="CloseButton"
+                    Grid.Row="0"
+                    Grid.RowSpan="2"
+                    Grid.Column="0"
+                    Padding="4,1"
+                    Click="CloseButton_Click"
+                    ContentHeight="10"
+                    ContentWidth="10"
+                    Icon="{StaticResource Vector.Close}"
+                    Style="{StaticResource Style.Button.NoText}"
+                    TabIndex="1" />
 
-                <TextBlock Grid.Row="0" Grid.Column="1" x:Name="CaptionText" Text="{Binding Title, ElementName=BoardLightWindow}" FontFamily="Segoe UI" FontSize="12"
-                           FontWeight="Regular" Margin="5,0,0,0" Foreground="{DynamicResource Element.Foreground.Medium}"/>
+                <TextBlock
+                    x:Name="CaptionText"
+                    Grid.Row="0"
+                    Grid.Column="1"
+                    Margin="5,0,0,0"
+                    FontFamily="Segoe UI"
+                    FontSize="12"
+                    FontWeight="Regular"
+                    Foreground="{DynamicResource Element.Foreground.Medium}"
+                    Text="{Binding Title, ElementName=BoardLightWindow}" />
 
-                <TextBlock Grid.Row="1" Grid.Column="1" x:Name="FrameCountTextBlock" Text="{Binding FrameCount, ElementName=BoardLightWindow, Converter={StaticResource IntToStringConverter}}" 
-                           FontFamily="Segoe UI" FontSize="12" FontWeight="Regular" Margin="5,0,0,0" Foreground="{DynamicResource Element.Foreground.Header}"/>
+                <TextBlock
+                    x:Name="FrameCountTextBlock"
+                    Grid.Row="1"
+                    Grid.Column="1"
+                    Margin="5,0,0,0"
+                    FontFamily="Segoe UI"
+                    FontSize="12"
+                    FontWeight="Regular"
+                    Foreground="{DynamicResource Element.Foreground.Header}"
+                    Text="{Binding FrameCount, ElementName=BoardLightWindow, Converter={StaticResource IntToStringConverter}}" />
             </Grid>
 
-            <StackPanel Grid.Column="1" x:Name="ControlStackPanel" Orientation="Horizontal" HorizontalAlignment="Right" ScrollViewer.VerticalScrollBarVisibility="Disabled" >
-                <n:ExtendedButton x:Name="OptionsButton" Icon="{StaticResource Vector.Options}" Style="{StaticResource Style.Button.NoText}" 
-                                  ContentWidth="20" ContentHeight="20" Command="{StaticResource Command.Options}" Padding="3" TabIndex="0">
+            <StackPanel
+                x:Name="ControlStackPanel"
+                Grid.Column="1"
+                HorizontalAlignment="Right"
+                Orientation="Horizontal"
+                ScrollViewer.VerticalScrollBarVisibility="Disabled">
+                <n:ExtendedButton
+                    x:Name="OptionsButton"
+                    Padding="3"
+                    Command="{StaticResource Command.Options}"
+                    ContentHeight="20"
+                    ContentWidth="20"
+                    Icon="{StaticResource Vector.Options}"
+                    Style="{StaticResource Style.Button.NoText}"
+                    TabIndex="0">
                     <n:ExtendedButton.ToolTip>
-                        <ToolTip HorizontalOffset="-5" Placement="Bottom" Content="{DynamicResource S.StartUp.Options}"/>
+                        <ToolTip
+                            Content="{DynamicResource S.StartUp.Options}"
+                            HorizontalOffset="-5"
+                            Placement="Bottom" />
                     </n:ExtendedButton.ToolTip>
                 </n:ExtendedButton>
 
-                <Separator Width="1" Margin="5,3"/>
+                <Separator
+                    Width="1"
+                    Margin="5,3" />
 
-                <Viewbox Stretch="UniformToFill" ClipToBounds="True" Focusable="False" Visibility="{Binding RecorderThinMode, Source={x:Static t:UserSettings.All}, Converter={StaticResource InvertedBoolToVisibility}}">
-                    <Grid MaxHeight="30" MaxWidth="30" Opacity="{DynamicResource Element.Opacity}">
-                        <n:CircularProgressBar StrokeThickness="1" Percentage="100" SegmentColor="Gray" Radius="12"/>
-                        <n:CircularProgressBar StrokeThickness="10" Percentage="100" SegmentColor="#FFF0F1F1" Radius="5" />
+                <Viewbox
+                    ClipToBounds="True"
+                    Focusable="False"
+                    Stretch="UniformToFill"
+                    Visibility="{Binding RecorderThinMode, Source={x:Static t:UserSettings.All}, Converter={StaticResource InvertedBoolToVisibility}}">
+                    <Grid
+                        MaxWidth="30"
+                        MaxHeight="30"
+                        Opacity="{DynamicResource Element.Opacity}">
+                        <n:CircularProgressBar
+                            Percentage="100"
+                            Radius="12"
+                            SegmentColor="Gray"
+                            StrokeThickness="1" />
+                        <n:CircularProgressBar
+                            Percentage="100"
+                            Radius="5"
+                            SegmentColor="#FFF0F1F1"
+                            StrokeThickness="10" />
 
-                        <n:CircularProgressBar StrokeThickness="1" Value="{Binding ElementName=FpsNumericUpDown, Path=Value, Mode=OneWay}" 
-                                               IsInverted="True" Minimum="1" Maximum="60" SegmentColor="#FFE28A73" Radius="12"/>
-                        <n:CircularProgressBar StrokeThickness="10" Value="{Binding ElementName=FpsNumericUpDown, Path=Value, Mode=OneWay}" 
-                                               IsInverted="True" Minimum="1" Maximum="60" SegmentColor="#FFE28A73" Radius="5" />
+                        <n:CircularProgressBar
+                            IsInverted="True"
+                            Maximum="60"
+                            Minimum="1"
+                            Radius="12"
+                            SegmentColor="#FFE28A73"
+                            StrokeThickness="1"
+                            Value="{Binding ElementName=FpsNumericUpDown, Path=Value, Mode=OneWay}" />
+                        <n:CircularProgressBar
+                            IsInverted="True"
+                            Maximum="60"
+                            Minimum="1"
+                            Radius="5"
+                            SegmentColor="#FFE28A73"
+                            StrokeThickness="10"
+                            Value="{Binding ElementName=FpsNumericUpDown, Path=Value, Mode=OneWay}" />
                     </Grid>
 
                     <Viewbox.ToolTip>
-                        <ToolTip HorizontalOffset="-5" Placement="Bottom" Content="{DynamicResource S.Recorder.Fps.Range}"/>
+                        <ToolTip
+                            Content="{DynamicResource S.Recorder.Fps.Range}"
+                            HorizontalOffset="-5"
+                            Placement="Bottom" />
                     </Viewbox.ToolTip>
                 </Viewbox>
 
-                <n:IntegerUpDown x:Name="FpsNumericUpDown" Margin="1,3" StepValue="1" Minimum="1" Maximum="60" TabIndex="1"
-                                 Value="{Binding Source={x:Static t:UserSettings.All}, Path=LatestFps, Mode=TwoWay}" MinWidth="45">
+                <n:IntegerUpDown
+                    x:Name="FpsNumericUpDown"
+                    MinWidth="45"
+                    Margin="1,3"
+                    Maximum="60"
+                    Minimum="1"
+                    StepValue="1"
+                    TabIndex="1"
+                    Value="{Binding Source={x:Static t:UserSettings.All}, Path=LatestFps, Mode=TwoWay}">
                     <n:IntegerUpDown.ToolTip>
-                        <ToolTip HorizontalOffset="-5" Placement="Bottom" Content="{DynamicResource S.Recorder.Fps}"/>
+                        <ToolTip
+                            Content="{DynamicResource S.Recorder.Fps}"
+                            HorizontalOffset="-5"
+                            Placement="Bottom" />
                     </n:IntegerUpDown.ToolTip>
                 </n:IntegerUpDown>
 
-                <TextBlock Text="fps" FontSize="12" FontFamily="Segoe UI" Margin="1,0,0,0" VerticalAlignment="Center" Padding="0" Foreground="{DynamicResource Element.Foreground.Medium}"/>
+                <TextBlock
+                    Margin="1,0,0,0"
+                    Padding="0"
+                    VerticalAlignment="Center"
+                    FontFamily="Segoe UI"
+                    FontSize="12"
+                    Foreground="{DynamicResource Element.Foreground.Medium}"
+                    Text="fps" />
 
-                <Separator Width="1" Margin="5,3"/>
+                <Separator
+                    Width="1"
+                    Margin="5,3" />
 
-                <n:IntegerBox x:Name="WidthIntegerBox" Value="{Binding Source={x:Static t:UserSettings.All}, Path=BoardWidth, Mode=TwoWay}"
-                              Offset="{x:Static u2:Constants.HorizontalBoardOffset}" Minimum="100" Maximum="3000" TabIndex="2" Height="Auto" Padding="4,0" Margin="1,3"
-                              ToolTip="{DynamicResource S.Recorder.Width}" ToolTipService.Placement="Bottom" ToolTipService.HorizontalOffset="-5"/>
+                <n:IntegerBox
+                    x:Name="WidthIntegerBox"
+                    Height="Auto"
+                    Margin="1,3"
+                    Padding="4,0"
+                    Maximum="3000"
+                    Minimum="100"
+                    TabIndex="2"
+                    ToolTip="{DynamicResource S.Recorder.Width}"
+                    ToolTipService.HorizontalOffset="-5"
+                    ToolTipService.Placement="Bottom"
+                    Offset="{x:Static u2:Constants.HorizontalBoardOffset}"
+                    Value="{Binding Source={x:Static t:UserSettings.All}, Path=BoardWidth, Mode=TwoWay}" />
 
-                <TextBlock Text="×" FontSize="16" FontFamily="Segoe Script" Margin="1" VerticalAlignment="Center" Padding="0" Foreground="{DynamicResource Element.Foreground.Medium}"/>
+                <TextBlock
+                    Margin="1"
+                    Padding="0"
+                    VerticalAlignment="Center"
+                    FontFamily="Segoe Script"
+                    FontSize="16"
+                    Foreground="{DynamicResource Element.Foreground.Medium}"
+                    Text="×" />
 
-                <n:IntegerBox x:Name="HeightIntegerBox" Value="{Binding Source={x:Static t:UserSettings.All}, Path=BoardHeight, Mode=TwoWay}"
-                              Offset="{x:Static u2:Constants.VerticalBoardOffset}" Minimum="100" Maximum="3000" TabIndex="3" Height="Auto" Padding="4,0" Margin="1,3"
-                              ToolTip="{DynamicResource S.Recorder.Height}" ToolTipService.Placement="Bottom" ToolTipService.HorizontalOffset="-5"/>
+                <n:IntegerBox
+                    x:Name="HeightIntegerBox"
+                    Height="Auto"
+                    Margin="1,3"
+                    Padding="4,0"
+                    Maximum="3000"
+                    Minimum="100"
+                    TabIndex="3"
+                    ToolTip="{DynamicResource S.Recorder.Height}"
+                    ToolTipService.HorizontalOffset="-5"
+                    ToolTipService.Placement="Bottom"
+                    Offset="{x:Static u2:Constants.VerticalBoardOffset}"
+                    Value="{Binding Source={x:Static t:UserSettings.All}, Path=BoardHeight, Mode=TwoWay}" />
 
-                <TextBlock Text="px" FontSize="12" FontFamily="Segoe UI" Margin="1,0,0,0" VerticalAlignment="Center" Padding="0" Foreground="{DynamicResource Element.Foreground.Medium}"/>
+                <TextBlock
+                    Margin="1,0,0,0"
+                    Padding="0"
+                    VerticalAlignment="Center"
+                    FontFamily="Segoe UI"
+                    FontSize="12"
+                    Foreground="{DynamicResource Element.Foreground.Medium}"
+                    Text="px" />
 
-                <Separator Width="1" Margin="3,2"/>
+                <Separator
+                    Width="1"
+                    Margin="3,2" />
 
-                <n:ExtendedButton x:Name="DiscardButton" Text="{DynamicResource S.Recorder.Discard}" Icon="{StaticResource Vector.Remove}" Visibility="Collapsed" 
-                                  ContentWidth="16" ContentHeight="16" TabIndex="4" MinWidth="{Binding RelativeSource={RelativeSource Mode=Self}, Path=ActualHeight}"
-                                  Style="{StaticResource Style.Button.Horizontal}" Click="DiscardButton_Click"/>
+                <n:ExtendedButton
+                    x:Name="DiscardButton"
+                    MinWidth="{Binding RelativeSource={RelativeSource Mode=Self}, Path=ActualHeight}"
+                    Click="DiscardButton_Click"
+                    ContentHeight="16"
+                    ContentWidth="16"
+                    Icon="{StaticResource Vector.Remove}"
+                    Style="{StaticResource Style.Button.Horizontal}"
+                    TabIndex="4"
+                    Text="{DynamicResource S.Recorder.Discard}"
+                    Visibility="Collapsed" />
 
-                <n:ExtendedToggleButton x:Name="AutoRecordToggleButton" Text="{DynamicResource S.Board.AutoRecord}" IsChecked="True" Icon="{StaticResource Vector.Record}" 
-                                        ContentHeight="16" ContentWidth="16" Style="{StaticResource Style.ToggleButton.NoBorder}" TabIndex="5" TextWrapping="NoWrap" 
-                                        KeyGesture="{DynamicResource S.Board.CtrlHold}" ToolTip="{DynamicResource S.Board.AutoRecordToolTip}" ToolTipService.Placement="Bottom"/>
+                <n:ExtendedToggleButton
+                    x:Name="AutoRecordToggleButton"
+                    ContentHeight="16"
+                    ContentWidth="16"
+                    Icon="{StaticResource Vector.Record}"
+                    IsChecked="True"
+                    KeyGesture="{DynamicResource S.Board.CtrlHold}"
+                    Style="{StaticResource Style.ToggleButton.NoBorder}"
+                    TabIndex="5"
+                    Text="{DynamicResource S.Board.AutoRecord}"
+                    TextWrapping="NoWrap"
+                    ToolTip="{DynamicResource S.Board.AutoRecordToolTip}"
+                    ToolTipService.Placement="Bottom" />
 
-                <n:ExtendedButton x:Name="StopButton" Text="{DynamicResource S.Recorder.Stop}" Icon="{StaticResource Vector.Stop}"
-                                  Style="{StaticResource Style.Button.Horizontal}" TabIndex="5" ContentHeight="16" ContentWidth="16" 
-                                  KeyGesture="{Binding Source={x:Static t:UserSettings.All}, Path=StopShortcut, Converter={StaticResource KeysToStringConverter}}" 
-                                  Click="StopButton_Click"/>
+                <n:ExtendedButton
+                    x:Name="StopButton"
+                    Click="StopButton_Click"
+                    ContentHeight="16"
+                    ContentWidth="16"
+                    Icon="{StaticResource Vector.Stop}"
+                    KeyGesture="{Binding Source={x:Static t:UserSettings.All}, Path=StopShortcut, Converter={StaticResource KeysToStringConverter}}"
+                    Style="{StaticResource Style.Button.Horizontal}"
+                    TabIndex="5"
+                    Text="{DynamicResource S.Recorder.Stop}" />
             </StackPanel>
         </Grid>
     </Grid>

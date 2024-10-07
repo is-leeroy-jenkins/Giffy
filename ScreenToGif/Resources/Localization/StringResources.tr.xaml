@@ -14,7 +14,9 @@
     
     
     
+    
     <!--  To use a new line: &#x0d; or CarriageReturn + NewLine: &#x0d;&#x0a; or &#10;  --> 
+    
     
     
     
@@ -36,7 +38,9 @@
     
     
     
+    
     <!--  Special texts like {0}, are place holders for dynamic values, such as numbers.  -->
+    
     
     
     
@@ -84,6 +88,7 @@
     
     
     
+    
     <!--  Warning messages  -->
     <s:String x:Key="S.Crash">Hayır olamaz, uygulama çöktü :(</s:String>
     <s:String x:Key="S.Required">Gerekli alan.</s:String>
@@ -107,11 +112,13 @@
     
     
     
+    
     <!--  Tray icon  -->
     <s:String x:Key="S.NewRecording">Yeni ekran kaydı</s:String>
     <s:String x:Key="S.NewWebcamRecording">Yeni web kamerası kaydı</s:String>
     <s:String x:Key="S.NewBoardRecording">Yeni pano kaydı</s:String>
     <s:String x:Key="S.Exit">Çıkış</s:String>
+    
     
     
     
@@ -203,6 +210,7 @@
     
     
     
+    
     <!--  StartUp  -->
     <s:String x:Key="S.StartUp.Title">ScreenToGif - Başlangıç</s:String>
     <s:String x:Key="S.StartUp.Recorder">Kaydedici</s:String>
@@ -217,6 +225,7 @@
     <s:String x:Key="S.StartUp.NewRelease">Yeni sürüm mevcut</s:String>
     <s:String x:Key="S.StartUp.NewRelease.Tooltip">ScreenToGif'in en son versiyonunu indirin.</s:String>
 
+    
     
     
     
@@ -255,6 +264,7 @@
     
     
     
+    
     <!--  Options  -->
     <s:String x:Key="S.Options.Title">ScreenToGif - Ayarlar</s:String>
     <s:String x:Key="S.Options.App">Uygulama</s:String>
@@ -273,6 +283,7 @@
     <s:String x:Key="S.Options.Warning.Follow.Message">Fare imlecini takip etme özelliğini kullanabilmek için geçiş yapacak bir kısayol tuşu ayarlamanız gerekir.</s:String>
     <s:String x:Key="S.Options.Warning.DesktopDuplication.Header">Ekran kaydı için bağımlılıklar eksik</s:String>
     <s:String x:Key="S.Options.Warning.DesktopDuplication.Message">Desktop Dulication API ile ekran görüntüsü alabilmek için SharpDx kütüphanelerini indirmelisiniz.</s:String>
+    
     
     
     
@@ -343,6 +354,7 @@
     <s:String x:Key="S.Options.App.General.ForceUpdateAsAdmin">Güncellemeyi yüksek ayrıcalıklarla çalışmaya zorlayın.</s:String>
     <s:String x:Key="S.Options.App.General.PromptToInstall">Kurulum başlatılmadan önce bana sor.</s:String>
 
+    
     
     
     
@@ -447,6 +459,7 @@
     
     
     
+    
     <!--  Options • Editor  -->
     <s:String x:Key="S.Options.Editor.Previewer">Editör Arkaplanı</s:String>
     <s:String x:Key="S.Options.Editor.Previewer.GridSize">Izgara Boyutu</s:String>
@@ -496,6 +509,7 @@
     
     
     
+    
     <!--  Options • Tasks  -->
     <s:String x:Key="S.Options.Tasks.Title">Otomatikleştirilmiş Görev</s:String>
     <s:String x:Key="S.Options.Tasks.List">Otomatikleştirilmşi görevlerin listesi</s:String>
@@ -506,6 +520,7 @@
     <s:String x:Key="S.Options.Tasks.SelectType">(Bir görev seç)</s:String>
     <s:String x:Key="S.Options.Tasks.Info">Bu görevler yukarıdan aşağıya doğru sıralı bir şekilde çalışacak.&#10;Editörü kullanarak açılan ilk projede gerçekleşir..</s:String>
   
+    
     
     
     
@@ -553,6 +568,7 @@
     
     
     
+    
     <!--  Options • Language  -->
     <s:String x:Key="S.Options.Language.AppLanguage">Uygulama Dili</s:String>
     <s:String x:Key="S.Options.Language.AppLanguage.AutoDetect">Otomatik tespit</s:String>
@@ -568,6 +584,7 @@
     <s:String x:Key="S.Options.Language.AppLanguage.Translate.ResourceLink.Tooltip">Rehberi içeren web sitesini açmak için tıkla.</s:String>
     <s:String x:Key="S.Options.Language.AppLanguage.Translate.ImportLink.Tooltip">İçeri aktarma sayfasını açar</s:String>
     <s:String x:Key="S.Options.Language.AppLanguage.Translate.EmailLink.Tooltip">E-posta uygulamanı açar</s:String>
+    
     
     
     
@@ -624,6 +641,7 @@
     
     
     
+    
     <!--  Options • Storage > Clear cache  -->
     <s:String x:Key="S.Options.Storage.Cache.Title">ScreenToGif - Önbelleği temizle</s:String>
     <s:String x:Key="S.Options.Storage.Cache.Header">Önbellek klasörünü temizlemek ister misiniz?</s:String>
@@ -632,6 +650,7 @@
     <s:String x:Key="S.Options.Storage.Cache.IgnoreRecent">Son projeleri kaldırma</s:String>
     <s:String x:Key="S.Options.Storage.Cache.IgnoreRecent.Yes">(Sadece şu anda kullanımda olmayan, {0} günden eski projeler kaldırılacak)</s:String>
     <s:String x:Key="S.Options.Storage.Cache.IgnoreRecent.No">(Şu anda kullanımda olmayan tüm projeler kaldırılacak)</s:String>
+    
     
     
     
@@ -693,6 +712,7 @@
     
     
     
+    
     <!--  Options • Extras  -->
     <s:String x:Key="S.Options.Extras.External">Kullanılabilir dış araçlar</s:String>
     <s:String x:Key="S.Options.Extras.Download">İndirmek için tıklayın&#x0d;{0}</s:String>
@@ -715,6 +735,7 @@
     <s:String x:Key="S.Options.Extras.License.Gifski">Gifski lisansı</s:String>
     <s:String x:Key="S.Options.Extras.License.SharpDx">SharpDx lisansı</s:String>
 
+    
     
     
     
@@ -755,6 +776,7 @@
     
     
     
+    
     <!--  Options • About  -->
     <s:String x:Key="S.Options.About.Version">Sürüm:</s:String>
     <s:String x:Key="S.Options.About.Author">Yazar: Nicke Manarin</s:String>
@@ -770,6 +792,7 @@
     <s:String x:Key="S.Options.About.Technical.Privacy">Gizlilik ilkesi:</s:String>
     <s:String x:Key="S.Options.About.ABigThanksTo">Çok teşekkürler ></s:String>
     <s:String x:Key="S.Options.About.ABigThanksTo.Everyone">Tüm destekçilerim, geri bildirimde bulunan ve/veya bağışta bulunan kişiler.</s:String>
+    
     
     
     
@@ -803,6 +826,7 @@
     <s:String x:Key="S.Localization.Warning.Unknown.Info">"{0}" ve ailesi, geçerli dil kodları olarak tanınmadı.</s:String>
     <s:String x:Key="S.Localization.Warning.NotPossible">Yerelleştirme kaynağı içe aktarılamadı.</s:String>
 
+    
     
     
     
@@ -856,6 +880,7 @@
     
     
     
+    
     <!--  New recorder  -->
     <s:String x:Key="S.Recorder.Area">Alan</s:String>
     <s:String x:Key="S.Recorder.Window">Pencere</s:String>
@@ -869,6 +894,7 @@
     <s:String x:Key="S.Recorder.SelectWindow">Bu pencereyi seçmek için buraya tıklayın.</s:String>
     <s:String x:Key="S.Recorder.SelectScreen">Bu ekranı seçmek için buraya tıklayın.</s:String>
     <s:String x:Key="S.Recorder.EscToCancel">İptal etmek için Esc'ye basın.</s:String>
+    
     
     
     
@@ -897,11 +923,13 @@
     
     
     
+    
     <!--  Board recorder  -->
     <s:String x:Key="S.Board.Title">ScreenToGif - Pano kaydedici</s:String>
     <s:String x:Key="S.Board.AutoRecord">Otomatik Kayıt</s:String>
     <s:String x:Key="S.Board.AutoRecordToolTip">Çizim esnasında kayt.</s:String>
     <s:String x:Key="S.Board.CtrlHold">Ctrl [Kilit]</s:String>
+    
     
     
     
@@ -937,6 +965,7 @@
     
     
     
+    
     <!--  Exception/Error viewers  -->
     <s:String x:Key="S.ExceptionViewer.Title">Hata Görüntüleyici</s:String>
     <s:String x:Key="S.ExceptionViewer.OpenInner">Dahili Hata Aç</s:String>
@@ -957,6 +986,7 @@
     
     
     
+    
     <!--  FFmpeg preset  -->
     <s:String x:Key="S.FfmpegPreset.Title">FFmpeg Ön Ayarı</s:String>
     <s:String x:Key="S.FfmpegPreset.Name">Adı</s:String>
@@ -966,6 +996,7 @@
     <s:String x:Key="S.FfmpegPreset.Warning.Parameter">Bu ön ayar için bazı parametreler yazmalısınız.</s:String>
     <s:String x:Key="S.FfmpegPreset.Warning.SameName">Aynı isimde bir hazır ayar zaten var.</s:String>
 
+    
     
     
     
@@ -1005,6 +1036,7 @@
     
     
     
+    
     <!--  Import frames from video  -->
     <s:String x:Key="S.ImportVideo.Title">Video'dan kareleri içe aktar</s:String>
     <s:String x:Key="S.ImportVideo.Importer">Aktarıcı:</s:String>
@@ -1024,6 +1056,7 @@
     <s:String x:Key="S.ImportVideo.Error.Detail">Önizleyici başlatılamadı. Başka bir aktarıcı ile deneyin veya videonun bozuk olup olmadığını kontrol edin.&#x0d;MediaPlayer kullanıyorsanız, "Medya Özellikleri / Windows Media Player" adlı Windows özelliğinin açık olup olmadığını kontrol edin ve gerekli video codec bileşenine sahip olduğunuzdan emin olun.</s:String>
     <s:String x:Key="S.ImportVideo.Timeout">Kare önizlemesini alırken zaman aşımı.</s:String>
     <s:String x:Key="S.ImportVideo.Nothing">İçe aktarılacak kare seçilmedi.</s:String>
+    
     
     
     
@@ -1089,6 +1122,7 @@
     
     
     
+    
     <!--  Command output  -->
     <s:String x:Key="S.Encoder.Command.Title">ScreenToGif - Komut Çıktısı</s:String>
     <s:String x:Key="S.Encoder.Command.Header">Komut çıktısı</s:String>
@@ -1103,9 +1137,11 @@
     
     
     
+    
     <!--  Notifications  -->
     <s:String x:Key="S.Notifications">Bildirimler</s:String>
     <s:String x:Key="S.Notifications.Dismiss">Tüm bildirimleri kapat</s:String>
+    
     
     
     
@@ -1143,10 +1179,12 @@
     
     
     
+    
     <!--  Editor • Loading  -->
     <s:String x:Key="S.Editor.Preparing">Kareler Hazırlanıyor</s:String>
     <s:String x:Key="S.Editor.InvalidLoadingFiles">Geçersiz Yükleme - Tek seferde birden fazla dosya içe aktaramazsın. Tek dosya seçmeyi dene.</s:String>
     <s:String x:Key="S.Editor.InvalidLoadingProjects">Geçersiz Yükleme - Tek seferde birden fazla proje yükleyemezsin. Tek bir proje seçmeyi dene.</s:String>
+    
     
     
     
@@ -1187,6 +1225,7 @@
     
     
     
+    
     <!--  Editor • Welcome  -->
     <s:String x:Key="S.Editor.Welcome.New">Yeni bir kayda başlamak için üst menüdeki "Dosya > Yeni" seçeneğine gidin.</s:String>
     <s:String x:Key="S.Editor.Welcome.Import">Resimleri, videoları veya projeleri içe aktarmak için sürükleyip bırakın.</s:String>
@@ -1195,6 +1234,7 @@
     <s:String x:Key="S.Editor.Welcome.Contact">Konuşmak ister misiniz? İletişim yöntemleri için "Seçenekler > Hakkında"yı açın</s:String>
     <s:String x:Key="S.Editor.Welcome.Trouble">Sorun mu yaşıyorsunuz? Geribildirim aracı ile bana ulaşın.</s:String>
     <s:String x:Key="S.Editor.Welcome.NewRecorder">Yeni kayıt cihazını denemek ister misiniz?&#x0d;Etkinleştirmek için "Seçenekler > Kaydedici"ye gidin.</s:String>
+    
     
     
     
@@ -1223,12 +1263,14 @@
     
     
     
+    
     <!--  Editor • File tab • Insert  -->
     <s:String x:Key="S.Editor.File.Insert.Recording">Kayıt</s:String>
     <s:String x:Key="S.Editor.File.Insert.Webcam">Web kamerası\nKaydetme</s:String>
     <s:String x:Key="S.Editor.File.Insert.Board">Pano&#x0d;Kaydı</s:String>
     <s:String x:Key="S.Editor.File.Insert.Media">Medya</s:String>
     <s:String x:Key="S.Editor.File.Insert">Ekle</s:String>
+    
     
     
     
@@ -1257,11 +1299,13 @@
     
     
     
+    
     <!--  Editor • Home tab • Action Stack  -->
     <s:String x:Key="S.Editor.Home.ActionStack">Eylemler</s:String>
     <s:String x:Key="S.Editor.Home.Undo">Geri</s:String>
     <s:String x:Key="S.Editor.Home.Redo">İleri</s:String>
     <s:String x:Key="S.Editor.Home.Reset">Sıfırla</s:String>
+    
     
     
     
@@ -1290,10 +1334,12 @@
     
     
     
+    
     <!--  Editor • Home tab • Zoom  -->
     <s:String x:Key="S.Editor.Home.Zoom">Yakınlaştır</s:String>
     <s:String x:Key="S.Editor.Home.SizeToContent">İçeriğe göre&#x0d;ayarla</s:String>
     <s:String x:Key="S.Editor.Home.FitImage">Sığdır</s:String>
+    
     
     
     
@@ -1311,6 +1357,7 @@
     <s:String x:Key="S.Editor.Home.GoTo">Git</s:String>
     <s:String x:Key="S.Editor.Home.Inverse">Ters Çevir</s:String>
     <s:String x:Key="S.Editor.Home.Deselect">Seçimi&#x0d;Kaldır</s:String>
+    
     
     
     
@@ -1341,10 +1388,12 @@
     
     
     
+    
     <!--  Editor • Playback tab • Playback Options  -->
     <s:String x:Key="S.Editor.PlaybackOptions.Header">Oynatma Seçenekleri</s:String>
     <s:String x:Key="S.Editor.PlaybackOptions.Loop">Oynatma sırasında döngü</s:String>
     <s:String x:Key="S.Editor.PlaybackOptions.Loop.Info">Sadece oynatma sırasında kullanılır.&#x0d;Gif'leri ve Apng'leri dışa aktarmak için döngü ayarlarını değiştirmek isterseniz,&#x0d;bazı kodlayıcılar için 'Farklı Kaydet' panelinde bulunmaktadır.</s:String>
+    
     
     
     
@@ -1374,12 +1423,14 @@
     
     
     
+    
     <!--  Editor • Edit tab • Reordering  -->
     <s:String x:Key="S.Editor.Edit.Reordering">Yeniden Sıralama</s:String>
     <s:String x:Key="S.Editor.Edit.Reverse">Ters</s:String>
     <s:String x:Key="S.Editor.Edit.Yoyo">Yoyo</s:String>
     <s:String x:Key="S.Editor.Edit.MoveLeft">Sola\nTaşı</s:String>
     <s:String x:Key="S.Editor.Edit.MoveRight">Sağa\nTaşı</s:String>
+    
     
     
     
@@ -1407,11 +1458,13 @@
     
     
     
+    
     <!--  Editor • Image • Size and Rotation  -->
     <s:String x:Key="S.Editor.Image.SizePosition">Boyut ve Konum</s:String>
     <s:String x:Key="S.Editor.Image.Resize">Boyutlandır</s:String>
     <s:String x:Key="S.Editor.Image.Crop">Kırp</s:String>
     <s:String x:Key="S.Editor.Image.FlipRotate">Çevir/Döndür</s:String>
+    
     
     
     
@@ -1429,6 +1482,7 @@
     <s:String x:Key="S.Editor.Image.FreeText">Serbest Yazı</s:String>
     <s:String x:Key="S.Editor.Image.TitleFrame">Başlık Karesi</s:String>
     <s:String x:Key="S.Editor.Image.KeyStrokes">Tuş&#x0d;Vuruşları</s:String>
+    
     
     
     
@@ -1462,10 +1516,12 @@
     
     
     
+    
     <!--  Editor • Transitions tab • Styles  -->
     <s:String x:Key="S.Editor.Transitions.Styles">Stiller</s:String>
     <s:String x:Key="S.Editor.Transitions.Fade">Karartma</s:String>
     <s:String x:Key="S.Editor.Transitions.Slide">Kaydırma</s:String>
+    
     
     
     
@@ -1487,6 +1543,7 @@
     <s:String x:Key="S.Editor.Statistics.CurrentTime.Info">Görüntülenmekte olan geçerli kareye dayalı geçerli(kümülatif) zaman.</s:String>
     <s:String x:Key="S.Editor.Statistics.FrameDpi">Kare DPI'sı ve ölçeği</s:String>
     <s:String x:Key="S.Editor.Statistics.SelectedFrame">Seçili Kare</s:String>
+    
     
     
     
@@ -1555,12 +1612,14 @@
     
     
     
+    
     <!--  Editor • Warnings  -->
     <s:String x:Key="S.Editor.Warning.Selection">Kaplamayı uygulamak için en az bir kare seçmelisiniz.</s:String>
     <s:String x:Key="S.Editor.Warning.Ffmpeg">FFmpeg mevcut değil. Bunu Yol ortam değişkenlerine ekleyin veya konumu ayarlamak için Seçenekler > Ekstralar'ı açmak için buraya tıklayın.</s:String>
     <s:String x:Key="S.Editor.Warning.Gifski">Gifski mevcut değil. Bunu Yol ortam değişkenlerine ekleyin veya konumu ayarlamak için Seçenekler > Ekstralar'ı açmak için buraya tıklayın.</s:String>
     <s:String x:Key="S.Editor.Warning.LowSpace">Bu uygulamanın önbelleğini depoladığı sürücüde yeterli alan kalmadı. (Kalan %{0}). Yer açmak için Seçenekler > Geçici Dosyalar'ı açmak için buraya tıklayın.</s:String>
     <s:String x:Key="S.Editor.Warning.DifferentDpi">Farklı DPI'lara sahip birden çok görüntüyü içe aktarmayı denediniz, bu desteklenmiyor. Bazıları içe aktarıldı, diğerlerinin ayrıca içe aktarılması gerekiyor.</s:String>
+    
     
     
     
@@ -1601,11 +1660,13 @@
     
     
     
+    
     <!--  Editor • Frame list  -->
     <s:String x:Key="S.Editor.List.Frame">Kare:</s:String>
     <s:String x:Key="S.Editor.List.OpenImage">Görüntü Aç</s:String>
     <s:String x:Key="S.Editor.List.ExploreFolder">Klasörü Araştır</s:String>
     <s:String x:Key="S.Editor.List.ExportImage">İçe Görüntü Aktar</s:String>
+    
     
     
     
@@ -1631,6 +1692,7 @@
     
     
     
+    
     <!--  Editor • Context menu  -->
     <s:String x:Key="S.Context.SaveAs">olarak kaydet</s:String>
     <s:String x:Key="S.Context.RemoveFrames">Seçili Kareleri Kaldır</s:String>
@@ -1640,6 +1702,7 @@
     <s:String x:Key="S.Context.NewBlankAnimation">Yeni Boş Animasyon</s:String>
     <s:String x:Key="S.Context.NewFromMediaProject">Projeden yada Medyadan Yeni</s:String>
    
+    
     
     
     
@@ -1697,6 +1760,7 @@
     
     
     
+    
     <!--  Editor • Action panel  -->
     <s:String x:Key="S.Action.Hide">Gizle</s:String>
     <s:String x:Key="S.Action.Apply">Uygula</s:String>
@@ -1704,6 +1768,7 @@
     <s:String x:Key="S.Action.Save">Kaydet</s:String>
     <s:String x:Key="S.Action.Cancel">İptal</s:String>
 
+    
     
     
     
@@ -1722,6 +1787,7 @@
     <s:String x:Key="S.Recent.Warning.NoSelection">Seçili proje yok. Yüklemek için listeden bir proje seçin.</s:String>
     <s:String x:Key="S.Recent.Warning.SameProject">Bu proje bu editörde zaten görüntüleniyor.</s:String>
     <s:String x:Key="S.Recent.Warning.AnotherEditor">Bu proje başka bir editörde halihazırda açık. Bir proje başka bir editörde açık olmadığı sürece ikinci defa açılamaz.</s:String>
+    
     
     
     
@@ -1754,6 +1820,7 @@
     
     
     
+    
     <!--  Editor • Resize  -->
     <s:String x:Key="S.Resize.CurrentProperties">Mevcut Özellikler</s:String>
     <s:String x:Key="S.Resize.Dpi">Dpi</s:String>
@@ -1761,6 +1828,7 @@
     <s:String x:Key="S.Resize.Dpi2">DPI:</s:String>
     <s:String x:Key="S.Resize.KeepAspect">En-boy oranını koru.</s:String>
     <s:String x:Key="S.Resize.Warning">Yeniden boyutlandırma için farklı bir değer seçmelisiniz.</s:String>
+    
     
     
     
@@ -1791,11 +1859,13 @@
     
     
     
+    
     <!--  Editor • Flip/rotate  -->
     <s:String x:Key="S.FlipRotate.FlipHorizontal">Yatay Çevir</s:String>
     <s:String x:Key="S.FlipRotate.FlipVertical">Dikey Çevir</s:String>
     <s:String x:Key="S.FlipRotate.RotateLeft">Sola 90º Döndür</s:String>
     <s:String x:Key="S.FlipRotate.RotateRight">Sağa 90º Döndür</s:String>
+    
     
     
     
@@ -1832,6 +1902,7 @@
     
     
     
+    
     <!--  Editor • Remove duplicates  -->
     <s:String x:Key="S.RemoveDuplicates.Header">Tekrarlananları kaldır</s:String>
     <s:String x:Key="S.RemoveDuplicates.Similarity">Benzerlik (%):</s:String>
@@ -1843,6 +1914,7 @@
     <s:String x:Key="S.RemoveDuplicates.Delay.Average">Ortalamayı kullan</s:String>
     <s:String x:Key="S.RemoveDuplicates.Delay.Sum">Toplamı kullan</s:String>
     <s:String x:Key="S.RemoveDuplicates.Info">Bu eylem her kareyi piksel piksel analiz ederek yakınındaki en az %{0} benzeyenleri kaldırır.&#x0d;Karelerin gecikmesini (gösterilme süresini) ayarlamak isteyip istemediğinizi seçebilirsiniz.</s:String>
+    
     
     
     
@@ -1869,6 +1941,7 @@
     <s:String x:Key="S.Caption.Vertical">Dikey:</s:String>
     <s:String x:Key="S.Caption.Horizontal">Yatay:</s:String>
 
+    
     
     
     
@@ -1908,6 +1981,7 @@
     
     
     
+    
     <!--  Editor • Free drawing  -->
     <s:String x:Key="S.FreeDrawing.Mode">Mod</s:String>
     <s:String x:Key="S.FreeDrawing.Pen">Dolma kalem</s:String>
@@ -1924,6 +1998,7 @@
     <s:String x:Key="S.FreeDrawing.FitToCurve">Eğriye Uydur</s:String>
     <s:String x:Key="S.FreeDrawing.Warning.NoDrawing">Seçtiğiniz karelere uygulanacak çizim yok.</s:String>
     <s:String x:Key="S.FreeDrawing.WarningSelection">Serbest Çizimin uygulanması için en az bir kare seçmeniz gerekiyor.</s:String>
+    
     
     
     
@@ -1954,9 +2029,11 @@
     
     
     
+    
     <!--  Editor • Mouse clicks  -->
     <s:String x:Key="S.MouseEvents">Fare Tıklamaları</s:String>
     <s:String x:Key="S.MouseClicks.Warning.None">Projenizde algılanan fare tıklaması yok.</s:String>
+    
     
     
     
@@ -1987,10 +2064,12 @@
     
     
     
+    
     <!--  Editor • Border  -->
     <s:String x:Key="S.Border.Appearance">Görünüm</s:String>
     <s:String x:Key="S.Border.Info">Kenarlığın görüntüyü genişletmesi için negatif değerler kullanın. Bunu yaparken, kenarlık tüm karelere uygulanacaktır..&#x0d;Hiçbir negatif değer kullanılmıyorsa, kenarlık sadece seçilen karelere uygulanır.</s:String>
 
+    
     
     
     
@@ -2018,12 +2097,14 @@
     
     
     
+    
     <!--  Editor • Obfuscate  -->
     <s:String x:Key="S.Obfuscate.Options">Pikselleştirme seçenekleri</s:String>
     <s:String x:Key="S.Obfuscate.PixelSize">Piksel boyutu:</s:String>
     <s:String x:Key="S.Obfuscate.UseAverage">Her bir pikselleştirilmiş blok için ortalama rengi hesapla.</s:String>
     <s:String x:Key="S.Obfuscate.Info">Pikselleştirilmesi gereken dikdörtgeni seçmek için seçim aracını kullanın.</s:String>
     <s:String x:Key="S.Obfuscate.Warning">Hiçbir şey seçmediniz. Lütfen pikselleştirilmesi gereken dikdörtgeni seçmek için seçim aracını kullanın.</s:String>
+    
     
     
     
@@ -2074,6 +2155,7 @@
     
     
     
+    
     <!--  Editor • Delay  -->
     <s:String x:Key="S.Delay.Update">Gecikmeli güncelleme</s:String>
     <s:String x:Key="S.Delay.Mode">Gecikme modu:</s:String>
@@ -2098,9 +2180,11 @@
     
     
     
+    
     <!--  Editor • Cinemagraph  -->
     <s:String x:Key="S.Cinemagraph.Info">Statik kalmaması gereken (kareler arasında değişmesi gereken) pikselleri, kalemi kullanarak üstlerini boyayın.</s:String>
 
+    
     
     
     
@@ -2130,6 +2214,7 @@
     
     
     
+    
     <!--  Editor • Save as  -->
     <s:String x:Key="S.SaveAs.Type">Dosya Tipi</s:String>
     <s:String x:Key="S.SaveAs.Gif">Gif</s:String>
@@ -2138,6 +2223,7 @@
     <s:String x:Key="S.SaveAs.Project">Proje olarak</s:String>
     <s:String x:Key="S.SaveAs.Psd">PSD</s:String>
     <s:String x:Key="S.SaveAs.Video">Video</s:String>
+    
     
     
     
@@ -2161,6 +2247,7 @@
     <s:String x:Key="S.SaveAs.Encoder.Apng.Tooltip">ScreenToGif geliştiricisi tarafından oluşturulan kodlayıcı</s:String>
     <s:String x:Key="S.SaveAs.Encoder.Ffmpeg">FFmpeg</s:String>
     <s:String x:Key="S.SaveAs.Encoder.Gifski">Gifski</s:String>
+    
     
     
     
@@ -2216,11 +2303,13 @@
     
     
     
+    
     <!--  Editor • Save as > Apng options  -->
     <s:String x:Key="S.SaveAs.ApngOptions">Apng seçenekleri</s:String>
     <s:String x:Key="S.SaveAs.ApngOptions.Looped">Döngülü apng</s:String>
     <s:String x:Key="S.SaveAs.ApngOptions.DetectUnchanged">Değişmeyen pikselleri algıla.</s:String>
     <s:String x:Key="S.SaveAs.ApngOptions.PaintTransparent">Değişmeyen tüm pikselleri şeffaf bir renkle boyayın.</s:String>
+    
     
     
     
@@ -2271,6 +2360,7 @@
     
     
     
+    
     <!--  Save As • Save options  -->
     <s:String x:Key="S.SaveAs.SaveOptions">Kaydetme seçenekleri</s:String>
     <s:String x:Key="S.SaveAs.SaveOptions.PickFolder">Dosyayı seçeceğiniz bir klasöre kaydedin.</s:String>
@@ -2289,6 +2379,7 @@
     <s:String x:Key="S.SaveAs.SaveOptions.CopyToClipboard.Link.Info">Yükleme hizmeti tarafından oluşturulan linki panoya kopyalar.</s:String>
     <s:String x:Key="S.SaveAs.SaveOptions.ExecuteCommands">Kodlama sonrası komutları yürütün</s:String>
     <s:String x:Key="S.SaveAs.SaveOptions.ExecuteCommands.Info">Kodlamadan sonra yürütülecek komutları yazın.&#x0d;Birden çok komutu yürütmek için her birini ayrı satıra yazın.&#x0d;MAkrolar:&#x0d;{p} = Çıktı dosyası yolu.&#x0d;{f} = Çıktı dosyası yolu.&#x0d;{u} = Yüklenen dosyanın URL'si.</s:String>
+    
     
     
     
@@ -2334,10 +2425,12 @@
     
     
     
+    
     <!--  SaveAs • Export  -->
     <s:String x:Key="S.SaveAs.Dialogs.Multiple.Title">Kareleri dışa aktar</s:String>
     <s:String x:Key="S.SaveAs.Dialogs.Multiple.Instruction">Kareleri dışa aktarmak istediğinize emin misiniz?</s:String>
     <s:String x:Key="S.SaveAs.Dialogs.Multiple.Message">Bu işlem {0} çerçeveyi doğrudan seçili klasöre aktaracaktır.</s:String>
+    
     
     
     
@@ -2382,6 +2475,7 @@
     
     
     
+    
     <!--  Troubleshoot  -->
     <s:String x:Key="S.Troubleshoot.Title">Sorun gidermek</s:String>
     <s:String x:Key="S.Troubleshoot.Windows">Herhangi bir pencere kayıp mı?</s:String>
@@ -2401,10 +2495,12 @@
     
     
     
+    
     <!--  FontStyles  -->
     <s:String x:Key="S.FontStyles.Normal">Normal</s:String>
     <s:String x:Key="S.FontStyles.Italic">İtalik</s:String>
     <s:String x:Key="S.FontStyles.Oblique">Eğik</s:String>
+    
     
     
     
@@ -2444,6 +2540,7 @@
     
     
     
+    
     <!--  VerticalAlignment  -->
     <s:String x:Key="S.VerticalAlignment.Top">Üst</s:String>
     <s:String x:Key="S.VerticalAlignment.Center">Merkez</s:String>
@@ -2460,10 +2557,12 @@
     
     
     
+    
     <!--  HorizontalAlignment  -->
     <s:String x:Key="S.HorizontalAlignment.Left">Sol</s:String>
     <s:String x:Key="S.HorizontalAlignment.Center">Merkez</s:String>
     <s:String x:Key="S.HorizontalAlignment.Right">Sağ</s:String>
+    
     
     
     

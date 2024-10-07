@@ -14,7 +14,9 @@
     
     
     
+    
     <!--  To use a new line: &#x0d; or CarriageReturn + NewLine: &#x0d;&#x0a; or &#10;  --> 
+    
     
     
     
@@ -36,7 +38,9 @@
     
     
     
+    
     <!--  Special texts like {0}, are place holders for dynamic values, such as numbers.  -->
+    
     
     
     
@@ -85,6 +89,7 @@
     
     
     
+    
     <!--  Warnings  -->
     <s:String x:Key="S.Crash">О ні, сталась помилка :(</s:String>
     <s:String x:Key="S.Required">Обов`язкове поле.</s:String>
@@ -113,6 +118,7 @@
     
     
     
+    
     <!--  Warnings • Graphics engine  -->
     <s:String x:Key="S.Warning.Graphics.Title">Змінити Графічний Адаптер</s:String>
     <s:String x:Key="S.Warning.Graphics.Instruction">Переключіться на відповідний графічний адаптер для захоплення вибраного екрана</s:String>
@@ -120,6 +126,7 @@
     <s:String x:Key="S.Warning.Graphics.Action">Переключіть набір графічних адаптерів для ScreenToGif, відкривши Налаштування Windows > Система > Дисплей > Графіка, або натиснувши на посилання нижче.</s:String>
     <s:String x:Key="S.Warning.Graphics.Action.Legacy">Переключіть графічний адаптер для ScreenToGif, відкривши налаштування графіки вашого графічного адаптера.</s:String>
     <s:String x:Key="S.Warning.Graphics.Switch">Відкрити Налаштування Windows</s:String>
+    
     
     
     
@@ -146,8 +153,10 @@
     
     
     
+    
     <!--  Mouse  -->
     <s:String x:Key="S.Mouse.Right">Правий клік</s:String>
+    
     
     
     
@@ -164,6 +173,7 @@
     <s:String x:Key="S.NewWebcamRecording">Новий запис веб-камери</s:String>
     <s:String x:Key="S.NewBoardRecording">Новий запис дошки</s:String>
     <s:String x:Key="S.Exit">Вихід</s:String>
+    
     
     
     
@@ -257,6 +267,7 @@
     
     
     
+    
     <!--  StartUp  -->
     <s:String x:Key="S.StartUp.Title">ScreenToGif - Запуск</s:String>
     <s:String x:Key="S.StartUp.Recorder">Запис</s:String>
@@ -271,6 +282,7 @@
     <s:String x:Key="S.StartUp.NewRelease">Доступна нова версія</s:String>
     <s:String x:Key="S.StartUp.NewRelease.Tooltip">Завантажує останню версію ScreenToGif.</s:String>
 
+    
     
     
     
@@ -312,10 +324,12 @@
     
     
     
+    
     <!--  Downloader  -->
     <s:String x:Key="S.Downloader.Title">ScreenToGif - Завантажувальник</s:String>
     <s:String x:Key="S.Downloader.Header">Завантажувальник</s:String>
     <s:String x:Key="S.Downloader.Size">{0} з {1}</s:String>
+    
     
     
     
@@ -344,6 +358,7 @@
     <s:String x:Key="S.Options.Warning.Follow.Header">Відсутня комбінація клавіш для стеження за курсором</s:String>
     <s:String x:Key="S.Options.Warning.Follow.Message">Щоб використовувати функцію стеження за курсором миші, ви маєте встановити комбінацію клавіш, щоб увімкнути її за потреби.</s:String>
 
+    
     
     
     
@@ -413,6 +428,7 @@
     <s:String x:Key="S.Options.App.General.ForceUpdateAsAdmin">Примусовий запуск оновлення з підвищеними привілеями.</s:String>
     <s:String x:Key="S.Options.App.General.PromptToInstall">Повідомте мене перед початком інсталяції.</s:String>
 
+    
     
     
     
@@ -515,6 +531,7 @@
     
     
     
+    
     <!--  Options • Editor  -->
     <s:String x:Key="S.Options.Editor.Previewer">Тло редактора</s:String>
     <s:String x:Key="S.Options.Editor.Previewer.GridSize">Розмір комірки</s:String>
@@ -564,6 +581,7 @@
     
     
     
+    
     <!--  Options • Tasks  -->
     <s:String x:Key="S.Options.Tasks.Title">Автоматизоване завдання</s:String>
     <s:String x:Key="S.Options.Tasks.List">Перелік автоматизованих завдань</s:String>
@@ -575,6 +593,7 @@
     <s:String x:Key="S.Options.Tasks.SelectType.Info">Виберіть завдання вище</s:String>
     <s:String x:Key="S.Options.Tasks.Info">Ці завдання виконуються послідовно від верхньої частини списку до нижньої. Це відбувається, коли ви вперше відкриваєте проект за допомогою редактора.</s:String>
   
+    
     
     
     
@@ -622,6 +641,7 @@
     
     
     
+    
     <!--  Options • Language  -->
     <s:String x:Key="S.Options.Language.AppLanguage">Мова програми</s:String>
     <s:String x:Key="S.Options.Language.AppLanguage.AutoDetect">Автовизначення</s:String>
@@ -637,6 +657,7 @@
     <s:String x:Key="S.Options.Language.AppLanguage.Translate.ResourceLink.Tooltip">Натисніть, щоб відкрити веб-сторінку з вказівками.</s:String>
     <s:String x:Key="S.Options.Language.AppLanguage.Translate.ImportLink.Tooltip">Відкриває сторінку імпорту</s:String>
     <s:String x:Key="S.Options.Language.AppLanguage.Translate.EmailLink.Tooltip">Відкриває програму електронної пошти</s:String>
+    
     
     
     
@@ -693,6 +714,7 @@
     
     
     
+    
     <!--  Options • Storage > Clear cache  -->
     <s:String x:Key="S.Options.Storage.Cache.Title">ScreenToGif - Очистити кеш</s:String>
     <s:String x:Key="S.Options.Storage.Cache.Header">Ви хочете очистити папку кешу?</s:String>
@@ -701,6 +723,7 @@
     <s:String x:Key="S.Options.Storage.Cache.IgnoreRecent">Не видаляти недавні проекти.</s:String>
     <s:String x:Key="S.Options.Storage.Cache.IgnoreRecent.Yes">(Будуть видалені лише проекти, старші за {0} днів, які наразі не використовуються)</s:String>
     <s:String x:Key="S.Options.Storage.Cache.IgnoreRecent.No">(Всі проекти, які зараз не використовуються, будуть видалені)</s:String>
+    
     
     
     
@@ -731,6 +754,7 @@
     <s:String x:Key="S.Options.Upload.Presets.Enabled">Увімкнено</s:String>
     
      
+    
     
     
     
@@ -796,9 +820,11 @@
     
     
     
+    
     <!--  Options • Upload > Album  -->
     <s:String x:Key="S.Options.Upload.Pick.Album">Виберіть альбом (необов'язково)</s:String>
     <s:String x:Key="S.Options.Upload.Pick.Album.Info">За бажанням ви можете вибрати альбом призначення:</s:String>
+    
     
     
     
@@ -829,6 +855,7 @@
     
     
     
+    
     <!--  Options • Upload > History  -->
     <s:String x:Key="S.Options.Upload.History.Title">Історія завантажень</s:String>
     <s:String x:Key="S.Options.Upload.History.Date">Дата</s:String>
@@ -840,6 +867,7 @@
     <s:String x:Key="S.Options.Upload.History.Detail.DeleteLink">Посилання для видалення:</s:String>
     <s:String x:Key="S.Options.Upload.History.Delete.Instruction">Ви впевнені, що хочете видалити запис історії?</s:String>
     <s:String x:Key="S.Options.Upload.History.Delete.Message">Ця дія не може бути скасована.&#10;&#10;Ви бажаєте видалити вибраний запис історії?</s:String>
+    
     
     
     
@@ -882,6 +910,7 @@
     
     
     
+    
     <!--  Options • Donations  -->
     <s:String x:Key="S.Options.Donate.Donate">Пожертвуйте</s:String>
     <s:String x:Key="S.Options.Donate.Donate.Dollar">Пожертвуйте US$</s:String>
@@ -900,6 +929,7 @@
     <s:String x:Key="S.Options.Donate.Crypto.BitcoinCash">Скопіювати адресу BitcoinCash.</s:String>
     <s:String x:Key="S.Options.Donate.Support">Підтримати</s:String>
     <s:String x:Key="S.Options.Donate.Support.Visit">Якщо ви бажаєте підтримати проект :)</s:String>
+    
     
     
     
@@ -939,6 +969,7 @@
     
     
     
+    
     <!--  Localization  -->
     <s:String x:Key="S.Localization">Локалізація</s:String>
     <s:String x:Key="S.Localization.GettingCodes">Отримання мовних кодів...</s:String>
@@ -961,6 +992,7 @@
     <s:String x:Key="S.Localization.Warning.Unknown.Info">"{0}" та його сім'я не були розпізнані як дійсні мовні коди.</s:String>
     <s:String x:Key="S.Localization.Warning.NotPossible">Не вдалося імпортувати ресурс локалізації.</s:String>
 
+    
     
     
     
@@ -1023,6 +1055,7 @@
     
     
     
+    
     <!--  New recorder  -->
     <s:String x:Key="S.Recorder.Area">Область</s:String>
     <s:String x:Key="S.Recorder.Area.Select">Оберіть область</s:String>
@@ -1063,6 +1096,7 @@
     
     
     
+    
     <!--  Webcam recorder  -->
     <s:String x:Key="S.Webcam.Title">ScreenToGif - Запис Веб-камери</s:String>
     <s:String x:Key="S.Webcam.NoVideo">Не знайдено відеопристрою :(</s:String>
@@ -1080,11 +1114,13 @@
     
     
     
+    
     <!--  Board recorder  -->
     <s:String x:Key="S.Board.Title">ScreenToGif - Запис дошки</s:String>
     <s:String x:Key="S.Board.AutoRecord">Авто Запис</s:String>
     <s:String x:Key="S.Board.AutoRecordToolTip">Активує запис під час малювання</s:String>
     <s:String x:Key="S.Board.CtrlHold">Ctrl [тримати]</s:String>
+    
     
     
     
@@ -1120,6 +1156,7 @@
     
     
     
+    
     <!--  Exception/Error viewers  -->
     <s:String x:Key="S.ExceptionViewer.Title">Переглядач виключень</s:String>
     <s:String x:Key="S.ExceptionViewer.OpenInner">Відкрити внутрішнє виключення</s:String>
@@ -1130,6 +1167,7 @@
     <s:String x:Key="S.ErrorDialog.Observation">Сталося щось не так.</s:String>
     <s:String x:Key="S.ErrorDialog.Send">Надіслати звіт</s:String>
 
+    
     
     
     
@@ -1152,6 +1190,7 @@
     <s:String x:Key="S.Preset.Warning.Readonly">Some of the properties of a default preset are read-only.</s:String>
     <s:String x:Key="S.Preset.Warning.Name">You must give a name to this preset.</s:String>
     <s:String x:Key="S.Preset.Warning.SameName">There's already a preset with the same name.</s:String>
+    
     
     
     
@@ -1221,6 +1260,7 @@
     
     
     
+    
     <!--  Insert frames  -->
     <s:String x:Key="S.InsertFrames.Title">Вставити кадри</s:String>
     <s:String x:Key="S.InsertFrames.Info">Обидві сторони повинні мати однаковий розмір, це вікно дозволяє змінювати положення і розмір зображення та полотна. Клацніть, щоб вибрати і змінити розмір.</s:String>
@@ -1250,6 +1290,7 @@
     
     
     
+    
     <!--  Import frames from video  -->
     <s:String x:Key="S.ImportVideo.Title">Імпорт кадрів з відео</s:String>
     <s:String x:Key="S.ImportVideo.Importer">Імпортер:</s:String>
@@ -1269,6 +1310,7 @@
     <s:String x:Key="S.ImportVideo.Error.Detail">Не вдалося запустити програму попереднього перегляду. Спробуйте інший імпортер або перевірте, чи відео не пошкоджене.&#x0d;Якщо ви використовуєте MediaPlayer, перевірте, чи увімкнена функція Windows "Media Features / Windows Media Player" і переконайтеся, що у вас встановлений необхідний відеокодек.</s:String>
     <s:String x:Key="S.ImportVideo.Timeout">Тайм-аут попереднього перегляду кадру.</s:String>
     <s:String x:Key="S.ImportVideo.Nothing">Кадр для імпорту не вибрано.</s:String>
+    
     
     
     
@@ -1334,6 +1376,7 @@
     
     
     
+    
     <!--  Command output  -->
     <s:String x:Key="S.Encoder.Command.Title">ScreenToGif - Вивід Команди</s:String>
     <s:String x:Key="S.Encoder.Command.Header">Вивід команди</s:String>
@@ -1348,9 +1391,11 @@
     
     
     
+    
     <!--  Notifications  -->
     <s:String x:Key="S.Notifications">Сповіщення</s:String>
     <s:String x:Key="S.Notifications.Dismiss">Відхилити всі сповіщення</s:String>
+    
     
     
     
@@ -1388,10 +1433,12 @@
     
     
     
+    
     <!--  Editor • Loading  -->
     <s:String x:Key="S.Editor.Preparing">Підготовка кадрів</s:String>
     <s:String x:Key="S.Editor.InvalidLoadingFiles">Некоректне завантаження - Ви не можете імпортувати кілька файлів відразу. Спробуйте вибрати тільки один файл.</s:String>
     <s:String x:Key="S.Editor.InvalidLoadingProjects">Некоректне завантаження - Ви не можете імпортувати кілька проектів відразу. Спробуйте вибрати тільки один проект.</s:String>
+    
     
     
     
@@ -1439,6 +1486,7 @@
     
     
     
+    
     <!--  Editor • Welcome  -->
     <s:String x:Key="S.Editor.Welcome.New">Перейдіть до "Файл > Створити", щоб почати новий запис</s:String>
     <s:String x:Key="S.Editor.Welcome.Import">Перетягніть зображення, відео або проекти для імпорту</s:String>
@@ -1447,6 +1495,7 @@
     <s:String x:Key="S.Editor.Welcome.Contact">Хочете поговорити? Відкрийте "Налаштування > Про", щоб дізнатися про способи зв'язку</s:String>
     <s:String x:Key="S.Editor.Welcome.Trouble">Виникли проблеми? Повідомте мене через інструмент зворотного зв'язку</s:String>
     <s:String x:Key="S.Editor.Welcome.NewRecorder">Бажаєте спробувати новий рекордер?&#x0d;Перейдіть до "Налаштування > Запис", щоб увімкнути його.</s:String>
+    
     
     
     
@@ -1475,12 +1524,14 @@
     
     
     
+    
     <!--  Editor • File tab • Insert  -->
     <s:String x:Key="S.Editor.File.Insert.Recording">Запис</s:String>
     <s:String x:Key="S.Editor.File.Insert.Webcam">Запис з&#x0d;Веб-камери</s:String>
     <s:String x:Key="S.Editor.File.Insert.Board">Запис з&#x0d;Дошки</s:String>
     <s:String x:Key="S.Editor.File.Insert.Media">Медіа</s:String>
     <s:String x:Key="S.Editor.File.Insert">Вставити</s:String>
+    
     
     
     
@@ -1509,11 +1560,13 @@
     
     
     
+    
     <!--  Editor • Home tab • Action Stack  -->
     <s:String x:Key="S.Editor.Home.ActionStack">Стек дій</s:String>
     <s:String x:Key="S.Editor.Home.Undo">Скасувати</s:String>
     <s:String x:Key="S.Editor.Home.Redo">Повторити</s:String>
     <s:String x:Key="S.Editor.Home.Reset">Скинути</s:String>
+    
     
     
     
@@ -1542,10 +1595,12 @@
     
     
     
+    
     <!--  Editor • Home tab • Zoom  -->
     <s:String x:Key="S.Editor.Home.Zoom">Збільшення</s:String>
     <s:String x:Key="S.Editor.Home.SizeToContent">Пристосувати&#x0d;до контенту</s:String>
     <s:String x:Key="S.Editor.Home.FitImage">Підігнати зображення</s:String>
+    
     
     
     
@@ -1563,6 +1618,7 @@
     <s:String x:Key="S.Editor.Home.GoTo">Перейти</s:String>
     <s:String x:Key="S.Editor.Home.Inverse">Інвертувати</s:String>
     <s:String x:Key="S.Editor.Home.Deselect">Зняти виділення</s:String>
+    
     
     
     
@@ -1593,10 +1649,12 @@
     
     
     
+    
     <!--  Editor • Playback tab • Playback Options  -->
     <s:String x:Key="S.Editor.PlaybackOptions.Header">Параметри відтворення</s:String>
     <s:String x:Key="S.Editor.PlaybackOptions.Loop">Зациклювати під час відтворення.</s:String>
     <s:String x:Key="S.Editor.PlaybackOptions.Loop.Info">Використовується лише під час відтворення.&#x0d;Якщо ви хочете змінити налаштування циклу для експорту Gif та Apng,&#x0d;це буде доступно на панелі "Зберегти як" для деяких енкодерів.</s:String>
+    
     
     
     
@@ -1627,12 +1685,14 @@
     
     
     
+    
     <!--  Editor • Edit tab • Reordering  -->
     <s:String x:Key="S.Editor.Edit.Reordering">Зміна впорядкування</s:String>
     <s:String x:Key="S.Editor.Edit.Reverse">У зворотній бік</s:String>
     <s:String x:Key="S.Editor.Edit.Yoyo">Йо-йо</s:String>
     <s:String x:Key="S.Editor.Edit.MoveLeft">Перемістити&#x0d;Вліво</s:String>
     <s:String x:Key="S.Editor.Edit.MoveRight">Перемістити&#x0d;Вправо</s:String>
+    
     
     
     
@@ -1660,11 +1720,13 @@
     
     
     
+    
     <!--  Editor • Image • Size and Rotation  -->
     <s:String x:Key="S.Editor.Image.SizePosition">Розмір та Позиція</s:String>
     <s:String x:Key="S.Editor.Image.Resize">Зміна розміру</s:String>
     <s:String x:Key="S.Editor.Image.Crop">Вирізати</s:String>
     <s:String x:Key="S.Editor.Image.FlipRotate">Віддзеркалення/Поворот</s:String>
+    
     
     
     
@@ -1682,6 +1744,7 @@
     <s:String x:Key="S.Editor.Image.FreeText">Вільний текст</s:String>
     <s:String x:Key="S.Editor.Image.TitleFrame">Кадр заголовку</s:String>
     <s:String x:Key="S.Editor.Image.KeyStrokes">Натискання&#x0d;клавіш</s:String>
+    
     
     
     
@@ -1715,10 +1778,12 @@
     
     
     
+    
     <!--  Editor • Transitions tab • Styles  -->
     <s:String x:Key="S.Editor.Transitions.Styles">Стилі</s:String>
     <s:String x:Key="S.Editor.Transitions.Fade">Затухання</s:String>
     <s:String x:Key="S.Editor.Transitions.Slide">Слайд</s:String>
+    
     
     
     
@@ -1740,6 +1805,7 @@
     <s:String x:Key="S.Editor.Statistics.CurrentTime.Info">Поточний час на основі поточного кадру, що відображається.</s:String>
     <s:String x:Key="S.Editor.Statistics.FrameDpi">DPI кадру та масштаб</s:String>
     <s:String x:Key="S.Editor.Statistics.SelectedFrame">Вибраний кадр</s:String>
+    
     
     
     
@@ -1808,6 +1874,7 @@
     
     
     
+    
     <!--  Editor • Warnings  -->
     <s:String x:Key="S.Editor.Warning.Selection">Для того, щоб застовувати накладання ви маєте вибрати хоча б один кадр.</s:String>
     <s:String x:Key="S.Editor.Warning.Ffmpeg">FFmpeg відсутній. Додайте його до змінних середовища Path або натисніть тут, щоб відкрити меню Налаштування > Додатково, щоб задати місце розташування.</s:String>
@@ -1815,6 +1882,7 @@
     <s:String x:Key="S.Editor.Warning.LowSpace">На диску, де зберігається кеш цієї програми, недостатньо місця ({0}%). Натисніть тут, щоб відкрити Налаштування > Тимчасові файли, щоб звільнити місце.</s:String>
     <s:String x:Key="S.Editor.Warning.DifferentDpi">Ви спробували імпортувати декілька зображень з різною роздільною здатністю, що не підтримується. Деякі з них було імпортовано, інші потрібно імпортувати окремо.</s:String>
     <s:String x:Key="S.Editor.Warning.DifferentSize">Ви намагалися імпортувати кілька зображень різного розміру, що не підтримується. Деякі з них було імпортовано, інші потрібно імпортувати окремо.</s:String>
+    
     
     
     
@@ -1858,10 +1926,12 @@
     
     
     
+    
     <!--  Editor • Frame list  -->
     <s:String x:Key="S.Editor.List.Frame">Кадр:</s:String>
     <s:String x:Key="S.Editor.List.OpenImage">Відкрити зображення</s:String>
     <s:String x:Key="S.Editor.List.ExploreFolder">Перейти до папки</s:String>
+    
     
     
     
@@ -1887,6 +1957,7 @@
     
     
     
+    
     <!--  Editor • Context menu  -->
     <s:String x:Key="S.Context.SaveAs">Зберегти як</s:String>
     <s:String x:Key="S.Context.RemoveFrames">Видалити вибрані кадри</s:String>
@@ -1896,6 +1967,7 @@
     <s:String x:Key="S.Context.NewBlankAnimation">Новий проект</s:String>
     <s:String x:Key="S.Context.NewFromMediaProject">Новий з медіа або проекту</s:String>
    
+    
     
     
     
@@ -1953,6 +2025,7 @@
     
     
     
+    
     <!--  Editor • Action panel  -->
     <s:String x:Key="S.Action.Hide">Приховати</s:String>
     <s:String x:Key="S.Action.Apply">Застосувати</s:String>
@@ -1960,6 +2033,7 @@
     <s:String x:Key="S.Action.Save">Зберегти</s:String>
     <s:String x:Key="S.Action.Cancel">Скасувати</s:String>
 
+    
     
     
     
@@ -1989,6 +2063,7 @@
     
     
     
+    
     <!--  Editor • Clipboard  -->
     <s:String x:Key="S.Clipboard.Entries">Записи буфера обміну</s:String>
     <s:String x:Key="S.Clipboard.Entry">Запис у буфері обміну:</s:String>
@@ -1999,6 +2074,7 @@
     <s:String x:Key="S.Clipboard.Behavior">Поведінка вставки</s:String>
     <s:String x:Key="S.Clipboard.Before">Перед вибраними кадрами</s:String>
     <s:String x:Key="S.Clipboard.After">Після вибраних кадрів</s:String>
+    
     
     
     
@@ -2035,6 +2111,7 @@
     
     
     
+    
     <!--  Editor • Crop  -->
     <s:String x:Key="S.Crop.Points">Точки</s:String>
     <s:String x:Key="S.Crop.Top">Вверху:</s:String>
@@ -2054,11 +2131,13 @@
     
     
     
+    
     <!--  Editor • Flip/rotate  -->
     <s:String x:Key="S.FlipRotate.FlipHorizontal">Віддзеркалити по горизонталі</s:String>
     <s:String x:Key="S.FlipRotate.FlipVertical">Віддзеркалити по вертикалі</s:String>
     <s:String x:Key="S.FlipRotate.RotateLeft">Повернути вліво на 90º</s:String>
     <s:String x:Key="S.FlipRotate.RotateRight">Повернути вправо на 90º</s:String>
+    
     
     
     
@@ -2095,6 +2174,7 @@
     
     
     
+    
     <!--  Editor • Remove duplicates  -->
     <s:String x:Key="S.RemoveDuplicates.Header">Видалення дублікатів</s:String>
     <s:String x:Key="S.RemoveDuplicates.Similarity">Схожість (%):</s:String>
@@ -2107,6 +2187,7 @@
     <s:String x:Key="S.RemoveDuplicates.Delay.Sum">Використовувати суму</s:String>
     <s:String x:Key="S.RemoveDuplicates.Info">Ця дія аналізує кожен кадр (піксель за пікселем) і видаляє ті, які принаймні на {0} % схожі на його найближчого сусіда.&#x0d;Ви можете вибрати, чи хочете ви налаштувати затримку (тривалість показу) кадрів.</s:String>
 
+    
     
     
     
@@ -2138,6 +2219,7 @@
     
     
     
+    
     <!--  Editor • Captions  -->
     <s:String x:Key="S.Caption.Text">Текст</s:String>
     <s:String x:Key="S.Caption.Font">Шрифт</s:String>
@@ -2155,6 +2237,7 @@
     <s:String x:Key="S.Caption.TextAlignment">Вирівнювання:</s:String>
     <s:String x:Key="S.Caption.TextDecoration">Декорації:</s:String>
 
+    
     
     
     
@@ -2196,6 +2279,7 @@
     
     
     
+    
     <!--  Editor • Free drawing  -->
     <s:String x:Key="S.FreeDrawing.Mode">Режим</s:String>
     <s:String x:Key="S.FreeDrawing.Pen">Олівець</s:String>
@@ -2212,6 +2296,7 @@
     <s:String x:Key="S.FreeDrawing.FitToCurve">Згладжування лінії</s:String>
     <s:String x:Key="S.FreeDrawing.Warning.NoDrawing">Немає малюнків, які використати для кадрів, які ви вибрали.</s:String>
     <s:String x:Key="S.FreeDrawing.WarningSelection">Ви мусите вибрати хоча б один кадр, щоб застовувати Довільне Малювання.</s:String>
+    
     
     
     
@@ -2243,12 +2328,14 @@
     
     
     
+    
     <!--  Editor • Mouse events  -->
     <s:String x:Key="S.MouseEvents">Події миші</s:String>
     <s:String x:Key="S.MouseHighlight.Color">Колір виділення миші:</s:String>
     <s:String x:Key="S.MouseClicks.Color.Left">Колір лівої кнопки</s:String>
     <s:String x:Key="S.MouseClicks.Color.Middle">Колір середньої кнопки</s:String>
     <s:String x:Key="S.MouseClicks.Color.Right">Колір правої кнопки</s:String>
+    
     
     
     
@@ -2279,10 +2366,12 @@
     
     
     
+    
     <!--  Editor • Border  -->
     <s:String x:Key="S.Border.Appearance">Зовнішній вигляд</s:String>
     <s:String x:Key="S.Border.Info">Використовуйте від'ємні значення, щоб рамка розширювала зображення. У цьому випадку, рамку буде застосовано до всіх кадрів.&#10;Якщо від'ємне значення не використовується, рамку буде застосовано лише до вибраних кадрів.</s:String>
 
+    
     
     
     
@@ -2310,6 +2399,7 @@
     
     
     
+    
     <!--  Editor • Obfuscate  -->
     <s:String x:Key="S.Obfuscate.Type.Pixelate">Пікселізувати</s:String>
     <s:String x:Key="S.Obfuscate.Type.Blur">Розмити</s:String>
@@ -2326,6 +2416,7 @@
     <s:String x:Key="S.Obfuscate.Info">За допомогою інструмента виділення виберіть частину кадру, яку потрібно приховати.</s:String>
     <s:String x:Key="S.Obfuscate.Info2">Використовуйте інструмент виділення, щоб виділити частину кадру, яка не повинна бути прихованою.</s:String>
     <s:String x:Key="S.Obfuscate.Warning">Ви нічого не виділили. Будь ласка, скористайтеся інструментом виділення, щоб виділити прямокутник, який слід приховати.</s:String>
+    
     
     
     
@@ -2376,6 +2467,7 @@
     
     
     
+    
     <!--  Editor • Delay  -->
     <s:String x:Key="S.Delay.Update">Оновлення затримки</s:String>
     <s:String x:Key="S.Delay.Mode">Режим затримки:</s:String>
@@ -2400,9 +2492,11 @@
     
     
     
+    
     <!--  Editor • Cinemagraph  -->
     <s:String x:Key="S.Cinemagraph.Info">За допомогою пера виділіть пікселі, які не повинні залишатися статичними (які повинні змінюватися між кадрами), зафарбовуючи їх зверху.</s:String>
 
+    
     
     
     
@@ -2422,6 +2516,7 @@
     <s:String x:Key="S.Transitions.Color">Колір</s:String>
     <s:String x:Key="S.Transitions.Info">Перехід застосується між вибраними і наступним кадрами.</s:String>
 
+    
     
     
     
@@ -2481,6 +2576,7 @@
     
     
     
+    
     <!--  Editor • Save as > Presets  -->
     <s:String x:Key="S.SaveAs.Presets">Пресети:</s:String>
     <s:String x:Key="S.SaveAs.Presets.Default">Стандартний</s:String>
@@ -2500,6 +2596,7 @@
     
     
     
+    
     <!--  Editor • Save as > Presets > Dialogs  -->
     <s:String x:Key="S.SaveAs.Presets.Ask.Delete.Title">Видалення пресету</s:String>
     <s:String x:Key="S.SaveAs.Presets.Ask.Delete.Instruction">Ви впевнені, що хочете видалити цей пресет?</s:String>
@@ -2507,6 +2604,7 @@
     <s:String x:Key="S.SaveAs.Presets.Ask.Reset.Title">Скидання пресету</s:String>
     <s:String x:Key="S.SaveAs.Presets.Ask.Reset.Instruction">Ви впевнені, що хочете скинути цей пресет?</s:String>
     <s:String x:Key="S.SaveAs.Presets.Ask.Reset.Message">Цю дію неможливо скасувати.&#10;&#10;Бажаєте скинути вибраний пресет до налаштувань за замовчуванням?</s:String>
+    
     
     
     
@@ -2544,6 +2642,7 @@
     
     
     
+    
     <!--  Editor • Save as > FFmpeg  -->
     <s:String x:Key="S.SaveAs.Ffmpeg.UseParameters">Увімкнути розширений режим.</s:String>
     <s:String x:Key="S.SaveAs.Ffmpeg.UseParameters.Info">Вручну введіть параметри для керування енкодером.</s:String>
@@ -2555,6 +2654,7 @@
     <s:String x:Key="S.SaveAs.Ffmpeg.Help.Code">Документація про кодек</s:String>
     <s:String x:Key="S.SaveAs.Ffmpeg.Help.Format">Документація про формат</s:String>
     <s:String x:Key="S.SaveAs.Ffmpeg.Help.Filters">Документація про фільтри</s:String>
+    
     
     
     
@@ -2606,6 +2706,7 @@
     <s:String x:Key="S.SaveAs.GifOptions.Dither">Розсієння:</s:String>
     <s:String x:Key="S.SaveAs.GifOptions.Dither.Scale">Шкала Баєра:</s:String>
 
+    
     
     
     
@@ -2729,6 +2830,7 @@
     
     
     
+    
     <!--  Editor • Save as > Apng options  -->
     <s:String x:Key="S.SaveAs.ApngOptions">Параметри Apng </s:String>
     <s:String x:Key="S.SaveAs.ApngOptions.Prediction">Передбачення:</s:String>
@@ -2751,6 +2853,7 @@
     
     
     
+    
     <!--  Editor • Save as > Webp options  -->
     <s:String x:Key="S.SaveAs.WebpOptions.CodecPreset">Пресет:</s:String>
     <s:String x:Key="S.SaveAs.WebpOptions.CodecPreset.None">Відсутній</s:String>
@@ -2761,6 +2864,7 @@
     <s:String x:Key="S.SaveAs.WebpOptions.CodecPreset.Icon">Іконка</s:String>
     <s:String x:Key="S.SaveAs.WebpOptions.CodecPreset.Text">Текст</s:String>
     <s:String x:Key="S.SaveAs.WebpOptions.Lossless">Використовувати режим без втрат.</s:String>
+    
     
     
     
@@ -2845,9 +2949,11 @@
     
     
     
+    
     <!--  Editor • Save as > Image options  -->
     <s:String x:Key="S.SaveAs.ImageOptions.Zip">Заархівувати зображення.</s:String>
     <s:String x:Key="S.SaveAs.ImageOptions.Zip.Info">Експортує зображення до архіву.</s:String>
+    
     
     
     
@@ -2864,6 +2970,7 @@
     <s:String x:Key="S.SaveAs.PsdOptions.Compress.Info">Стисніть дані зображення за допомогою алгоритму RLE.</s:String>
     <s:String x:Key="S.SaveAs.PsdOptions.Timeline">Зберегти дані часової шкали.</s:String>
     <s:String x:Key="S.SaveAs.PsdOptions.Timeline.Info">Експортує хронометраж кадрів, а не тільки кадри.</s:String>
+    
     
     
     
@@ -2910,6 +3017,7 @@
     
     
     
+    
     <!--  Editor • Save As > Partial export  -->
     <s:String x:Key="S.SaveAs.Partial">Частковий експорт</s:String>
     <s:String x:Key="S.SaveAs.Partial.Mode">Режим:</s:String>
@@ -2940,6 +3048,7 @@
     
     
     
+    
     <!--  Editor • Save as > File  -->
     <s:String x:Key="S.SaveAs.File">Файл</s:String>
     <s:String x:Key="S.SaveAs.File.Location">Папка призначення.</s:String>
@@ -2952,6 +3061,7 @@
     <s:String x:Key="S.SaveAs.File.Decrease">Зменшити номер файлу</s:String>
     <s:String x:Key="S.SaveAs.File.Exists">Файл з таким іменем вже існує.</s:String>
     <s:String x:Key="S.SaveAs.File.Clipboard">Зберегти до буферу обміну.</s:String>
+    
     
     
     
@@ -2993,6 +3103,7 @@
     
     
     
+    
     <!--  Editor • Save As > Upload  -->
     <s:String x:Key="S.SaveAs.Upload">Завантажити</s:String>
     <s:String x:Key="S.SaveAs.Upload.Info">Виберіть пресет завантаження, який містить детальну інформацію про сервіс, що використовується для завантаження.</s:String>
@@ -3016,10 +3127,12 @@
     
     
     
+    
     <!--  Editor • Save as > Upload > Dialogs  -->
     <s:String x:Key="S.SaveAs.Upload.Ask.Delete.Title">Видалення пресета завантаження</s:String>
     <s:String x:Key="S.SaveAs.Upload.Ask.Delete.Instruction">Ви впевнені, що хочете видалити пресет завантаження?</s:String>
     <s:String x:Key="S.SaveAs.Upload.Ask.Delete.Message">Цю дію не можна скасувати.&#10;&#10;Ви хочете видалити вибраний пресет завантаження?</s:String>
+    
     
     
     
@@ -3051,11 +3164,13 @@
     
     
     
+    
     <!--  Command Preview  -->
     <s:String x:Key="S.CommandPreviewer.Title">Попередній перегляд команд</s:String>
     <s:String x:Key="S.CommandPreviewer.Command">Команда</s:String>
     <s:String x:Key="S.CommandPreviewer.Input">Вхідний шлях</s:String>
     <s:String x:Key="S.CommandPreviewer.Output">Вихідний шлях</s:String>
+    
     
     
     
@@ -3100,6 +3215,7 @@
     
     
     
+    
     <!--  Troubleshoot  -->
     <s:String x:Key="S.Troubleshoot.Title">Усунення несправностей</s:String>
     <s:String x:Key="S.Troubleshoot.Windows">Не вистачає якогось вікна?</s:String>
@@ -3119,10 +3235,12 @@
     
     
     
+    
     <!--  FontStyles  -->
     <s:String x:Key="S.FontStyles.Normal">Звичайний</s:String>
     <s:String x:Key="S.FontStyles.Italic">Курсив</s:String>
     <s:String x:Key="S.FontStyles.Oblique">Косий</s:String>
+    
     
     
     
@@ -3162,12 +3280,14 @@
     
     
     
+    
     <!--  VerticalAlignment  -->
     <s:String x:Key="S.VerticalAlignment.Top">Зверху</s:String>
     <s:String x:Key="S.VerticalAlignment.Center">По центру</s:String>
     <s:String x:Key="S.VerticalAlignment.Bottom">Знизу</s:String>
     <s:String x:Key="S.Alignment.Stretch">Розтягнути</s:String>
 
+    
     
     
     
@@ -3193,9 +3313,11 @@
     
     
     
+    
     <!--  Orientation  -->
     <s:String x:Key="S.Orientation.Horizontal">Горизонтальна</s:String>
     <s:String x:Key="S.Orientation.Vertical">Вертикальна</s:String>
+    
     
     
     
@@ -3212,6 +3334,7 @@
     <s:String x:Key="S.TextAlignment.Right">Справа</s:String>
     <s:String x:Key="S.TextAlignment.Center">По центру</s:String>
     <s:String x:Key="S.TextAlignment.Justify">За шириною</s:String>
+    
     
     
     

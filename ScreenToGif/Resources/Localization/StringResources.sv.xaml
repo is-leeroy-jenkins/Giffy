@@ -14,7 +14,9 @@
     
     
     
+    
     <!--  To use a new line: &#x0d; or CarriageReturn + NewLine: &#x0d;&#x0a; or &#10;  --> 
+    
     
     
     
@@ -36,7 +38,9 @@
     
     
     
+    
     <!--  Special texts like {0}, are place holders for dynamic values, such as numbers.  -->
+    
     
     
     
@@ -83,9 +87,11 @@
     
     
     
+    
     <!--  Warning messages  -->
     <s:String x:Key="S.Crash">Oh nej, appen kraschade :(</s:String>
     <s:String x:Key="S.Required">Obligatoriskt fält.</s:String>
+    
     
     
     
@@ -107,7 +113,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Warning.Net.Header">Net Framework 4.8 is not present</s:String>-->
+    
     
     
     
@@ -129,6 +137,7 @@
     
     
     
+    
     <!--<s:String x:Key="S.Warning.Single.Title">Only one instance permitted</s:String>-->
     
     
@@ -140,7 +149,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Warning.Single.Header">The app is already running</s:String>-->
+    
     
     
     
@@ -166,11 +177,13 @@
     
     
     
+    
     <!--  Tray icon  -->
     <s:String x:Key="S.NewRecording">Ny skärminspelning</s:String>
     <s:String x:Key="S.NewWebcamRecording">Ny webbkamerainspelning</s:String>
     <s:String x:Key="S.NewBoardRecording">Ny ritbordsinspelning</s:String>
     <s:String x:Key="S.Exit">Avsluta</s:String>
+    
     
     
     
@@ -216,7 +229,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Command.Undo">Undo</s:String>-->
+    
     
     
     
@@ -239,7 +254,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Command.Copy">Copy the selected frames and store them in the clipboard</s:String>-->
+    
     
     
     
@@ -261,7 +278,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Command.Paste">Paste the frames from the clipboard</s:String>-->
+    
     
     
     
@@ -305,6 +324,7 @@
     
     
     
+    
     <!--<s:String x:Key="S.Command.Cinemagraph">Use the drawing tools to select which parts of the frame should not remain static throughout the animation</s:String>-->
     <s:String x:Key="S.Command.Progress">Förloppsindikator eller text med uppspelningsdetaljer</s:String>
     <s:String x:Key="S.Command.SelectAll">Markera alla bildrutor</s:String>
@@ -321,6 +341,7 @@
     <s:String x:Key="S.Command.Edit">Redigera valt objekt</s:String>
     <s:String x:Key="S.Command.Save">Spara markerade objekt</s:String>
     <s:String x:Key="S.Command.Remove">Ta bort markerade objekt</s:String>
+    
     
     
     
@@ -356,8 +377,10 @@
     
     
     
+    
     <!--  Updater  -->
     <s:String x:Key="S.Updater.Title">Uppdatera</s:String>
+    
     
     
     
@@ -381,9 +404,11 @@
     
     
     
+    
     <!--<s:String x:Key="S.Updater.Version">Version</s:String>-->
     <s:String x:Key="S.Updater.Portable">Portabel</s:String>
     <s:String x:Key="S.Updater.Installer">Installeraren</s:String>
+    
     
     
     
@@ -405,6 +430,7 @@
     
     
     
+    
     <!--<s:String x:Key="S.Updater.Info.BugFixes">Bug fixes:</s:String>-->
     
     
@@ -416,7 +442,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Updater.Info.NewVersionAvailable">A new version is available for you to download.&#x0d;Would you like to open the browser to download it?</s:String>-->
+    
     
     
     
@@ -439,7 +467,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Updater.Install">Install</s:String>-->
+    
     
     
     
@@ -461,6 +491,7 @@
     
     
     
+    
     <!--<s:String x:Key="S.Updater.Warning.Show">It was not possible to show the download details.</s:String>-->
     
     
@@ -472,7 +503,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Updater.Warning.Download">It was not possible to download the update.</s:String>-->
+    
     
     
     
@@ -510,7 +543,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Options.Warning.DesktopDuplication.Header">Missing dependencies for screen capture</s:String>-->
+    
     
     
     
@@ -533,7 +568,9 @@
     
     
     
+    
     <!--  Options • Application  -->
+    
     
     
     
@@ -555,7 +592,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Options.App.Startup.Mode.Manual">Start&#10;manually</s:String>-->
+    
     
     
     
@@ -577,7 +616,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Options.App.Startup.Mode.Automatic">Start with&#10;Windows</s:String>-->
+    
     
     
     
@@ -599,7 +640,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Options.App.Startup.Mode.Warning">Impossible to alternate between startup modes.</s:String>-->
+    
     
     
     
@@ -621,7 +664,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Options.App.Startup.Instance.Single.Info">You'll be able to run the app once per user and executable,&#10;meaning that different user or executable instances can co-exist.&#10;When trying to execute the app again, the second instance will try to give focus to the first one and end itself.</s:String>-->
+    
     
     
     
@@ -643,7 +688,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Options.App.Startup.Instance.Multiple.Info">You'll be able to run the app multiple times at the same time, without restriction.</s:String>-->
+    
     
     
     
@@ -665,7 +712,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Options.App.Startup.Tray.Info">(System tray icon will be visible while this option is active)</s:String>-->
+    
     
     
     
@@ -682,6 +731,7 @@
     <s:String x:Key="S.Options.App.Startup.Window.Webcam">Webbkamerainspelning</s:String>
     <s:String x:Key="S.Options.App.Startup.Window.Board">Ritbordsinspelning</s:String>
     <s:String x:Key="S.Options.App.Startup.Window.Editor">Redigeringsfönster</s:String>
+    
     
     
     
@@ -711,7 +761,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Options.App.Theme.Scheme.Example">Example colors.</s:String>-->
+    
     
     
     
@@ -735,7 +787,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Options.App.Tray.Interactions.Nothing">Do nothing</s:String>-->
+    
     
     
     
@@ -757,7 +811,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Options.App.Tray.Interactions.Open.None">No window</s:String>-->
+    
     
     
     
@@ -779,7 +835,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Options.App.Tray.Interactions.Minimize">Minimize all windows</s:String>-->
+    
     
     
     
@@ -801,7 +859,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Options.App.Tray.Interactions.Left">Left click:</s:String>-->
+    
     
     
     
@@ -823,7 +883,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Options.App.Tray.Interactions.Middle">Middle click:</s:String>-->
+    
     
     
     
@@ -845,7 +907,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Options.App.Tray.Interactions.Else">Or else, opens:</s:String>-->
+    
     
     
     
@@ -867,7 +931,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Options.App.General.WorkaroundQuota">Workaround for the 'Not enough quota...' crash.</s:String>-->
+    
     
     
     
@@ -881,6 +947,7 @@
     <!--<s:String x:Key="S.Options.App.General.WorkaroundQuota.Info">(Experimental)</s:String>-->
     <s:String x:Key="S.Options.App.General.NotifyWhileClosingApp">Fråga mig innan jag stänger appen (via 'Exit'-kommandot)</s:String>
     <s:String x:Key="S.Options.App.General.DisableHardwareAcceleration">Inaktivera maskinvaruacceleration.</s:String>
+    
     
     
     
@@ -905,6 +972,7 @@
     
     
     
+    
     <!--<s:String x:Key="S.Options.App.General.UpdateOnClose">Automatically install updates after closing the app.</s:String>-->
     
     
@@ -916,7 +984,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Options.App.General.ForceUpdateAsAdmin">Force the update to run with elevated privileges.</s:String>-->
+    
     
     
     
@@ -939,7 +1009,9 @@
     
     
     
+    
     <!--  Options • Recorder  -->
+    
     
     
     
@@ -961,7 +1033,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Options.Recorder.Interface.Old">Old</s:String>-->
+    
     
     
     
@@ -984,7 +1058,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Options.Recorder.Frequency">Capture frequency</s:String>-->
+    
     
     
     
@@ -1006,7 +1082,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Options.Recorder.Frequency.Manual.Info">Each frame will be manually captured by you, by pressing the capture button or equivalent keyboard shortcut.</s:String>-->
+    
     
     
     
@@ -1028,7 +1106,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Options.Recorder.Frequency.Second.Info">Frames will be captured in a 'per second' basis,&#10;given the framerate denominator set on the recorder screen.</s:String>-->
+    
     
     
     
@@ -1050,7 +1130,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Options.Recorder.Frequency.Minute.Info">Frames will be captured in a 'per minute' basis (timelapse),&#10;given the framerate denominator set on the recorder screen.</s:String>-->
+    
     
     
     
@@ -1072,7 +1154,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Options.Recorder.Frequency.Hour.Info">Frames will be captured in a 'per hour' basis (timelapse),&#10;given the framerate denominator set on the recorder screen.</s:String>-->
+    
     
     
     
@@ -1094,7 +1178,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Options.Recorder.Frequency.Playback.Info">(In ms, each captured frame will be set to this delay)</s:String>-->
+    
     
     
     
@@ -1117,7 +1203,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Options.Recorder.Mode">Capture mode</s:String>-->
+    
     
     
     
@@ -1139,7 +1227,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Options.Recorder.DirectX.Info">Use the Desktop Duplication API capture method, which is faster and&#10;is able to capture fullscreen games, but requires the SharpDx plug-in and Windows 8 or newer.</s:String>-->
+    
     
     
     
@@ -1161,7 +1251,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Options.Recorder.File.Info">Each frame captured will be saved directly as an image on disk.</s:String>-->
+    
     
     
     
@@ -1183,7 +1275,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Options.Recorder.Cache.Info">Each frame captured will be stored as a pixel array on memory first (may be compressed before).</s:String>-->
+    
     
     
     
@@ -1205,7 +1299,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Options.Recorder.Compression.Optimal">Optimal</s:String>-->
+    
     
     
     
@@ -1227,7 +1323,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Options.Recorder.Compression.Fastest">Fastest</s:String>-->
+    
     
     
     
@@ -1249,7 +1347,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Options.Recorder.Compression.NoCompression">No compression</s:String>-->
+    
     
     
     
@@ -1271,7 +1371,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Options.Recorder.CacheSize">Cache size:</s:String>-->
+    
     
     
     
@@ -1299,7 +1401,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Options.Recorder.RemoteImprovement">Improve the capture performance on a remote desktop connection.</s:String>-->
+    
     
     
     
@@ -1321,6 +1425,7 @@
     <s:String x:Key="S.Options.Recorder.FollowMargin.Info">(Buffertmarginal där inspelningsområdet börjar förflyttas)</s:String>
     <s:String x:Key="S.Options.Recorder.FollowMarginInvisible.Info">(Ytterligare buffertmarginal där användargränssnittet börjar bli dold)</s:String>
 
+    
     
     
     
@@ -1358,6 +1463,7 @@
     
     
     
+    
     <!--<s:String x:Key="S.Options.Editor.Interface.DisplayEncoder">Display the encodings in a separated window.</s:String>-->
     <s:String x:Key="S.Options.Editor.Interface.ExtendChrome">Förläng titelraden (fönstret chrome).</s:String>
     <s:String x:Key="S.Options.Editor.Interface.AutomaticallySizeOnContent">Justera automatiskt fönsterstorleken baserat på bildrutans storlek, direkt efter laddning.</s:String>
@@ -1367,6 +1473,7 @@
     <s:String x:Key="S.Options.Editor.General.NotifyWhileClosingEditor">Fråga mig innan jag stänger redigeraren (om ett projekt är öppet).</s:String>
     <s:String x:Key="S.Options.Editor.General.TripleClickSelection">Aktivera trippelklicka för att välja text.</s:String>
     <s:String x:Key="S.Options.Editor.General.DrawOutlineOutside">Rita konturerna med bildtexter utanför bokstäverna.</s:String>
+    
     
     
     
@@ -1388,6 +1495,7 @@
     
     
     
+    
     <!--<s:String x:Key="S.Options.Editor.General.LimitHistory.Info">(Older actions will be removed when the limit is reached)</s:String>-->
     
     
@@ -1399,7 +1507,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Options.Editor.General.LimitHistory.Maximum">(Maximum number of actions stored)</s:String>-->
+    
     
     
     
@@ -1426,7 +1536,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Options.Tasks.List.Enabled">Enabled</s:String>-->
+    
     
     
     
@@ -1441,6 +1553,7 @@
     <s:String x:Key="S.Options.Tasks.SelectType">(Välj en uppgift)</s:String>
     <s:String x:Key="S.Options.Tasks.Info">Dessa uppgifter utförs i följd från toppen av listan till botten.&#10;Det händer när du först öppnar ett projekt med redigeraren.</s:String>
   
+    
     
     
     
@@ -1488,6 +1601,7 @@
     
     
     
+    
     <!--  Options • Language  -->
     <s:String x:Key="S.Options.Language.AppLanguage">Applikationsspråk</s:String>
     <s:String x:Key="S.Options.Language.AppLanguage.AutoDetect">Detektera automatiskt</s:String>
@@ -1514,7 +1628,9 @@
     
     
     
+    
     <!--  Options • Storage  -->
+    
     
     
     
@@ -1536,7 +1652,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Options.Storage.Status.Volume">Volume:</s:String>-->
+    
     
     
     
@@ -1558,7 +1676,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Options.Storage.Status.Check">Check again how much space left there is.</s:String>-->
+    
     
     
     
@@ -1581,7 +1701,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Options.Storage.Status.Error">Impossible to retrieve the drive details.</s:String>-->
+    
     
     
     
@@ -1603,7 +1725,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Options.Storage.Status.Files.Singular">{0:##,##0} file</s:String>-->
+    
     
     
     
@@ -1625,7 +1749,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Options.Storage.Status.Folders.None">No folders</s:String>-->
+    
     
     
     
@@ -1647,7 +1773,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Options.Storage.Status.Folders.Plural">{0:##,##0} folders</s:String>-->
+    
     
     
     
@@ -1669,7 +1797,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Options.Storage.Paths">Paths</s:String>-->
+    
     
     
     
@@ -1692,8 +1822,10 @@
     
     
     
+    
     <!--<s:String x:Key="S.Options.Storage.Paths.Logs">Logs:</s:String>-->
     <s:String x:Key="S.Options.Storage.Paths.Logs.Choose">Välj plats för felloggsfiler</s:String>
+    
     
     
     
@@ -1727,7 +1859,9 @@
     
     
     
+    
     <!--  Options • Storage > Clear cache  -->
+    
     
     
     
@@ -1749,7 +1883,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Options.Storage.Cache.Header">Would you like to clear the cache folder?</s:String>-->
+    
     
     
     
@@ -1771,7 +1907,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Options.Storage.Cache.Question">Would you like to remove these projects from the cache folder?</s:String>-->
+    
     
     
     
@@ -1793,6 +1931,7 @@
     
     
     
+    
     <!--<s:String x:Key="S.Options.Storage.Cache.IgnoreRecent.Yes">(Only the projects older than {0} days, that are not currently in use, will be removed)</s:String>-->
     
     
@@ -1804,7 +1943,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Options.Storage.Cache.IgnoreRecent.No">(All the projects, that are not currently in use, will be removed)</s:String>-->
+    
     
     
     
@@ -1852,7 +1993,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Options.Upload.Preset.Imgur.Auth.Failed.Header">It was not possible to authorize the app</s:String>-->
+    
     
     
     
@@ -1886,6 +2029,7 @@
     
     
     
+    
     <!--  Options • Extras  -->
     <s:String x:Key="S.Options.Extras.External">Tillgängliga externa verktyg</s:String>
     <s:String x:Key="S.Options.Extras.Download">Tryck här för att ladda ner&#x0d;{0}</s:String>
@@ -1895,6 +2039,7 @@
     <s:String x:Key="S.Options.Extras.DownloadRestriction">Appar som distribueras av Microsoft Store kan inte ladda ner andra appar. Du måste ladda ner den manuellt.</s:String>
     <s:String x:Key="S.Options.Extras.FfmpegLocation">Sökväg till FFmpeg</s:String>
     <s:String x:Key="S.Options.Extras.FfmpegLocation.Select">Ange sökvägen till den körbara FFmpeg-filen</s:String>
+    
     
     
     
@@ -1919,8 +2064,10 @@
     
     
     
+    
     <!--<s:String x:Key="S.Options.Extras.GifskiLocation.File">Gifski library</s:String>-->
     <s:String x:Key="S.Options.Extras.GifskiLocation.Invalid">Sökvägen till Gifski innehåller ett eller flera ogiltiga tecken. Välj en giltig sökväg för filen.</s:String>
+    
     
     
     
@@ -1942,7 +2089,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Options.Extras.SharpDxLocation.Select">Select the location of the SharpDx libraries</s:String>-->
+    
     
     
     
@@ -1966,8 +2115,10 @@
     
     
     
+    
     <!--<s:String x:Key="S.Options.Extras.License.SharpDx">SharpDx license</s:String>-->
 
+    
     
     
     
@@ -1995,7 +2146,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Options.Donate.Subscribe">Subscribe</s:String>-->
+    
     
     
     
@@ -2017,7 +2170,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Options.Donate.Subscribe.Flattr">Donate monthly via Flattr.</s:String>-->
+    
     
     
     
@@ -2039,6 +2194,7 @@
     
     
     
+    
     <!--<s:String x:Key="S.Options.Donate.Gift.Steam">Gift games via Steam.</s:String>-->
     
     
@@ -2050,7 +2206,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Options.Donate.Gift.Gog">Gift games via GOG.</s:String>-->
+    
     
     
     
@@ -2073,7 +2231,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Options.Donate.Crypto.BitcoinCash">Copy the BitcoinCash address.</s:String>-->
+    
     
     
     
@@ -2095,7 +2255,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Options.Donate.Support.Visit">If you wish to support the project :)</s:String>-->
+    
     
     
     
@@ -2129,9 +2291,11 @@
     
     
     
+    
     <!--<s:String x:Key="S.Options.About.Technical.Privacy">Privacy policy:</s:String>-->
     <s:String x:Key="S.Options.About.ABigThanksTo">Ett stort tack till</s:String>
     <s:String x:Key="S.Options.About.ABigThanksTo.Everyone">Alla de som stöder mig, de som skickat och/eller donerat.</s:String>
+    
     
     
     
@@ -2155,6 +2319,7 @@
     
     
     
+    
     <!--<s:String x:Key="S.Localization.GettingCodes">Getting language codes...</s:String>-->
     
     
@@ -2166,7 +2331,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Localization.Recognized">Recognized as {0}</s:String>-->
+    
     
     
     
@@ -2190,7 +2357,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Localization.Exporting">Exporting resource...</s:String>-->
+    
     
     
     
@@ -2212,7 +2381,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Localization.OpenResource">Open a resource dictionary</s:String>-->
+    
     
     
     
@@ -2234,7 +2405,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Localization.Importing">Importing resource...</s:String>-->
+    
     
     
     
@@ -2256,7 +2429,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Localization.Warning.Name.Info">Try renaming like: StringResources.en.xaml, where 'en' should be replaced by your language code.</s:String>-->
+    
     
     
     
@@ -2278,7 +2453,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Localization.Warning.Repeated.Info">Try removing the repeated resource or use other language code.</s:String>-->
+    
     
     
     
@@ -2300,7 +2477,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Localization.Warning.Redundant.Info">The "{0}" code is redundant. Try using "{1}" instead.</s:String>-->
+    
     
     
     
@@ -2322,7 +2501,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Localization.Warning.Unknown.Info">The "{0}" and its family were not recognized as valid language codes.</s:String>-->
+    
     
     
     
@@ -2335,6 +2516,7 @@
     
     <!--<s:String x:Key="S.Localization.Warning.NotPossible">It was not possible to import the localization resource.</s:String>-->
 
+    
     
     
     
@@ -2365,7 +2547,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Recorder.SwitchFrequency">Click to switch among capture frequency modes.</s:String>-->
+    
     
     
     
@@ -2389,7 +2573,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Recorder.Fps.Range">Ranges from 1 to 60 fps, with higher values meaning more frames will be captured.&#10;Each increment represents 16 milliseconds of difference.</s:String>-->
+    
     
     
     
@@ -2411,7 +2597,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Recorder.Fpm.Short">fpm</s:String>-->
+    
     
     
     
@@ -2433,6 +2621,7 @@
     
     
     
+    
     <!--<s:String x:Key="S.Recorder.Fph">Maximum frames per hour</s:String>-->
     
     
@@ -2444,7 +2633,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Recorder.Fph.Short">fph</s:String>-->
+    
     
     
     
@@ -2470,7 +2661,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Recorder.Stopping">Stopping...</s:String>-->
+    
     
     
     
@@ -2493,7 +2686,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Recorder.Warning.CaptureNotPossible.Info">It was not possible to capture the screen. The capture method returned no frame after 5 tries.</s:String>-->
+    
     
     
     
@@ -2515,7 +2710,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Recorder.Warning.Windows8">Windows 8 or newer is required for capturing the screen using the Desktop Duplication API.</s:String>-->
+    
     
     
     
@@ -2538,12 +2735,14 @@
     
     
     
+    
     <!--  New recorder  -->
     <s:String x:Key="S.Recorder.Area">Område</s:String>
     <s:String x:Key="S.Recorder.Window">Fönster</s:String>
     <s:String x:Key="S.Recorder.Screen">Skärm</s:String>
     <s:String x:Key="S.Recorder.Accept">Acceptera</s:String>
     <s:String x:Key="S.Recorder.Retry">Försök igen</s:String>
+    
     
     
     
@@ -2572,6 +2771,7 @@
     
     
     
+    
     <!--  Webcam recorder  -->
     <s:String x:Key="S.Webcam.Title">ScreenToGif - Webbkamerainspelare</s:String>
     <s:String x:Key="S.Webcam.NoVideo">Ingen videoenhet upptäcktes :(</s:String>
@@ -2589,11 +2789,13 @@
     
     
     
+    
     <!--  Board recorder  -->
     <s:String x:Key="S.Board.Title">ScreenToGif - Ritbordsinspelaren</s:String>
     <s:String x:Key="S.Board.AutoRecord">Automatisk inspelning</s:String>
     <s:String x:Key="S.Board.AutoRecordToolTip">Aktiverar inspelning medans du ritar.</s:String>
     <s:String x:Key="S.Board.CtrlHold">Ctrl [Håll in]</s:String>
+    
     
     
     
@@ -2629,9 +2831,11 @@
     
     
     
+    
     <!--  Exception/Error viewers  -->
     <s:String x:Key="S.ExceptionViewer.Title">Undantagsvisare</s:String>
     <s:String x:Key="S.ExceptionViewer.OpenInner">Öppna inre undantag</s:String>
+    
     
     
     
@@ -2653,6 +2857,7 @@
     
     
     
+    
     <!--<s:String x:Key="S.ExceptionViewer.Message">Message</s:String>-->
     
     
@@ -2664,7 +2869,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.ExceptionViewer.Stack">Stack</s:String>-->
+    
     
     
     
@@ -2689,10 +2896,12 @@
     
     
     
+    
     <!--  FFmpeg preset  -->
     <s:String x:Key="S.FfmpegPreset.Title">FFmpeg förinställt</s:String>
     <s:String x:Key="S.FfmpegPreset.Name">Namn</s:String>
     <s:String x:Key="S.FfmpegPreset.Parameters">Parametrar</s:String>
+    
     
     
     
@@ -2708,6 +2917,7 @@
     <s:String x:Key="S.FfmpegPreset.Warning.Parameter">Du måste ange några parametrar på förinställningen.</s:String>
     <s:String x:Key="S.FfmpegPreset.Warning.SameName">Det finns redan en förinställning med detta namnet.</s:String>
 
+    
     
     
     
@@ -2747,8 +2957,10 @@
     
     
     
+    
     <!--  Import frames from video  -->
     <s:String x:Key="S.ImportVideo.Title">Importera bildrutor från video</s:String>
+    
     
     
     
@@ -2783,6 +2995,7 @@
     
     
     
+    
     <!--<s:String x:Key="S.ImportVideo.Error.Detail">The previewer could not start. Try with another importer or check if the video is not corrupted.&#x0d;If you are using the MediaPlayer, check if the Windows feature called "Media Features / Windows Media Player" is turned on and make sure that you have the necessary video codec.</s:String>-->
     
     
@@ -2794,7 +3007,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.ImportVideo.Timeout">Timeout in getting the frame preview.</s:String>-->
+    
     
     
     
@@ -2817,8 +3032,10 @@
     
     
     
+    
     <!--  Encoder  -->
     <s:String x:Key="S.Encoder.Title">Kodare</s:String>
+    
     
     
     
@@ -2851,7 +3068,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Encoder.Completed.Elapsed">Elapsed time, in minutes:</s:String>-->
+    
     
     
     
@@ -2873,7 +3092,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Encoder.Completed.Elapsed.Encoding">Encoding:</s:String>-->
+    
     
     
     
@@ -2895,7 +3116,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Encoder.Completed.Elapsed.Copy">Copy:</s:String>-->
+    
     
     
     
@@ -2925,6 +3148,7 @@
     
     
     
+    
     <!--<s:String x:Key="S.Encoder.Analyzing.Second">Preparing for second pass</s:String>-->
     
     
@@ -2936,7 +3160,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Encoder.Processing.Second">Processing {0} - 2nd pass</s:String>-->
+    
     
     
     
@@ -2959,11 +3185,13 @@
     
     
     
+    
     <!--<s:String x:Key="S.Encoder.SavingAnalysis">Saving analysis result</s:String>-->
     <s:String x:Key="S.Encoder.OpenFile">Öppna fil</s:String>
     <s:String x:Key="S.Encoder.ExploreFolder">Utforska mappen</s:String>
     <s:String x:Key="S.Encoder.Remove">Ta bort från listan</s:String>
     <s:String x:Key="S.Encoder.Details">Visa detaljer</s:String>
+    
     
     
     
@@ -2991,6 +3219,7 @@
     
     
     
+    
     <!--  Command output  -->
     <s:String x:Key="S.Encoder.Command.Title">ScreenToGif - Kommandoutmatning</s:String>
     <s:String x:Key="S.Encoder.Command.Header">Kommandoutmatning</s:String>
@@ -3005,9 +3234,11 @@
     
     
     
+    
     <!--  Notifications  -->
     <s:String x:Key="S.Notifications">Aviseringar</s:String>
     <s:String x:Key="S.Notifications.Dismiss">Avvisa alla aviseringar</s:String>
+    
     
     
     
@@ -3041,7 +3272,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Editor.UpdateAvailable">A new update is available!</s:String>-->
+    
     
     
     
@@ -3054,6 +3287,7 @@
     
     <!--<s:String x:Key="S.Editor.UpdateAvailable.Info">Click here to read more about it.</s:String>-->
     <s:String x:Key="S.Editor.FrameNumbersInfo">Totalt antal, urvalsantal, urvalsindex</s:String>
+    
     
     
     
@@ -3080,9 +3314,11 @@
     
     
     
+    
     <!--  Editor • File dialogs (does not work with new line characters)  -->
     <s:String x:Key="S.Editor.File.OpenMedia">Öppna mediafil (bild eller video)</s:String>
     <s:String x:Key="S.Editor.File.OpenMediaProject">Öppna media- eller projektfil (bild eller video)</s:String>
+    
     
     
     
@@ -3104,7 +3340,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Editor.File.Image">Image</s:String>-->
+    
     
     
     
@@ -3126,7 +3364,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Editor.File.Project">ScreenToGif project</s:String>-->
+    
     
     
     
@@ -3148,7 +3388,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Editor.File.Apng">Animated Png</s:String>-->
+    
     
     
     
@@ -3170,7 +3412,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Editor.File.Mkv">Matroska video</s:String>-->
+    
     
     
     
@@ -3192,7 +3436,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Editor.File.Webm">Webm video</s:String>-->
+    
     
     
     
@@ -3214,7 +3460,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Editor.File.Image.Zip">Zip file, all selected images</s:String>-->
+    
     
     
     
@@ -3236,6 +3484,7 @@
     
     
     
+    
     <!--<s:String x:Key="S.Editor.File.Project.Zip">ScreenToGif project as Zip</s:String>-->
     
     
@@ -3247,7 +3496,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Editor.File.Psd">Psd file</s:String>-->
+    
     
     
     
@@ -3278,12 +3529,14 @@
     
     
     
+    
     <!--  Editor • File tab • New  -->
     <s:String x:Key="S.Editor.File.New.Recording">Inspelning</s:String>
     <s:String x:Key="S.Editor.File.New.Webcam">Webbkamera-&#10;inspelning</s:String>
     <s:String x:Key="S.Editor.File.New.Board">Ritbords-&#10;inspelning</s:String>
     <s:String x:Key="S.Editor.File.Blank">Blankt&#10;projekt</s:String>
     <s:String x:Key="S.Editor.File.New">Ny</s:String>
+    
     
     
     
@@ -3312,6 +3565,7 @@
     
     
     
+    
     <!--  Editor • File tab • Save/Discard  -->
     <s:String x:Key="S.Editor.File.Save">Spara som</s:String>
     <s:String x:Key="S.Editor.File.Load">Ladda</s:String>
@@ -3329,11 +3583,13 @@
     
     
     
+    
     <!--  Editor • Home tab • Action Stack  -->
     <s:String x:Key="S.Editor.Home.ActionStack">Åtgärder</s:String>
     <s:String x:Key="S.Editor.Home.Undo">Ångra</s:String>
     <s:String x:Key="S.Editor.Home.Redo">Gör om</s:String>
     <s:String x:Key="S.Editor.Home.Reset">Återställ</s:String>
+    
     
     
     
@@ -3362,10 +3618,12 @@
     
     
     
+    
     <!--  Editor • Home tab • Zoom  -->
     <s:String x:Key="S.Editor.Home.Zoom">Zoom</s:String>
     <s:String x:Key="S.Editor.Home.SizeToContent">Anpassa till&#10;innehållet</s:String>
     <s:String x:Key="S.Editor.Home.FitImage">Anpassa bilden</s:String>
+    
     
     
     
@@ -3383,6 +3641,7 @@
     <s:String x:Key="S.Editor.Home.GoTo">Gå till</s:String>
     <s:String x:Key="S.Editor.Home.Inverse">Omvänd</s:String>
     <s:String x:Key="S.Editor.Home.Deselect">Avmarkera</s:String>
+    
     
     
     
@@ -3413,10 +3672,12 @@
     
     
     
+    
     <!--  Editor • Playback tab • Playback Options  -->
     <s:String x:Key="S.Editor.PlaybackOptions.Header">Uppspelningsalternativ</s:String>
     <s:String x:Key="S.Editor.PlaybackOptions.Loop">Spela upp i slinga.</s:String>
     <s:String x:Key="S.Editor.PlaybackOptions.Loop.Info">Används endast under uppspelning.&#10;Om du vill ändra slinginställningarna för att exportera Gifs och Apngs,&#10;kommer de att finnas tillgängliga i panelen 'Spara som' för vissa kodare.</s:String>
+    
     
     
     
@@ -3446,12 +3707,14 @@
     
     
     
+    
     <!--  Editor • Edit tab • Reordering  -->
     <s:String x:Key="S.Editor.Edit.Reordering">Flytta om</s:String>
     <s:String x:Key="S.Editor.Edit.Reverse">Omvänd</s:String>
     <s:String x:Key="S.Editor.Edit.Yoyo">Yoyo</s:String>
     <s:String x:Key="S.Editor.Edit.MoveLeft">Flytta&#10;vänster</s:String>
     <s:String x:Key="S.Editor.Edit.MoveRight">Flytta&#10;höger</s:String>
+    
     
     
     
@@ -3479,11 +3742,13 @@
     
     
     
+    
     <!--  Editor • Image • Size and Rotation  -->
     <s:String x:Key="S.Editor.Image.SizePosition">Storlek och rotation</s:String>
     <s:String x:Key="S.Editor.Image.Resize">Ändra storlek</s:String>
     <s:String x:Key="S.Editor.Image.Crop">Beskär</s:String>
     <s:String x:Key="S.Editor.Image.FlipRotate">Vänd/Rotera</s:String>
+    
     
     
     
@@ -3501,6 +3766,7 @@
     <s:String x:Key="S.Editor.Image.FreeText">Fritext</s:String>
     <s:String x:Key="S.Editor.Image.TitleFrame">Titelbildruta</s:String>
     <s:String x:Key="S.Editor.Image.KeyStrokes">Tangent-&#10;nertryckningar</s:String>
+    
     
     
     
@@ -3534,10 +3800,12 @@
     
     
     
+    
     <!--  Editor • Transitions tab • Styles  -->
     <s:String x:Key="S.Editor.Transitions.Styles">Stilar</s:String>
     <s:String x:Key="S.Editor.Transitions.Fade">Toning</s:String>
     <s:String x:Key="S.Editor.Transitions.Slide">Glidning</s:String>
+    
     
     
     
@@ -3559,6 +3827,7 @@
     <s:String x:Key="S.Editor.Statistics.CurrentTime.Info">Den aktuella tiden (kumulativ) baserat på den aktuella bildrutan som visas.</s:String>
     <s:String x:Key="S.Editor.Statistics.FrameDpi">Bildruts-DPI och skala</s:String>
     <s:String x:Key="S.Editor.Statistics.SelectedFrame">Markerad bildruta</s:String>
+    
     
     
     
@@ -3627,11 +3896,13 @@
     
     
     
+    
     <!--  Editor • Warnings  -->
     <s:String x:Key="S.Editor.Warning.Selection">Du måste välja minst en bildruta att ansätta överliggande delen på.</s:String>
     <s:String x:Key="S.Editor.Warning.Ffmpeg">FFmpeg är inte tillgänglig, Lägg till det i sökvägens miljövariabel eller tryck här för att öppna Alternativ > Extra för att ange platsen.</s:String>
     <s:String x:Key="S.Editor.Warning.Gifski">Gifski är inte tillgänglig, Lägg till det i sökvägens miljövariabel eller tryck här för att öppna Alternativ > Extra för att ange platsen.</s:String>
     <s:String x:Key="S.Editor.Warning.LowSpace">Det finns inte tillräckligt med utrymme på den disken som denna appen lagrar sin cache ({0}% kvar). Tryck här för att öppna Alternativ > Temporära filer för att frigöra utrymme.</s:String>
+    
     
     
     
@@ -3654,7 +3925,9 @@
     
     
     
+    
     <!--  Editor • Status  -->
+    
     
     
     
@@ -3693,11 +3966,13 @@
     
     
     
+    
     <!--  Editor • Frame list  -->
     <s:String x:Key="S.Editor.List.Frame">Bildruta:</s:String>
     <s:String x:Key="S.Editor.List.OpenImage">Öppna bild</s:String>
     <s:String x:Key="S.Editor.List.ExploreFolder">Utforska mapp</s:String>
     <s:String x:Key="S.Editor.List.ExportImage">Exportera bild</s:String>
+    
     
     
     
@@ -3723,6 +3998,7 @@
     
     
     
+    
     <!--  Editor • Context menu  -->
     <s:String x:Key="S.Context.SaveAs">Spara som</s:String>
     <s:String x:Key="S.Context.RemoveFrames">Ta bort markerade bildrutor</s:String>
@@ -3732,6 +4008,7 @@
     <s:String x:Key="S.Context.NewBlankAnimation">Nytt projekt</s:String>
     <s:String x:Key="S.Context.NewFromMediaProject">Nytt från media eller projekt</s:String>
    
+    
     
     
     
@@ -3789,6 +4066,7 @@
     
     
     
+    
     <!--  Editor • Action panel  -->
     <s:String x:Key="S.Action.Hide">Dölj</s:String>
     <s:String x:Key="S.Action.Apply">Tillämpa</s:String>
@@ -3796,6 +4074,7 @@
     <s:String x:Key="S.Action.Save">Spara</s:String>
     <s:String x:Key="S.Action.Cancel">Avbryt</s:String>
 
+    
     
     
     
@@ -3822,8 +4101,10 @@
     
     
     
+    
     <!--<s:String x:Key="S.Recent.Warning.SameProject">This project is already being displayed by this editor instance.</s:String>-->
     <s:String x:Key="S.Recent.Warning.AnotherEditor">Detta projektet var redan öppnat av en annan redigerare. Ett projekt kan bara öppnas i en redigerare åt gången.</s:String>
+    
     
     
     
@@ -3848,7 +4129,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Clipboard.Entry.Image">{0} image</s:String>-->
+    
     
     
     
@@ -3876,6 +4159,7 @@
     
     
     
+    
     <!--  Editor • Resize  -->
     <s:String x:Key="S.Resize.CurrentProperties">Nuvarande egenskaper</s:String>
     <s:String x:Key="S.Resize.Dpi">Dpi</s:String>
@@ -3883,6 +4167,7 @@
     <s:String x:Key="S.Resize.Dpi2">DPI:</s:String>
     <s:String x:Key="S.Resize.KeepAspect">Bibehåll bildförhållande.</s:String>
     <s:String x:Key="S.Resize.Warning">Du måste välja ett annat värde för att tillämpa storleksändringen.</s:String>
+    
     
     
     
@@ -3913,11 +4198,13 @@
     
     
     
+    
     <!--  Editor • Flip/rotate  -->
     <s:String x:Key="S.FlipRotate.FlipHorizontal">Vänd vågrätt</s:String>
     <s:String x:Key="S.FlipRotate.FlipVertical">Vänd lodrätt</s:String>
     <s:String x:Key="S.FlipRotate.RotateLeft">Rotera vänster 90º</s:String>
     <s:String x:Key="S.FlipRotate.RotateRight">Totera höger 90º</s:String>
+    
     
     
     
@@ -3943,7 +4230,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Reduce.Delay">Delay adjustment:</s:String>-->
+    
     
     
     
@@ -3965,7 +4254,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Reduce.Delay.Previous">Sum with the previous frame</s:String>-->
+    
     
     
     
@@ -3987,7 +4278,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Reduce.ApplyToAll">Reduce the framerate of the entire project.</s:String>-->
+    
     
     
     
@@ -4010,7 +4303,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Reduce.Warning.NoSelection">You must select the frames to apply the framerate reduction (or check the option to apply to the entire project).</s:String>-->
+    
     
     
     
@@ -4032,7 +4327,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Reduce.Warning.SmallerThanFactor">The selection of frames must be greater than the removal factor, in order for the feature to be able to remove anything.</s:String>-->
+    
     
     
     
@@ -4066,6 +4363,7 @@
     
     
     
+    
     <!--  Editor • Captions  -->
     <s:String x:Key="S.Caption.Text">Text</s:String>
     <s:String x:Key="S.Caption.Font">Typsnitt</s:String>
@@ -4081,6 +4379,7 @@
     <s:String x:Key="S.Caption.Vertical">Vertikal:</s:String>
     <s:String x:Key="S.Caption.Horizontal">Horisontell:</s:String>
 
+    
     
     
     
@@ -4120,6 +4419,7 @@
     
     
     
+    
     <!--  Editor • Free drawing  -->
     <s:String x:Key="S.FreeDrawing.Mode">Läge</s:String>
     <s:String x:Key="S.FreeDrawing.Pen">Penna</s:String>
@@ -4147,11 +4447,13 @@
     
     
     
+    
     <!--  Editor • Shapes  -->
     <s:String x:Key="S.Shapes.Mode.Insert">Infoga</s:String>
     <s:String x:Key="S.Shapes.Shapes">Former</s:String>
     <s:String x:Key="S.Shapes.Shapes.Radius">Radie:</s:String>
     <s:String x:Key="S.Shapes.Shapes.Dashes">Streck:</s:String>
+    
     
     
     
@@ -4173,9 +4475,11 @@
     
     
     
+    
     <!--<s:String x:Key="S.Shapes.Shapes.Remove">Remove</s:String>-->
     <s:String x:Key="S.Shapes.Fill">Fyll</s:String>
 
+    
     
     
     
@@ -4200,9 +4504,11 @@
     
     
     
+    
     <!--  Editor • Watermark  -->
     <s:String x:Key="S.Watermark.Image">Bild</s:String>
     <s:String x:Key="S.Watermark.File">Fil:</s:String>
+    
     
     
     
@@ -4229,10 +4535,12 @@
     
     
     
+    
     <!--  Editor • Border  -->
     <s:String x:Key="S.Border.Appearance">Utseende</s:String>
     <s:String x:Key="S.Border.Info">Använd negativa värden för att gränsen ska expandera bilden. När du gör det kommer gränsen att tillämpas på alla bildrutorna. Om inget negativt värde används kommer gränsen att tillämpas endast på de valda bildrutorna.</s:String>
 
+    
     
     
     
@@ -4260,12 +4568,14 @@
     
     
     
+    
     <!--  Editor • Obfuscate  -->
     <s:String x:Key="S.Obfuscate.Options">Förvrängningsalternativ</s:String>
     <s:String x:Key="S.Obfuscate.PixelSize">Bildpunktsstorlek:</s:String>
     <s:String x:Key="S.Obfuscate.UseAverage">Beräkna medelfärgen för varje pixelat block.</s:String>
     <s:String x:Key="S.Obfuscate.Info">Använd markeringsverktyget för att välja rektangeln som ska pixlas.</s:String>
     <s:String x:Key="S.Obfuscate.Warning">Du valde ingenting. Använd markeringsverktyget för att välja rektangeln som ska pixeleras.</s:String>
+    
     
     
     
@@ -4301,7 +4611,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Progress.Format.Header">Format</s:String>-->
+    
     
     
     
@@ -4323,7 +4635,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Progress.Format.Seconds">$s = seconds</s:String>-->
+    
     
     
     
@@ -4345,7 +4659,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Progress.Format.Percentage">$p = percentage</s:String>-->
+    
     
     
     
@@ -4367,7 +4683,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Progress.Format.Totals">Totals:</s:String>-->
+    
     
     
     
@@ -4385,6 +4703,7 @@
     <s:String x:Key="S.Progress.Precision.StartNumber">Räkna från:</s:String>
     <s:String x:Key="S.Progress.Precision.StartNumber.ToolTip">Börja räkna bildrutsnummer från det markerade numret.</s:String>
     <s:String x:Key="S.Progress.Orientation">Orientering:</s:String>
+    
     
     
     
@@ -4420,9 +4739,11 @@
     
     
     
+    
     <!--  Editor • Cinemagraph  -->
     <s:String x:Key="S.Cinemagraph.Info">Använd pennan för att välja de pixlar som inte bör förbli statisk (det skulle förändras mellan ramar), genom att måla på dem.</s:String>
 
+    
     
     
     
@@ -4452,6 +4773,7 @@
     
     
     
+    
     <!--  Editor • Save as  -->
     <s:String x:Key="S.SaveAs.Type">Filtyp</s:String>
     <s:String x:Key="S.SaveAs.Gif">Gif</s:String>
@@ -4460,6 +4782,7 @@
     <s:String x:Key="S.SaveAs.Project">Projekt</s:String>
     <s:String x:Key="S.SaveAs.Psd">PSD</s:String>
     <s:String x:Key="S.SaveAs.Video">Video</s:String>
+    
     
     
     
@@ -4492,8 +4815,10 @@
     
     
     
+    
     <!--  Editor • Save as > Gif options  -->
     <s:String x:Key="S.SaveAs.GifOptions">Gif-alternativ</s:String>
+    
     
     
     
@@ -4515,7 +4840,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.SaveAs.GifOptions.Quantizer.Neural">Neural network</s:String>-->
+    
     
     
     
@@ -4537,7 +4864,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.SaveAs.GifOptions.Quantizer.Octree">Octree</s:String>-->
+    
     
     
     
@@ -4559,7 +4888,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.SaveAs.GifOptions.Quantizer.MedianCut">Median cut</s:String>-->
+    
     
     
     
@@ -4581,7 +4912,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.SaveAs.GifOptions.Quantizer.Grayscale">Grayscale</s:String>-->
+    
     
     
     
@@ -4603,7 +4936,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.SaveAs.GifOptions.Quantizer.MostUsed">Most used colors</s:String>-->
+    
     
     
     
@@ -4625,7 +4960,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.SaveAs.GifOptions.Sampling">Sampling:</s:String>-->
+    
     
     
     
@@ -4650,7 +4987,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.SaveAs.GifOptions.GlobalColorTable">Use a global color table.</s:String>-->
+    
     
     
     
@@ -4676,7 +5015,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.SaveAs.GifOptions.Transparency.Enable">Enable transparency.</s:String>-->
+    
     
     
     
@@ -4698,7 +5039,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.SaveAs.GifOptions.Transparency.Pick">Select which color to display as transparent.</s:String>-->
+    
     
     
     
@@ -4721,7 +5064,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.SaveAs.GifOptions.DetectUnchanged.Info">By analyzing and detecting unchanged pixels between the frames,&#10;it will be possible to save only the necessary parts to the gif.</s:String>-->
+    
     
     
     
@@ -4743,7 +5088,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.SaveAs.GifOptions.PaintWithChroma.Info">Repeated/unchanged pixels will be replaced with this chroma key,&#10;making it possible to use less colors per frame.</s:String>-->
+    
     
     
     
@@ -4756,6 +5103,7 @@
     
     <!--<s:String x:Key="S.SaveAs.GifOptions.ChromaKey">Chroma key:</s:String>-->
 
+    
     
     
     
@@ -4782,6 +5130,7 @@
     
     
     
+    
     <!--  Editor • Save as > Video/Images/Psd/Project options  -->
     <s:String x:Key="S.SaveAs.VideoOptions">Videoalternativ</s:String>
     <s:String x:Key="S.SaveAs.VideoOptions.Fps">Fps:</s:String>
@@ -4793,6 +5142,7 @@
     <s:String x:Key="S.SaveAs.PsdOptions.Compress.Info">Komprimera bilden med RLE-algoritmen.</s:String>
     <s:String x:Key="S.SaveAs.PsdOptions.Timeline">Spara tidslinjedata.</s:String>
     <s:String x:Key="S.SaveAs.PsdOptions.Timeline.Info">Exporterar tiderna av bildrutorna i stället för bara bildrutorna.</s:String>
+    
     
     
     
@@ -4831,6 +5181,7 @@
     
     
     
+    
     <!--  Save As • Save options  -->
     <s:String x:Key="S.SaveAs.SaveOptions">Alternativ för spara</s:String>
     <s:String x:Key="S.SaveAs.SaveOptions.PickFolder">Spara filen till den mapp du väljer.</s:String>
@@ -4849,6 +5200,7 @@
     <s:String x:Key="S.SaveAs.SaveOptions.CopyToClipboard.Link.Info">Kopierar länken som genereras av uppladdningstjänsten till urklippet.</s:String>
     <s:String x:Key="S.SaveAs.SaveOptions.ExecuteCommands">Kör postkodningskommandon.</s:String>
     <s:String x:Key="S.SaveAs.SaveOptions.ExecuteCommands.Info">Skriv kommandon som ska köras efter kodningen.&#x0d;Om du vill köra flera kommandon skriver du var och en på en separat rad.&#x0d;Makron:&#x0d;{p} = Utdatafilens sökväg.&#x0d;{f} = Utdatamappens sökväg.&#x0d;{u} = URL of the uploaded file.</s:String>
+    
     
     
     
@@ -4894,10 +5246,12 @@
     
     
     
+    
     <!--  SaveAs • Export  -->
     <s:String x:Key="S.SaveAs.Dialogs.Multiple.Title">Exportera bildrutor</s:String>
     <s:String x:Key="S.SaveAs.Dialogs.Multiple.Instruction">Är det säkert att du vill exportera bildrutorna?</s:String>
     <s:String x:Key="S.SaveAs.Dialogs.Multiple.Message">Den här åtgärden exporterar {0} bildrutor direkt till den valda mappen.</s:String>
+    
     
     
     
@@ -4926,6 +5280,7 @@
     
     
     
+    
     <!--<s:String x:Key="S.Feedback.Message.Info">If you are experiencing a bug, don't forget to explain to me how you got it, step by step.</s:String>-->
     <s:String x:Key="S.Feedback.Type">Typ av feedback</s:String>
     <s:String x:Key="S.Feedback.Suggestion">Förslag</s:String>
@@ -4933,6 +5288,7 @@
     <s:String x:Key="S.Feedback.YourEmail">Din e-postadress</s:String>
     <s:String x:Key="S.Feedback.Warning.Title">Du måste age en titel för feedbacken</s:String>
     <s:String x:Key="S.Feedback.Warning.Message">Du måste skriva ett meddelande i feedbacken.</s:String>
+    
     
     
     
@@ -4951,6 +5307,7 @@
     <s:String x:Key="S.Feedback.LanguageInfo1">Jag förstår Engelska</s:String>
     <s:String x:Key="S.Feedback.LanguageInfo2">och Portugisiska (Brasilianska och Europeiska).</s:String>
     <s:String x:Key="S.Feedback.Preview.Info">Detta är vad du skickar, plus alla bifogade filer.</s:String>
+    
     
     
     
@@ -4981,10 +5338,12 @@
     
     
     
+    
     <!--  FontStyles  -->
     <s:String x:Key="S.FontStyles.Normal">Normal</s:String>
     <s:String x:Key="S.FontStyles.Italic">Kursivt</s:String>
     <s:String x:Key="S.FontStyles.Oblique">Sned</s:String>
+    
     
     
     
@@ -5024,6 +5383,7 @@
     
     
     
+    
     <!--  VerticalAlignment  -->
     <s:String x:Key="S.VerticalAlignment.Top">Överst</s:String>
     <s:String x:Key="S.VerticalAlignment.Center">Centrera</s:String>
@@ -5040,10 +5400,12 @@
     
     
     
+    
     <!--  HorizontalAlignment  -->
     <s:String x:Key="S.HorizontalAlignment.Left">Vänster</s:String>
     <s:String x:Key="S.HorizontalAlignment.Center">Centrera</s:String>
     <s:String x:Key="S.HorizontalAlignment.Right">Höger</s:String>
+    
     
     
     

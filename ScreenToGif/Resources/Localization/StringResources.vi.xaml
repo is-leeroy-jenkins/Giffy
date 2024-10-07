@@ -14,7 +14,9 @@
     
     
     
+    
     <!--  To use a new line: &#x0d; or CarriageReturn + NewLine: &#x0d;&#x0a; or &#10;  --> 
+    
     
     
     
@@ -36,7 +38,9 @@
     
     
     
+    
     <!--  Special texts like {0}, are place holders for dynamic values, such as numbers.  -->
+    
     
     
     
@@ -81,7 +85,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.MinHeight">Min height:</s:String>-->
+    
     
     
     
@@ -106,7 +112,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Warning.Net.Title">Missing Dependency</s:String>-->
+    
     
     
     
@@ -128,7 +136,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Warning.Net.Message">In order to properly use this app, you need to download the correct version of the .Net Framework.&#10;Would you like to open the web page to download it?</s:String>-->
+    
     
     
     
@@ -150,7 +160,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Warning.Single.Header">The app is already running</s:String>-->
+    
     
     
     
@@ -165,6 +177,7 @@
     <s:String x:Key="S.Exiting.Title">Đang thoát ScreenToGif</s:String>
     <s:String x:Key="S.Exiting.Instruction">Bạn chắc chắn muốn thoát chứ?</s:String>
     <s:String x:Key="S.Exiting.Message">Tất cả cửa sổ sẽ bị đóng lại và thanh ứng dụng sẽ biến mất.</s:String>
+    
     
     
     
@@ -192,7 +205,9 @@
     
     
     
+    
     <!--  Commands  -->
+    
     
     
     
@@ -214,7 +229,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Command.NewWebcamRecording">New webcam recording</s:String>-->
+    
     
     
     
@@ -236,7 +253,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Command.NewAnimation">New animation</s:String>-->
+    
     
     
     
@@ -258,7 +277,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Command.InsertWebcamRecording">Insert webcam recording</s:String>-->
+    
     
     
     
@@ -280,7 +301,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Command.InsertFromMedia">Insert from media (images and videos)</s:String>-->
+    
     
     
     
@@ -302,7 +325,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Command.Load">Load files (images, videos and projects)</s:String>-->
+    
     
     
     
@@ -324,7 +349,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Command.DiscardProject">Discard current project</s:String>-->
+    
     
     
     
@@ -346,7 +373,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Command.IncreaseDecreaseDelay">Increase/Decrease delay of frames</s:String>-->
+    
     
     
     
@@ -368,7 +397,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Command.Zoom100">Set zoom to 100%</s:String>-->
+    
     
     
     
@@ -390,7 +421,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Command.FitImage">Fit image to the available window size</s:String>-->
+    
     
     
     
@@ -412,7 +445,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Command.PreviousFrame">Select the previous frame</s:String>-->
+    
     
     
     
@@ -434,7 +469,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Command.NextFrame">Select the next frame</s:String>-->
+    
     
     
     
@@ -456,7 +493,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Command.Undo">Undo</s:String>-->
+    
     
     
     
@@ -478,7 +517,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Command.Reset">Undo all changes in the project</s:String>-->
+    
     
     
     
@@ -500,7 +541,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Command.Cut">Cut the selected frames and store them in the clipboard</s:String>-->
+    
     
     
     
@@ -522,7 +565,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Command.Delete">Delete all selected frames</s:String>-->
+    
     
     
     
@@ -544,7 +589,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Command.DeleteNext">Delete all next frames</s:String>-->
+    
     
     
     
@@ -566,7 +613,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Command.Reduce">Reduce frame count</s:String>-->
+    
     
     
     
@@ -588,7 +637,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Command.Yoyo">Makes the animation go forward and backwards</s:String>-->
+    
     
     
     
@@ -610,7 +661,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Command.MoveRight">Move the selected frame to the right</s:String>-->
+    
     
     
     
@@ -632,7 +685,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Command.Crop">Crop all frames</s:String>-->
+    
     
     
     
@@ -654,7 +709,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Command.Caption">Add a caption</s:String>-->
+    
     
     
     
@@ -676,7 +733,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Command.TitleFrame">Add a frame with a title on it</s:String>-->
+    
     
     
     
@@ -698,7 +757,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Command.FreeDrawing">Draw free forms</s:String>-->
+    
     
     
     
@@ -720,7 +781,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Command.MouseEvents">Mouse clicks</s:String>-->
+    
     
     
     
@@ -742,7 +805,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Command.Border">Add borders</s:String>-->
+    
     
     
     
@@ -764,7 +829,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Command.Obfuscate">Hide sensitive parts on your frames</s:String>-->
+    
     
     
     
@@ -786,7 +853,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Command.Progress">Progress bar or text with playback details</s:String>-->
+    
     
     
     
@@ -808,7 +877,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Command.GoTo">Navigate to frame by index</s:String>-->
+    
     
     
     
@@ -830,7 +901,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Command.Unselect">Unselect all frames</s:String>-->
+    
     
     
     
@@ -852,7 +925,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Command.Slide">Slide transition</s:String>-->
+    
     
     
     
@@ -874,7 +949,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Command.MoveUp">Move up</s:String>-->
+    
     
     
     
@@ -896,7 +973,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Command.Add">Add</s:String>-->
+    
     
     
     
@@ -918,7 +997,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Command.Edit">Edit selected item</s:String>-->
+    
     
     
     
@@ -940,7 +1021,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Command.Remove">Remove selected item</s:String>-->
+    
     
     
     
@@ -976,8 +1059,10 @@
     
     
     
+    
     <!--  Updater  -->
     <s:String x:Key="S.Updater.Title">Cập nhật</s:String>
+    
     
     
     
@@ -1001,9 +1086,11 @@
     
     
     
+    
     <!--<s:String x:Key="S.Updater.Version">Version</s:String>-->
     <s:String x:Key="S.Updater.Portable">Bản Portable</s:String>
     <s:String x:Key="S.Updater.Installer">Tiến trình cài đặt</s:String>
+    
     
     
     
@@ -1025,6 +1112,7 @@
     
     
     
+    
     <!--<s:String x:Key="S.Updater.Info.BugFixes">Bug fixes:</s:String>-->
     
     
@@ -1036,7 +1124,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Updater.Info.NewVersionAvailable">A new version is available for you to download.&#x0d;Would you like to open the browser to download it?</s:String>-->
+    
     
     
     
@@ -1059,7 +1149,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Updater.Install">Install</s:String>-->
+    
     
     
     
@@ -1081,7 +1173,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Updater.Warning.Show">It was not possible to show the download details.</s:String>-->
+    
     
     
     
@@ -1104,10 +1198,12 @@
     
     
     
+    
     <!--  Options  -->
     <s:String x:Key="S.Options.Title">ScreenToGif - Các tùy chọn</s:String>
     <s:String x:Key="S.Options.App">Ứng dụng</s:String>
     <s:String x:Key="S.Options.Recorder">Máy ghi âm</s:String>
+    
     
     
     
@@ -1138,7 +1234,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Options.Warning.Follow.Header">Missing shortcut key for cursor following</s:String>-->
+    
     
     
     
@@ -1160,7 +1258,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Options.Warning.DesktopDuplication.Header">Missing dependencies for screen capture</s:String>-->
+    
     
     
     
@@ -1183,7 +1283,9 @@
     
     
     
+    
     <!--  Options • Application  -->
+    
     
     
     
@@ -1205,7 +1307,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Options.App.Startup.Mode.Manual">Start&#10;manually</s:String>-->
+    
     
     
     
@@ -1227,7 +1331,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Options.App.Startup.Mode.Automatic">Start with&#10;Windows</s:String>-->
+    
     
     
     
@@ -1249,7 +1355,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Options.App.Startup.Mode.Warning">Impossible to alternate between startup modes.</s:String>-->
+    
     
     
     
@@ -1271,7 +1379,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Options.App.Startup.Instance.Single.Info">You'll be able to run the app once per user and executable,&#10;meaning that different user or executable instances can co-exist.&#10;When trying to execute the app again, the second instance will try to give focus to the first one and end itself.</s:String>-->
+    
     
     
     
@@ -1293,7 +1403,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Options.App.Startup.Instance.Multiple.Info">You'll be able to run the app multiple times at the same time, without restriction.</s:String>-->
+    
     
     
     
@@ -1315,7 +1427,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Options.App.Startup.Tray.Info">(System tray icon will be visible while this option is active)</s:String>-->
+    
     
     
     
@@ -1332,6 +1446,7 @@
     <s:String x:Key="S.Options.App.Startup.Window.Webcam">Ghi hình webcam</s:String>
     <s:String x:Key="S.Options.App.Startup.Window.Board">Bảng ghi</s:String>
     <s:String x:Key="S.Options.App.Startup.Window.Editor">Cửa sổ chỉnh sửa</s:String>
+    
     
     
     
@@ -1361,7 +1476,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Options.App.Theme.Scheme.Example">Example colors.</s:String>-->
+    
     
     
     
@@ -1385,7 +1502,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Options.App.Tray.Interactions.Nothing">Do nothing</s:String>-->
+    
     
     
     
@@ -1407,7 +1526,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Options.App.Tray.Interactions.Open.None">No window</s:String>-->
+    
     
     
     
@@ -1429,7 +1550,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Options.App.Tray.Interactions.Minimize">Minimize all windows</s:String>-->
+    
     
     
     
@@ -1451,7 +1574,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Options.App.Tray.Interactions.Left">Left click:</s:String>-->
+    
     
     
     
@@ -1473,7 +1598,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Options.App.Tray.Interactions.Middle">Middle click:</s:String>-->
+    
     
     
     
@@ -1495,7 +1622,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Options.App.Tray.Interactions.Else">Or else, opens:</s:String>-->
+    
     
     
     
@@ -1517,7 +1646,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Options.App.General.WorkaroundQuota">Workaround for the 'Not enough quota...' crash.</s:String>-->
+    
     
     
     
@@ -1541,8 +1672,10 @@
     
     
     
+    
     <!--<s:String x:Key="S.Options.App.General.DisableHardwareAcceleration.Info">(The user interface will be rendered via software mode)</s:String>-->
     <s:String x:Key="S.Options.App.General.CheckForTranslationUpdates">Kiểm tra cập nhật bản dịch.</s:String>
+    
     
     
     
@@ -1565,6 +1698,7 @@
     
     
     
+    
     <!--<s:String x:Key="S.Options.App.General.UpdateOnClose">Automatically install updates after closing the app.</s:String>-->
     
     
@@ -1576,7 +1710,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Options.App.General.ForceUpdateAsAdmin">Force the update to run with elevated privileges.</s:String>-->
+    
     
     
     
@@ -1599,7 +1735,9 @@
     
     
     
+    
     <!--  Options • Recorder  -->
+    
     
     
     
@@ -1621,7 +1759,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Options.Recorder.Interface.Old">Old</s:String>-->
+    
     
     
     
@@ -1644,7 +1784,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Options.Recorder.Frequency">Capture frequency</s:String>-->
+    
     
     
     
@@ -1666,7 +1808,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Options.Recorder.Frequency.Manual.Info">Each frame will be manually captured by you, by pressing the capture button or equivalent keyboard shortcut.</s:String>-->
+    
     
     
     
@@ -1688,7 +1832,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Options.Recorder.Frequency.Second.Info">Frames will be captured in a 'per second' basis,&#10;given the framerate denominator set on the recorder screen.</s:String>-->
+    
     
     
     
@@ -1710,7 +1856,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Options.Recorder.Frequency.Minute.Info">Frames will be captured in a 'per minute' basis (timelapse),&#10;given the framerate denominator set on the recorder screen.</s:String>-->
+    
     
     
     
@@ -1732,7 +1880,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Options.Recorder.Frequency.Hour.Info">Frames will be captured in a 'per hour' basis (timelapse),&#10;given the framerate denominator set on the recorder screen.</s:String>-->
+    
     
     
     
@@ -1754,7 +1904,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Options.Recorder.Frequency.Playback.Info">(In ms, each captured frame will be set to this delay)</s:String>-->
+    
     
     
     
@@ -1777,7 +1929,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Options.Recorder.Mode">Capture mode</s:String>-->
+    
     
     
     
@@ -1799,7 +1953,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Options.Recorder.DirectX.Info">Use the Desktop Duplication API capture method, which is faster and&#10;is able to capture fullscreen games, but requires the SharpDx plug-in and Windows 8 or newer.</s:String>-->
+    
     
     
     
@@ -1821,7 +1977,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Options.Recorder.File.Info">Each frame captured will be saved directly as an image on disk.</s:String>-->
+    
     
     
     
@@ -1843,7 +2001,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Options.Recorder.Cache.Info">Each frame captured will be stored as a pixel array on memory first (may be compressed before).</s:String>-->
+    
     
     
     
@@ -1865,7 +2025,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Options.Recorder.Compression.Optimal">Optimal</s:String>-->
+    
     
     
     
@@ -1887,7 +2049,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Options.Recorder.Compression.Fastest">Fastest</s:String>-->
+    
     
     
     
@@ -1909,7 +2073,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Options.Recorder.Compression.NoCompression">No compression</s:String>-->
+    
     
     
     
@@ -1931,7 +2097,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Options.Recorder.CacheSize">Cache size:</s:String>-->
+    
     
     
     
@@ -1959,7 +2127,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Options.Recorder.RemoteImprovement">Improve the capture performance on a remote desktop connection.</s:String>-->
+    
     
     
     
@@ -1986,7 +2156,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Options.Recorder.CursorFollowing">Enable cursor following.</s:String>-->
+    
     
     
     
@@ -2008,7 +2180,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Options.Recorder.FollowMargin.Info">(Buffer margin in pixels, where the recording area starts getting repositioned)</s:String>-->
+    
     
     
     
@@ -2021,6 +2195,7 @@
     
     <!--<s:String x:Key="S.Options.Recorder.FollowMarginInvisible.Info">(Additional buffer margin in pixels, where the UI starts getting hidden)</s:String>-->
 
+    
     
     
     
@@ -2058,6 +2233,7 @@
     
     
     
+    
     <!--<s:String x:Key="S.Options.Editor.Interface.DisplayEncoder">Display the encodings in a separated window.</s:String>-->
     <s:String x:Key="S.Options.Editor.Interface.ExtendChrome">Mở rộng thanh tiêu đề (cửa sổ chrome).</s:String>
     <s:String x:Key="S.Options.Editor.Interface.AutomaticallySizeOnContent">Tự động điều chỉnh kích thước cửa sổ dựa trên kích thước khung hình, ngay sau khi nạp.</s:String>
@@ -2067,6 +2243,7 @@
     <s:String x:Key="S.Options.Editor.General.NotifyWhileClosingEditor">Hỏi tôi trước khi đóng chỉnh sửa (nếu có 1 dự án đang mở).</s:String>
     <s:String x:Key="S.Options.Editor.General.TripleClickSelection">Cho phép 3 click chuột để lựa chọn văn bản.</s:String>
     <s:String x:Key="S.Options.Editor.General.DrawOutlineOutside">Vẽ đường bao ngoài của phụ đề bên ngoài các chữ cái.</s:String>
+    
     
     
     
@@ -2088,6 +2265,7 @@
     
     
     
+    
     <!--<s:String x:Key="S.Options.Editor.General.LimitHistory.Info">(Older actions will be removed when the limit is reached)</s:String>-->
     
     
@@ -2099,7 +2277,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Options.Editor.General.LimitHistory.Maximum">(Maximum number of actions stored)</s:String>-->
+    
     
     
     
@@ -2126,7 +2306,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Options.Tasks.List.Enabled">Enabled</s:String>-->
+    
     
     
     
@@ -2141,6 +2323,7 @@
     <s:String x:Key="S.Options.Tasks.SelectType">(Chọn 1 nhiệm vụ)</s:String>
     <s:String x:Key="S.Options.Tasks.Info">Các nhiệm vụ này được thực thi tuần tự từ đầu đến cuối danh sách.&#10;Nó xảy ra khi bạn lần đầu mở 1 dự án sử dụng trình chỉnh sửa.</s:String>
   
+    
     
     
     
@@ -2182,7 +2365,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Options.Shortcuts.Recorders.Follow">Cursor following:</s:String>-->
+    
     
     
     
@@ -2204,7 +2389,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Options.Shortcuts.Recorders.DisableFollow">Disable following:</s:String>-->
+    
     
     
     
@@ -2217,6 +2404,7 @@
     
     <!--<s:String x:Key="S.Options.Shortcuts.Recorders.DisableFollow.Info">(Temporarily disables the adjustment of the recording area based on the position of the cursor, only modifier keys accepted)</s:String>-->
     <s:String x:Key="S.Options.Shortcuts.Info">Click để thiết lập phím mong muốn, khi nhấn các phím muốn có hoặc chỉnh sửa.&#10;Một vài phím bao gồm không được phép.</s:String>
+    
     
     
     
@@ -2254,7 +2442,9 @@
     
     
     
+    
     <!--  Options • Storage  -->
+    
     
     
     
@@ -2276,7 +2466,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Options.Storage.Status.Volume">Volume:</s:String>-->
+    
     
     
     
@@ -2298,7 +2490,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Options.Storage.Status.Check">Check again how much space left there is.</s:String>-->
+    
     
     
     
@@ -2321,7 +2515,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Options.Storage.Status.Error">Impossible to retrieve the drive details.</s:String>-->
+    
     
     
     
@@ -2343,7 +2539,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Options.Storage.Status.Files.Singular">{0:##,##0} file</s:String>-->
+    
     
     
     
@@ -2365,7 +2563,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Options.Storage.Status.Folders.None">No folders</s:String>-->
+    
     
     
     
@@ -2387,7 +2587,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Options.Storage.Status.Folders.Plural">{0:##,##0} folders</s:String>-->
+    
     
     
     
@@ -2409,7 +2611,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Options.Storage.Paths">Paths</s:String>-->
+    
     
     
     
@@ -2432,8 +2636,10 @@
     
     
     
+    
     <!--<s:String x:Key="S.Options.Storage.Paths.Logs">Logs:</s:String>-->
     <s:String x:Key="S.Options.Storage.Paths.Logs.Choose">Chọn vị trí cho tệp nhật kí ghi lỗi</s:String>
+    
     
     
     
@@ -2467,7 +2673,9 @@
     
     
     
+    
     <!--  Options • Storage > Clear cache  -->
+    
     
     
     
@@ -2489,7 +2697,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Options.Storage.Cache.Header">Would you like to clear the cache folder?</s:String>-->
+    
     
     
     
@@ -2511,7 +2721,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Options.Storage.Cache.Question">Would you like to remove these projects from the cache folder?</s:String>-->
+    
     
     
     
@@ -2533,6 +2745,7 @@
     
     
     
+    
     <!--<s:String x:Key="S.Options.Storage.Cache.IgnoreRecent.Yes">(Only the projects older than {0} days, that are not currently in use, will be removed)</s:String>-->
     
     
@@ -2544,7 +2757,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Options.Storage.Cache.IgnoreRecent.No">(All the projects, that are not currently in use, will be removed)</s:String>-->
+    
     
     
     
@@ -2592,7 +2807,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Options.Upload.Preset.Imgur.Auth.Failed.Header">It was not possible to authorize the app</s:String>-->
+    
     
     
     
@@ -2626,6 +2843,7 @@
     
     
     
+    
     <!--  Options • Extras  -->
     <s:String x:Key="S.Options.Extras.External">Các công cụ có sẵn bên ngoài</s:String>
     <s:String x:Key="S.Options.Extras.Download">Click vào đây để tải về&#x0d;{0}</s:String>
@@ -2635,6 +2853,7 @@
     <s:String x:Key="S.Options.Extras.DownloadRestriction">Các ứng dụng được cung cấp bởi cửa hàng Microsoft không thể tải về các ứng dụng khác. Bạn sẽ phải tải về nó thủ công.</s:String>
     <s:String x:Key="S.Options.Extras.FfmpegLocation">Vị trí FFmpeg</s:String>
     <s:String x:Key="S.Options.Extras.FfmpegLocation.Select">Chọn vị trí của thực hiện FFmpeg</s:String>
+    
     
     
     
@@ -2659,8 +2878,10 @@
     
     
     
+    
     <!--<s:String x:Key="S.Options.Extras.GifskiLocation.File">Gifski library</s:String>-->
     <s:String x:Key="S.Options.Extras.GifskiLocation.Invalid">Đường dẫn của thực hiện Gifski chứa một hoặc nhiều kí tự không hợp lệ. Vui lòng chọn 1 vị trí hợp lệ để có thể thực hiện được.</s:String>
+    
     
     
     
@@ -2682,7 +2903,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Options.Extras.SharpDxLocation.Select">Select the location of the SharpDx libraries</s:String>-->
+    
     
     
     
@@ -2706,8 +2929,10 @@
     
     
     
+    
     <!--<s:String x:Key="S.Options.Extras.License.SharpDx">SharpDx license</s:String>-->
 
+    
     
     
     
@@ -2735,7 +2960,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Options.Donate.Subscribe">Subscribe</s:String>-->
+    
     
     
     
@@ -2757,7 +2984,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Options.Donate.Subscribe.Flattr">Donate monthly via Flattr.</s:String>-->
+    
     
     
     
@@ -2779,6 +3008,7 @@
     
     
     
+    
     <!--<s:String x:Key="S.Options.Donate.Gift.Steam">Gift games via Steam.</s:String>-->
     
     
@@ -2790,7 +3020,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Options.Donate.Gift.Gog">Gift games via GOG.</s:String>-->
+    
     
     
     
@@ -2813,7 +3045,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Options.Donate.Crypto.BitcoinCash">Copy the BitcoinCash address.</s:String>-->
+    
     
     
     
@@ -2835,7 +3069,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Options.Donate.Support.Visit">If you wish to support the project :)</s:String>-->
+    
     
     
     
@@ -2869,9 +3105,11 @@
     
     
     
+    
     <!--<s:String x:Key="S.Options.About.Technical.Privacy">Privacy policy:</s:String>-->
     <s:String x:Key="S.Options.About.ABigThanksTo">Trân trọng cảm ơn</s:String>
     <s:String x:Key="S.Options.About.ABigThanksTo.Everyone">Tất cả mọi người ủng hộ tôi, những người đã gửi phản hồi và quyên góp.</s:String>
+    
     
     
     
@@ -2895,6 +3133,7 @@
     
     
     
+    
     <!--<s:String x:Key="S.Localization.GettingCodes">Getting language codes...</s:String>-->
     
     
@@ -2906,7 +3145,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Localization.Recognized">Recognized as {0}</s:String>-->
+    
     
     
     
@@ -2930,7 +3171,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Localization.Exporting">Exporting resource...</s:String>-->
+    
     
     
     
@@ -2952,7 +3195,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Localization.OpenResource">Open a resource dictionary</s:String>-->
+    
     
     
     
@@ -2974,7 +3219,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Localization.Importing">Importing resource...</s:String>-->
+    
     
     
     
@@ -2996,7 +3243,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Localization.Warning.Name.Info">Try renaming like: StringResources.en.xaml, where 'en' should be replaced by your language code.</s:String>-->
+    
     
     
     
@@ -3018,7 +3267,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Localization.Warning.Repeated.Info">Try removing the repeated resource or use other language code.</s:String>-->
+    
     
     
     
@@ -3040,7 +3291,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Localization.Warning.Redundant.Info">The "{0}" code is redundant. Try using "{1}" instead.</s:String>-->
+    
     
     
     
@@ -3062,7 +3315,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Localization.Warning.Unknown.Info">The "{0}" and its family were not recognized as valid language codes.</s:String>-->
+    
     
     
     
@@ -3075,6 +3330,7 @@
     
     <!--<s:String x:Key="S.Localization.Warning.NotPossible">It was not possible to import the localization resource.</s:String>-->
 
+    
     
     
     
@@ -3105,7 +3361,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Recorder.SwitchFrequency">Click to switch among capture frequency modes.</s:String>-->
+    
     
     
     
@@ -3129,7 +3387,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Recorder.Fps.Range">Ranges from 1 to 60 fps, with higher values meaning more frames will be captured.&#10;Each increment represents 16 milliseconds of difference.</s:String>-->
+    
     
     
     
@@ -3151,7 +3411,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Recorder.Fpm.Short">fpm</s:String>-->
+    
     
     
     
@@ -3173,6 +3435,7 @@
     
     
     
+    
     <!--<s:String x:Key="S.Recorder.Fph">Maximum frames per hour</s:String>-->
     
     
@@ -3184,7 +3447,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Recorder.Fph.Short">fph</s:String>-->
+    
     
     
     
@@ -3210,7 +3475,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Recorder.Stopping">Stopping...</s:String>-->
+    
     
     
     
@@ -3233,7 +3500,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Recorder.Warning.CaptureNotPossible.Info">It was not possible to capture the screen. The capture method returned no frame after 5 tries.</s:String>-->
+    
     
     
     
@@ -3255,7 +3524,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Recorder.Warning.Windows8">Windows 8 or newer is required for capturing the screen using the Desktop Duplication API.</s:String>-->
+    
     
     
     
@@ -3278,12 +3549,14 @@
     
     
     
+    
     <!--  New recorder  -->
     <s:String x:Key="S.Recorder.Area">Vùng</s:String>
     <s:String x:Key="S.Recorder.Window">Cửa sổ</s:String>
     <s:String x:Key="S.Recorder.Screen">Màn hình</s:String>
     <s:String x:Key="S.Recorder.Accept">Chấp nhận</s:String>
     <s:String x:Key="S.Recorder.Retry">Thử lại</s:String>
+    
     
     
     
@@ -3312,6 +3585,7 @@
     
     
     
+    
     <!--  Webcam recorder  -->
     <s:String x:Key="S.Webcam.Title">ScreenToGif - Ghi hình webcam</s:String>
     <s:String x:Key="S.Webcam.NoVideo">Không có thiết bị ghi hình được tìm thấy :(</s:String>
@@ -3329,11 +3603,13 @@
     
     
     
+    
     <!--  Board recorder  -->
     <s:String x:Key="S.Board.Title">ScreenToGif - Bảng ghi</s:String>
     <s:String x:Key="S.Board.AutoRecord">Quay tự động</s:String>
     <s:String x:Key="S.Board.AutoRecordToolTip">Cho phép quay trong khi đang vẽ</s:String>
     <s:String x:Key="S.Board.CtrlHold">[Giữ] Ctrl </s:String>
+    
     
     
     
@@ -3366,6 +3642,7 @@
     
     
     
+    
     <!--<s:String x:Key="S.ColorSelector.Sample">Drag this to&#x0d;sample colors</s:String>-->
     
     
@@ -3377,7 +3654,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.ColorSelector.Sample.Info">Click and drag to pick&#x0d;colors from your screen.</s:String>-->
+    
     
     
     
@@ -3402,7 +3681,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.ExceptionViewer.Type">Exception type</s:String>-->
+    
     
     
     
@@ -3424,7 +3705,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.ExceptionViewer.Stack">Stack</s:String>-->
+    
     
     
     
@@ -3449,7 +3732,9 @@
     
     
     
+    
     <!--  FFmpeg preset  -->
+    
     
     
     
@@ -3471,7 +3756,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.FfmpegPreset.Name">Name</s:String>-->
+    
     
     
     
@@ -3493,7 +3780,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.FfmpegPreset.Info.SecondPass">To encode with 2-pass, simply add '-pass 2' to the command.</s:String>-->
+    
     
     
     
@@ -3515,7 +3804,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.FfmpegPreset.Warning.Parameter">You must type some parameters for this preset.</s:String>-->
+    
     
     
     
@@ -3528,6 +3819,7 @@
     
     <!--<s:String x:Key="S.FfmpegPreset.Warning.SameName">There's already a preset with the same name.</s:String>-->
 
+    
     
     
     
@@ -3567,8 +3859,10 @@
     
     
     
+    
     <!--  Import frames from video  -->
     <s:String x:Key="S.ImportVideo.Title">Nhập các khung hình từ Video</s:String>
+    
     
     
     
@@ -3602,7 +3896,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.ImportVideo.Error">It was not possible to load the video</s:String>-->
+    
     
     
     
@@ -3624,7 +3920,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.ImportVideo.Timeout">Timeout in getting the frame preview.</s:String>-->
+    
     
     
     
@@ -3647,8 +3945,10 @@
     
     
     
+    
     <!--  Encoder  -->
     <s:String x:Key="S.Encoder.Title">Mã hóa</s:String>
+    
     
     
     
@@ -3681,7 +3981,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Encoder.Completed.Elapsed">Elapsed time, in minutes:</s:String>-->
+    
     
     
     
@@ -3703,7 +4005,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Encoder.Completed.Elapsed.Encoding">Encoding:</s:String>-->
+    
     
     
     
@@ -3725,7 +4029,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Encoder.Completed.Elapsed.Copy">Copy:</s:String>-->
+    
     
     
     
@@ -3755,6 +4061,7 @@
     
     
     
+    
     <!--<s:String x:Key="S.Encoder.Analyzing.Second">Preparing for second pass</s:String>-->
     
     
@@ -3766,7 +4073,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Encoder.Processing.Second">Processing {0} - 2nd pass</s:String>-->
+    
     
     
     
@@ -3789,11 +4098,13 @@
     
     
     
+    
     <!--<s:String x:Key="S.Encoder.SavingAnalysis">Saving analysis result</s:String>-->
     <s:String x:Key="S.Encoder.OpenFile">Mở tệp</s:String>
     <s:String x:Key="S.Encoder.ExploreFolder">Truy cập thư mục</s:String>
     <s:String x:Key="S.Encoder.Remove">Loại bỏ từ danh sách</s:String>
     <s:String x:Key="S.Encoder.Details">Hiển thị các chi tiết</s:String>
+    
     
     
     
@@ -3821,6 +4132,7 @@
     
     
     
+    
     <!--  Command output  -->
     <s:String x:Key="S.Encoder.Command.Title">ScreenToGif - Thoát lệnh</s:String>
     <s:String x:Key="S.Encoder.Command.Header">Thoát lệnh</s:String>
@@ -3835,9 +4147,11 @@
     
     
     
+    
     <!--  Notifications  -->
     <s:String x:Key="S.Notifications">Các thông báo</s:String>
     <s:String x:Key="S.Notifications.Dismiss">Bỏ qua tất cả thông báo</s:String>
+    
     
     
     
@@ -3871,7 +4185,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Editor.UpdateAvailable">A new update is available!</s:String>-->
+    
     
     
     
@@ -3884,6 +4200,7 @@
     
     <!--<s:String x:Key="S.Editor.UpdateAvailable.Info">Click here to read more about it.</s:String>-->
     <s:String x:Key="S.Editor.FrameNumbersInfo">Tính tổng, Tính các lựa chọn, Các mục lựa chọn</s:String>
+    
     
     
     
@@ -3910,9 +4227,11 @@
     
     
     
+    
     <!--  Editor • File dialogs (does not work with new line characters)  -->
     <s:String x:Key="S.Editor.File.OpenMedia">Mở 1 tập đa phương tiện (Hình ảnh hoặc Video)</s:String>
     <s:String x:Key="S.Editor.File.OpenMediaProject">Mở 1 tập đa phương tiện (Hình ảnh hoặc Video) hoặc 1 dự án</s:String>
+    
     
     
     
@@ -3934,7 +4253,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Editor.File.Image">Image</s:String>-->
+    
     
     
     
@@ -3956,7 +4277,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Editor.File.Project">ScreenToGif project</s:String>-->
+    
     
     
     
@@ -3978,7 +4301,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Editor.File.Apng">Animated Png</s:String>-->
+    
     
     
     
@@ -4000,7 +4325,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Editor.File.Mkv">Matroska video</s:String>-->
+    
     
     
     
@@ -4022,7 +4349,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Editor.File.Webm">Webm video</s:String>-->
+    
     
     
     
@@ -4044,7 +4373,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Editor.File.Image.Zip">Zip file, all selected images</s:String>-->
+    
     
     
     
@@ -4066,6 +4397,7 @@
     
     
     
+    
     <!--<s:String x:Key="S.Editor.File.Project.Zip">ScreenToGif project as Zip</s:String>-->
     
     
@@ -4077,7 +4409,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Editor.File.Psd">Psd file</s:String>-->
+    
     
     
     
@@ -4108,12 +4442,14 @@
     
     
     
+    
     <!--  Editor • File tab • New  -->
     <s:String x:Key="S.Editor.File.New.Recording">Quay màn hình</s:String>
     <s:String x:Key="S.Editor.File.New.Webcam">Ghi hình&#x0d;webcam</s:String>
     <s:String x:Key="S.Editor.File.New.Board">Ghi hình&#x0d;bảng</s:String>
     <s:String x:Key="S.Editor.File.Blank">Dự án&#x0d;trắng</s:String>
     <s:String x:Key="S.Editor.File.New">Mới</s:String>
+    
     
     
     
@@ -4142,6 +4478,7 @@
     
     
     
+    
     <!--  Editor • File tab • Save/Discard  -->
     <s:String x:Key="S.Editor.File.Save">Lưu mới</s:String>
     <s:String x:Key="S.Editor.File.Load">Nạp</s:String>
@@ -4159,11 +4496,13 @@
     
     
     
+    
     <!--  Editor • Home tab • Action Stack  -->
     <s:String x:Key="S.Editor.Home.ActionStack">Hành động xếp</s:String>
     <s:String x:Key="S.Editor.Home.Undo">Hủy</s:String>
     <s:String x:Key="S.Editor.Home.Redo">Thực hiện lại</s:String>
     <s:String x:Key="S.Editor.Home.Reset">Thiết lập lại</s:String>
+    
     
     
     
@@ -4192,10 +4531,12 @@
     
     
     
+    
     <!--  Editor • Home tab • Zoom  -->
     <s:String x:Key="S.Editor.Home.Zoom">Thu phóng</s:String>
     <s:String x:Key="S.Editor.Home.SizeToContent">Điều chỉnh&#x0d;nội dung</s:String>
     <s:String x:Key="S.Editor.Home.FitImage">Làm vừa hình ảnh</s:String>
+    
     
     
     
@@ -4213,6 +4554,7 @@
     <s:String x:Key="S.Editor.Home.GoTo">Đi tới</s:String>
     <s:String x:Key="S.Editor.Home.Inverse">Đảo ngược</s:String>
     <s:String x:Key="S.Editor.Home.Deselect">Bỏ chọn</s:String>
+    
     
     
     
@@ -4243,7 +4585,9 @@
     
     
     
+    
     <!--  Editor • Playback tab • Playback Options  -->
+    
     
     
     
@@ -4265,6 +4609,7 @@
     
     
     
+    
     <!--<s:String x:Key="S.Editor.PlaybackOptions.Loop">Loop during playback.</s:String>-->
     
     
@@ -4276,7 +4621,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Editor.PlaybackOptions.Loop.Info">Only used during playback.&#x0d;If you wish to change the loop settings for exporting Gifs and Apngs,&#x0d;it will be available inside the 'Save As' panel for some encoders.</s:String>-->
+    
     
     
     
@@ -4306,12 +4653,14 @@
     
     
     
+    
     <!--  Editor • Edit tab • Reordering  -->
     <s:String x:Key="S.Editor.Edit.Reordering">Sắp xếp lại</s:String>
     <s:String x:Key="S.Editor.Edit.Reverse">Nghịch đảo</s:String>
     <s:String x:Key="S.Editor.Edit.Yoyo">Yoyo</s:String>
     <s:String x:Key="S.Editor.Edit.MoveLeft">Di chuyển&#x0d;sang trái</s:String>
     <s:String x:Key="S.Editor.Edit.MoveRight">Di chuyển&#x0d;sang phải</s:String>
+    
     
     
     
@@ -4339,11 +4688,13 @@
     
     
     
+    
     <!--  Editor • Image • Size and Rotation  -->
     <s:String x:Key="S.Editor.Image.SizePosition">Kích thước và xoay</s:String>
     <s:String x:Key="S.Editor.Image.Resize">Thay đổi kích cỡ</s:String>
     <s:String x:Key="S.Editor.Image.Crop">Xén</s:String>
     <s:String x:Key="S.Editor.Image.FlipRotate">Lật/Xoay</s:String>
+    
     
     
     
@@ -4361,6 +4712,7 @@
     <s:String x:Key="S.Editor.Image.FreeText">Chữ tự do</s:String>
     <s:String x:Key="S.Editor.Image.TitleFrame">Tiêu đề khung</s:String>
     <s:String x:Key="S.Editor.Image.KeyStrokes">Phím&#x0d;chính</s:String>
+    
     
     
     
@@ -4390,6 +4742,7 @@
     
     
     
+    
     <!--<s:String x:Key="S.Editor.Image.Shadow">Shadow</s:String>-->
     <s:String x:Key="S.Editor.Image.Progress">Phát triển</s:String>
     <s:String x:Key="S.Editor.Image.Obfuscate">Làm rối</s:String>
@@ -4404,10 +4757,12 @@
     
     
     
+    
     <!--  Editor • Transitions tab • Styles  -->
     <s:String x:Key="S.Editor.Transitions.Styles">Các kiểu</s:String>
     <s:String x:Key="S.Editor.Transitions.Fade">Mờ dần</s:String>
     <s:String x:Key="S.Editor.Transitions.Slide">Trượt</s:String>
+    
     
     
     
@@ -4435,7 +4790,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Editor.Statistics.CurrentTime">Current time</s:String>-->
+    
     
     
     
@@ -4449,6 +4806,7 @@
     <!--<s:String x:Key="S.Editor.Statistics.CurrentTime.Info">The current time (cumulative) based on the current frame being displayed.</s:String>-->
     <s:String x:Key="S.Editor.Statistics.FrameDpi">DPI và thu phóng khung hình</s:String>
     <s:String x:Key="S.Editor.Statistics.SelectedFrame">Khung hình đã chọn</s:String>
+    
     
     
     
@@ -4503,7 +4861,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Editor.Shadow.Warning.Invisible">The opacity must be greater than zero in order to make any difference in the frame.</s:String>-->
+    
     
     
     
@@ -4537,11 +4897,13 @@
     
     
     
+    
     <!--  Editor • Warnings  -->
     <s:String x:Key="S.Editor.Warning.Selection">Bạn phải chọn ít nhất 1 khung hình để áp dụng xếp chồng.</s:String>
     <s:String x:Key="S.Editor.Warning.Ffmpeg">FFmpeg không khả dụng. Thêm vào biến môi trường đường dẫn hoặc click vào đây để mở Các tùy chọn > Mục bổ sung để thiết lập vị trí.</s:String>
     <s:String x:Key="S.Editor.Warning.Gifski">Gifski không khả dụng. Thêm vào biến môi trường đường dẫn hoặc click vào đây để mở Các tùy chọn > Mục bổ sung để thiết lập vị trí.</s:String>
     <s:String x:Key="S.Editor.Warning.LowSpace">Không đủ không gian lưu trữ trên ổ đĩa nơi ứng dụng này lưu các vùng nhớ đệm ({0}% bên trái). Click vào đây để mở Các tùy chọn > Các tệp tạm thời để giải phóng không gian.</s:String>
+    
     
     
     
@@ -4564,7 +4926,9 @@
     
     
     
+    
     <!--  Editor • Status  -->
+    
     
     
     
@@ -4603,11 +4967,13 @@
     
     
     
+    
     <!--  Editor • Frame list  -->
     <s:String x:Key="S.Editor.List.Frame">Khung hình:</s:String>
     <s:String x:Key="S.Editor.List.OpenImage">Mở hình ảnh</s:String>
     <s:String x:Key="S.Editor.List.ExploreFolder">Truy cập thư mục</s:String>
     <s:String x:Key="S.Editor.List.ExportImage">Xuất hình ảnh</s:String>
+    
     
     
     
@@ -4633,6 +4999,7 @@
     
     
     
+    
     <!--  Editor • Context menu  -->
     <s:String x:Key="S.Context.SaveAs">Lưu mới</s:String>
     <s:String x:Key="S.Context.RemoveFrames">Loại bỏ các khung hình đã chọn</s:String>
@@ -4642,6 +5009,7 @@
     <s:String x:Key="S.Context.NewBlankAnimation">Dự án mới</s:String>
     <s:String x:Key="S.Context.NewFromMediaProject">Phương tiện hoặc dự án mới</s:String>
    
+    
     
     
     
@@ -4689,6 +5057,7 @@
     
     
     
+    
     <!--<s:String x:Key="S.Hint.ApplySelectedOrAll">This action applies to all or selected frames, depending on your settings</s:String>-->
     <s:String x:Key="S.Hint.Cinemagraph">Cinemagraph áp dụng cho tất cả khung hình dựa trên khung hình đầu tiên</s:String>
     <s:String x:Key="S.Hint.Overlay">Xếp chồng được áp dụng</s:String>
@@ -4698,6 +5067,7 @@
     <s:String x:Key="S.Hint.Transition">Chuyển tiếp được chèn</s:String>
     <s:String x:Key="S.Hint.Reduce">Tỉ lệ khung hình được giảm</s:String>
     <s:String x:Key="S.Hint.Duplicates">Các nhân đôi bị loại bỏ</s:String>
+    
     
     
     
@@ -4726,6 +5096,7 @@
     
     
     
+    
     <!--  Editor • Recent projects  -->
     <s:String x:Key="S.Recent.Projects">Các dự án gần đây</s:String>
     <s:String x:Key="S.Recent.Searching">Tìm kiếm các dự án gần đây...</s:String>
@@ -4742,8 +5113,10 @@
     
     
     
+    
     <!--<s:String x:Key="S.Recent.Warning.SameProject">This project is already being displayed by this editor instance.</s:String>-->
     <s:String x:Key="S.Recent.Warning.AnotherEditor">Dự án này đã được mở bởi trình chỉnh sửa khác ngay lúc này. 1 dự án không thể được mở 2 lần nếu nó đã được mở bởi trình chỉnh sửa khác.</s:String>
+    
     
     
     
@@ -4768,7 +5141,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Clipboard.Entry.Image">{0} image</s:String>-->
+    
     
     
     
@@ -4796,6 +5171,7 @@
     
     
     
+    
     <!--  Editor • Resize  -->
     <s:String x:Key="S.Resize.CurrentProperties">Các thuộc tính hiện tại</s:String>
     <s:String x:Key="S.Resize.Dpi">Dpi</s:String>
@@ -4803,6 +5179,7 @@
     <s:String x:Key="S.Resize.Dpi2">DPI:</s:String>
     <s:String x:Key="S.Resize.KeepAspect">Giữ nguyên tỉ lệ khung hình.</s:String>
     <s:String x:Key="S.Resize.Warning">Bạn phải chọn 1 giá trị khác để áp dụng hành động thay đổi kích thước.</s:String>
+    
     
     
     
@@ -4833,11 +5210,13 @@
     
     
     
+    
     <!--  Editor • Flip/rotate  -->
     <s:String x:Key="S.FlipRotate.FlipHorizontal">Lật ngang</s:String>
     <s:String x:Key="S.FlipRotate.FlipVertical">Lật dọc</s:String>
     <s:String x:Key="S.FlipRotate.RotateLeft">Xoay trái 90º</s:String>
     <s:String x:Key="S.FlipRotate.RotateRight">Xoay phải 90º</s:String>
+    
     
     
     
@@ -4863,7 +5242,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Reduce.Delay">Delay adjustment:</s:String>-->
+    
     
     
     
@@ -4885,7 +5266,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Reduce.Delay.Previous">Sum with the previous frame</s:String>-->
+    
     
     
     
@@ -4907,7 +5290,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Reduce.ApplyToAll">Reduce the framerate of the entire project.</s:String>-->
+    
     
     
     
@@ -4930,6 +5315,7 @@
     
     
     
+    
     <!--<s:String x:Key="S.Reduce.Warning.NoSelection">You must select the frames to apply the framerate reduction (or check the option to apply to the entire project).</s:String>-->
     
     
@@ -4941,7 +5327,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Reduce.Warning.NonConsecutive">The list of frames selected must be consecutive. You can't leave some frames unselected among selected ones.</s:String>-->
+    
     
     
     
@@ -4964,6 +5352,7 @@
     
     
     
+    
     <!--  Editor • Remove duplicates  -->
     <s:String x:Key="S.RemoveDuplicates.Header">Loại bỏ nhân đôi</s:String>
     <s:String x:Key="S.RemoveDuplicates.Similarity">Tương tự (%):</s:String>
@@ -4975,6 +5364,7 @@
     <s:String x:Key="S.RemoveDuplicates.Delay.Average">Sử dụng trung bình</s:String>
     <s:String x:Key="S.RemoveDuplicates.Delay.Sum">Sử dụng tổng</s:String>
     <s:String x:Key="S.RemoveDuplicates.Info">Hành động này phân tích mỗi khung hình (hình trong hình) và loại bỏ cái mà có ít nhất {0} % tương tự với gần nó ngay lập tức.&#x0d;Bạn có thể chọn nếu muốn điều chỉnh độ trễ (thời gian thể hiện) của các khung hình.</s:String>
+    
     
     
     
@@ -5011,6 +5401,7 @@
     
     
     
+    
     <!--  Editor • Key strokes  -->
     <s:String x:Key="S.KeyStrokes">Các phím chính</s:String>
     <s:String x:Key="S.KeyStrokes.Keys">Các phím</s:String>
@@ -5037,7 +5428,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.KeyStrokes.Edit.Lower">Lowercase lettering.</s:String>-->
+    
     
     
     
@@ -5050,6 +5443,7 @@
     
     <!--<s:String x:Key="S.KeyStrokes.Edit.Lower.Info">It lets you insert lower case single letters.</s:String>-->
 
+    
     
     
     
@@ -5087,11 +5481,13 @@
     
     
     
+    
     <!--  Editor • Shapes  -->
     <s:String x:Key="S.Shapes.Mode.Insert">Chèn</s:String>
     <s:String x:Key="S.Shapes.Shapes">Hình dạng</s:String>
     <s:String x:Key="S.Shapes.Shapes.Radius">Bán kính:</s:String>
     <s:String x:Key="S.Shapes.Shapes.Dashes">Bảng điều khiển:</s:String>
+    
     
     
     
@@ -5113,9 +5509,11 @@
     
     
     
+    
     <!--<s:String x:Key="S.Shapes.Shapes.Remove">Remove</s:String>-->
     <s:String x:Key="S.Shapes.Fill">Làm đầy</s:String>
 
+    
     
     
     
@@ -5140,9 +5538,11 @@
     
     
     
+    
     <!--  Editor • Watermark  -->
     <s:String x:Key="S.Watermark.Image">Hình ảnh</s:String>
     <s:String x:Key="S.Watermark.File">Tệp:</s:String>
+    
     
     
     
@@ -5169,8 +5569,10 @@
     
     
     
+    
     <!--  Editor • Border  -->
     <s:String x:Key="S.Border.Appearance">Xuất hiện</s:String>
+    
     
     
     
@@ -5193,7 +5595,9 @@
     
     
     
+    
     <!--  Editor • Shadow  -->
+    
     
     
     
@@ -5215,7 +5619,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Shadow.BackgroundColor">Background color:</s:String>-->
+    
     
     
     
@@ -5237,7 +5643,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Shadow.BlurRadius">Blur radius:</s:String>-->
+    
     
     
     
@@ -5260,12 +5668,14 @@
     
     
     
+    
     <!--  Editor • Obfuscate  -->
     <s:String x:Key="S.Obfuscate.Options">Các tùy chọn làm rối</s:String>
     <s:String x:Key="S.Obfuscate.PixelSize">Kích cỡ điểm ảnh:</s:String>
     <s:String x:Key="S.Obfuscate.UseAverage">Tính toán màu sắc chuẩn cho mỗi khối hình ảnh.</s:String>
     <s:String x:Key="S.Obfuscate.Info">Sử dụng các công cụ lựa chọn để lựa chọn hình chữ nhật mà sẽ thành hình ảnh tạo bởi các điểm ảnh.</s:String>
     <s:String x:Key="S.Obfuscate.Warning">Bạn không chọn bất cứ gì. Vui lòng sử dụng công cụ lựa chọn để chọn hình chữ nhật mà sẽ thành hình ảnh tạo bởi các điểm ảnh.</s:String>
+    
     
     
     
@@ -5301,7 +5711,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Progress.Format.Header">Format</s:String>-->
+    
     
     
     
@@ -5323,7 +5735,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Progress.Format.Seconds">$s = seconds</s:String>-->
+    
     
     
     
@@ -5345,7 +5759,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Progress.Format.Percentage">$p = percentage</s:String>-->
+    
     
     
     
@@ -5367,7 +5783,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Progress.Format.Totals">Totals:</s:String>-->
+    
     
     
     
@@ -5392,7 +5810,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Progress.Precision.StartNumber">Count from:</s:String>-->
+    
     
     
     
@@ -5405,6 +5825,7 @@
     
     <!--<s:String x:Key="S.Progress.Precision.StartNumber.ToolTip">Starts counting the frame number from this selected number.</s:String>-->
     <s:String x:Key="S.Progress.Orientation">Định hướng:</s:String>
+    
     
     
     
@@ -5440,9 +5861,11 @@
     
     
     
+    
     <!--  Editor • Cinemagraph  -->
     <s:String x:Key="S.Cinemagraph.Info">Sử dụng bút để lựa chọn phần tử ảnh không phải ảnh tĩnh còn lại (chúng sẽ thay đổi giữa các khung hình), bằng cách quét lên trên chúng.</s:String>
 
+    
     
     
     
@@ -5472,6 +5895,7 @@
     
     
     
+    
     <!--  Editor • Save as  -->
     <s:String x:Key="S.SaveAs.Type">Kiểu tệp</s:String>
     <s:String x:Key="S.SaveAs.Gif">Gif</s:String>
@@ -5480,6 +5904,7 @@
     <s:String x:Key="S.SaveAs.Project">Dự án</s:String>
     <s:String x:Key="S.SaveAs.Psd">PSD</s:String>
     <s:String x:Key="S.SaveAs.Video">Video</s:String>
+    
     
     
     
@@ -5512,8 +5937,10 @@
     
     
     
+    
     <!--  Editor • Save as > Gif options  -->
     <s:String x:Key="S.SaveAs.GifOptions">Các tùy chọn Gif </s:String>
+    
     
     
     
@@ -5535,7 +5962,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.SaveAs.GifOptions.Quantizer.Neural">Neural network</s:String>-->
+    
     
     
     
@@ -5557,7 +5986,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.SaveAs.GifOptions.Quantizer.Octree">Octree</s:String>-->
+    
     
     
     
@@ -5579,7 +6010,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.SaveAs.GifOptions.Quantizer.MedianCut">Median cut</s:String>-->
+    
     
     
     
@@ -5601,7 +6034,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.SaveAs.GifOptions.Quantizer.Grayscale">Grayscale</s:String>-->
+    
     
     
     
@@ -5623,7 +6058,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.SaveAs.GifOptions.Quantizer.MostUsed">Most used colors</s:String>-->
+    
     
     
     
@@ -5645,7 +6082,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.SaveAs.GifOptions.Sampling">Sampling:</s:String>-->
+    
     
     
     
@@ -5670,7 +6109,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.SaveAs.GifOptions.GlobalColorTable">Use a global color table.</s:String>-->
+    
     
     
     
@@ -5696,7 +6137,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.SaveAs.GifOptions.Transparency.Enable">Enable transparency.</s:String>-->
+    
     
     
     
@@ -5718,7 +6161,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.SaveAs.GifOptions.Transparency.Pick">Select which color to display as transparent.</s:String>-->
+    
     
     
     
@@ -5741,7 +6186,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.SaveAs.GifOptions.DetectUnchanged.Info">By analyzing and detecting unchanged pixels between the frames,&#10;it will be possible to save only the necessary parts to the gif.</s:String>-->
+    
     
     
     
@@ -5763,7 +6210,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.SaveAs.GifOptions.PaintWithChroma.Info">Repeated/unchanged pixels will be replaced with this chroma key,&#10;making it possible to use less colors per frame.</s:String>-->
+    
     
     
     
@@ -5786,11 +6235,13 @@
     
     
     
+    
     <!--  Editor • Save as > Apng options  -->
     <s:String x:Key="S.SaveAs.ApngOptions">Các tùy chọn Apng</s:String>
     <s:String x:Key="S.SaveAs.ApngOptions.Looped">Vòng lặp Apng.</s:String>
     <s:String x:Key="S.SaveAs.ApngOptions.DetectUnchanged">Xác định điểm ảnh không đổi.</s:String>
     <s:String x:Key="S.SaveAs.ApngOptions.PaintTransparent">Tô màu tất cả điểm ảnh không đổi với màu trong suốt.</s:String>
+    
     
     
     
@@ -5823,9 +6274,11 @@
     
     
     
+    
     <!--<s:String x:Key="S.SaveAs.ProjectOptions">Project options</s:String>-->
     
     <s:String x:Key="S.SaveAs.Extras">Mục bổ sung:</s:String>
+    
     
     
     
@@ -5847,7 +6300,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.SaveAs.Presets.Default">Default</s:String>-->
+    
     
     
     
@@ -5869,7 +6324,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.SaveAs.Presets.Save">Save</s:String>-->
+    
     
     
     
@@ -5891,7 +6348,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.SaveAs.Presets.Remove">Remove</s:String>-->
+    
     
     
     
@@ -5913,7 +6372,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.SaveAs.Presets.Remove.Header">Do you wish to remove the preset?</s:String>-->
+    
     
     
     
@@ -5935,7 +6396,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.SaveAs.Presets.Reset">Reset</s:String>-->
+    
     
     
     
@@ -5957,7 +6420,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.SaveAs.Presets.Reset.Header">Do you wish to reset the preset to its default parameters?</s:String>-->
+    
     
     
     
@@ -5979,7 +6444,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.SaveAs.Presets.Warning.NoSelection">No FFmpeg preset selected, please select one.</s:String>-->
+    
     
     
     
@@ -6009,6 +6476,7 @@
     <s:String x:Key="S.SaveAs.SaveOptions.CopyToClipboard.Link.Info">Sao chép liên kết phát sinh bởi dịch vụ tải lên vào bộ nhớ đệm.</s:String>
     <s:String x:Key="S.SaveAs.SaveOptions.ExecuteCommands">Thực thi gửi các lệnh mã hóa.</s:String>
     <s:String x:Key="S.SaveAs.SaveOptions.ExecuteCommands.Info">Viết các lệnh để thực thi sau khi mã hóa.&#x0d;Để thực thi nhiều lệnh, viết mỗi lệnh 1 dòng riêng.&#x0d;Các lệnh đơn:&#x0d;{p} = Đường dẫn tệp đầu ra.&#x0d;{f} = Đường dẫn thư mục đầu ra.&#x0d;{u} = URL of the uploaded file.</s:String>
+    
     
     
     
@@ -6054,10 +6522,12 @@
     
     
     
+    
     <!--  SaveAs • Export  -->
     <s:String x:Key="S.SaveAs.Dialogs.Multiple.Title">Xuất các khung hình</s:String>
     <s:String x:Key="S.SaveAs.Dialogs.Multiple.Instruction">Bạn chắc rằng muốn xuất các khung hình?</s:String>
     <s:String x:Key="S.SaveAs.Dialogs.Multiple.Message">Hành động này sẽ xuất {0} khung hình trực tiếp vào thư mục được chọn.</s:String>
+    
     
     
     
@@ -6086,6 +6556,7 @@
     
     
     
+    
     <!--<s:String x:Key="S.Feedback.Message.Info">If you are experiencing a bug, don't forget to explain to me how you got it, step by step.</s:String>-->
     <s:String x:Key="S.Feedback.Type">Viết phản hồi</s:String>
     <s:String x:Key="S.Feedback.Suggestion">Gợi ý</s:String>
@@ -6093,6 +6564,7 @@
     <s:String x:Key="S.Feedback.YourEmail">Email của bạn</s:String>
     <s:String x:Key="S.Feedback.Warning.Title">Bạn cần nhập tiêu đề cho phản hồi.</s:String>
     <s:String x:Key="S.Feedback.Warning.Message">Bạn cần nhập tin nhắn cho phản hồi.</s:String>
+    
     
     
     
@@ -6111,6 +6583,7 @@
     <s:String x:Key="S.Feedback.LanguageInfo1">Tôi có thể biết Tiếng Anh</s:String>
     <s:String x:Key="S.Feedback.LanguageInfo2">và tiếng Bồ Đào Nha (Brazil và Châu Âu).</s:String>
     <s:String x:Key="S.Feedback.Preview.Info">Đây là những gì bạn sẽ gửi, cộng thêm tất cả đính kèm.</s:String>
+    
     
     
     
@@ -6141,10 +6614,12 @@
     
     
     
+    
     <!--  FontStyles  -->
     <s:String x:Key="S.FontStyles.Normal">Chuẩn</s:String>
     <s:String x:Key="S.FontStyles.Italic">Nghiêng</s:String>
     <s:String x:Key="S.FontStyles.Oblique">Xiên</s:String>
+    
     
     
     
@@ -6184,6 +6659,7 @@
     
     
     
+    
     <!--  VerticalAlignment  -->
     <s:String x:Key="S.VerticalAlignment.Top">Trên</s:String>
     <s:String x:Key="S.VerticalAlignment.Center">Giữa</s:String>
@@ -6200,10 +6676,12 @@
     
     
     
+    
     <!--  HorizontalAlignment  -->
     <s:String x:Key="S.HorizontalAlignment.Left">Trái</s:String>
     <s:String x:Key="S.HorizontalAlignment.Center">Giữa</s:String>
     <s:String x:Key="S.HorizontalAlignment.Right">Phải</s:String>
+    
     
     
     

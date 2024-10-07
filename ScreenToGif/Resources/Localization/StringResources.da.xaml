@@ -14,7 +14,9 @@
     
     
     
+    
     <!--  To use a new line: &#x0d; or CarriageReturn + NewLine: &#x0d;&#x0a; or &#10;  --> 
+    
     
     
     
@@ -36,7 +38,9 @@
     
     
     
+    
     <!--  Special texts like {0}, are place holders for dynamic values, such as numbers.  -->
+    
     
     
     
@@ -85,6 +89,7 @@
     
     
     
+    
     <!--  Warnings  -->
     <s:String x:Key="S.Crash">Øv, programmet lukkede :(</s:String>
     <s:String x:Key="S.Required">Krævet felt.</s:String>
@@ -113,6 +118,7 @@
     
     
     
+    
     <!--  Warnings • Graphics engine  -->
     <s:String x:Key="S.Warning.Graphics.Title">Skift grafikkort</s:String>
     <s:String x:Key="S.Warning.Graphics.Instruction">Skift grafikkort for at optage den valgte skærm</s:String>
@@ -120,6 +126,7 @@
     <s:String x:Key="S.Warning.Graphics.Action">Skift grafikkort for ScreenToGif i Windows indstillinger > System > Skærm > Grafik, eller klik herunder.</s:String>
     <s:String x:Key="S.Warning.Graphics.Action.Legacy">Skift grafikkort for ScreenToGif i grafikkortets indstillinger.</s:String>
     <s:String x:Key="S.Warning.Graphics.Switch">Windows indstillinger</s:String>
+    
     
     
     
@@ -146,8 +153,10 @@
     
     
     
+    
     <!--  Mouse  -->
     <s:String x:Key="S.Mouse.Right">Højreklik</s:String>
+    
     
     
     
@@ -164,6 +173,7 @@
     <s:String x:Key="S.NewWebcamRecording">Ny webcamoptagelse</s:String>
     <s:String x:Key="S.NewBoardRecording">Ny tavleoptagelse</s:String>
     <s:String x:Key="S.Exit">Luk</s:String>
+    
     
     
     
@@ -257,6 +267,7 @@
     
     
     
+    
     <!--  StartUp  -->
     <s:String x:Key="S.StartUp.Title">ScreenToGif - Opstart</s:String>
     <s:String x:Key="S.StartUp.Recorder">Optag</s:String>
@@ -271,6 +282,7 @@
     <s:String x:Key="S.StartUp.NewRelease">Ny udgave</s:String>
     <s:String x:Key="S.StartUp.NewRelease.Tooltip">Downloader nyeste ScreenToGif.</s:String>
 
+    
     
     
     
@@ -312,10 +324,12 @@
     
     
     
+    
     <!--  Downloader  -->
     <s:String x:Key="S.Downloader.Title">ScreenToGif - Downloader</s:String>
     <s:String x:Key="S.Downloader.Header">Downloader</s:String>
     <s:String x:Key="S.Downloader.Size">{0} af {1}</s:String>
+    
     
     
     
@@ -344,6 +358,7 @@
     <s:String x:Key="S.Options.Warning.Follow.Header">Følg markør mangler en genvej</s:String>
     <s:String x:Key="S.Options.Warning.Follow.Message">Der skal knyttes en genvej til Følg markør, så du kan slå funktionen til/fra efter behov.</s:String>
 
+    
     
     
     
@@ -413,6 +428,7 @@
     <s:String x:Key="S.Options.App.General.ForceUpdateAsAdmin">Opdatér som administrator.</s:String>
     <s:String x:Key="S.Options.App.General.PromptToInstall">Spørg før opdatering.</s:String>
 
+    
     
     
     
@@ -513,6 +529,7 @@
     
     
     
+    
     <!--  Options • Editor  -->
     <s:String x:Key="S.Options.Editor.Previewer">Redigeringsbaggrund</s:String>
     <s:String x:Key="S.Options.Editor.Previewer.GridSize">Gitterstørrelse</s:String>
@@ -562,6 +579,7 @@
     
     
     
+    
     <!--  Options • Tasks  -->
     <s:String x:Key="S.Options.Tasks.Title">Automatisering</s:String>
     <s:String x:Key="S.Options.Tasks.List">Automatiske opgaver</s:String>
@@ -573,6 +591,7 @@
     <s:String x:Key="S.Options.Tasks.SelectType.Info">Vælg opgave herover</s:String>
     <s:String x:Key="S.Options.Tasks.Info">Opgaverne udføres i rækkefølge fra toppen, ved første projektredigering.</s:String>
   
+    
     
     
     
@@ -620,6 +639,7 @@
     
     
     
+    
     <!--  Options • Language  -->
     <s:String x:Key="S.Options.Language.AppLanguage">Sprog</s:String>
     <s:String x:Key="S.Options.Language.AppLanguage.AutoDetect">Genkend</s:String>
@@ -635,6 +655,7 @@
     <s:String x:Key="S.Options.Language.AppLanguage.Translate.ResourceLink.Tooltip">Åbner hjemmesiden med instruktioner.</s:String>
     <s:String x:Key="S.Options.Language.AppLanguage.Translate.ImportLink.Tooltip">Åbner importvinduet</s:String>
     <s:String x:Key="S.Options.Language.AppLanguage.Translate.EmailLink.Tooltip">Åbner dit mailprogram</s:String>
+    
     
     
     
@@ -691,6 +712,7 @@
     
     
     
+    
     <!--  Options • Storage > Clear cache  -->
     <s:String x:Key="S.Options.Storage.Cache.Title">ScreenToGif - Ryd cache</s:String>
     <s:String x:Key="S.Options.Storage.Cache.Header">Vil du tømme cachemappen?</s:String>
@@ -699,6 +721,7 @@
     <s:String x:Key="S.Options.Storage.Cache.IgnoreRecent">Behold seneste projekter.</s:String>
     <s:String x:Key="S.Options.Storage.Cache.IgnoreRecent.Yes">(kun projekter der er ældre end {0} dage fjernes)</s:String>
     <s:String x:Key="S.Options.Storage.Cache.IgnoreRecent.No">(alle projekter der ikke er i brug fjernes)</s:String>
+    
     
     
     
@@ -729,6 +752,7 @@
     <s:String x:Key="S.Options.Upload.Presets.Enabled">Aktiv</s:String>
     
      
+    
     
     
     
@@ -794,9 +818,11 @@
     
     
     
+    
     <!--  Options • Upload > Album  -->
     <s:String x:Key="S.Options.Upload.Pick.Album">Vælg album (valgfrit)</s:String>
     <s:String x:Key="S.Options.Upload.Pick.Album.Info">Du kan vælge et destinationsalbum:</s:String>
+    
     
     
     
@@ -827,6 +853,7 @@
     
     
     
+    
     <!--  Options • Upload > History  -->
     <s:String x:Key="S.Options.Upload.History.Title">Historik</s:String>
     <s:String x:Key="S.Options.Upload.History.Date">Dato</s:String>
@@ -838,6 +865,7 @@
     <s:String x:Key="S.Options.Upload.History.Detail.DeleteLink">Slettelink:</s:String>
     <s:String x:Key="S.Options.Upload.History.Delete.Instruction">Vil du slette emnet?</s:String>
     <s:String x:Key="S.Options.Upload.History.Delete.Message">Kan ikke fortrydes.&#x0d;&#x0d;Vil du slette valgte emne?</s:String>
+    
     
     
     
@@ -880,6 +908,7 @@
     
     
     
+    
     <!--  Options • Donations  -->
     <s:String x:Key="S.Options.Donate.Donate">Donér</s:String>
     <s:String x:Key="S.Options.Donate.Donate.Dollar">Donér US$</s:String>
@@ -898,6 +927,7 @@
     <s:String x:Key="S.Options.Donate.Crypto.BitcoinCash">Kopiér BitcoinCash adresse.</s:String>
     <s:String x:Key="S.Options.Donate.Support">Support</s:String>
     <s:String x:Key="S.Options.Donate.Support.Visit">Hvis du ønsker at støtte projektet :)</s:String>
+    
     
     
     
@@ -937,6 +967,7 @@
     
     
     
+    
     <!--  Localization  -->
     <s:String x:Key="S.Localization">Oversættelse</s:String>
     <s:String x:Key="S.Localization.GettingCodes">Henter sprog...</s:String>
@@ -959,6 +990,7 @@
     <s:String x:Key="S.Localization.Warning.Unknown.Info">Landekoden "{0}" blev ikke genkendt.</s:String>
     <s:String x:Key="S.Localization.Warning.NotPossible">Sproget kunne ikke indlæses.</s:String>
 
+    
     
     
     
@@ -1021,6 +1053,7 @@
     
     
     
+    
     <!--  New recorder  -->
     <s:String x:Key="S.Recorder.Area">Område</s:String>
     <s:String x:Key="S.Recorder.Area.Select">Vælg område</s:String>
@@ -1061,6 +1094,7 @@
     
     
     
+    
     <!--  Webcam recorder  -->
     <s:String x:Key="S.Webcam.Title">ScreenToGif - Webcam</s:String>
     <s:String x:Key="S.Webcam.NoVideo">Enhed ikke fundet :(</s:String>
@@ -1078,11 +1112,13 @@
     
     
     
+    
     <!--  Board recorder  -->
     <s:String x:Key="S.Board.Title">ScreenToGif - Tavleoptager</s:String>
     <s:String x:Key="S.Board.AutoRecord">Autooptag</s:String>
     <s:String x:Key="S.Board.AutoRecordToolTip">Optag når der tegnes.</s:String>
     <s:String x:Key="S.Board.CtrlHold">Ctrl [Hold]</s:String>
+    
     
     
     
@@ -1118,6 +1154,7 @@
     
     
     
+    
     <!--  Exception/Error viewers  -->
     <s:String x:Key="S.ExceptionViewer.Title">Undtagelser</s:String>
     <s:String x:Key="S.ExceptionViewer.OpenInner">Åben undtagelse</s:String>
@@ -1128,6 +1165,7 @@
     <s:String x:Key="S.ErrorDialog.Observation">Noget gik galt.</s:String>
     <s:String x:Key="S.ErrorDialog.Send">Send rapport</s:String>
 
+    
     
     
     
@@ -1150,6 +1188,7 @@
     <s:String x:Key="S.Preset.Warning.Readonly">Standardprofiler er delvist skrivebeskyttede.</s:String>
     <s:String x:Key="S.Preset.Warning.Name">Navngiv profilen.</s:String>
     <s:String x:Key="S.Preset.Warning.SameName">Profilnavnet findes allerede.</s:String>
+    
     
     
     
@@ -1213,6 +1252,7 @@
     
     
     
+    
     <!--  Insert frames  -->
     <s:String x:Key="S.InsertFrames.Title">Indsæt rammer</s:String>
     <s:String x:Key="S.InsertFrames.Info">Begge sider bør have samme størrelse. I dette vindue kan du placere og tilpasse billedet på lærredet. Klik for at vælge og tilpasse.</s:String>
@@ -1242,6 +1282,7 @@
     
     
     
+    
     <!--  Import frames from video  -->
     <s:String x:Key="S.ImportVideo.Title">Importér rammer fra video</s:String>
     <s:String x:Key="S.ImportVideo.Importer">Importør:</s:String>
@@ -1261,6 +1302,7 @@
     <s:String x:Key="S.ImportVideo.Error.Detail">Visningen kunne ikke  starte. Prøv en  anden importør eller kontroller videoen.&#x0d;Bruger du MediaPlayer, så se om Windows funktionen "Mediefunktioner / Windows Media Player" er aktiveret og du har de nødvendige videokodeks.</s:String>
     <s:String x:Key="S.ImportVideo.Timeout">Rammevisning overskred tidsfristen.</s:String>
     <s:String x:Key="S.ImportVideo.Nothing">Der er ikke valgt importrammer.</s:String>
+    
     
     
     
@@ -1326,6 +1368,7 @@
     
     
     
+    
     <!--  Command output  -->
     <s:String x:Key="S.Encoder.Command.Title">ScreenToGif - kommandoresultat</s:String>
     <s:String x:Key="S.Encoder.Command.Header">Kommandoresultat</s:String>
@@ -1340,9 +1383,11 @@
     
     
     
+    
     <!--  Notifications  -->
     <s:String x:Key="S.Notifications">Beskeder</s:String>
     <s:String x:Key="S.Notifications.Dismiss">Afvis alle beskeder</s:String>
+    
     
     
     
@@ -1380,10 +1425,12 @@
     
     
     
+    
     <!--  Editor • Loading  -->
     <s:String x:Key="S.Editor.Preparing">Forbereder</s:String>
     <s:String x:Key="S.Editor.InvalidLoadingFiles">Ugyldigt - Du kan ikke indlæse flere filer samtidigt. Prøv med en enkelt.</s:String>
     <s:String x:Key="S.Editor.InvalidLoadingProjects">Ugyldigt - Du kan ikke indlæse flere projekter samtidigt. Prøv med et enkelt.</s:String>
+    
     
     
     
@@ -1431,6 +1478,7 @@
     
     
     
+    
     <!--  Editor • Welcome  -->
     <s:String x:Key="S.Editor.Welcome.New">Gå til "Fil > Ny" for at starte en optagelse</s:String>
     <s:String x:Key="S.Editor.Welcome.Import">Træk billeder, videoer eller projekter ind i vinduet</s:String>
@@ -1439,6 +1487,7 @@
     <s:String x:Key="S.Editor.Welcome.Contact">Vil du snakke? Åben "Indstillinger > Om..." for kontaktmuligheder</s:String>
     <s:String x:Key="S.Editor.Welcome.Trouble">Problemer? Kontant mig via kritik</s:String>
     <s:String x:Key="S.Editor.Welcome.NewRecorder">Vil du prøve den nye optager? Så gå til "Indstillinger > Optager" og aktiver den</s:String>
+    
     
     
     
@@ -1467,12 +1516,14 @@
     
     
     
+    
     <!--  Editor • File tab • Insert  -->
     <s:String x:Key="S.Editor.File.Insert.Recording">Optagelse</s:String>
     <s:String x:Key="S.Editor.File.Insert.Webcam">Fra&#x0d;webcam</s:String>
     <s:String x:Key="S.Editor.File.Insert.Board">Tavle&#x0d;optager</s:String>
     <s:String x:Key="S.Editor.File.Insert.Media">Fra&#x0d;medie</s:String>
     <s:String x:Key="S.Editor.File.Insert">Indsæt</s:String>
+    
     
     
     
@@ -1501,11 +1552,13 @@
     
     
     
+    
     <!--  Editor • Home tab • Action Stack  -->
     <s:String x:Key="S.Editor.Home.ActionStack">Handlinger</s:String>
     <s:String x:Key="S.Editor.Home.Undo">Fortryd</s:String>
     <s:String x:Key="S.Editor.Home.Redo">Gendan</s:String>
     <s:String x:Key="S.Editor.Home.Reset">Nulstil</s:String>
+    
     
     
     
@@ -1534,10 +1587,12 @@
     
     
     
+    
     <!--  Editor • Home tab • Zoom  -->
     <s:String x:Key="S.Editor.Home.Zoom">Zoom</s:String>
     <s:String x:Key="S.Editor.Home.SizeToContent">Pas til&#x0d;indhold</s:String>
     <s:String x:Key="S.Editor.Home.FitImage">Tilpas</s:String>
+    
     
     
     
@@ -1555,6 +1610,7 @@
     <s:String x:Key="S.Editor.Home.GoTo">Gå til</s:String>
     <s:String x:Key="S.Editor.Home.Inverse">Vend</s:String>
     <s:String x:Key="S.Editor.Home.Deselect">Ingen</s:String>
+    
     
     
     
@@ -1585,10 +1641,12 @@
     
     
     
+    
     <!--  Editor • Playback tab • Playback Options  -->
     <s:String x:Key="S.Editor.PlaybackOptions.Header">Indstillinger</s:String>
     <s:String x:Key="S.Editor.PlaybackOptions.Loop">Gentag.</s:String>
     <s:String x:Key="S.Editor.PlaybackOptions.Loop.Info">Kun ved afspilning.&#x0d;Resultatet indstilles i "Gem som...".</s:String>
+    
     
     
     
@@ -1619,12 +1677,14 @@
     
     
     
+    
     <!--  Editor • Edit tab • Reordering  -->
     <s:String x:Key="S.Editor.Edit.Reordering">Sortér</s:String>
     <s:String x:Key="S.Editor.Edit.Reverse">Vend</s:String>
     <s:String x:Key="S.Editor.Edit.Yoyo">Yoyo</s:String>
     <s:String x:Key="S.Editor.Edit.MoveLeft">Venstre</s:String>
     <s:String x:Key="S.Editor.Edit.MoveRight">Højre</s:String>
+    
     
     
     
@@ -1652,11 +1712,13 @@
     
     
     
+    
     <!--  Editor • Image • Size and Rotation  -->
     <s:String x:Key="S.Editor.Image.SizePosition">Størrelse og placering</s:String>
     <s:String x:Key="S.Editor.Image.Resize">Størrelse</s:String>
     <s:String x:Key="S.Editor.Image.Crop">Beskær</s:String>
     <s:String x:Key="S.Editor.Image.FlipRotate">Flip/rotér</s:String>
+    
     
     
     
@@ -1674,6 +1736,7 @@
     <s:String x:Key="S.Editor.Image.FreeText">Fri tekst</s:String>
     <s:String x:Key="S.Editor.Image.TitleFrame">Titelramme</s:String>
     <s:String x:Key="S.Editor.Image.KeyStrokes">Tastatur&#x0d;anslag</s:String>
+    
     
     
     
@@ -1707,10 +1770,12 @@
     
     
     
+    
     <!--  Editor • Transitions tab • Styles  -->
     <s:String x:Key="S.Editor.Transitions.Styles">Stil</s:String>
     <s:String x:Key="S.Editor.Transitions.Fade">Udton</s:String>
     <s:String x:Key="S.Editor.Transitions.Slide">Glid</s:String>
+    
     
     
     
@@ -1732,6 +1797,7 @@
     <s:String x:Key="S.Editor.Statistics.CurrentTime.Info">Tid fra start til den aktuelle ramme.</s:String>
     <s:String x:Key="S.Editor.Statistics.FrameDpi">Ramme DPI og skala</s:String>
     <s:String x:Key="S.Editor.Statistics.SelectedFrame">Valgte ramme</s:String>
+    
     
     
     
@@ -1800,6 +1866,7 @@
     
     
     
+    
     <!--  Editor • Warnings  -->
     <s:String x:Key="S.Editor.Warning.Selection">Du skal vælge mindst en ramme til overlægget.</s:String>
     <s:String x:Key="S.Editor.Warning.Ffmpeg">FFmpeg findes ikke. Føj det til miljøvariabler eller angiv placeringen i indstillinger.</s:String>
@@ -1807,6 +1874,7 @@
     <s:String x:Key="S.Editor.Warning.LowSpace">Der er ikke plads nok til programmets midlertidige filer ({0}% tilbage). Gå til Indstillinger > Midlertidige filer og frigør plads.</s:String>
     <s:String x:Key="S.Editor.Warning.DifferentDpi">Import af flere billeder med forskellig DPI er ikke tilladt. Nogle blev importeret, andre skal importeres separat.</s:String>
     <s:String x:Key="S.Editor.Warning.DifferentSize">Import af flere billeder med forskellig størrelse er ikke tilladt. Nogle blev importeret, andre skal importeres separat.</s:String>
+    
     
     
     
@@ -1850,10 +1918,12 @@
     
     
     
+    
     <!--  Editor • Frame list  -->
     <s:String x:Key="S.Editor.List.Frame">Ramme:</s:String>
     <s:String x:Key="S.Editor.List.OpenImage">Åben billede</s:String>
     <s:String x:Key="S.Editor.List.ExploreFolder">Åben mappe</s:String>
+    
     
     
     
@@ -1879,6 +1949,7 @@
     
     
     
+    
     <!--  Editor • Context menu  -->
     <s:String x:Key="S.Context.SaveAs">Gem som</s:String>
     <s:String x:Key="S.Context.RemoveFrames">Fjern valgte rammer</s:String>
@@ -1888,6 +1959,7 @@
     <s:String x:Key="S.Context.NewBlankAnimation">Nyt projekt</s:String>
     <s:String x:Key="S.Context.NewFromMediaProject">Ny fra medie eller projekt</s:String>
    
+    
     
     
     
@@ -1945,6 +2017,7 @@
     
     
     
+    
     <!--  Editor • Action panel  -->
     <s:String x:Key="S.Action.Hide">Skjul</s:String>
     <s:String x:Key="S.Action.Apply">Anvend</s:String>
@@ -1952,6 +2025,7 @@
     <s:String x:Key="S.Action.Save">Gem</s:String>
     <s:String x:Key="S.Action.Cancel">Annuller</s:String>
 
+    
     
     
     
@@ -1981,6 +2055,7 @@
     
     
     
+    
     <!--  Editor • Clipboard  -->
     <s:String x:Key="S.Clipboard.Entries">Udklipsholder</s:String>
     <s:String x:Key="S.Clipboard.Entry">Emne:</s:String>
@@ -1991,6 +2066,7 @@
     <s:String x:Key="S.Clipboard.Behavior">Indsættelse</s:String>
     <s:String x:Key="S.Clipboard.Before">Før valgte ramme</s:String>
     <s:String x:Key="S.Clipboard.After">Efter valgte ramme</s:String>
+    
     
     
     
@@ -2027,6 +2103,7 @@
     
     
     
+    
     <!--  Editor • Crop  -->
     <s:String x:Key="S.Crop.Points">Punkter</s:String>
     <s:String x:Key="S.Crop.Top">Top:</s:String>
@@ -2046,11 +2123,13 @@
     
     
     
+    
     <!--  Editor • Flip/rotate  -->
     <s:String x:Key="S.FlipRotate.FlipHorizontal">Vandret</s:String>
     <s:String x:Key="S.FlipRotate.FlipVertical">Lodret</s:String>
     <s:String x:Key="S.FlipRotate.RotateLeft">90º mod uret</s:String>
     <s:String x:Key="S.FlipRotate.RotateRight">90º med uret</s:String>
+    
     
     
     
@@ -2087,6 +2166,7 @@
     
     
     
+    
     <!--  Editor • Remove duplicates  -->
     <s:String x:Key="S.RemoveDuplicates.Header">Fjern duplikater</s:String>
     <s:String x:Key="S.RemoveDuplicates.Similarity">Lighed (%):</s:String>
@@ -2099,6 +2179,7 @@
     <s:String x:Key="S.RemoveDuplicates.Delay.Sum">Brug sum</s:String>
     <s:String x:Key="S.RemoveDuplicates.Info">Analyserer rammerne, og fjerner dem der er mindst {0} % ens med nærmeste nabo.&#x0d;Du kan vælge at tilpasse rammetiden.</s:String>
 
+    
     
     
     
@@ -2130,6 +2211,7 @@
     
     
     
+    
     <!--  Editor • Captions  -->
     <s:String x:Key="S.Caption.Text">Tekst</s:String>
     <s:String x:Key="S.Caption.Font">Skrift</s:String>
@@ -2147,6 +2229,7 @@
     <s:String x:Key="S.Caption.TextAlignment">Justering:</s:String>
     <s:String x:Key="S.Caption.TextDecoration">Dekoration:</s:String>
 
+    
     
     
     
@@ -2188,6 +2271,7 @@
     
     
     
+    
     <!--  Editor • Free drawing  -->
     <s:String x:Key="S.FreeDrawing.Mode">Tilstand</s:String>
     <s:String x:Key="S.FreeDrawing.Pen">Pen</s:String>
@@ -2204,6 +2288,7 @@
     <s:String x:Key="S.FreeDrawing.FitToCurve">Pas til kurve</s:String>
     <s:String x:Key="S.FreeDrawing.Warning.NoDrawing">Der er ingen tegninger.</s:String>
     <s:String x:Key="S.FreeDrawing.WarningSelection">Vælg mindst en ramme til tegningen.</s:String>
+    
     
     
     
@@ -2235,12 +2320,14 @@
     
     
     
+    
     <!--  Editor • Mouse clicks  -->
     <s:String x:Key="S.MouseEvents">Klik</s:String>
     <s:String x:Key="S.MouseClicks.Color.Left">Venstreklik:</s:String>
     <s:String x:Key="S.MouseClicks.Color.Middle">Midterklik:</s:String>
     <s:String x:Key="S.MouseClicks.Color.Right">Højreklik:</s:String>
     <s:String x:Key="S.MouseClicks.Warning.None">Projektet indeholder ingen museklik.</s:String>
+    
     
     
     
@@ -2271,10 +2358,12 @@
     
     
     
+    
     <!--  Editor • Border  -->
     <s:String x:Key="S.Border.Appearance">Udseende</s:String>
     <s:String x:Key="S.Border.Info">Negative værdier udvider billedet, og anvendes på alle rammer.&#x0d;Positive værdier anvendes kun på valgte rammer.</s:String>
 
+    
     
     
     
@@ -2302,6 +2391,7 @@
     
     
     
+    
     <!--  Editor • Obfuscate  -->
     <s:String x:Key="S.Obfuscate.Type.Pixelate">Pixelér</s:String>
     <s:String x:Key="S.Obfuscate.Type.Blur">Slør</s:String>
@@ -2318,6 +2408,7 @@
     <s:String x:Key="S.Obfuscate.Info">Markér det område der skal pixeleres.</s:String>
     <s:String x:Key="S.Obfuscate.Info2">Markér det område der ikke skal pixeleres.</s:String>
     <s:String x:Key="S.Obfuscate.Warning">Intet valgt. Markér det område der skal pixeleres.</s:String>
+    
     
     
     
@@ -2368,6 +2459,7 @@
     
     
     
+    
     <!--  Editor • Delay  -->
     <s:String x:Key="S.Delay.Update">Ny forsinkelse</s:String>
     <s:String x:Key="S.Delay.Mode">Metode:</s:String>
@@ -2392,9 +2484,11 @@
     
     
     
+    
     <!--  Editor • Cinemagraph  -->
     <s:String x:Key="S.Cinemagraph.Info">"Mal" dele af rammen der ikke bevares&#x0d;konstante gennem hele animationen.</s:String>
 
+    
     
     
     
@@ -2414,6 +2508,7 @@
     <s:String x:Key="S.Transitions.Color">Farve</s:String>
     <s:String x:Key="S.Transitions.Info">Overgangen anvendes mellem valgte ramme og den næste.</s:String>
 
+    
     
     
     
@@ -2473,6 +2568,7 @@
     
     
     
+    
     <!--  Editor • Save as > Presets  -->
     <s:String x:Key="S.SaveAs.Presets">Profiler:</s:String>
     <s:String x:Key="S.SaveAs.Presets.Default">Standard</s:String>
@@ -2492,6 +2588,7 @@
     
     
     
+    
     <!--  Editor • Save as > Presets > Dialogs  -->
     <s:String x:Key="S.SaveAs.Presets.Ask.Delete.Title">Slet profil</s:String>
     <s:String x:Key="S.SaveAs.Presets.Ask.Delete.Instruction">Vil du slette profilen?</s:String>
@@ -2499,6 +2596,7 @@
     <s:String x:Key="S.SaveAs.Presets.Ask.Reset.Title">Nulstil profil</s:String>
     <s:String x:Key="S.SaveAs.Presets.Ask.Reset.Instruction">Vil du nulstille profilen?</s:String>
     <s:String x:Key="S.SaveAs.Presets.Ask.Reset.Message">Handlingen kan ikke fortrydes.&#x0d;&#x0d;Vil du nulstille nu?</s:String>
+    
     
     
     
@@ -2534,6 +2632,7 @@
     
     
     
+    
     <!--  Editor • Save as > FFmpeg  -->
     <s:String x:Key="S.SaveAs.Ffmpeg.UseParameters">Brug avanceret tilstand.</s:String>
     <s:String x:Key="S.SaveAs.Ffmpeg.UseParameters.Info">Sæt selv parametrene for kodningen.</s:String>
@@ -2545,6 +2644,7 @@
     <s:String x:Key="S.SaveAs.Ffmpeg.Help.Code">Codec ?</s:String>
     <s:String x:Key="S.SaveAs.Ffmpeg.Help.Format">Format ?</s:String>
     <s:String x:Key="S.SaveAs.Ffmpeg.Help.Filters">Filter ?</s:String>
+    
     
     
     
@@ -2606,6 +2706,7 @@
     
     
     
+    
     <!--  Editor • Save as > Apng options  -->
     <s:String x:Key="S.SaveAs.ApngOptions">Indstillinger</s:String>
     <s:String x:Key="S.SaveAs.ApngOptions.Prediction">Forudsig:</s:String>
@@ -2628,6 +2729,7 @@
     
     
     
+    
     <!--  Editor • Save as > Webp options  -->
     <s:String x:Key="S.SaveAs.WebpOptions.CodecPreset">Profil:</s:String>
     <s:String x:Key="S.SaveAs.WebpOptions.CodecPreset.None">Ingen</s:String>
@@ -2638,6 +2740,7 @@
     <s:String x:Key="S.SaveAs.WebpOptions.CodecPreset.Icon">Ikon</s:String>
     <s:String x:Key="S.SaveAs.WebpOptions.CodecPreset.Text">Tekst</s:String>
     <s:String x:Key="S.SaveAs.WebpOptions.Lossless">Tabsfri.</s:String>
+    
     
     
     
@@ -2722,9 +2825,11 @@
     
     
     
+    
     <!--  Editor • Save as > Image options  -->
     <s:String x:Key="S.SaveAs.ImageOptions.Zip">Zip billederne.</s:String>
     <s:String x:Key="S.SaveAs.ImageOptions.Zip.Info">Eksporterer billederne som en zipfil.</s:String>
+    
     
     
     
@@ -2741,6 +2846,7 @@
     <s:String x:Key="S.SaveAs.PsdOptions.Compress.Info">Komprimér billedet med RLE algoritme.</s:String>
     <s:String x:Key="S.SaveAs.PsdOptions.Timeline">Gem tidsdata.</s:String>
     <s:String x:Key="S.SaveAs.PsdOptions.Timeline.Info">Eksportér både rammer og rammetid.</s:String>
+    
     
     
     
@@ -2787,6 +2893,7 @@
     
     
     
+    
     <!--  Editor • Save As > Partial export  -->
     <s:String x:Key="S.SaveAs.Partial">Delvis eksport</s:String>
     <s:String x:Key="S.SaveAs.Partial.Mode">Metode:</s:String>
@@ -2817,6 +2924,7 @@
     
     
     
+    
     <!--  Editor • Save as > File  -->
     <s:String x:Key="S.SaveAs.File">Fil</s:String>
     <s:String x:Key="S.SaveAs.File.Location">Destinationsmappe.</s:String>
@@ -2829,6 +2937,7 @@
     <s:String x:Key="S.SaveAs.File.Decrease">Formindsk filnummer</s:String>
     <s:String x:Key="S.SaveAs.File.Exists">Filnavnet findes allerede</s:String>
     <s:String x:Key="S.SaveAs.File.Clipboard">Gem til udklipsholder.</s:String>
+    
     
     
     
@@ -2870,6 +2979,7 @@
     
     
     
+    
     <!--  Editor • Save As > Upload  -->
     <s:String x:Key="S.SaveAs.Upload">Upload</s:String>
     <s:String x:Key="S.SaveAs.Upload.Info">Vælg en værtsprofil.</s:String>
@@ -2893,10 +3003,12 @@
     
     
     
+    
     <!--  Editor • Save as > Upload > Dialogs  -->
     <s:String x:Key="S.SaveAs.Upload.Ask.Delete.Title">Slet profil</s:String>
     <s:String x:Key="S.SaveAs.Upload.Ask.Delete.Instruction">Vil du slette denne profil?</s:String>
     <s:String x:Key="S.SaveAs.Upload.Ask.Delete.Message">Handlingen kan ikke fortrydes.&#x0d;&#x0d;Vil du slette?</s:String>
+    
     
     
     
@@ -2928,11 +3040,13 @@
     
     
     
+    
     <!--  Command Preview  -->
     <s:String x:Key="S.CommandPreviewer.Title">Vis kommando</s:String>
     <s:String x:Key="S.CommandPreviewer.Command">Kommando</s:String>
     <s:String x:Key="S.CommandPreviewer.Input">Kildesti</s:String>
     <s:String x:Key="S.CommandPreviewer.Output">Resultatsti</s:String>
+    
     
     
     
@@ -2977,6 +3091,7 @@
     
     
     
+    
     <!--  Troubleshoot  -->
     <s:String x:Key="S.Troubleshoot.Title">Problemer</s:String>
     <s:String x:Key="S.Troubleshoot.Windows">Mangler der et vindue?</s:String>
@@ -2996,10 +3111,12 @@
     
     
     
+    
     <!--  FontStyles  -->
     <s:String x:Key="S.FontStyles.Normal">Normal</s:String>
     <s:String x:Key="S.FontStyles.Italic">Kursiv</s:String>
     <s:String x:Key="S.FontStyles.Oblique">Skrå</s:String>
+    
     
     
     
@@ -3039,12 +3156,14 @@
     
     
     
+    
     <!--  VerticalAlignment  -->
     <s:String x:Key="S.VerticalAlignment.Top">Top</s:String>
     <s:String x:Key="S.VerticalAlignment.Center">Midt</s:String>
     <s:String x:Key="S.VerticalAlignment.Bottom">Bund</s:String>
     <s:String x:Key="S.Alignment.Stretch">Stræk</s:String>
 
+    
     
     
     
@@ -3070,9 +3189,11 @@
     
     
     
+    
     <!--  Orientation  -->
     <s:String x:Key="S.Orientation.Horizontal">Vandret</s:String>
     <s:String x:Key="S.Orientation.Vertical">Lodret</s:String>
+    
     
     
     
@@ -3089,6 +3210,7 @@
     <s:String x:Key="S.TextAlignment.Right">Højre</s:String>
     <s:String x:Key="S.TextAlignment.Center">Centrér</s:String>
     <s:String x:Key="S.TextAlignment.Justify">Fordel</s:String>
+    
     
     
     

@@ -14,7 +14,9 @@
     
     
     
+    
     <!--  To use a new line: &#x0d; or CarriageReturn + NewLine: &#x0d;&#x0a; or &#10;  --> 
+    
     
     
     
@@ -36,7 +38,9 @@
     
     
     
+    
     <!--  Special texts like {0}, are place holders for dynamic values, such as numbers.  -->
+    
     
     
     
@@ -83,6 +87,7 @@
     
     
     
+    
     <!--  Warning messages  -->
     <s:String x:Key="S.Crash">Woi! App imecrash, manze :(</s:String>
     <s:String x:Key="S.Required">Uga unaohitajika</s:String>
@@ -106,11 +111,13 @@
     
     
     
+    
     <!--  Tray icon  -->
     <s:String x:Key="S.NewRecording">Rekodi mpya ya skrini</s:String>
     <s:String x:Key="S.NewWebcamRecording">Rekodi mpya ya kamera-wavuti</s:String>
     <s:String x:Key="S.NewBoardRecording">Rekodi mpya ya bodi</s:String>
     <s:String x:Key="S.Exit">Ondoka</s:String>
+    
     
     
     
@@ -202,6 +209,7 @@
     
     
     
+    
     <!--  StartUp  -->
     <s:String x:Key="S.StartUp.Title">ScreenToGif - Mwanzo</s:String>
     <s:String x:Key="S.StartUp.Recorder">Kirekodi</s:String>
@@ -216,6 +224,7 @@
     <s:String x:Key="S.StartUp.NewRelease">Toleo jipya linapatikana</s:String>
     <s:String x:Key="S.StartUp.NewRelease.Tooltip">Inapakua toleo la mwisho la ScreenToGif</s:String>
 
+    
     
     
     
@@ -254,6 +263,7 @@
     
     
     
+    
     <!--  Options  -->
     <s:String x:Key="S.Options.Title">ScreenToGif - Chaguo</s:String>
     <s:String x:Key="S.Options.App">Programu-tumizi</s:String>
@@ -272,6 +282,7 @@
     <s:String x:Key="S.Options.Warning.Follow.Message">In utumie ufuataji wa kielekezi cha kipanya, unapaswa kuweka kitufe cha njiamkato kuitogoa inapohitajika.</s:String>
     <s:String x:Key="S.Options.Warning.DesktopDuplication.Header">Vitegemezi vya kunasa skrini vinakosekana</s:String>
     <s:String x:Key="S.Options.Warning.DesktopDuplication.Message">Ili kunasa skrini na API ya Desktop Duplication, unapaswa kupakua maktaba ya SharpDx.</s:String>
+    
     
     
     
@@ -321,6 +332,7 @@
     
     
     
+    
     <!--<s:String x:Key="S.Options.App.Theme.Scheme.Example">Example colors.</s:String>-->
     <s:String x:Key="S.Options.App.Tray">Ikoni ya chano mfumo</s:String>
     <s:String x:Key="S.Options.App.Tray.Show">Onyesha app kwenye chano (eneo la arifa)</s:String>
@@ -359,10 +371,12 @@
     
     
     
+    
     <!--  Options • Recorder  -->
     <s:String x:Key="S.Options.Recorder.Interface">Kiolesura</s:String>
     <s:String x:Key="S.Options.Recorder.Interface.Old">Mzee</s:String>
     <s:String x:Key="S.Options.Recorder.Interface.New">Mpya</s:String>
+    
     
     
     
@@ -385,7 +399,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Options.Recorder.Frequency.Manual">Manual</s:String>-->
+    
     
     
     
@@ -407,7 +423,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Options.Recorder.Frequency.Second">Per second</s:String>-->
+    
     
     
     
@@ -429,7 +447,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Options.Recorder.Frequency.Minute">Per minute</s:String>-->
+    
     
     
     
@@ -451,7 +471,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Options.Recorder.Frequency.Hour">Per hour</s:String>-->
+    
     
     
     
@@ -473,6 +495,7 @@
     
     
     
+    
     <!--<s:String x:Key="S.Options.Recorder.Frequency.Playback">Playback delay:</s:String>-->
     
     
@@ -484,7 +507,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Options.Recorder.Frequency.Playback.Info">(In ms, each captured frame will be set to this delay)</s:String>-->
+    
     
     
     
@@ -529,7 +554,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Options.Recorder.RemoteImprovement">Improve the capture performance on a remote desktop connection.</s:String>-->
+    
     
     
     
@@ -551,6 +578,7 @@
     <s:String x:Key="S.Options.Recorder.FollowMargin.Info">(Pambizo la bafa katika pikseli, ambapo rekodi huanza kubadilishwa nafasi)</s:String>
     <s:String x:Key="S.Options.Recorder.FollowMarginInvisible.Info">(Pambizo la ziada bafa katika pikseli, ambapo rekodi huanza kubadilishwa nafasi)</s:String>
 
+    
     
     
     
@@ -588,6 +616,7 @@
     
     
     
+    
     <!--<s:String x:Key="S.Options.Editor.Interface.DisplayEncoder">Display the encodings in a separated window.</s:String>-->
     <s:String x:Key="S.Options.Editor.Interface.ExtendChrome">Refusha upaokichwa (dirisha kromu)</s:String>
     <s:String x:Key="S.Options.Editor.Interface.AutomaticallySizeOnContent">Rekebisha kiotomatiki ukubwa wa fremu kulingana na ukubwa wa dirisha, punde tu baada ya kupakia.</s:String>
@@ -600,6 +629,7 @@
     <s:String x:Key="S.Options.Editor.General.LimitHistory">Weka kikomo kwenye historia ya tendua/rudia.</s:String>
     <s:String x:Key="S.Options.Editor.General.LimitHistory.Info">(Matendo mazee yatatolewa kipimo kikifikiwa)</s:String>
     <s:String x:Key="S.Options.Editor.General.LimitHistory.Maximum">(Kipeojuu cha idadi ya matendo inayohifadhiwa)</s:String>
+    
     
     
     
@@ -626,7 +656,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Options.Tasks.List.Enabled">Enabled</s:String>-->
+    
     
     
     
@@ -641,6 +673,7 @@
     <s:String x:Key="S.Options.Tasks.SelectType">(Teua kazi)</s:String>
     <s:String x:Key="S.Options.Tasks.Info">Kazi hizi zinatekelezwa zikifuatana kutoka juu hadi chini ya orodha.&#10;Inafanyika unapofungua mradi kwa mara ya kwanza ukitumia kihariri.</s:String>
   
+    
     
     
     
@@ -688,6 +721,7 @@
     
     
     
+    
     <!--  Options • Language  -->
     <s:String x:Key="S.Options.Language.AppLanguage">Lugha ya app</s:String>
     <s:String x:Key="S.Options.Language.AppLanguage.AutoDetect">Gundua-kioto</s:String>
@@ -703,6 +737,7 @@
     <s:String x:Key="S.Options.Language.AppLanguage.Translate.ResourceLink.Tooltip">Bofya kufungua ukurasa wa wavuti ulio na mielekezo.</s:String>
     <s:String x:Key="S.Options.Language.AppLanguage.Translate.ImportLink.Tooltip">Inafungua ukurasa wa uletezi</s:String>
     <s:String x:Key="S.Options.Language.AppLanguage.Translate.EmailLink.Tooltip">Inafungua app yako ya barua pepe</s:String>
+    
     
     
     
@@ -757,6 +792,7 @@
     
     
     
+    
     <!--  Options • Storage > Clear cache  -->
     <s:String x:Key="S.Options.Storage.Cache.Title">ScreenToGif - Futa kashe</s:String>
     <s:String x:Key="S.Options.Storage.Cache.Header">Ungependa kufuta folda ya kashe?</s:String>
@@ -765,6 +801,7 @@
     <s:String x:Key="S.Options.Storage.Cache.IgnoreRecent">Usiondoe miradi ya hivi majuzi.</s:String>
     <s:String x:Key="S.Options.Storage.Cache.IgnoreRecent.Yes">(Miradi nzee kuliko siku {0}, ambazo hazitumiki kwa sasa, itatolewa)</s:String>
     <s:String x:Key="S.Options.Storage.Cache.IgnoreRecent.No">(Miradi yote, ambazo kwa sasa hazitumiki, zitatolewa)</s:String>
+    
     
     
     
@@ -812,7 +849,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Options.Upload.Preset.Imgur.Auth.Failed.Header">It was not possible to authorize the app</s:String>-->
+    
     
     
     
@@ -846,6 +885,7 @@
     
     
     
+    
     <!--  Options • Extras  -->
     <s:String x:Key="S.Options.Extras.External">Zana za nje zilizopo</s:String>
     <s:String x:Key="S.Options.Extras.Download">Bofya hapa kupakua&#x0d;{0}</s:String>
@@ -855,6 +895,7 @@
     <s:String x:Key="S.Options.Extras.DownloadRestriction">Apps zinazosambazwa na Duka la Microsoft haziweza pakua apps zingine. Itabidi upakue kikuli.</s:String>
     <s:String x:Key="S.Options.Extras.FfmpegLocation">Eneo la FFmpeg</s:String>
     <s:String x:Key="S.Options.Extras.FfmpegLocation.Select">Teua eneo la kiendeshaji cha FFmpeg</s:String>
+    
     
     
     
@@ -879,6 +920,7 @@
     
     
     
+    
     <!--<s:String x:Key="S.Options.Extras.GifskiLocation.File">Gifski library</s:String>-->
     <s:String x:Key="S.Options.Extras.GifskiLocation.Invalid">Kijia cha maktaba ya Gifskiina vibambo batili moja au zaidi. Tafadhali, chagua folda halali ya maktaba hiyo.</s:String>
     <s:String x:Key="S.Options.Extras.SharpDxLocation">Folda ya SharpDx (SharpDX.dll, SharpDX.Direct3D11.dll na SharpDX.DXGI.dll)</s:String>
@@ -888,6 +930,7 @@
     <s:String x:Key="S.Options.Extras.License.Gifski">Leseni ya Gifski</s:String>
     <s:String x:Key="S.Options.Extras.License.SharpDx">Leseni ya SharpDx</s:String>
 
+    
     
     
     
@@ -927,6 +970,7 @@
     
     
     
+    
     <!--  Options • About  -->
     <s:String x:Key="S.Options.About.Version">Toleo:</s:String>
     <s:String x:Key="S.Options.About.Author">Mwandishi: Nicke Manarin</s:String>
@@ -953,8 +997,10 @@
     
     
     
+    
     <!--  Localization  -->
     <s:String x:Key="S.Localization">Ujanibishaji</s:String>
+    
     
     
     
@@ -976,7 +1022,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Localization.Recognized">Recognized as {0}</s:String>-->
+    
     
     
     
@@ -1000,7 +1048,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Localization.Exporting">Exporting resource...</s:String>-->
+    
     
     
     
@@ -1022,7 +1072,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Localization.OpenResource">Open a resource dictionary</s:String>-->
+    
     
     
     
@@ -1044,7 +1096,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Localization.Importing">Importing resource...</s:String>-->
+    
     
     
     
@@ -1066,7 +1120,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Localization.Warning.Name.Info">Try renaming like: StringResources.en.xaml, where 'en' should be replaced by your language code.</s:String>-->
+    
     
     
     
@@ -1088,7 +1144,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Localization.Warning.Repeated.Info">Try removing the repeated resource or use other language code.</s:String>-->
+    
     
     
     
@@ -1110,7 +1168,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Localization.Warning.Redundant.Info">The "{0}" code is redundant. Try using "{1}" instead.</s:String>-->
+    
     
     
     
@@ -1132,7 +1192,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Localization.Warning.Unknown.Info">The "{0}" and its family were not recognized as valid language codes.</s:String>-->
+    
     
     
     
@@ -1145,6 +1207,7 @@
     
     <!--<s:String x:Key="S.Localization.Warning.NotPossible">It was not possible to import the localization resource.</s:String>-->
 
+    
     
     
     
@@ -1175,7 +1238,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Recorder.SwitchFrequency">Click to switch among capture frequency modes.</s:String>-->
+    
     
     
     
@@ -1199,7 +1264,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Recorder.Fps.Range">Ranges from 1 to 60 fps, with higher values meaning more frames will be captured.&#10;Each increment represents 16 milliseconds of difference.</s:String>-->
+    
     
     
     
@@ -1221,7 +1288,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Recorder.Fpm.Short">fpm</s:String>-->
+    
     
     
     
@@ -1243,6 +1312,7 @@
     
     
     
+    
     <!--<s:String x:Key="S.Recorder.Fph">Maximum frames per hour</s:String>-->
     
     
@@ -1254,7 +1324,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Recorder.Fph.Short">fph</s:String>-->
+    
     
     
     
@@ -1288,12 +1360,14 @@
     
     
     
+    
     <!--  New recorder  -->
     <s:String x:Key="S.Recorder.Area">Eneo</s:String>
     <s:String x:Key="S.Recorder.Window">Dirisha</s:String>
     <s:String x:Key="S.Recorder.Screen">Skrini</s:String>
     <s:String x:Key="S.Recorder.Accept">Kubali</s:String>
     <s:String x:Key="S.Recorder.Retry">Jaribu upya</s:String>
+    
     
     
     
@@ -1322,6 +1396,7 @@
     
     
     
+    
     <!--  Webcam recorder  -->
     <s:String x:Key="S.Webcam.Title">ScreenToGif - Kirekodi kamera-tovuti</s:String>
     <s:String x:Key="S.Webcam.NoVideo">Hakuna kifaa cha video kilichogunduliwa :(</s:String>
@@ -1339,11 +1414,13 @@
     
     
     
+    
     <!--  Board recorder  -->
     <s:String x:Key="S.Board.Title">ScreenToGif - Kirekodi Bodi</s:String>
     <s:String x:Key="S.Board.AutoRecord">Rekodi-kioto</s:String>
     <s:String x:Key="S.Board.AutoRecordToolTip">Huwezesha kurekodi unapochora.</s:String>
     <s:String x:Key="S.Board.CtrlHold">Ctrl [Shikilia]</s:String>
+    
     
     
     
@@ -1379,9 +1456,11 @@
     
     
     
+    
     <!--  Exception/Error viewers  -->
     <s:String x:Key="S.ExceptionViewer.Title">Kionyeshi vighairi</s:String>
     <s:String x:Key="S.ExceptionViewer.OpenInner">Fungua kighairi cha ndani</s:String>
+    
     
     
     
@@ -1403,7 +1482,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.ExceptionViewer.Message">Message</s:String>-->
+    
     
     
     
@@ -1425,10 +1506,12 @@
     
     
     
+    
     <!--<s:String x:Key="S.ExceptionViewer.Source">Source</s:String>-->
     <s:String x:Key="S.ErrorDialog.Observation">Kuna kitu kisicho sahihi kilichotokea</s:String>
     <s:String x:Key="S.ErrorDialog.Send">Tuma ripoti</s:String>
 
+    
     
     
     
@@ -1458,6 +1541,7 @@
     
     
     
+    
     <!--  Insert frames  -->
     <s:String x:Key="S.InsertFrames.Title">Ingiza fremu</s:String>
     <s:String x:Key="S.InsertFrames.Info">Pande zote zinafaa kuwa na ukubwa sawia, dirisha hii hukurusu kuibadilisha nafasi na kubadilisha ukubwa picha na turubai. Bofya kuteua na kubadilisha ukubwa.</s:String>
@@ -1477,6 +1561,7 @@
     <s:String x:Key="S.InsertFrames.Importing">Inaleta</s:String>
     <s:String x:Key="S.InsertFrames.SelectColorFill">Teua rangi ya kujaza turubai</s:String>
 
+    
     
     
     
@@ -1517,8 +1602,10 @@
     
     
     
+    
     <!--  Encoder  -->
     <s:String x:Key="S.Encoder.Title">Kisimbaji</s:String>
+    
     
     
     
@@ -1551,7 +1638,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Encoder.Completed.Elapsed">Elapsed time, in minutes:</s:String>-->
+    
     
     
     
@@ -1573,7 +1662,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Encoder.Completed.Elapsed.Encoding">Encoding:</s:String>-->
+    
     
     
     
@@ -1595,7 +1686,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Encoder.Completed.Elapsed.Copy">Copy:</s:String>-->
+    
     
     
     
@@ -1629,11 +1722,13 @@
     
     
     
+    
     <!--<s:String x:Key="S.Encoder.SavingAnalysis">Saving analysis result</s:String>-->
     <s:String x:Key="S.Encoder.OpenFile">Fungua faili</s:String>
     <s:String x:Key="S.Encoder.ExploreFolder">Kagua folda</s:String>
     <s:String x:Key="S.Encoder.Remove">Ondoa kutoka orodha</s:String>
     <s:String x:Key="S.Encoder.Details">Onyesha mafafanuzi</s:String>
+    
     
     
     
@@ -1661,6 +1756,7 @@
     
     
     
+    
     <!--  Command output  -->
     <s:String x:Key="S.Encoder.Command.Title">ScreenToGif - Amri Towe</s:String>
     <s:String x:Key="S.Encoder.Command.Header">Amri towe</s:String>
@@ -1675,9 +1771,11 @@
     
     
     
+    
     <!--  Notifications  -->
     <s:String x:Key="S.Notifications">Arifa</s:String>
     <s:String x:Key="S.Notifications.Dismiss">Puuza maarifa yote</s:String>
+    
     
     
     
@@ -1715,10 +1813,12 @@
     
     
     
+    
     <!--  Editor • Loading  -->
     <s:String x:Key="S.Editor.Preparing">Inatayarisha fremu</s:String>
     <s:String x:Key="S.Editor.InvalidLoadingFiles">Upakiaji ni batili - huwezi kuleta faili anuwai mara moja. Jaribu kuchagua faili moja tu.</s:String>
     <s:String x:Key="S.Editor.InvalidLoadingProjects">Upakiaji ni batili - huwezi kuleta miradi anuwai mara moja. Jaribu kuchagua mradi mmoja tu.</s:String>
+    
     
     
     
@@ -1743,7 +1843,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Editor.File.All">All supported files</s:String>-->
+    
     
     
     
@@ -1765,7 +1867,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Editor.File.Video">Video</s:String>-->
+    
     
     
     
@@ -1787,7 +1891,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Editor.File.Gif">Gif animation</s:String>-->
+    
     
     
     
@@ -1809,7 +1915,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Editor.File.Avi">Avi video</s:String>-->
+    
     
     
     
@@ -1831,7 +1939,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Editor.File.Mp4">Mp4 video</s:String>-->
+    
     
     
     
@@ -1853,7 +1963,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Editor.File.Wmv">Windows media video</s:String>-->
+    
     
     
     
@@ -1875,7 +1987,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Editor.File.Image.Png">Png image, all selected images</s:String>-->
+    
     
     
     
@@ -1897,7 +2011,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Editor.File.Psd">Psd file</s:String>-->
+    
     
     
     
@@ -1928,12 +2044,14 @@
     
     
     
+    
     <!--  Editor • File tab • New  -->
     <s:String x:Key="S.Editor.File.New.Recording">Inarekodi</s:String>
     <s:String x:Key="S.Editor.File.New.Webcam">Kamera-tovuti&#x0d;Inarekodi</s:String>
     <s:String x:Key="S.Editor.File.New.Board">Bao&#x0d;Inarekodi</s:String>
     <s:String x:Key="S.Editor.File.Blank">Tupu&#x0d;Mradi</s:String>
     <s:String x:Key="S.Editor.File.New">Mpya</s:String>
+    
     
     
     
@@ -1962,6 +2080,7 @@
     
     
     
+    
     <!--  Editor • File tab • Save/Discard  -->
     <s:String x:Key="S.Editor.File.Save">Hifadhi kama</s:String>
     <s:String x:Key="S.Editor.File.Load">Pakia</s:String>
@@ -1979,11 +2098,13 @@
     
     
     
+    
     <!--  Editor • Home tab • Action Stack  -->
     <s:String x:Key="S.Editor.Home.ActionStack">Mpororo wa matendo</s:String>
     <s:String x:Key="S.Editor.Home.Undo">Tendua</s:String>
     <s:String x:Key="S.Editor.Home.Redo">Rudia</s:String>
     <s:String x:Key="S.Editor.Home.Reset">Seti upya</s:String>
+    
     
     
     
@@ -2012,10 +2133,12 @@
     
     
     
+    
     <!--  Editor • Home tab • Zoom  -->
     <s:String x:Key="S.Editor.Home.Zoom">Kuza</s:String>
     <s:String x:Key="S.Editor.Home.SizeToContent">Rekebisha hadi&#x0d;Yaliyomo</s:String>
     <s:String x:Key="S.Editor.Home.FitImage">Tosheleza picha</s:String>
+    
     
     
     
@@ -2033,6 +2156,7 @@
     <s:String x:Key="S.Editor.Home.GoTo">Nenda hadi</s:String>
     <s:String x:Key="S.Editor.Home.Inverse">Mgeuko</s:String>
     <s:String x:Key="S.Editor.Home.Deselect">Ondoa uteuzi</s:String>
+    
     
     
     
@@ -2063,10 +2187,12 @@
     
     
     
+    
     <!--  Editor • Playback tab • Playback Options  -->
     <s:String x:Key="S.Editor.PlaybackOptions.Header">Chaguo za uchezaji</s:String>
     <s:String x:Key="S.Editor.PlaybackOptions.Loop">Rejeleza uchezeshaji.</s:String>
     <s:String x:Key="S.Editor.PlaybackOptions.Loop.Info">Hutumika tu wakati wa kuchezesha.&#x0d;Iwapo ungependa kubadilisha mipangilio ya rejelezi ya kusafirisha GIF na Apng,&#x0d;itakuwepo katika paneli ya 'Hifadhi Kama' kwa visimbiko kadhaa.</s:String>
+    
     
     
     
@@ -2096,12 +2222,14 @@
     
     
     
+    
     <!--  Editor • Edit tab • Reordering  -->
     <s:String x:Key="S.Editor.Edit.Reordering">Inapanga upya</s:String>
     <s:String x:Key="S.Editor.Edit.Reverse">Pindua</s:String>
     <s:String x:Key="S.Editor.Edit.Yoyo">Yoyo</s:String>
     <s:String x:Key="S.Editor.Edit.MoveLeft">Sogeza&#x0d;Kushoto</s:String>
     <s:String x:Key="S.Editor.Edit.MoveRight">Sogeza&#x0d;Kulia</s:String>
+    
     
     
     
@@ -2129,11 +2257,13 @@
     
     
     
+    
     <!--  Editor • Image • Size and Rotation  -->
     <s:String x:Key="S.Editor.Image.SizePosition">Ukubwa na mzunguko</s:String>
     <s:String x:Key="S.Editor.Image.Resize">Badilisha ukubwa</s:String>
     <s:String x:Key="S.Editor.Image.Crop">Puna</s:String>
     <s:String x:Key="S.Editor.Image.FlipRotate">Geuza/zungusha</s:String>
+    
     
     
     
@@ -2151,6 +2281,7 @@
     <s:String x:Key="S.Editor.Image.FreeText">Matini huru</s:String>
     <s:String x:Key="S.Editor.Image.TitleFrame">Fremu ya kichwa</s:String>
     <s:String x:Key="S.Editor.Image.KeyStrokes">Vitufe&#x0d;Vitufe</s:String>
+    
     
     
     
@@ -2184,10 +2315,12 @@
     
     
     
+    
     <!--  Editor • Transitions tab • Styles  -->
     <s:String x:Key="S.Editor.Transitions.Styles">Mtindo</s:String>
     <s:String x:Key="S.Editor.Transitions.Fade">Fifia</s:String>
     <s:String x:Key="S.Editor.Transitions.Slide">Teleza</s:String>
+    
     
     
     
@@ -2209,6 +2342,7 @@
     <s:String x:Key="S.Editor.Statistics.CurrentTime.Info">Wakati wa sasa (nyongeza) kutegemea na fremu ya sasa inayoonyeshwa.</s:String>
     <s:String x:Key="S.Editor.Statistics.FrameDpi">DPI na kipimo ya fremu</s:String>
     <s:String x:Key="S.Editor.Statistics.SelectedFrame">Fremu teule</s:String>
+    
     
     
     
@@ -2277,12 +2411,14 @@
     
     
     
+    
     <!--  Editor • Warnings  -->
     <s:String x:Key="S.Editor.Warning.Selection">Unapaswa kuchagua angalau fremu moja kutekelezea tandazo.</s:String>
     <s:String x:Key="S.Editor.Warning.Ffmpeg">FFmpeg haipo. Iongeze kwenye kijia cha mazingira au bofya hapa kufungua Chaguo > Ziada kuseti eneo.</s:String>
     <s:String x:Key="S.Editor.Warning.Gifski">Gifski haipo. Iongeze kwenye kijia cha mazingira au bofya hapa kufungua Chaguo > Ziada kuseti eneo.</s:String>
     <s:String x:Key="S.Editor.Warning.LowSpace">Hakuna nafsai huru inayotosha kwenye kiendeshi ambacho app hii huhifadhi kashe yake ({0}% imebaki). Bofya hapa kufungua Chaguo > Faili za hivi punde kukomboa nafasi kiasi.</s:String>
     <s:String x:Key="S.Editor.Warning.DifferentDpi">Ulijaribu kuleta picha anuwai zilizo na DPI tofauti, ambayo haiauniwi. Zingine zililetwa, zilizobaki zinafaa kuletwa kivyao.</s:String>
+    
     
     
     
@@ -2323,11 +2459,13 @@
     
     
     
+    
     <!--  Editor • Frame list  -->
     <s:String x:Key="S.Editor.List.Frame">Fremu:</s:String>
     <s:String x:Key="S.Editor.List.OpenImage">Fungua picha</s:String>
     <s:String x:Key="S.Editor.List.ExploreFolder">Kagua folda</s:String>
     <s:String x:Key="S.Editor.List.ExportImage">Kagua picha</s:String>
+    
     
     
     
@@ -2353,6 +2491,7 @@
     
     
     
+    
     <!--  Editor • Context menu  -->
     <s:String x:Key="S.Context.SaveAs">Hifadhi kama</s:String>
     <s:String x:Key="S.Context.RemoveFrames">Ondoa fremu teuzi</s:String>
@@ -2362,6 +2501,7 @@
     <s:String x:Key="S.Context.NewBlankAnimation">Mradi mpya</s:String>
     <s:String x:Key="S.Context.NewFromMediaProject">Mpya kutoka media au mradi</s:String>
    
+    
     
     
     
@@ -2419,6 +2559,7 @@
     
     
     
+    
     <!--  Editor • Action panel  -->
     <s:String x:Key="S.Action.Hide">Ficha</s:String>
     <s:String x:Key="S.Action.Apply">Tekeleza</s:String>
@@ -2426,6 +2567,7 @@
     <s:String x:Key="S.Action.Save">Hifadhi</s:String>
     <s:String x:Key="S.Action.Cancel">Ghairi</s:String>
 
+    
     
     
     
@@ -2452,8 +2594,10 @@
     
     
     
+    
     <!--<s:String x:Key="S.Recent.Warning.SameProject">This project is already being displayed by this editor instance.</s:String>-->
     <s:String x:Key="S.Recent.Warning.AnotherEditor">Mradi huu tayari ulifunguliwa na tukio kingine la kihariri. Mradi haiwezi funguliwa kama tayari imefunguliwa kwenye kihariri kingine.</s:String>
+    
     
     
     
@@ -2478,7 +2622,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Clipboard.Entry.Image">{0} image</s:String>-->
+    
     
     
     
@@ -2506,6 +2652,7 @@
     
     
     
+    
     <!--  Editor • Resize  -->
     <s:String x:Key="S.Resize.CurrentProperties">Sifa zilizopo</s:String>
     <s:String x:Key="S.Resize.Dpi">Dpi</s:String>
@@ -2513,6 +2660,7 @@
     <s:String x:Key="S.Resize.Dpi2">DPI:</s:String>
     <s:String x:Key="S.Resize.KeepAspect">Hifadhi uwiano wa kimo-upana</s:String>
     <s:String x:Key="S.Resize.Warning">Unapaswa kuchagua dhamani tofauti kutekelezea tendo la kubadili kipimo.</s:String>
+    
     
     
     
@@ -2543,11 +2691,13 @@
     
     
     
+    
     <!--  Editor • Flip/rotate  -->
     <s:String x:Key="S.FlipRotate.FlipHorizontal">Geuza mlalo</s:String>
     <s:String x:Key="S.FlipRotate.FlipVertical">Geuza kiwima</s:String>
     <s:String x:Key="S.FlipRotate.RotateLeft">Zungusha kushoto 90º</s:String>
     <s:String x:Key="S.FlipRotate.RotateRight">Zungusha kulia 90º</s:String>
+    
     
     
     
@@ -2584,6 +2734,7 @@
     
     
     
+    
     <!--  Editor • Remove duplicates  -->
     <s:String x:Key="S.RemoveDuplicates.Header">Ondoa virudufu</s:String>
     <s:String x:Key="S.RemoveDuplicates.Similarity">Mfanano (%)</s:String>
@@ -2595,6 +2746,7 @@
     <s:String x:Key="S.RemoveDuplicates.Delay.Average">Tumia wastani</s:String>
     <s:String x:Key="S.RemoveDuplicates.Delay.Sum">Tumia jumla</s:String>
     <s:String x:Key="S.RemoveDuplicates.Info">Kitendo hiki hukagua kila fremu (pikseli moja kwa nyingine) na kuondoa zinazotofautiana na za jirani kwa {0} %.&#x0d;Waweza chagua iwapo wataka kubadilisha mchelewo wa fremu.</s:String>
+    
     
     
     
@@ -2621,6 +2773,7 @@
     <s:String x:Key="S.Caption.Vertical">Wima:</s:String>
     <s:String x:Key="S.Caption.Horizontal">Mlalo</s:String>
 
+    
     
     
     
@@ -2660,6 +2813,7 @@
     
     
     
+    
     <!--  Editor • Free drawing  -->
     <s:String x:Key="S.FreeDrawing.Mode">Mtindo</s:String>
     <s:String x:Key="S.FreeDrawing.Pen">Kalamu</s:String>
@@ -2687,11 +2841,13 @@
     
     
     
+    
     <!--  Editor • Shapes  -->
     <s:String x:Key="S.Shapes.Mode.Insert">Ingiza</s:String>
     <s:String x:Key="S.Shapes.Shapes">Maumbo</s:String>
     <s:String x:Key="S.Shapes.Shapes.Radius">Nusu-kipenyo</s:String>
     <s:String x:Key="S.Shapes.Shapes.Dashes">Vistari</s:String>
+    
     
     
     
@@ -2713,9 +2869,11 @@
     
     
     
+    
     <!--<s:String x:Key="S.Shapes.Shapes.Remove">Remove</s:String>-->
     <s:String x:Key="S.Shapes.Fill">Jaza</s:String>
 
+    
     
     
     
@@ -2740,9 +2898,11 @@
     
     
     
+    
     <!--  Editor • Watermark  -->
     <s:String x:Key="S.Watermark.Image">Picha</s:String>
     <s:String x:Key="S.Watermark.File">Faili:</s:String>
+    
     
     
     
@@ -2769,10 +2929,12 @@
     
     
     
+    
     <!--  Editor • Border  -->
     <s:String x:Key="S.Border.Appearance">Mwonekano</s:String>
     <s:String x:Key="S.Border.Info">Tumia hasi</s:String>
 
+    
     
     
     
@@ -2800,12 +2962,14 @@
     
     
     
+    
     <!--  Editor • Obfuscate  -->
     <s:String x:Key="S.Obfuscate.Options">Chagua za uchujushaji</s:String>
     <s:String x:Key="S.Obfuscate.PixelSize">Ukubwa wa pikseli:</s:String>
     <s:String x:Key="S.Obfuscate.UseAverage">Kokotoa rangi ya wastani ya kila fungu lililowekwa pikseli.</s:String>
     <s:String x:Key="S.Obfuscate.Info">Tumia zana ya uteuzi kuteua mstatili itakayofanywa pixeli.</s:String>
     <s:String x:Key="S.Obfuscate.Warning">Hukuchagua chochote. Tafadhali tumia zana ya uteuzi kuteua mstatili ambao utawekwa pikseli.</s:String>
+    
     
     
     
@@ -2841,7 +3005,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Progress.Format.Header">Format</s:String>-->
+    
     
     
     
@@ -2863,7 +3029,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Progress.Format.Seconds">$s = seconds</s:String>-->
+    
     
     
     
@@ -2885,7 +3053,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Progress.Format.Percentage">$p = percentage</s:String>-->
+    
     
     
     
@@ -2907,7 +3077,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Progress.Format.Totals">Totals:</s:String>-->
+    
     
     
     
@@ -2925,6 +3097,7 @@
     <s:String x:Key="S.Progress.Precision.StartNumber">Hesabu kutoka:</s:String>
     <s:String x:Key="S.Progress.Precision.StartNumber.ToolTip">Huanza kuhesabu nambari za fremu kutoka nambari hii.</s:String>
     <s:String x:Key="S.Progress.Orientation">Uelekeo</s:String>
+    
     
     
     
@@ -2960,9 +3133,11 @@
     
     
     
+    
     <!--  Editor • Cinemagraph  -->
     <s:String x:Key="S.Cinemagraph.Info">Tumia kalamu kuchagua pixeli zisizofaa kubaki.</s:String>
 
+    
     
     
     
@@ -2992,6 +3167,7 @@
     
     
     
+    
     <!--  Editor • Save as  -->
     <s:String x:Key="S.SaveAs.Type">Aina ya faili</s:String>
     <s:String x:Key="S.SaveAs.Gif">Gif</s:String>
@@ -3000,6 +3176,7 @@
     <s:String x:Key="S.SaveAs.Project">Pangama</s:String>
     <s:String x:Key="S.SaveAs.Psd">PSD</s:String>
     <s:String x:Key="S.SaveAs.Video">Video</s:String>
+    
     
     
     
@@ -3032,8 +3209,10 @@
     
     
     
+    
     <!--  Editor • Save as > Gif options  -->
     <s:String x:Key="S.SaveAs.GifOptions">Chaguo za gif</s:String>
+    
     
     
     
@@ -3055,7 +3234,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.SaveAs.GifOptions.Quantizer.Neural">Neural network</s:String>-->
+    
     
     
     
@@ -3077,7 +3258,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.SaveAs.GifOptions.Quantizer.Octree">Octree</s:String>-->
+    
     
     
     
@@ -3099,7 +3282,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.SaveAs.GifOptions.Quantizer.MedianCut">Median cut</s:String>-->
+    
     
     
     
@@ -3121,7 +3306,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.SaveAs.GifOptions.Quantizer.Grayscale">Grayscale</s:String>-->
+    
     
     
     
@@ -3143,7 +3330,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.SaveAs.GifOptions.Quantizer.MostUsed">Most used colors</s:String>-->
+    
     
     
     
@@ -3165,7 +3354,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.SaveAs.GifOptions.Sampling">Sampling:</s:String>-->
+    
     
     
     
@@ -3190,7 +3381,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.SaveAs.GifOptions.GlobalColorTable">Use a global color table.</s:String>-->
+    
     
     
     
@@ -3216,7 +3409,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.SaveAs.GifOptions.Transparency.Enable">Enable transparency.</s:String>-->
+    
     
     
     
@@ -3238,7 +3433,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.SaveAs.GifOptions.Transparency.Pick">Select which color to display as transparent.</s:String>-->
+    
     
     
     
@@ -3261,7 +3458,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.SaveAs.GifOptions.DetectUnchanged.Info">By analyzing and detecting unchanged pixels between the frames,&#10;it will be possible to save only the necessary parts to the gif.</s:String>-->
+    
     
     
     
@@ -3283,7 +3482,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.SaveAs.GifOptions.PaintWithChroma.Info">Repeated/unchanged pixels will be replaced with this chroma key,&#10;making it possible to use less colors per frame.</s:String>-->
+    
     
     
     
@@ -3306,11 +3507,13 @@
     
     
     
+    
     <!--  Editor • Save as > Apng options  -->
     <s:String x:Key="S.SaveAs.ApngOptions">Mipangilio ya Apng</s:String>
     <s:String x:Key="S.SaveAs.ApngOptions.Looped">Apng iliyorejelezwa.</s:String>
     <s:String x:Key="S.SaveAs.ApngOptions.DetectUnchanged">Gundua pikseli zisizobadilika.</s:String>
     <s:String x:Key="S.SaveAs.ApngOptions.PaintTransparent">Paka rangi kwa pikseli zote zilizo na rangi angavu</s:String>
+    
     
     
     
@@ -3361,6 +3564,7 @@
     
     
     
+    
     <!--  Save As • Save options  -->
     <s:String x:Key="S.SaveAs.SaveOptions">Chaguo za kuhifadhi</s:String>
     <s:String x:Key="S.SaveAs.SaveOptions.PickFolder">Hifadhi faili kwa folda utakalochagua</s:String>
@@ -3379,6 +3583,7 @@
     <s:String x:Key="S.SaveAs.SaveOptions.CopyToClipboard.Link.Info">Hunakili kiungo iliyoundwa na huduma ya upakiaji kwenye ubao-nakili</s:String>
     <s:String x:Key="S.SaveAs.SaveOptions.ExecuteCommands">Tekeleza maamirisho ya baada ya usimbaji</s:String>
     <s:String x:Key="S.SaveAs.SaveOptions.ExecuteCommands.Info">Bofya maamrisho ambazo zinafaa kutekelezwa baada ya usimbiko.&#x0d;Kutekeleza maamrisho anuwai, charaza kila moja kwenye laini tofauti.&#x0d;Macro:&#x0d;{p} = Kijia cha faili towe.&#x0d;{f} = Kijia cha folda towe.&#x0d;{u} = URL of the uploaded file.</s:String>
+    
     
     
     
@@ -3424,10 +3629,12 @@
     
     
     
+    
     <!--  SaveAs • Export  -->
     <s:String x:Key="S.SaveAs.Dialogs.Multiple.Title">Kagua fremu</s:String>
     <s:String x:Key="S.SaveAs.Dialogs.Multiple.Instruction">Una uhakika unataka kuhamisha fremu?</s:String>
     <s:String x:Key="S.SaveAs.Dialogs.Multiple.Message">Kitendo hiki kitahamisha fremu {0} moja-kwa-moja hadi folda teuzi.</s:String>
+    
     
     
     
@@ -3472,6 +3679,7 @@
     
     
     
+    
     <!--  Troubleshoot  -->
     <s:String x:Key="S.Troubleshoot.Title">Tafutatua</s:String>
     <s:String x:Key="S.Troubleshoot.Windows">Kuna kidirisha chochote kinachokosekana?</s:String>
@@ -3491,10 +3699,12 @@
     
     
     
+    
     <!--  FontStyles  -->
     <s:String x:Key="S.FontStyles.Normal">Kawaida</s:String>
     <s:String x:Key="S.FontStyles.Italic">Italiki</s:String>
     <s:String x:Key="S.FontStyles.Oblique">Mshazari</s:String>
+    
     
     
     
@@ -3534,6 +3744,7 @@
     
     
     
+    
     <!--  VerticalAlignment  -->
     <s:String x:Key="S.VerticalAlignment.Top">Tuu</s:String>
     <s:String x:Key="S.VerticalAlignment.Center">Katikati</s:String>
@@ -3550,10 +3761,12 @@
     
     
     
+    
     <!--  HorizontalAlignment  -->
     <s:String x:Key="S.HorizontalAlignment.Left">Kushoto</s:String>
     <s:String x:Key="S.HorizontalAlignment.Center">Katikati</s:String>
     <s:String x:Key="S.HorizontalAlignment.Right">Kulia</s:String>
+    
     
     
     

@@ -14,7 +14,9 @@
     
     
     
+    
     <!--  To use a new line: &#x0d; or CarriageReturn + NewLine: &#x0d;&#x0a; or &#10;  --> 
+    
     
     
     
@@ -36,7 +38,9 @@
     
     
     
+    
     <!--  Special texts like {0}, are place holders for dynamic values, such as numbers.  -->
+    
     
     
     
@@ -85,11 +89,13 @@
     
     
     
+    
     <!--  Warnings  -->
     <s:String x:Key="S.Crash">Oh no, l'applicazione è esplosa :(</s:String>
     <s:String x:Key="S.Required">Campo richiesto.</s:String>
     <s:String x:Key="S.Warning.Net.Title">Dipendenza mancante</s:String>
     <s:String x:Key="S.Warning.Net.Header">Net Framework 4.8 non è presente</s:String>
+    
     
     
     
@@ -113,10 +119,12 @@
     
     
     
+    
     <!--<s:String x:Key="S.Warning.Single.Message">ScreenToGif is already running, but apparently there's no window open. Check you system tray, a ScreenToGif icon must be there.</s:String>-->
     
     <s:String x:Key="S.SavingSettings.Title">Salvataggio delle impostazioni</s:String>
     <s:String x:Key="S.SavingSettings.Instruction">Provare a salvarlo di nuovo?</s:String>
+    
     
     
     
@@ -143,8 +151,10 @@
     
     
     
+    
     <!--  Warnings • Graphics engine  -->
     <s:String x:Key="S.Warning.Graphics.Title">Cambia adattatore grafico</s:String>
+    
     
     
     
@@ -166,7 +176,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Warning.Graphics.Message">Due to a limitation in DirectX, ScreenToGif must be running on the same graphics adapter as the screen being captured.</s:String>-->
+    
     
     
     
@@ -188,8 +200,10 @@
     
     
     
+    
     <!--<s:String x:Key="S.Warning.Graphics.Action.Legacy">Switch the graphics adapter for ScreenToGif by opening the graphics settings of your graphics adapter.</s:String>-->
     <s:String x:Key="S.Warning.Graphics.Switch">Apri le impostazioni di Windows</s:String>
+    
     
     
     
@@ -216,8 +230,10 @@
     
     
     
+    
     <!--  Mouse  -->
     <s:String x:Key="S.Mouse.Right">Clic destro</s:String>
+    
     
     
     
@@ -234,6 +250,7 @@
     <s:String x:Key="S.NewWebcamRecording">Nuova registrazione webcam</s:String>
     <s:String x:Key="S.NewBoardRecording">Nuova registrazione lavagna</s:String>
     <s:String x:Key="S.Exit">Esci</s:String>
+    
     
     
     
@@ -327,6 +344,7 @@
     
     
     
+    
     <!--  StartUp  -->
     <s:String x:Key="S.StartUp.Title">ScreenToGif - Schermata iniziale</s:String>
     <s:String x:Key="S.StartUp.Recorder">Registratore</s:String>
@@ -341,6 +359,7 @@
     <s:String x:Key="S.StartUp.NewRelease">Nuova versione disponibile</s:String>
     <s:String x:Key="S.StartUp.NewRelease.Tooltip">Scarica l'ultima versione di ScreenToGif.</s:String>
 
+    
     
     
     
@@ -382,10 +401,12 @@
     
     
     
+    
     <!--  Downloader  -->
     <s:String x:Key="S.Downloader.Title">ScreenToGif - Scaricamento</s:String>
     <s:String x:Key="S.Downloader.Header">Scaricamento</s:String>
     <s:String x:Key="S.Downloader.Size">{0} di {1}</s:String>
+    
     
     
     
@@ -414,6 +435,7 @@
     <s:String x:Key="S.Options.Warning.Follow.Header">Manca la scorciatoia da tastiera per l'inseguimento del cursore</s:String>
     <s:String x:Key="S.Options.Warning.Follow.Message">Per usare la funzionalità di inseguimento del cursore del mouse è necessario impostare una combinazione di tasti per attivarla/disattivarla quando richiesto.</s:String>
 
+    
     
     
     
@@ -493,6 +515,7 @@
     
     
     
+    
     <!--  Options • Recorder  -->
     <s:String x:Key="S.Options.Recorder.Interface">Interfaccia</s:String>
     <s:String x:Key="S.Options.Recorder.Interface.Old">Vecchio</s:String>
@@ -502,6 +525,7 @@
     <s:String x:Key="S.Options.Recorder.Frequency.Manual">Manuale</s:String>
     <s:String x:Key="S.Options.Recorder.Frequency.Manual.Info">Ogni fotogramma verrà catturato manualmente, premendo il pulsante di acquisizione o una scorciatoia da tastiera equivalente.</s:String>
     <s:String x:Key="S.Options.Recorder.Frequency.Interaction">Interazione utente</s:String>
+    
     
     
     
@@ -523,7 +547,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Options.Recorder.Frequency.Second">Per second</s:String>-->
+    
     
     
     
@@ -545,7 +571,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Options.Recorder.Frequency.Minute">Per minute</s:String>-->
+    
     
     
     
@@ -568,7 +596,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Options.Recorder.Frequency.Hour.Info">Frames will be captured in a 'per hour' basis (timelapse),&#10;given the framerate denominator set on the recorder screen.</s:String>-->
+    
     
     
     
@@ -581,6 +611,7 @@
     
     <!--<s:String x:Key="S.Options.Recorder.Frequency.Playback">Playback delay:</s:String>-->
     <s:String x:Key="S.Options.Recorder.Frequency.Playback.Info">(In ms, ogni fotogramma acquisito verrà impostato con questo ritardo)</s:String>
+    
     
     
     
@@ -621,7 +652,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Options.Recorder.PreventBlackFrames">Prevent capture of full black frames.</s:String>-->
+    
     
     
     
@@ -649,6 +682,7 @@
     
     
     
+    
     <!--<s:String x:Key="S.Options.Recorder.RemoteImprovement">Improve the capture performance on a remote desktop connection.</s:String>-->
     <s:String x:Key="S.Options.Recorder.RemoteImprovement.Info">(Disabilita l'acquisizione di finestre a più livelli)</s:String>
     <s:String x:Key="S.Options.Recorder.ForceGarbageCollection">Forza la pulizia della memoria durante l'acquisizione.</s:String>
@@ -665,7 +699,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Options.Recorder.Guidelines.RuleOfThirds">Rule of thirds</s:String>-->
+    
     
     
     
@@ -688,7 +724,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Options.Recorder.Guidelines.Crosshair.Info">Click to toggle the display&#10;of a crosshair guideline.</s:String>-->
+    
     
     
     
@@ -716,6 +754,7 @@
     
     
     
+    
     <!--<s:String x:Key="S.Options.Recorder.SelectionPanning">Enable selection panning.</s:String>-->
     <s:String x:Key="S.Options.Recorder.SelectionPanning.Info">(Mostra un ornamento vicino all'angolo della selezione, consentendo il movimento dell'area di registrazione)</s:String>
     <s:String x:Key="S.Options.Recorder.Compact">Modalità compatta</s:String>
@@ -732,7 +771,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Options.Recorder.SelectionImprovement">Improve screen selection performance.</s:String>-->
+    
     
     
     
@@ -755,6 +796,7 @@
     <s:String x:Key="S.Options.Recorder.FollowMarginInvisible.Info">(Margine del buffer aggiuntivo in pixel, dove l'interfaccia utente inizia ad essere nascosta)</s:String>
     <s:String x:Key="S.Options.Recorder.NotifyRecordingDiscard">Chiedi conferma prima di scartare la registrazione.</s:String>
 
+    
     
     
     
@@ -814,12 +856,14 @@
     
     
     
+    
     <!--  Options • Tasks  -->
     <s:String x:Key="S.Options.Tasks.Title">Task automatizzato</s:String>
     <s:String x:Key="S.Options.Tasks.List">Lista di task automatizzati</s:String>
     <s:String x:Key="S.Options.Tasks.List.Task">Task</s:String>
     <s:String x:Key="S.Options.Tasks.List.Details">Dettagli</s:String>
     <s:String x:Key="S.Options.Tasks.List.Enabled">Abilitato</s:String>
+    
     
     
     
@@ -842,9 +886,11 @@
     
     
     
+    
     <!--<s:String x:Key="S.Options.Tasks.SelectType.Info">Select a task above</s:String>-->
     <s:String x:Key="S.Options.Tasks.Info">Questi task vengono eseguiti in sequenza dall'inizio alla fine della lista.&#10;Questo si verifica quando un progetto viene aperto per la prima volta utilizzando l'editor.</s:String>
   
+    
     
     
     
@@ -892,6 +938,7 @@
     
     
     
+    
     <!--  Options • Language  -->
     <s:String x:Key="S.Options.Language.AppLanguage">Lingua dell'app</s:String>
     <s:String x:Key="S.Options.Language.AppLanguage.AutoDetect">Rileva automaticamente</s:String>
@@ -918,6 +965,7 @@
     
     
     
+    
     <!--  Options • Storage  -->
     <s:String x:Key="S.Options.Storage.Status">Statp</s:String>
     <s:String x:Key="S.Options.Storage.Status.Volume">Disco:</s:String>
@@ -932,7 +980,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Options.Storage.Status.Check">Check again how much space left there is.</s:String>-->
+    
     
     
     
@@ -955,7 +1005,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Options.Storage.Status.Error">Impossible to retrieve the drive details.</s:String>-->
+    
     
     
     
@@ -977,7 +1029,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Options.Storage.Status.Files.Singular">{0:##,##0} file</s:String>-->
+    
     
     
     
@@ -999,7 +1053,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Options.Storage.Status.Folders.None">No folders</s:String>-->
+    
     
     
     
@@ -1021,8 +1077,10 @@
     
     
     
+    
     <!--<s:String x:Key="S.Options.Storage.Status.Folders.Plural">{0:##,##0} folders</s:String>-->
     <s:String x:Key="S.Options.Storage.Status.InUse">{0} in uso</s:String>
+    
     
     
     
@@ -1057,7 +1115,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Options.Storage.DeleteEverything">Delete all files from cache when closing the app.</s:String>-->
+    
     
     
     
@@ -1083,7 +1143,9 @@
     
     
     
+    
     <!--  Options • Storage > Clear cache  -->
+    
     
     
     
@@ -1105,7 +1167,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Options.Storage.Cache.Header">Would you like to clear the cache folder?</s:String>-->
+    
     
     
     
@@ -1127,10 +1191,12 @@
     
     
     
+    
     <!--<s:String x:Key="S.Options.Storage.Cache.Question">Would you like to remove these projects from the cache folder?</s:String>-->
     <s:String x:Key="S.Options.Storage.Cache.IgnoreRecent">Non rimuovere i progetti recenti.</s:String>
     <s:String x:Key="S.Options.Storage.Cache.IgnoreRecent.Yes">(Solo i progetti più vecchi di {0} giorni che non sono attualmente in uso verranno rimossi)</s:String>
     <s:String x:Key="S.Options.Storage.Cache.IgnoreRecent.No">(Tutti i progetti che non sono attualmente in uso verranno rimossi)</s:String>
+    
     
     
     
@@ -1164,6 +1230,7 @@
     
     
     
+    
     <!--<s:String x:Key="S.Options.Upload.Presets">Upload presets</s:String>-->
     
     
@@ -1175,7 +1242,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Options.Upload.Presets.Service">Service</s:String>-->
+    
     
     
     
@@ -1200,11 +1269,13 @@
     
     
     
+    
     <!--  Options • Upload > Preset  -->
     <s:String x:Key="S.Options.Upload.Preset.Title">Servizio di upload</s:String>
     <s:String x:Key="S.Options.Upload.Preset.Select">Seleziona un servizio</s:String>
     <s:String x:Key="S.Options.Upload.Preset.Select.Info">Seleziona un servizio di upload qui sopra</s:String>
     <s:String x:Key="S.Options.Upload.Preset.Custom">Personalizzato</s:String>
+    
     
     
     
@@ -1243,7 +1314,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Options.Upload.Preset.Warning.Title">You must give this preset an unique name.</s:String>-->
+    
     
     
     
@@ -1265,7 +1338,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Options.Upload.Preset.Warning.Authenticate">When in authenticated mode, you must finish the authentication process.</s:String>-->
+    
     
     
     
@@ -1287,8 +1362,10 @@
     
     
     
+    
     <!--<s:String x:Key="S.Options.Upload.Preset.Warning.GetToken">It was not possible to get the authorization token.</s:String>-->
     <s:String x:Key="S.Options.Upload.Preset.Warning.Token">Per poter autorizzare questa app è necessario fornire il token di autorizzazione.</s:String>
+    
     
     
     
@@ -1326,6 +1403,7 @@
     
     
     
+    
     <!--  Options • Upload > Album  -->
     <s:String x:Key="S.Options.Upload.Pick.Album">Seleziona un album (opzionale)</s:String>
     <s:String x:Key="S.Options.Upload.Pick.Album.Info">Se si desidera, è possibile selezionare l'album di destinazione:</s:String>
@@ -1340,7 +1418,9 @@
     
     
     
+    
     <!--  Options • Upload > Details  -->
+    
     
     
     
@@ -1366,6 +1446,7 @@
     
     
     
+    
     <!--<s:String x:Key="S.Options.Upload.Pick.Details.Tags.Info">Separate tags by using a semi-colon ( ; )</s:String>-->
     
     
@@ -1377,7 +1458,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Options.Upload.Pick.Details.Private">Only display for those accessing via direct link.</s:String>-->
+    
     
     
     
@@ -1402,7 +1485,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Options.Upload.History.Preset">Preset</s:String>-->
+    
     
     
     
@@ -1428,6 +1513,7 @@
     
     
     
+    
     <!--<s:String x:Key="S.Options.Upload.History.Delete.Instruction">Are you sure that you want to delete the history entry?</s:String>-->
     
     
@@ -1439,7 +1525,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Options.Upload.History.Delete.Message">This action cannot be undone.&#10;&#10;Would you like to delete the selected history entry?</s:String>-->
+    
     
     
     
@@ -1482,6 +1570,7 @@
     
     
     
+    
     <!--  Options • Donations  -->
     <s:String x:Key="S.Options.Donate.Donate">Dona</s:String>
     <s:String x:Key="S.Options.Donate.Donate.Dollar">Dona in US$</s:String>
@@ -1511,6 +1600,7 @@
     
     
     
+    
     <!--  Options • About  -->
     <s:String x:Key="S.Options.About.Version">Versione:</s:String>
     <s:String x:Key="S.Options.About.UpdateCheck">Controlla aggiornamenti</s:String>
@@ -1528,6 +1618,7 @@
     <s:String x:Key="S.Options.About.Technical.Privacy">Politica sulla riservatezza:</s:String>
     <s:String x:Key="S.Options.About.ABigThanksTo">Un caloroso ringraziamento a</s:String>
     <s:String x:Key="S.Options.About.ABigThanksTo.Everyone">Tutti i miei sostenitori, alle persone che forniscono feedback o fanno donazioni.</s:String>
+    
     
     
     
@@ -1571,6 +1662,7 @@
     
     
     
+    
     <!--  Recorder  -->
     <s:String x:Key="S.Recorder.Record">Registra</s:String>
     <s:String x:Key="S.Recorder.Pause">Pausa</s:String>
@@ -1582,6 +1674,7 @@
     <s:String x:Key="S.Recorder.Width">Larghezza</s:String>
     <s:String x:Key="S.Recorder.CursorFollowing">L'inseguimento del cursore è abilitato.</s:String>
 
+    
     
     
     
@@ -1607,6 +1700,7 @@
     
     
     
+    
     <!--<s:String x:Key="S.Recorder.Fps.Range">Ranges from 1 to 60 fps, with higher values meaning more frames will be captured.&#10;Each increment represents 16 milliseconds of difference.</s:String>-->
     <s:String x:Key="S.Recorder.Fpm">Fotogrammi massimi al minuto</s:String>
     <s:String x:Key="S.Recorder.Fpm.Short">f/m</s:String>
@@ -1620,9 +1714,11 @@
     
     
     
+    
     <!--<s:String x:Key="S.Recorder.Fpm.Range">Ranges from 1 to 60 fpm, with higher values meaning more frames will be captured.&#10;Each increment represents 1 second of difference.</s:String>-->
     <s:String x:Key="S.Recorder.Fph">Fotogrammi massimi all'ora</s:String>
     <s:String x:Key="S.Recorder.Fph.Short">f/h</s:String>
+    
     
     
     
@@ -1649,7 +1745,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Recorder.Stopping">Stopping...</s:String>-->
+    
     
     
     
@@ -1672,7 +1770,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Recorder.Timer.Elapsed">Elapsed capture time.</s:String>-->
+    
     
     
     
@@ -1695,7 +1795,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Recorder.Timer.Paused">The capture is paused.</s:String>-->
+    
     
     
     
@@ -1723,8 +1825,10 @@
     
     
     
+    
     <!--  New recorder  -->
     <s:String x:Key="S.Recorder.Area">Area</s:String>
+    
     
     
     
@@ -1747,8 +1851,10 @@
     
     
     
+    
     <!--<s:String x:Key="S.Recorder.Window.Select">Select a window</s:String>-->
     <s:String x:Key="S.Recorder.Screen">Schermo</s:String>
+    
     
     
     
@@ -1772,7 +1878,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Recorder.Screen.Name.Info1">Graphics adapter: {0}</s:String>-->
+    
     
     
     
@@ -1794,11 +1902,13 @@
     
     
     
+    
     <!--<s:String x:Key="S.Recorder.Screen.Name.Info3">Native resolution: {0} x {1}</s:String>-->
     <s:String x:Key="S.Recorder.Screen.Name.Info4">DPI: {0} ({1:0.##}%)</s:String>
     <s:String x:Key="S.Recorder.Move">Trascina per spostare&#10;la selezione.</s:String>
     <s:String x:Key="S.Recorder.Accept">Accetta</s:String>
     <s:String x:Key="S.Recorder.Retry">Riprova</s:String>
+    
     
     
     
@@ -1826,7 +1936,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Recorder.Splash.Title">Press {0} to stop the recording</s:String>-->
+    
     
     
     
@@ -1850,6 +1962,7 @@
     
     
     
+    
     <!--<s:String x:Key="S.Recorder.Discard.Instruction">Are you sure that you want to discard the recording?</s:String>-->
     
     
@@ -1861,7 +1974,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Recorder.Discard.Message">This action will discard the recording, removing all frames.&#x0d;You can't undo this operation.</s:String>-->
+    
     
     
     
@@ -1890,11 +2005,13 @@
     
     
     
+    
     <!--  Board recorder  -->
     <s:String x:Key="S.Board.Title">ScreenToGif - Registratore lavagna</s:String>
     <s:String x:Key="S.Board.AutoRecord">Registra automaticamente</s:String>
     <s:String x:Key="S.Board.AutoRecordToolTip">Abilita la registrazione durante il disegno.</s:String>
     <s:String x:Key="S.Board.CtrlHold">Ctrl [tieni premuto]</s:String>
+    
     
     
     
@@ -1930,6 +2047,7 @@
     
     
     
+    
     <!--  Exception/Error viewers  -->
     <s:String x:Key="S.ExceptionViewer.Title">Visualizzatore errori</s:String>
     <s:String x:Key="S.ExceptionViewer.OpenInner">Apri errore interno</s:String>
@@ -1950,7 +2068,9 @@
     
     
     
+    
     <!--  Presets  -->
+    
     
     
     
@@ -1973,8 +2093,10 @@
     
     
     
+    
     <!--<s:String x:Key="S.Preset.Name">Name</s:String>-->
     <s:String x:Key="S.Preset.Description">Descrizione</s:String>
+    
     
     
     
@@ -1997,7 +2119,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Preset.Info.Manual">All changes to this preset settings (encoding and exporting settings) need to be saved manually by pressing the save button.</s:String>-->
+    
     
     
     
@@ -2019,7 +2143,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Preset.Warning.Readonly">Some of the properties of a default preset are read-only.</s:String>-->
+    
     
     
     
@@ -2041,7 +2167,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Preset.Warning.SameName">There's already a preset with the same name.</s:String>-->
+    
     
     
     
@@ -2065,6 +2193,7 @@
     
     
     
+    
     <!--<s:String x:Key="S.Preset.Autosave.Info">Changes to this preset are automatically saved.</s:String>-->
     <s:String x:Key="S.Preset.Default.Title">Predefinito ({0})</s:String>
     
@@ -2077,8 +2206,10 @@
     
     
     
+    
     <!--<s:String x:Key="S.Preset.Default.Description">Default preset for the encoder.</s:String>-->
     <s:String x:Key="S.Preset.Twitter.Title">Per Twitter ({0})</s:String>
+    
     
     
     
@@ -2103,10 +2234,12 @@
     
     
     
+    
     <!--<s:String x:Key="S.Preset.Vp8.Description">Older and better known codec.</s:String>-->
     <s:String x:Key="S.Preset.Filename.Animation">Animazione</s:String>
     <s:String x:Key="S.Preset.Filename.Video">Video</s:String>
     <s:String x:Key="S.Preset.Filename.Image">Immagine</s:String>
+    
     
     
     
@@ -2132,10 +2265,12 @@
     
     
     
+    
     <!--<s:String x:Key="S.Preset.Gif.Embedded.Transparent.Description">Supports saving the animation with a transparent background.</s:String>-->
     <s:String x:Key="S.Preset.Gif.Embedded.Graphics.Title">Qualità alta • Grafica</s:String>
     <s:String x:Key="S.Preset.Gif.Embedded.Graphics.Description">Preferibile per le registrazioni con una qualità di colori inferiore.</s:String>
     <s:String x:Key="S.Preset.Gif.KGySoft.Balanced.Title">KGy SOFT • Bilanciato</s:String>
+    
     
     
     
@@ -2158,6 +2293,7 @@
     
     
     
+    
     <!--<s:String x:Key="S.Preset.Gif.KGySoft.High.Description">High quality for photo-like images using Wu's quantizer with higher bit level and Floyd-Steinberg error diffusion dithering.</s:String>-->
     <s:String x:Key="S.Preset.Gif.KGySoft.Fast.Title">KGy SOFT • Bassa qualità, più veloce</s:String>
     
@@ -2170,8 +2306,10 @@
     
     
     
+    
     <!--<s:String x:Key="S.Preset.Gif.KGySoft.Fast.Description">Quantizing all frames with the same predefined 'web-safe' palette and Bayer 8x8 ordered dithering.</s:String>-->
     <s:String x:Key="S.Preset.Gif.Ffmpeg.High.Title">FFmpeg • Qualità più alta</s:String>
+    
     
     
     
@@ -2196,6 +2334,7 @@
     
     
     
+    
     <!--<s:String x:Key="S.Preset.Gif.Gifski.High.Description">Higher image quality, but with a greater file size.</s:String>-->
     <s:String x:Key="S.Preset.Gif.Gifski.Low.Title">Gifski • Qualità bassa</s:String>
     <s:String x:Key="S.Preset.Gif.Gifski.Low.Description">Qualità delle immagini inferiore, ma con dimensione del file minore.</s:String>
@@ -2210,7 +2349,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Preset.Gif.Gifski.Fast.Description">Even lower image quality, with a faster encoding, but with a smaller file size.</s:String>-->
+    
     
     
     
@@ -2235,6 +2376,7 @@
     
     
     
+    
     <!--<s:String x:Key="S.Preset.Apng.Ffmpeg.High.Description">High image quality and small file size, but slower encoding.</s:String>-->
     <s:String x:Key="S.Preset.Apng.Ffmpeg.Low.Title">FFmpeg • Qualità bassa</s:String>
     <s:String x:Key="S.Preset.Apng.Ffmpeg.Low.Description">Qualità delle immagini inferiore, dimensione del file minore e codifica più veloce.</s:String>
@@ -2249,7 +2391,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Preset.Webp.Ffmpeg.High.Description">High image quality and small file size.</s:String>-->
+    
     
     
     
@@ -2290,6 +2434,7 @@
     
     
     
+    
     <!--  Import frames from video  -->
     <s:String x:Key="S.ImportVideo.Title">Importa fotogrammi da video</s:String>
     <s:String x:Key="S.ImportVideo.Importer">Importatore:</s:String>
@@ -2309,6 +2454,7 @@
     <s:String x:Key="S.ImportVideo.Error.Detail">Non è stato possibile avviare l'anteprima. Provare un altro importatore o verificare che il video non sia corrotto.&#x0d;Se si usa MediaPlayer, verificare che la funzionalità di Windows chiamata "Funzionalità multimediali / Windows Media Player" sia attivata e assicurarsi di avere i codec video richiesti.</s:String>
     <s:String x:Key="S.ImportVideo.Timeout">Timeout nel recupero dell'anteprima del fotogramma.</s:String>
     <s:String x:Key="S.ImportVideo.Nothing">Nessun frame selezionato da importare.</s:String>
+    
     
     
     
@@ -2374,6 +2520,7 @@
     
     
     
+    
     <!--  Command output  -->
     <s:String x:Key="S.Encoder.Command.Title">ScreenToGif - Output del comando</s:String>
     <s:String x:Key="S.Encoder.Command.Header">Output del comando</s:String>
@@ -2388,9 +2535,11 @@
     
     
     
+    
     <!--  Notifications  -->
     <s:String x:Key="S.Notifications">Notifiche</s:String>
     <s:String x:Key="S.Notifications.Dismiss">Respingi tutte le notifiche.</s:String>
+    
     
     
     
@@ -2428,10 +2577,12 @@
     
     
     
+    
     <!--  Editor • Loading  -->
     <s:String x:Key="S.Editor.Preparing">Preparazione fotogrammi</s:String>
     <s:String x:Key="S.Editor.InvalidLoadingFiles">Caricamento non valido - Non è possibile importare più file contemporaneamente. Provare a selezionare un solo file.</s:String>
     <s:String x:Key="S.Editor.InvalidLoadingProjects">Caricamento non valido - Non è possibile caricare più progetti contemporaneamente. Provare a selezionare un solo progetto.</s:String>
+    
     
     
     
@@ -2479,6 +2630,7 @@
     
     
     
+    
     <!--  Editor • Welcome  -->
     <s:String x:Key="S.Editor.Welcome.New">Vai a "File > Nuovo" per iniziare una nuova registrazione</s:String>
     <s:String x:Key="S.Editor.Welcome.Import">Trascina e rilascia immagini, video o progetti per importarli</s:String>
@@ -2487,6 +2639,7 @@
     <s:String x:Key="S.Editor.Welcome.Contact">Vuoi fare quattro chiacchiere? Apri "Impostazioni > Informazioni su..." per le modalità di contatto</s:String>
     <s:String x:Key="S.Editor.Welcome.Trouble">Ci sono problemi? Contattami tramite lo strumento di feedback</s:String>
     <s:String x:Key="S.Editor.Welcome.NewRecorder">Si desidera provare il nuovo registratore? Vai a "Opzioni > Registratore" ed abilitarlo</s:String>
+    
     
     
     
@@ -2515,12 +2668,14 @@
     
     
     
+    
     <!--  Editor • File tab • Insert  -->
     <s:String x:Key="S.Editor.File.Insert.Recording">Registrazione</s:String>
     <s:String x:Key="S.Editor.File.Insert.Webcam">Registrazione&#x0a;webcam</s:String>
     <s:String x:Key="S.Editor.File.Insert.Board">Registrazione&#x0a;lavagna</s:String>
     <s:String x:Key="S.Editor.File.Insert.Media">Media</s:String>
     <s:String x:Key="S.Editor.File.Insert">Inserisci</s:String>
+    
     
     
     
@@ -2549,11 +2704,13 @@
     
     
     
+    
     <!--  Editor • Home tab • Action Stack  -->
     <s:String x:Key="S.Editor.Home.ActionStack">Storico azioni</s:String>
     <s:String x:Key="S.Editor.Home.Undo">Annulla</s:String>
     <s:String x:Key="S.Editor.Home.Redo">Ripristina</s:String>
     <s:String x:Key="S.Editor.Home.Reset">Azzera</s:String>
+    
     
     
     
@@ -2582,10 +2739,12 @@
     
     
     
+    
     <!--  Editor • Home tab • Zoom  -->
     <s:String x:Key="S.Editor.Home.Zoom">Zoom</s:String>
     <s:String x:Key="S.Editor.Home.SizeToContent">Dimensione al&#x0d;contenuto</s:String>
     <s:String x:Key="S.Editor.Home.FitImage">Adatta immagine</s:String>
+    
     
     
     
@@ -2603,6 +2762,7 @@
     <s:String x:Key="S.Editor.Home.GoTo">Vai a</s:String>
     <s:String x:Key="S.Editor.Home.Inverse">Inverti</s:String>
     <s:String x:Key="S.Editor.Home.Deselect">Deseleziona</s:String>
+    
     
     
     
@@ -2633,10 +2793,12 @@
     
     
     
+    
     <!--  Editor • Playback tab • Playback Options  -->
     <s:String x:Key="S.Editor.PlaybackOptions.Header">Opzioni riproduzione</s:String>
     <s:String x:Key="S.Editor.PlaybackOptions.Loop">Riproduzione ciclica.</s:String>
     <s:String x:Key="S.Editor.PlaybackOptions.Loop.Info">Usato solo durante la riproduzione.&#x0a;Le impostazioni della riproduzione ciclica per i file GIF e APNG esportati&#x0a;potrebbero essere presenti nel pannello 'Salva con nome' di alcuni codificatori.</s:String>
+    
     
     
     
@@ -2667,12 +2829,14 @@
     
     
     
+    
     <!--  Editor • Edit tab • Reordering  -->
     <s:String x:Key="S.Editor.Edit.Reordering">Riordino</s:String>
     <s:String x:Key="S.Editor.Edit.Reverse">Inverti</s:String>
     <s:String x:Key="S.Editor.Edit.Yoyo">Yoyo</s:String>
     <s:String x:Key="S.Editor.Edit.MoveLeft">Sposta a&#x0a;sinistra</s:String>
     <s:String x:Key="S.Editor.Edit.MoveRight">Sposta a&#x0a;destra</s:String>
+    
     
     
     
@@ -2700,11 +2864,13 @@
     
     
     
+    
     <!--  Editor • Image • Size and Rotation  -->
     <s:String x:Key="S.Editor.Image.SizePosition">Dimensione e rotazione</s:String>
     <s:String x:Key="S.Editor.Image.Resize">Ridimensiona</s:String>
     <s:String x:Key="S.Editor.Image.Crop">Ritaglia</s:String>
     <s:String x:Key="S.Editor.Image.FlipRotate">Capovolgi/ruota</s:String>
+    
     
     
     
@@ -2722,6 +2888,7 @@
     <s:String x:Key="S.Editor.Image.FreeText">Testo libero</s:String>
     <s:String x:Key="S.Editor.Image.TitleFrame">Titolo fotogramma</s:String>
     <s:String x:Key="S.Editor.Image.KeyStrokes">Sequenze&#x0a;di tasti</s:String>
+    
     
     
     
@@ -2755,10 +2922,12 @@
     
     
     
+    
     <!--  Editor • Transitions tab • Styles  -->
     <s:String x:Key="S.Editor.Transitions.Styles">Stili</s:String>
     <s:String x:Key="S.Editor.Transitions.Fade">Dissolvenza</s:String>
     <s:String x:Key="S.Editor.Transitions.Slide">Scorrimento</s:String>
+    
     
     
     
@@ -2780,6 +2949,7 @@
     <s:String x:Key="S.Editor.Statistics.CurrentTime.Info">Il tempo attuale (cumulativo) basato sul fotogramma attualmente mostrato.</s:String>
     <s:String x:Key="S.Editor.Statistics.FrameDpi">DPI e scala dei fotorammi</s:String>
     <s:String x:Key="S.Editor.Statistics.SelectedFrame">Fotogramma selezionato</s:String>
+    
     
     
     
@@ -2848,6 +3018,7 @@
     
     
     
+    
     <!--  Editor • Warnings  -->
     <s:String x:Key="S.Editor.Warning.Selection">È necessario selezionare almeno un fotogramma cui applicare la sovrimpressione.</s:String>
     <s:String x:Key="S.Editor.Warning.Ffmpeg">FFmpeg non è presente. Aggiungerlo alle variabili d'ambiente Path o indicarne la posizione nelle impostazioni.</s:String>
@@ -2855,6 +3026,7 @@
     <s:String x:Key="S.Editor.Warning.LowSpace">Non c'è abbastanza spazio libero nel disco in cui questa applicazione salva la propria cache ({0}% rimanente). Fare clic per aprire Opzioni > File temporanei per liberare un po' di spazio.</s:String>
     <s:String x:Key="S.Editor.Warning.DifferentDpi">Si è cercato di importare più immagini con DPI diversi, operazione non supportata. Alcune sono state importate, le altre devono essere importate separatamente.</s:String>
     <s:String x:Key="S.Editor.Warning.DifferentSize">Si è cercato di importare più immagini con dimensioni differenti, operazione non supportata. Alcune di loro sono state importate, le altre devono essere importate separatamente.</s:String>
+    
     
     
     
@@ -2898,10 +3070,12 @@
     
     
     
+    
     <!--  Editor • Frame list  -->
     <s:String x:Key="S.Editor.List.Frame">Fotogramma:</s:String>
     <s:String x:Key="S.Editor.List.OpenImage">Apri immagine</s:String>
     <s:String x:Key="S.Editor.List.ExploreFolder">Sfoglia cartella</s:String>
+    
     
     
     
@@ -2927,6 +3101,7 @@
     
     
     
+    
     <!--  Editor • Context menu  -->
     <s:String x:Key="S.Context.SaveAs">Salva con nome...</s:String>
     <s:String x:Key="S.Context.RemoveFrames">Rimuovi i fotogrammi selezionati</s:String>
@@ -2936,6 +3111,7 @@
     <s:String x:Key="S.Context.NewBlankAnimation">Nuovo progetto</s:String>
     <s:String x:Key="S.Context.NewFromMediaProject">Nuovo da media o progetto</s:String>
    
+    
     
     
     
@@ -2993,6 +3169,7 @@
     
     
     
+    
     <!--  Editor • Action panel  -->
     <s:String x:Key="S.Action.Hide">Nascondi</s:String>
     <s:String x:Key="S.Action.Apply">Applica</s:String>
@@ -3000,6 +3177,7 @@
     <s:String x:Key="S.Action.Save">Salva</s:String>
     <s:String x:Key="S.Action.Cancel">Annulla</s:String>
 
+    
     
     
     
@@ -3026,8 +3204,10 @@
     
     
     
+    
     <!--<s:String x:Key="S.Recent.Warning.SameProject">This project is already being displayed by this editor instance.</s:String>-->
     <s:String x:Key="S.Recent.Warning.AnotherEditor">Questo progetto è già stato aperto in un'altra istanza dell'editor. Un progetto non può essere aperto una seconda volta se è già aperto in un altro editor.</s:String>
+    
     
     
     
@@ -3060,9 +3240,11 @@
     
     
     
+    
     <!--  Editor • Resize  -->
     <s:String x:Key="S.Resize.Difference">Differenza</s:String>
     <s:String x:Key="S.Resize.Dpi">Dpi</s:String>
+    
     
     
     
@@ -3084,7 +3266,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Resize.Pixels">Pixels (px)</s:String>-->
+    
     
     
     
@@ -3108,7 +3292,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Resize.ScalingQuality">Quality:</s:String>-->
+    
     
     
     
@@ -3131,7 +3317,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Resize.ScalingQuality.NearestNeighbor">Nearest neighbor • Lower quality and faster</s:String>-->
+    
     
     
     
@@ -3144,6 +3332,7 @@
     
     <!--<s:String x:Key="S.Resize.ScalingQuality.Info">Scaling quality.</s:String>-->
     <s:String x:Key="S.Resize.Warning">È necessario selezionare un valore differente per poter applicare l'operazione di ridimensionamento.</s:String>
+    
     
     
     
@@ -3174,11 +3363,13 @@
     
     
     
+    
     <!--  Editor • Flip/rotate  -->
     <s:String x:Key="S.FlipRotate.FlipHorizontal">Capovolgi orizzontalmente</s:String>
     <s:String x:Key="S.FlipRotate.FlipVertical">Capovolgi verticalmente</s:String>
     <s:String x:Key="S.FlipRotate.RotateLeft">Rotazione antioraria di 90º</s:String>
     <s:String x:Key="S.FlipRotate.RotateRight">Rotazione oraria di 90º</s:String>
+    
     
     
     
@@ -3206,7 +3397,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Reduce.Delay.Previous">Sum with the previous frame</s:String>-->
+    
     
     
     
@@ -3228,7 +3421,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Reduce.ApplyToAll">Reduce the framerate of the entire project.</s:String>-->
+    
     
     
     
@@ -3251,7 +3446,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Reduce.Warning.NoSelection">You must select the frames to apply the framerate reduction (or check the option to apply to the entire project).</s:String>-->
+    
     
     
     
@@ -3273,7 +3470,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.Reduce.Warning.SmallerThanFactor">The selection of frames must be greater than the removal factor, in order for the feature to be able to remove anything.</s:String>-->
+    
     
     
     
@@ -3307,8 +3506,10 @@
     
     
     
+    
     <!--  Editor • Smooth Loop  -->
     <s:String x:Key="S.SmoothLoop.Header">Crea ciclo morbido</s:String>
+    
     
     
     
@@ -3333,7 +3534,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.SmoothLoop.Info">Tries to find a frame at least {0} % similar to the start frame and deletes all later frames.&#x0d;You can choose if you want to ignore some initial frames and initiate the comparison from the start (after the threshold) or the end.</s:String>-->
+    
     
     
     
@@ -3355,6 +3558,7 @@
     
     
     
+    
     <!--<s:String x:Key="S.SmoothLoop.Warning.NoLoopFound">It was not possible to create a smooth loop with the selected settings.</s:String>-->
     
     
@@ -3366,7 +3570,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.SmoothLoop.Warning.AlreadySmoothLoop">You already have a smooth loop based on selected settings.</s:String>-->
+    
     
     
     
@@ -3395,6 +3601,7 @@
     <s:String x:Key="S.Caption.TextAlignment">Allineamento:</s:String>
     <s:String x:Key="S.Caption.TextDecoration">Decorazione:</s:String>
 
+    
     
     
     
@@ -3436,6 +3643,7 @@
     
     
     
+    
     <!--  Editor • Free drawing  -->
     <s:String x:Key="S.FreeDrawing.Mode">Modalità</s:String>
     <s:String x:Key="S.FreeDrawing.Pen">Penna</s:String>
@@ -3463,11 +3671,13 @@
     
     
     
+    
     <!--  Editor • Shapes  -->
     <s:String x:Key="S.Shapes.Mode.Insert">Inserisci</s:String>
     <s:String x:Key="S.Shapes.Shapes">Forme</s:String>
     <s:String x:Key="S.Shapes.Shapes.Radius">Raggio:</s:String>
     <s:String x:Key="S.Shapes.Shapes.Dashes">Trattini:</s:String>
+    
     
     
     
@@ -3493,12 +3703,14 @@
     
     
     
+    
     <!--  Editor • Mouse events  -->
     <s:String x:Key="S.MouseEvents">Eventi mouse</s:String>
     <s:String x:Key="S.MouseHighlight.Color">Colore evidenziazione mouse:</s:String>
     <s:String x:Key="S.MouseClicks.Color.Left">Colore pulsante sinistro:</s:String>
     <s:String x:Key="S.MouseClicks.Color.Middle">Colore pulsante centrale:</s:String>
     <s:String x:Key="S.MouseClicks.Color.Right">Colore pulsante destro:</s:String>
+    
     
     
     
@@ -3529,10 +3741,12 @@
     
     
     
+    
     <!--  Editor • Border  -->
     <s:String x:Key="S.Border.Appearance">Aspetto</s:String>
     <s:String x:Key="S.Border.Info">Usare valori negativi per far sì che il bordo espanda l'immagine. In questo caso il bordo verrà applicato a tutti i fotogrammi.&#x0d;Se non si usa un valore negativo il bordo verrà applicato solo ai fotogrammi selezionati.</s:String>
 
+    
     
     
     
@@ -3560,6 +3774,7 @@
     
     
     
+    
     <!--  Editor • Obfuscate  -->
     <s:String x:Key="S.Obfuscate.Type.Pixelate">Effetto pixel</s:String>
     <s:String x:Key="S.Obfuscate.Type.Blur">Sfocatura</s:String>
@@ -3576,6 +3791,7 @@
     <s:String x:Key="S.Obfuscate.Info">Usare lo strumento di selezione per selezionare il rettangolo da pixellare.</s:String>
     <s:String x:Key="S.Obfuscate.Info2">Usa lo strumento di selezione per selezionare la parte del fotogramma che non deve essere offuscata.</s:String>
     <s:String x:Key="S.Obfuscate.Warning">Non è possibile selezionare nulla. Usare lo strumento di selezione per selezionare il rettangolo da pixellare.</s:String>
+    
     
     
     
@@ -3617,6 +3833,7 @@
     
     
     
+    
     <!--<s:String x:Key="S.Progress.Format.Totals">Totals:</s:String>-->
     <s:String x:Key="S.Progress.Format.Examples">Esempi:</s:String>
     <s:String x:Key="S.Progress.Format.Date">È possibile usare il formato data/ora del framework .Net&#x0d;Le specifiche sono disponibili ai seguenti due collegamenti.</s:String>
@@ -3625,6 +3842,7 @@
     <s:String x:Key="S.Progress.Precision.StartNumber">Conta da:</s:String>
     <s:String x:Key="S.Progress.Precision.StartNumber.ToolTip">Inizia a contare il numero di fotogrammi da questo numero selezionato.</s:String>
     <s:String x:Key="S.Progress.Orientation">Orientamento:</s:String>
+    
     
     
     
@@ -3660,9 +3878,11 @@
     
     
     
+    
     <!--  Editor • Cinemagraph  -->
     <s:String x:Key="S.Cinemagraph.Info">Usare la penna per selezionare i pixel che non dovrebbero rimanere statici (che dovrebbero cambiare tra i fotogrammi), disegnandoci sopra.</s:String>
 
+    
     
     
     
@@ -3692,8 +3912,10 @@
     
     
     
+    
     <!--  Editor • Save as  -->
     <s:String x:Key="S.SaveAs.Type">Tipo di file</s:String>
+    
     
     
     
@@ -3715,10 +3937,12 @@
     
     
     
+    
     <!--<s:String x:Key="S.SaveAs.Type.Preset">The export preset that holds all currently displayed settings.&#10;Manage your export presets via the buttons below.</s:String>-->
     <s:String x:Key="S.SaveAs.Type.Animated">Immagine animata</s:String>
     <s:String x:Key="S.SaveAs.Type.Video">Video</s:String>
     <s:String x:Key="S.SaveAs.Type.Frames">Fotogrammi</s:String>
+    
     
     
     
@@ -3767,9 +3991,11 @@
     
     
     
+    
     <!--<s:String x:Key="S.SaveAs.Project.Info">ScreenToGif project</s:String>-->
     <s:String x:Key="S.SaveAs.Psd">PSD</s:String>
     <s:String x:Key="S.SaveAs.Psd.Info">File di Photoshop</s:String>
+    
     
     
     
@@ -3797,8 +4023,10 @@
     
     
     
+    
     <!--<s:String x:Key="S.SaveAs.Presets.Remove">Remove the currently selected export preset.</s:String>-->
     <s:String x:Key="S.SaveAs.Presets.Reset">Azzera</s:String>
+    
     
     
     
@@ -3821,7 +4049,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.SaveAs.Presets.Ask.Delete.Title">Deleting the Preset</s:String>-->
+    
     
     
     
@@ -3843,7 +4073,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.SaveAs.Presets.Ask.Delete.Message">This action cannot be undone.&#10;&#10;Would you like to delete the selected preset?</s:String>-->
+    
     
     
     
@@ -3865,6 +4097,7 @@
     
     
     
+    
     <!--<s:String x:Key="S.SaveAs.Presets.Ask.Reset.Instruction">Are you sure that you want to reset the preset?</s:String>-->
     
     
@@ -3876,7 +4109,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.SaveAs.Presets.Ask.Reset.Message">This action cannot be undone.&#10;&#10;Would you like to reset the selected preset to its default settings?</s:String>-->
+    
     
     
     
@@ -3901,12 +4136,14 @@
     
     
     
+    
     <!--<s:String x:Key="S.SaveAs.Encoder.Info">Encoder responsible for generating the output file.</s:String>-->
     <s:String x:Key="S.SaveAs.Encoder.ScreenToGif">ScreenToGif</s:String>
     <s:String x:Key="S.SaveAs.Encoder.ScreenToGif.Info">Codificatore incorporato.</s:String>
     <s:String x:Key="S.SaveAs.Encoder.KGySoft">KGy SOFT</s:String>
     <s:String x:Key="S.SaveAs.Encoder.KGySoft.Info">Codificatore GIF KGy SOFT.</s:String>
     <s:String x:Key="S.SaveAs.Encoder.System">Sistema</s:String>
+    
     
     
     
@@ -3934,9 +4171,11 @@
     
     
     
+    
     <!--  Editor • Save as > FFmpeg  -->
     <s:String x:Key="S.SaveAs.Ffmpeg.UseParameters">Abilita la modalità avanzata.</s:String>
     <s:String x:Key="S.SaveAs.Ffmpeg.UseParameters.Info">Inserimento manuale dei parametri per controllare il codificatore.</s:String>
+    
     
     
     
@@ -3958,7 +4197,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.SaveAs.Ffmpeg.Parameters.Info">List of parameters that will be passed to FFmpeg.&#10;&#10;Special parameters:&#10;{I} is the input path (the frames).&#10;{O} is the output path (the exported file).&#10;{W} is the width of the frame.&#10;{H} is the height of the frame.</s:String>-->
+    
     
     
     
@@ -3980,7 +4221,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.SaveAs.Ffmpeg.Preview">Preview</s:String>-->
+    
     
     
     
@@ -4006,6 +4249,7 @@
     
     
     
+    
     <!--  Editor • Save as > Gif options  -->
     <s:String x:Key="S.SaveAs.GifOptions">Opzioni GIF</s:String>
     <s:String x:Key="S.SaveAs.GifOptions.Quantizer.Info">Algoritmo di riduzione colori (quantizzazione).</s:String>
@@ -4020,8 +4264,10 @@
     
     
     
+    
     <!--<s:String x:Key="S.SaveAs.GifOptions.Quantizer.Neural.Info">High fidelity quantization. Slower, but good for higher amount of colors.</s:String>-->
     <s:String x:Key="S.SaveAs.GifOptions.Quantizer.Octree">Octree</s:String>
+    
     
     
     
@@ -4046,8 +4292,10 @@
     
     
     
+    
     <!--<s:String x:Key="S.SaveAs.GifOptions.Quantizer.Grayscale.Info">Uses a fixed grayscale palette, so it's way faster.</s:String>-->
     <s:String x:Key="S.SaveAs.GifOptions.Quantizer.MostUsed">Colori più usati</s:String>
+    
     
     
     
@@ -4069,7 +4317,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.SaveAs.GifOptions.Sampling">Sampling:</s:String>-->
+    
     
     
     
@@ -4095,6 +4345,7 @@
     
     
     
+    
     <!--<s:String x:Key="S.SaveAs.GifOptions.GlobalColorTable.Info">May reduce the quality and/or size of the gif.</s:String>-->
     <s:String x:Key="S.SaveAs.GifOptions.Best">Migliore</s:String>
     <s:String x:Key="S.SaveAs.GifOptions.Fastest">Il più veloce</s:String>
@@ -4108,7 +4359,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.SaveAs.GifOptions.Gifski.Faster">Use an even faster encoding process.</s:String>-->
+    
     
     
     
@@ -4135,6 +4388,7 @@
     
     
     
+    
     <!--<s:String x:Key="S.SaveAs.GifOptions.Transparency.Enable.Info">Enables the full transparency mode, which makes the background of the gif to be fully transparent.&#10;The chroma key replacement process will be ignored if this option is enabled.</s:String>-->
     
     
@@ -4146,7 +4400,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.SaveAs.GifOptions.Transparency.Pick">Select which color to display as transparent.</s:String>-->
+    
     
     
     
@@ -4169,6 +4425,7 @@
     
     
     
+    
     <!--<s:String x:Key="S.SaveAs.GifOptions.DetectUnchanged.Info">By analyzing and detecting unchanged pixels between the frames,&#10;it will be possible to save only the necessary parts to the gif.</s:String>-->
     
     
@@ -4180,7 +4437,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.SaveAs.GifOptions.PaintWithChroma">Replace these pixels with a chroma key.</s:String>-->
+    
     
     
     
@@ -4206,9 +4465,11 @@
     
     
     
+    
     <!--  Editor • Save as > KGy SOFT options  -->
     <s:String x:Key="S.SaveAs.KGySoft.Quantizer">Quantizzatore</s:String>
     <s:String x:Key="S.SaveAs.KGySoft.Quantizer.BackColor">Colore di sfondo:</s:String>
+    
     
     
     
@@ -4231,8 +4492,10 @@
     
     
     
+    
     <!--<s:String x:Key="S.SaveAs.KGySoft.Quantizer.AlphaThreshold.Info">Determines the input alpha value under which the quantized color will be transparent.&#x0d;&#x0a;If 0, then the result will never have transparency.&#x0d;&#x0a;If 255, then only fully transparent pixels are considered transparent.</s:String>-->
     <s:String x:Key="S.SaveAs.KGySoft.Quantizer.WhiteThreshold">Larghezza</s:String>
+    
     
     
     
@@ -4255,8 +4518,10 @@
     
     
     
+    
     <!--<s:String x:Key="S.SaveAs.KGySoft.Quantizer.DirectMapping.Info">When checked, the quantized color is determined by a direct mapping rather than looking up the nearest palette entry.&#x0d;&#x0a;It speeds up quantization but may end up in a higher contrast result. An error diffusion dithering may compensate for the value of this parameter though.</s:String>-->
     <s:String x:Key="S.SaveAs.KGySoft.Quantizer.PaletteSize">Dimensione tavolozza:</s:String>
+    
     
     
     
@@ -4279,7 +4544,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.SaveAs.KGySoft.Quantizer.CustomBitLevel.Info">When checked, the bit level can be configured manually.&#x0d;&#x0a;⚠️ Warning: The highest bit level might require a LOT of memory!</s:String>-->
+    
     
     
     
@@ -4302,8 +4569,10 @@
     
     
     
+    
     <!--<s:String x:Key="S.SaveAs.KGySoft.Quantizer.PredefinedColorsQuantizer.BlackAndWhite.Info">Fixed 1 bpp palette with the black and white colors.</s:String>-->
     <s:String x:Key="S.SaveAs.KGySoft.Quantizer.PredefinedColorsQuantizer.Grayscale4">Scala di grigi a 4 colori</s:String>
+    
     
     
     
@@ -4326,8 +4595,10 @@
     
     
     
+    
     <!--<s:String x:Key="S.SaveAs.KGySoft.Quantizer.PredefinedColorsQuantizer.Grayscale16.Info">Fixed 4 bpp palette with 16 grayscale entries.</s:String>-->
     <s:String x:Key="S.SaveAs.KGySoft.Quantizer.PredefinedColorsQuantizer.Grayscale">Scala di grigi a 256 colori</s:String>
+    
     
     
     
@@ -4350,8 +4621,10 @@
     
     
     
+    
     <!--<s:String x:Key="S.SaveAs.KGySoft.Quantizer.PredefinedColorsQuantizer.SystemDefault4BppPalette.Info">Fixed 4 bpp palette using the standard 16 sRGB colors.</s:String>-->
     <s:String x:Key="S.SaveAs.KGySoft.Quantizer.PredefinedColorsQuantizer.SystemDefault8BppPalette">Tavolozza predefinita di sistema a 8 bpp</s:String>
+    
     
     
     
@@ -4374,8 +4647,10 @@
     
     
     
+    
     <!--<s:String x:Key="S.SaveAs.KGySoft.Quantizer.PredefinedColorsQuantizer.Rgb332.Info">Fixed 8 bpp palette using the RGB 332 color space.</s:String>-->
     <s:String x:Key="S.SaveAs.KGySoft.Quantizer.OptimizedPaletteQuantizer.Octree">Quantizzatore Octree</s:String>
+    
     
     
     
@@ -4397,7 +4672,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.SaveAs.KGySoft.Quantizer.OptimizedPaletteQuantizer.MedianCut">Median Cut Quantizer</s:String>-->
+    
     
     
     
@@ -4410,6 +4687,7 @@
     
     <!--<s:String x:Key="S.SaveAs.KGySoft.Quantizer.OptimizedPaletteQuantizer.MedianCut.Info">Optimizing palette for each frame with the Median Cut algorithm.</s:String>-->
     <s:String x:Key="S.SaveAs.KGySoft.Quantizer.OptimizedPaletteQuantizer.Wu">Quantizzatore Wu</s:String>
+    
     
     
     
@@ -4434,8 +4712,10 @@
     
     
     
+    
     <!--<s:String x:Key="S.SaveAs.KGySoft.Ditherer.Strength.Info">The strength of the ditherer, or 0 to auto calibrate strength.</s:String>-->
     <s:String x:Key="S.SaveAs.KGySoft.Ditherer.Seed">Seme:</s:String>
+    
     
     
     
@@ -4459,7 +4739,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.SaveAs.KGySoft.Ditherer.IsSerpentineProcessing">Serpentine Processing</s:String>-->
+    
     
     
     
@@ -4482,8 +4764,10 @@
     
     
     
+    
     <!--<s:String x:Key="S.SaveAs.KGySoft.Ditherer.OrderedDitherer.Bayer2X2.Info">The 2x2 Bayer matrix pattern.</s:String>-->
     <s:String x:Key="S.SaveAs.KGySoft.Ditherer.OrderedDitherer.Bayer3X3">Bayer 3x3 (con ordine)</s:String>
+    
     
     
     
@@ -4506,8 +4790,10 @@
     
     
     
+    
     <!--<s:String x:Key="S.SaveAs.KGySoft.Ditherer.OrderedDitherer.Bayer4X4.Info">The 4x4 Bayer matrix pattern.</s:String>-->
     <s:String x:Key="S.SaveAs.KGySoft.Ditherer.OrderedDitherer.Bayer8X8">Bayer 8x8 (con ordine)</s:String>
+    
     
     
     
@@ -4530,8 +4816,10 @@
     
     
     
+    
     <!--<s:String x:Key="S.SaveAs.KGySoft.Ditherer.OrderedDitherer.DottedHalftone.Info">A 8x8 matrix with a dotted halftone pattern.</s:String>-->
     <s:String x:Key="S.SaveAs.KGySoft.Ditherer.OrderedDitherer.BlueNoise">Rumore blu (con ordine)</s:String>
+    
     
     
     
@@ -4558,8 +4846,10 @@
     
     
     
+    
     <!--<s:String x:Key="S.SaveAs.KGySoft.Ditherer.ErrorDiffusionDitherer.FloydSteinberg.Info">The original 3x2 matrix by Floyd and Steinberg.</s:String>-->
     <s:String x:Key="S.SaveAs.KGySoft.Ditherer.ErrorDiffusionDitherer.JarvisJudiceNinke">Jarvis-Judice-Ninke (diffusione d'errore)</s:String>
+    
     
     
     
@@ -4588,8 +4878,10 @@
     
     
     
+    
     <!--<s:String x:Key="S.SaveAs.KGySoft.Ditherer.ErrorDiffusionDitherer.StevensonArce.Info">A 7x4 hexagonal matrix by Stevenson and Arce.</s:String>-->
     <s:String x:Key="S.SaveAs.KGySoft.Ditherer.ErrorDiffusionDitherer.Stucki">Stucki (diffusione d'errore)</s:String>
+    
     
     
     
@@ -4612,6 +4904,7 @@
     
     
     
+    
     <!--<s:String x:Key="S.SaveAs.KGySoft.Ditherer.RandomNoiseDitherer.Info">Random white noise.</s:String>-->
     
     
@@ -4623,7 +4916,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.SaveAs.KGySoft.Ditherer.InterleavedGradientNoiseDitherer">Interleaved Gradient Noise</s:String>-->
+    
     
     
     
@@ -4648,6 +4943,7 @@
     
     
     
+    
     <!--<s:String x:Key="S.SaveAs.KGySoft.Preview.ShowCurrentFrame.Info">When checked, the preview shows the current frame instead of a standard image example.</s:String>-->
     
     
@@ -4659,7 +4955,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.SaveAs.KGySoft.Preview.Refresh">Auto preview is disabled due to the high memory requirement of the current settings. Click to refresh the preview.</s:String>-->
+    
     
     
     
@@ -4684,8 +4982,10 @@
     
     
     
+    
     <!--<s:String x:Key="S.SaveAs.KGySoft.Animation.EndlessLoop.Info">When checked, the animation will be looped indefinitely.</s:String>-->
     <s:String x:Key="S.SaveAs.KGySoft.Animation.PingPong">Indietro e avanti.</s:String>
+    
     
     
     
@@ -4708,6 +5008,7 @@
     
     
     
+    
     <!--<s:String x:Key="S.SaveAs.KGySoft.Animation.LoopCount.Info">Specifies how many times the animation will be played.</s:String>-->
     
     
@@ -4719,7 +5020,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.SaveAs.KGySoft.Animation.AllowDeltaFrames">Allow delta frames.</s:String>-->
+    
     
     
     
@@ -4742,7 +5045,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.SaveAs.KGySoft.Animation.DeltaTolerance.Info">Specifies the maximum tolerance when detecting changed pixels.&#x0d;&#x0a;If 0, then no difference is tolerated at all.&#x0d;&#x0a;If 255, then there might be frames (or even all of them) that are added with no content.&#x0d;&#x0a;Reasonable range is between 0 and 16 for an optimized quantizer. The ones with fixed colors can be used with somewhat larger values with dithering.</s:String>-->
+    
     
     
     
@@ -4765,7 +5070,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.SaveAs.KGySoft.Animation.AllowClippedFrames.Info">When checked, the encoder is allowed to add smaller frames than the actual resolution.&#x0d;&#x0a;If Allow Delta Frames is unchecked, then allows only clipping possible transparent borders.</s:String>-->
+    
     
     
     
@@ -4787,8 +5094,10 @@
     
     
     
+    
     <!--<s:String x:Key="S.SaveAs.KGySoft.Animation.AllowClippedIgnored">Allow Clipped Frames has no effect because the current configuration does not use alpha and Allow Delta Frames is unchecked. Click to enable delta frames.</s:String>-->
 
+    
     
     
     
@@ -4813,7 +5122,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.SaveAs.ApngOptions.Prediction.Sub">Sub</s:String>-->
+    
     
     
     
@@ -4841,7 +5152,9 @@
     
     
     
+    
     <!--  Editor • Save as > Webp options  -->
+    
     
     
     
@@ -4872,6 +5185,7 @@
     
     
     
+    
     <!--  Editor • Save as > Video options  -->
     <s:String x:Key="S.SaveAs.VideoOptions.Mode">Modo:</s:String>
     <s:String x:Key="S.SaveAs.VideoOptions.Mode.Normal">Normale:</s:String>
@@ -4886,8 +5200,10 @@
     
     
     
+    
     <!--<s:String x:Key="S.SaveAs.VideoOptions.Mode.Info">Method of configuring the encoder parameters:&#10;Normal: Use standard UI controls.&#10;Advanced: Use a text box to type the parameters.</s:String>-->
     <s:String x:Key="S.SaveAs.VideoOptions.Codec">Codec:</s:String>
+    
     
     
     
@@ -4932,11 +5248,13 @@
     
     
     
+    
     <!--<s:String x:Key="S.SaveAs.VideoOptions.CodecPreset.Info">Encoding speed to compression ratio,&#10;slower presets may give you better compression&#10;(quality per filesize).</s:String>-->
     <s:String x:Key="S.SaveAs.VideoOptions.HardwareAcceleration">Acc. hardware:</s:String>
     <s:String x:Key="S.SaveAs.VideoOptions.HardwareAcceleration.Off">Spento</s:String>
     <s:String x:Key="S.SaveAs.VideoOptions.HardwareAcceleration.On">Acceso</s:String>
     <s:String x:Key="S.SaveAs.VideoOptions.HardwareAcceleration.Auto">Selezione automatica</s:String>
+    
     
     
     
@@ -4961,7 +5279,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.SaveAs.VideoOptions.Vsync.Info">Video sync method.&#10;Auto: Chooses between 1 and 2 depending on muxer (format) capabilities.&#10;Passthrough: Each frame is passed with its timestamps to the encoder.&#10;Constant: Frames will be duplicated and dropped to achieve exactly the requested constant frame rate.&#10;Variable: Frames are passed through with their timestamp or dropped so as to prevent 2 frames from having the same timestamp.&#10;Drop: As passthrough but destroys all timestamps, making the encoder generate fresh timestamps based on framerate.</s:String>-->
+    
     
     
     
@@ -4990,9 +5310,11 @@
     
     
     
+    
     <!--<s:String x:Key="S.SaveAs.VideoOptions.Crf.Info">Constant Rate Factor.&#10;Quality and rate control setting.&#10;Leave it empty if you don't wish to set this property.</s:String>-->
     <s:String x:Key="S.SaveAs.VideoOptions.QualityLevel">Livello di qualità:</s:String>
     <s:String x:Key="S.SaveAs.VideoOptions.QualityLevel.Info">Valori più piccoli significano una migliore qualità.</s:String>
+    
     
     
     
@@ -5014,7 +5336,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.SaveAs.VideoOptions.Bitrate.Info">Target video bit rate.</s:String>-->
+    
     
     
     
@@ -5039,8 +5363,10 @@
     
     
     
+    
     <!--<s:String x:Key="S.SaveAs.VideoOptions.Bitrate.Minimum.Info">Minimum bitrate tolerance.&#10;Most useful when using CBR mode.&#10;Leave it empty or set to zero &#10;if you don't wish to set this property.</s:String>-->
     <s:String x:Key="S.SaveAs.VideoOptions.Bitrate.Maximum">Frequenza massima:</s:String>
+    
     
     
     
@@ -5063,8 +5389,10 @@
     
     
     
+    
     <!--<s:String x:Key="S.SaveAs.VideoOptions.Bitrate.Buffer.Info">Rate control buffer size.&#10;Leave it empty or set to zero &#10;if you don't wish to set this property.</s:String>-->
 
+    
     
     
     
@@ -5087,7 +5415,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.SaveAs.ImageOptions.Zip.Info">Exports the images inside a zipped folder.</s:String>-->
+    
     
     
     
@@ -5115,6 +5445,7 @@
     
     
     
+    
     <!--  Editor • Save as > Save options  -->
     <s:String x:Key="S.SaveAs.SaveOptions">Salva opzioni</s:String>
     <s:String x:Key="S.SaveAs.SaveOptions.Partial">Esporta parzialmente.</s:String>
@@ -5131,10 +5462,12 @@
     
     
     
+    
     <!--<s:String x:Key="S.SaveAs.SaveOptions.OverwriteMode.Warn.Info">Only warns that another file exists with the same name.</s:String>-->
     <s:String x:Key="S.SaveAs.SaveOptions.OverwriteMode.Prompt">Chiedi</s:String>
     <s:String x:Key="S.SaveAs.SaveOptions.OverwriteMode.Prompt.Info">Chiedi se l'utente vuole sovrascrivere il file.</s:String>
     <s:String x:Key="S.SaveAs.SaveOptions.OverwriteMode.Allow">Permetti</s:String>
+    
     
     
     
@@ -5170,9 +5503,11 @@
     
     
     
+    
     <!--  Editor • Save As > Partial export  -->
     <s:String x:Key="S.SaveAs.Partial">Esportazione parziale</s:String>
     <s:String x:Key="S.SaveAs.Partial.Mode">Modo:</s:String>
+    
     
     
     
@@ -5195,8 +5530,10 @@
     
     
     
+    
     <!--<s:String x:Key="S.SaveAs.Partial.Mode.Expression.Info">Exports parts of the animation based on a simple expression.</s:String>-->
     <s:String x:Key="S.SaveAs.Partial.Mode.Frames">Intervallo fotogrammi</s:String>
+    
     
     
     
@@ -5219,8 +5556,10 @@
     
     
     
+    
     <!--<s:String x:Key="S.SaveAs.Partial.Mode.Time.Info">Exports only part of the animation within the timeframe.</s:String>-->
     <s:String x:Key="S.SaveAs.Partial.Mode.Selection">Selezione</s:String>
+    
     
     
     
@@ -5248,7 +5587,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.SaveAs.Partial.Expression.Info">Type frame numbers separated by a comma or&#10;frame sequences separated by a minus sign:&#10;1, 3, 4, 6 - 9</s:String>-->
+    
     
     
     
@@ -5283,6 +5624,7 @@
     
     
     
+    
     <!--  Editor • Save as > Warnings  -->
     <s:String x:Key="S.SaveAs.Warning.Type">È necessario selezionare dove salvare il file (in una cartella, negli appunti o caricarlo da qualche altra parte).</s:String>
     <s:String x:Key="S.SaveAs.Warning.Extension">Non è stata selezionata l'estensionei dei file</s:String>
@@ -5299,7 +5641,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.SaveAs.Warning.Partial.NoSelection">You must select at least one frame when having the option to export only selected frames.</s:String>-->
+    
     
     
     
@@ -5330,8 +5674,10 @@
     
     
     
+    
     <!--<s:String x:Key="S.SaveAs.Warning.Overwrite.Project">There's already a project with the same filename. Set to overwrite or pick another filename or folder.</s:String>-->
     <s:String x:Key="S.SaveAs.Warning.Canceled">L'operazione è stata annullata.</s:String>
+    
     
     
     
@@ -5355,7 +5701,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.SaveAs.Upload.Info">Select the upload preset, which has details about the service in use for upload.</s:String>-->
+    
     
     
     
@@ -5377,7 +5725,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.SaveAs.Upload.Add">Add a new upload preset.</s:String>-->
+    
     
     
     
@@ -5399,7 +5749,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.SaveAs.Upload.History">View the upload history of this preset.</s:String>-->
+    
     
     
     
@@ -5421,7 +5773,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.SaveAs.Upload.Select.Title">Select an upload preset</s:String>-->
+    
     
     
     
@@ -5443,7 +5797,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.SaveAs.Upload.Unavailable.Title">No upload preset available for this format</s:String>-->
+    
     
     
     
@@ -5466,7 +5822,9 @@
     
     
     
+    
     <!--  Editor • Save as > Upload > Dialogs  -->
+    
     
     
     
@@ -5488,6 +5846,7 @@
     
     
     
+    
     <!--<s:String x:Key="S.SaveAs.Upload.Ask.Delete.Instruction">Are you sure that you want to delete the upload preset?</s:String>-->
     
     
@@ -5499,7 +5858,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.SaveAs.Upload.Ask.Delete.Message">This action cannot be undone.&#10;&#10;Would you like to delete the selected upload preset?</s:String>-->
+    
     
     
     
@@ -5527,6 +5888,7 @@
     
     
     
+    
     <!--<s:String x:Key="S.SaveAs.Dialogs.Overwrite.Message">A file with the name '{0}' already exists in that folder.\r\nWould you like to overwrite it?</s:String>-->
     
     
@@ -5538,7 +5900,9 @@
     
     
     
+    
     <!--<s:String x:Key="S.SaveAs.Dialogs.OverwriteMultiple.Instruction">Would you like to overwrite the files?</s:String>-->
+    
     
     
     
@@ -5561,11 +5925,13 @@
     
     
     
+    
     <!--  Command Preview  -->
     <s:String x:Key="S.CommandPreviewer.Title">Anteprima comando</s:String>
     <s:String x:Key="S.CommandPreviewer.Command">Comando</s:String>
     <s:String x:Key="S.CommandPreviewer.Input">Percorso input</s:String>
     <s:String x:Key="S.CommandPreviewer.Output">Percorso output</s:String>
+    
     
     
     
@@ -5610,6 +5976,7 @@
     
     
     
+    
     <!--  Troubleshoot  -->
     <s:String x:Key="S.Troubleshoot.Title">Risoluzione problemi</s:String>
     <s:String x:Key="S.Troubleshoot.Windows">Mancano delle finestre?</s:String>
@@ -5629,10 +5996,12 @@
     
     
     
+    
     <!--  FontStyles  -->
     <s:String x:Key="S.FontStyles.Normal">Normale</s:String>
     <s:String x:Key="S.FontStyles.Italic">Corsivo</s:String>
     <s:String x:Key="S.FontStyles.Oblique">Obliquo</s:String>
+    
     
     
     
@@ -5672,12 +6041,14 @@
     
     
     
+    
     <!--  VerticalAlignment  -->
     <s:String x:Key="S.VerticalAlignment.Top">In alto</s:String>
     <s:String x:Key="S.VerticalAlignment.Center">Al centro</s:String>
     <s:String x:Key="S.VerticalAlignment.Bottom">In basso</s:String>
     <s:String x:Key="S.Alignment.Stretch">Adatta</s:String>
 
+    
     
     
     
@@ -5703,9 +6074,11 @@
     
     
     
+    
     <!--  Orientation  -->
     <s:String x:Key="S.Orientation.Horizontal">Orizzontale</s:String>
     <s:String x:Key="S.Orientation.Vertical">Verticale</s:String>
+    
     
     
     
@@ -5733,10 +6106,12 @@
     
     
     
+    
     <!--  TextDecoration  -->
     <s:String x:Key="S.TextDecorations.None">Nessuno</s:String>
     <s:String x:Key="S.TextDecorations.Underline">Sottolineato</s:String>
     <s:String x:Key="S.TextDecorations.Strikethrough">Barrato</s:String>
+    
     
     
     

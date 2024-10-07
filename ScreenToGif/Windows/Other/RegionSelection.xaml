@@ -1,92 +1,215 @@
-<Window x:Class="ScreenToGif.Windows.Other.RegionSelection"
-        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
-        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        xmlns:t="clr-namespace:ScreenToGif.Util.Settings;assembly=ScreenToGif.Util"
-        x:Name="ThisWindow" Title="ScreenToGif" WindowStyle="None" AllowsTransparency="True" Topmost="True" ResizeMode="NoResize" SizeToContent="WidthAndHeight"
-        UseLayoutRounding="True" SnapsToDevicePixels="True" Background="{x:Null}" ShowInTaskbar="False"
-        DpiChanged="Window_DpiChanged" StateChanged="Window_StateChanged">
+<Window
+    x:Class="ScreenToGif.Windows.Other.RegionSelection"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:t="clr-namespace:ScreenToGif.Util.Settings;assembly=ScreenToGif.Util"
+    x:Name="ThisWindow"
+    Title="ScreenToGif"
+    AllowsTransparency="True"
+    Background="{x:Null}"
+    DpiChanged="Window_DpiChanged"
+    ResizeMode="NoResize"
+    ShowInTaskbar="False"
+    SizeToContent="WidthAndHeight"
+    SnapsToDevicePixels="True"
+    StateChanged="Window_StateChanged"
+    Topmost="True"
+    UseLayoutRounding="True"
+    WindowStyle="None">
 
     <Grid>
         <Grid.RowDefinitions>
-            <RowDefinition Height="Auto"/>
-            <RowDefinition Height="Auto"/>
-            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
         </Grid.RowDefinitions>
         <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="Auto"/>
-            <ColumnDefinition Width="Auto"/>
-            <ColumnDefinition Width="Auto"/>
+            <ColumnDefinition Width="Auto" />
+            <ColumnDefinition Width="Auto" />
+            <ColumnDefinition Width="Auto" />
         </Grid.ColumnDefinitions>
-        
-        <Rectangle Grid.Row="1" Grid.Column="1" x:Name="SelectionRectangle" StrokeDashArray="5" Stroke="#FFABABAB" StrokeThickness="1" IsHitTestVisible="False" Effect="{x:Null}"/>
+
+        <Rectangle
+            x:Name="SelectionRectangle"
+            Grid.Row="1"
+            Grid.Column="1"
+            Effect="{x:Null}"
+            IsHitTestVisible="False"
+            Stroke="#FFABABAB"
+            StrokeDashArray="5"
+            StrokeThickness="1" />
 
         <!--<TextBlock Grid.Row="1" Grid.Column="1" Background="Beige" Margin="5" VerticalAlignment="Top" HorizontalAlignment="Left">
             <Run Text="{Binding ElementName=ThisWindow, Path=Left, StringFormat={}{0}}"/>
             <Run Text="x"/>
             <Run Text="{Binding ElementName=ThisWindow, Path=Top, StringFormat={}{0}}"/>
         </TextBlock>-->
-        
-        <Grid Grid.Row="1" Grid.Column="1" x:Name="GuidelinesGrid">
+
+        <Grid
+            x:Name="GuidelinesGrid"
+            Grid.Row="1"
+            Grid.Column="1">
             <Grid Visibility="{Binding Source={x:Static t:UserSettings.All}, Path=DisplayThirdsGuideline, Converter={StaticResource Bool2Visibility}}">
                 <Grid.RowDefinitions>
-                    <RowDefinition/>
-                    <RowDefinition/>
-                    <RowDefinition/>
+                    <RowDefinition />
+                    <RowDefinition />
+                    <RowDefinition />
                 </Grid.RowDefinitions>
                 <Grid.ColumnDefinitions>
-                    <ColumnDefinition/>
-                    <ColumnDefinition/>
-                    <ColumnDefinition/>
+                    <ColumnDefinition />
+                    <ColumnDefinition />
+                    <ColumnDefinition />
                 </Grid.ColumnDefinitions>
 
-                <!--Rule of thirds, horizontal top-->
-                <Line Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="3" x:Name="ThirdsLine" X1="0" Y1="0" X2="1" Y2="0" 
-                      Stroke="{Binding Source={x:Static t:UserSettings.All}, Path=ThirdsGuidelineColor, Converter={StaticResource ColorToBrush}}" 
-                      StrokeThickness="{Binding Source={x:Static t:UserSettings.All}, Path=ThirdsGuidelineThickness}" Stretch="Uniform" VerticalAlignment="Bottom"
-                      StrokeDashArray="{Binding Source={x:Static t:UserSettings.All}, Path=ThirdsGuidelineStrokeDashArray}"/>
+                <!--  Rule of thirds, horizontal top  -->
+                <Line
+                    x:Name="ThirdsLine"
+                    Grid.Row="0"
+                    Grid.Column="0"
+                    Grid.ColumnSpan="3"
+                    VerticalAlignment="Bottom"
+                    Stretch="Uniform"
+                    Stroke="{Binding Source={x:Static t:UserSettings.All}, Path=ThirdsGuidelineColor, Converter={StaticResource ColorToBrush}}"
+                    StrokeDashArray="{Binding Source={x:Static t:UserSettings.All}, Path=ThirdsGuidelineStrokeDashArray}"
+                    StrokeThickness="{Binding Source={x:Static t:UserSettings.All}, Path=ThirdsGuidelineThickness}"
+                    X1="0"
+                    X2="1"
+                    Y1="0"
+                    Y2="0" />
 
-                <!--Rule of thirds, horizontal bottom-->
-                <Line Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="3" X1="0" Y1="0" X2="1" Y2="0" Stroke="{Binding ElementName=ThirdsLine, Path=Stroke}" 
-                      StrokeThickness="{Binding ElementName=ThirdsLine, Path=StrokeThickness}" Stretch="Uniform" VerticalAlignment="Top"
-                      StrokeDashArray="{Binding ElementName=ThirdsLine, Path=StrokeDashArray}"/>
+                <!--  Rule of thirds, horizontal bottom  -->
+                <Line
+                    Grid.Row="2"
+                    Grid.Column="0"
+                    Grid.ColumnSpan="3"
+                    VerticalAlignment="Top"
+                    Stretch="Uniform"
+                    Stroke="{Binding ElementName=ThirdsLine, Path=Stroke}"
+                    StrokeDashArray="{Binding ElementName=ThirdsLine, Path=StrokeDashArray}"
+                    StrokeThickness="{Binding ElementName=ThirdsLine, Path=StrokeThickness}"
+                    X1="0"
+                    X2="1"
+                    Y1="0"
+                    Y2="0" />
 
-                <!--Rule of thirds, vertical left-->
-                <Line Grid.Row="0" Grid.Column="0" Grid.RowSpan="3" X1="0" Y1="0" X2="0" Y2="1" Stroke="{Binding ElementName=ThirdsLine, Path=Stroke}" 
-                      StrokeThickness="{Binding ElementName=ThirdsLine, Path=StrokeThickness}" Stretch="Uniform" HorizontalAlignment="Right"
-                      StrokeDashArray="{Binding ElementName=ThirdsLine, Path=StrokeDashArray}"/>
+                <!--  Rule of thirds, vertical left  -->
+                <Line
+                    Grid.Row="0"
+                    Grid.RowSpan="3"
+                    Grid.Column="0"
+                    HorizontalAlignment="Right"
+                    Stretch="Uniform"
+                    Stroke="{Binding ElementName=ThirdsLine, Path=Stroke}"
+                    StrokeDashArray="{Binding ElementName=ThirdsLine, Path=StrokeDashArray}"
+                    StrokeThickness="{Binding ElementName=ThirdsLine, Path=StrokeThickness}"
+                    X1="0"
+                    X2="0"
+                    Y1="0"
+                    Y2="1" />
 
-                <!--Rule of thirds, vertical right-->
-                <Line Grid.Row="0" Grid.Column="2" Grid.RowSpan="3" X1="0" Y1="0" X2="0" Y2="1" Stroke="{Binding ElementName=ThirdsLine, Path=Stroke}" 
-                      StrokeThickness="{Binding ElementName=ThirdsLine, Path=StrokeThickness}" Stretch="Uniform" HorizontalAlignment="Left"
-                      StrokeDashArray="{Binding ElementName=ThirdsLine, Path=StrokeDashArray}"/>
+                <!--  Rule of thirds, vertical right  -->
+                <Line
+                    Grid.Row="0"
+                    Grid.RowSpan="3"
+                    Grid.Column="2"
+                    HorizontalAlignment="Left"
+                    Stretch="Uniform"
+                    Stroke="{Binding ElementName=ThirdsLine, Path=Stroke}"
+                    StrokeDashArray="{Binding ElementName=ThirdsLine, Path=StrokeDashArray}"
+                    StrokeThickness="{Binding ElementName=ThirdsLine, Path=StrokeThickness}"
+                    X1="0"
+                    X2="0"
+                    Y1="0"
+                    Y2="1" />
             </Grid>
 
             <Grid Visibility="{Binding Source={x:Static t:UserSettings.All}, Path=DisplayCrosshairGuideline, Converter={StaticResource Bool2Visibility}}">
-                <!--Crosshair, horizontal-->
-                <Line X1="0" Y1="0" X2="1" Y2="0" x:Name="CrosshairLine" Stroke="{Binding Source={x:Static t:UserSettings.All}, Path=CrosshairGuidelineColor, Converter={StaticResource ColorToBrush}}" 
-                      StrokeThickness="{Binding Source={x:Static t:UserSettings.All}, Path=CrosshairGuidelineThickness}" Stretch="Uniform" VerticalAlignment="Center" 
-                      StrokeDashArray="{Binding Source={x:Static t:UserSettings.All}, Path=CrosshairGuidelineStrokeDashArray}"/>
+                <!--  Crosshair, horizontal  -->
+                <Line
+                    x:Name="CrosshairLine"
+                    VerticalAlignment="Center"
+                    Stretch="Uniform"
+                    Stroke="{Binding Source={x:Static t:UserSettings.All}, Path=CrosshairGuidelineColor, Converter={StaticResource ColorToBrush}}"
+                    StrokeDashArray="{Binding Source={x:Static t:UserSettings.All}, Path=CrosshairGuidelineStrokeDashArray}"
+                    StrokeThickness="{Binding Source={x:Static t:UserSettings.All}, Path=CrosshairGuidelineThickness}"
+                    X1="0"
+                    X2="1"
+                    Y1="0"
+                    Y2="0" />
 
-                <!--Crosshair, vertical-->
-                <Line X1="0" Y1="0" X2="0" Y2="1" Stroke="{Binding ElementName=CrosshairLine, Path=Stroke}" StrokeThickness="{Binding ElementName=CrosshairLine, Path=StrokeThickness}" 
-                      Stretch="Uniform" HorizontalAlignment="Center" StrokeDashArray="{Binding ElementName=CrosshairLine, Path=StrokeDashArray}"/>
+                <!--  Crosshair, vertical  -->
+                <Line
+                    HorizontalAlignment="Center"
+                    Stretch="Uniform"
+                    Stroke="{Binding ElementName=CrosshairLine, Path=Stroke}"
+                    StrokeDashArray="{Binding ElementName=CrosshairLine, Path=StrokeDashArray}"
+                    StrokeThickness="{Binding ElementName=CrosshairLine, Path=StrokeThickness}"
+                    X1="0"
+                    X2="0"
+                    Y1="0"
+                    Y2="1" />
             </Grid>
         </Grid>
 
-        <!--Thumbs-->
-        <Border Grid.Row="1" Grid.Column="2" x:Name="HorizontalBorder" Width="10" Height="30" BorderThickness="0,1,1,0" Background="{DynamicResource Panel.Background.Level2}" 
-                BorderBrush="{DynamicResource Element.Border}" CornerRadius="0,15,0,0" VerticalAlignment="Bottom" HorizontalAlignment="Left" Cursor="SizeAll" 
-                Visibility="Collapsed" ToolTip="{DynamicResource S.Recorder.Move}" ToolTipService.Placement="Right"
-                MouseLeftButtonDown="Thumb_MouseLeftButtonDown" MouseMove="Thumb_MouseMove" PreviewMouseLeftButtonUp="Thumb_PreviewMouseLeftButtonUp"/>
+        <!--  Thumbs  -->
+        <Border
+            x:Name="HorizontalBorder"
+            Grid.Row="1"
+            Grid.Column="2"
+            Width="10"
+            Height="30"
+            HorizontalAlignment="Left"
+            VerticalAlignment="Bottom"
+            Background="{DynamicResource Panel.Background.Level2}"
+            BorderBrush="{DynamicResource Element.Border}"
+            BorderThickness="0,1,1,0"
+            CornerRadius="0,15,0,0"
+            Cursor="SizeAll"
+            MouseLeftButtonDown="Thumb_MouseLeftButtonDown"
+            MouseMove="Thumb_MouseMove"
+            PreviewMouseLeftButtonUp="Thumb_PreviewMouseLeftButtonUp"
+            ToolTip="{DynamicResource S.Recorder.Move}"
+            ToolTipService.Placement="Right"
+            Visibility="Collapsed" />
 
-        <Border Grid.Row="2" Grid.Column="2" x:Name="CornerBorder" Width="10" Height="10" BorderThickness="0,0,1,1" Background="{DynamicResource Panel.Background.Level2}" 
-                BorderBrush="{DynamicResource Element.Border}" CornerRadius="0,0,15,0" VerticalAlignment="Top" HorizontalAlignment="Left" Cursor="SizeAll" 
-                Visibility="Collapsed" ToolTip="{DynamicResource S.Recorder.Move}" ToolTipService.Placement="Right"
-                MouseLeftButtonDown="Thumb_MouseLeftButtonDown" MouseMove="Thumb_MouseMove" PreviewMouseLeftButtonUp="Thumb_PreviewMouseLeftButtonUp"/>
+        <Border
+            x:Name="CornerBorder"
+            Grid.Row="2"
+            Grid.Column="2"
+            Width="10"
+            Height="10"
+            HorizontalAlignment="Left"
+            VerticalAlignment="Top"
+            Background="{DynamicResource Panel.Background.Level2}"
+            BorderBrush="{DynamicResource Element.Border}"
+            BorderThickness="0,0,1,1"
+            CornerRadius="0,0,15,0"
+            Cursor="SizeAll"
+            MouseLeftButtonDown="Thumb_MouseLeftButtonDown"
+            MouseMove="Thumb_MouseMove"
+            PreviewMouseLeftButtonUp="Thumb_PreviewMouseLeftButtonUp"
+            ToolTip="{DynamicResource S.Recorder.Move}"
+            ToolTipService.Placement="Right"
+            Visibility="Collapsed" />
 
-        <Border Grid.Row="2" Grid.Column="1" x:Name="VerticalBorder" Width="30" Height="10" BorderThickness="1,0,0,1" Background="{DynamicResource Panel.Background.Level2}" 
-                BorderBrush="{DynamicResource Element.Border}" CornerRadius="0,0,0,15" VerticalAlignment="Top" HorizontalAlignment="Right" Cursor="SizeAll" 
-                Visibility="Collapsed" ToolTip="{DynamicResource S.Recorder.Move}" ToolTipService.Placement="Bottom"
-                MouseLeftButtonDown="Thumb_MouseLeftButtonDown" MouseMove="Thumb_MouseMove" PreviewMouseLeftButtonUp="Thumb_PreviewMouseLeftButtonUp"/>
+        <Border
+            x:Name="VerticalBorder"
+            Grid.Row="2"
+            Grid.Column="1"
+            Width="30"
+            Height="10"
+            HorizontalAlignment="Right"
+            VerticalAlignment="Top"
+            Background="{DynamicResource Panel.Background.Level2}"
+            BorderBrush="{DynamicResource Element.Border}"
+            BorderThickness="1,0,0,1"
+            CornerRadius="0,0,0,15"
+            Cursor="SizeAll"
+            MouseLeftButtonDown="Thumb_MouseLeftButtonDown"
+            MouseMove="Thumb_MouseMove"
+            PreviewMouseLeftButtonUp="Thumb_PreviewMouseLeftButtonUp"
+            ToolTip="{DynamicResource S.Recorder.Move}"
+            ToolTipService.Placement="Bottom"
+            Visibility="Collapsed" />
     </Grid>
 </Window>

@@ -14,7 +14,9 @@
     
     
     
+    
     <!--  To use a new line: &#x0d; or CarriageReturn + NewLine: &#x0d;&#x0a; or &#10;  --> 
+    
     
     
     
@@ -36,7 +38,9 @@
     
     
     
+    
     <!--  Special texts like {0}, are place holders for dynamic values, such as numbers.  -->
+    
     
     
     
@@ -85,6 +89,7 @@
     
     
     
+    
     <!--  Warnings  -->
     <s:String x:Key="S.Crash">哦，不，应用程序崩溃了 :(</s:String>
     <s:String x:Key="S.Required">必填字段</s:String>
@@ -113,6 +118,7 @@
     
     
     
+    
     <!--  Warnings • Graphics engine  -->
     <s:String x:Key="S.Warning.Graphics.Title">切换图形适配器</s:String>
     <s:String x:Key="S.Warning.Graphics.Instruction">切换到正确的图形适配器，以捕获所选的屏幕</s:String>
@@ -120,6 +126,7 @@
     <s:String x:Key="S.Warning.Graphics.Action">打开 Windows 设置 > 系统 > 显示 > 图形设置，或点击下面的链接，为 ScreenToGif 切换图形适配器设置。</s:String>
     <s:String x:Key="S.Warning.Graphics.Action.Legacy">打开您的图形适配器的图形设置，为ScreenToGif切换图形适配器。</s:String>
     <s:String x:Key="S.Warning.Graphics.Switch">打开 Windows 设置</s:String>
+    
     
     
     
@@ -146,8 +153,10 @@
     
     
     
+    
     <!--  Mouse  -->
     <s:String x:Key="S.Mouse.Right">右键单击</s:String>
+    
     
     
     
@@ -164,6 +173,7 @@
     <s:String x:Key="S.NewWebcamRecording">新建摄像头录制</s:String>
     <s:String x:Key="S.NewBoardRecording">新建画板录制</s:String>
     <s:String x:Key="S.Exit">退出</s:String>
+    
     
     
     
@@ -257,6 +267,7 @@
     
     
     
+    
     <!--  StartUp  -->
     <s:String x:Key="S.StartUp.Title">ScreenToGif - 启动</s:String>
     <s:String x:Key="S.StartUp.Recorder">录像机</s:String>
@@ -271,6 +282,7 @@
     <s:String x:Key="S.StartUp.NewRelease">新版本可用</s:String>
     <s:String x:Key="S.StartUp.NewRelease.Tooltip">下载最新版本的 ScreenToGif。</s:String>
 
+    
     
     
     
@@ -312,10 +324,12 @@
     
     
     
+    
     <!--  Downloader  -->
     <s:String x:Key="S.Downloader.Title">ScreenToGif - 下载器</s:String>
     <s:String x:Key="S.Downloader.Header">下载器</s:String>
     <s:String x:Key="S.Downloader.Size">已下载 {0}，共计 {1}</s:String>
+    
     
     
     
@@ -344,6 +358,7 @@
     <s:String x:Key="S.Options.Warning.Follow.Header">光标后缺少快捷键</s:String>
     <s:String x:Key="S.Options.Warning.Follow.Message">为了使用鼠标光标跟随功能，必须设置一个快捷键，以便在需要时进行切换。</s:String>
 
+    
     
     
     
@@ -415,6 +430,7 @@
     <s:String x:Key="S.Options.App.General.DownloadWithMeteredNetwork">使用按流量计费的连接下载更新</s:String>
     <s:String x:Key="S.Options.App.General.DownloadWithMeteredNetwork.Info">（在系统设置中设置您的连接类型）</s:String>
 
+    
     
     
     
@@ -517,6 +533,7 @@
     
     
     
+    
     <!--  Options • Editor  -->
     <s:String x:Key="S.Options.Editor.Previewer">编辑器背景</s:String>
     <s:String x:Key="S.Options.Editor.Previewer.GridSize">网格大小</s:String>
@@ -566,6 +583,7 @@
     
     
     
+    
     <!--  Options • Tasks  -->
     <s:String x:Key="S.Options.Tasks.Title">自动化任务</s:String>
     <s:String x:Key="S.Options.Tasks.List">自动化任务列表</s:String>
@@ -577,6 +595,7 @@
     <s:String x:Key="S.Options.Tasks.SelectType.Info">在上方选择一个任务</s:String>
     <s:String x:Key="S.Options.Tasks.Info">这些任务从列表顶部到底部顺序执行。&#10;当您第一次使用编辑器打开项目时会发生这种情况。</s:String>
   
+    
     
     
     
@@ -624,6 +643,7 @@
     
     
     
+    
     <!--  Options • Language  -->
     <s:String x:Key="S.Options.Language.AppLanguage">应用程序语言</s:String>
     <s:String x:Key="S.Options.Language.AppLanguage.AutoDetect">自动检测</s:String>
@@ -639,6 +659,7 @@
     <s:String x:Key="S.Options.Language.AppLanguage.Translate.ResourceLink.Tooltip">单击以打开包含指南的网页。</s:String>
     <s:String x:Key="S.Options.Language.AppLanguage.Translate.ImportLink.Tooltip">打开导入页面</s:String>
     <s:String x:Key="S.Options.Language.AppLanguage.Translate.EmailLink.Tooltip">打开电子邮件应用</s:String>
+    
     
     
     
@@ -695,6 +716,7 @@
     
     
     
+    
     <!--  Options • Storage > Clear cache  -->
     <s:String x:Key="S.Options.Storage.Cache.Title">ScreenToGif - 清除缓存</s:String>
     <s:String x:Key="S.Options.Storage.Cache.Header">您要清除缓存文件夹吗？</s:String>
@@ -703,6 +725,7 @@
     <s:String x:Key="S.Options.Storage.Cache.IgnoreRecent">不要删除最近的项目。</s:String>
     <s:String x:Key="S.Options.Storage.Cache.IgnoreRecent.Yes">（仅会删除 {0} 天之前尚未使用的项目）</s:String>
     <s:String x:Key="S.Options.Storage.Cache.IgnoreRecent.No">（所有当前未使用的项目将被删除）</s:String>
+    
     
     
     
@@ -733,6 +756,7 @@
     <s:String x:Key="S.Options.Upload.Presets.Enabled">启用</s:String>
     
      
+    
     
     
     
@@ -798,9 +822,11 @@
     
     
     
+    
     <!--  Options • Upload > Album  -->
     <s:String x:Key="S.Options.Upload.Pick.Album">选择一个相册（可选）</s:String>
     <s:String x:Key="S.Options.Upload.Pick.Album.Info">如果您愿意，可以选择目标相册：</s:String>
+    
     
     
     
@@ -831,6 +857,7 @@
     
     
     
+    
     <!--  Options • Upload > History  -->
     <s:String x:Key="S.Options.Upload.History.Title">上传历史</s:String>
     <s:String x:Key="S.Options.Upload.History.Date">日期</s:String>
@@ -842,6 +869,7 @@
     <s:String x:Key="S.Options.Upload.History.Detail.DeleteLink">删除链接：</s:String>
     <s:String x:Key="S.Options.Upload.History.Delete.Instruction">您确定要删除历史记录条目吗？</s:String>
     <s:String x:Key="S.Options.Upload.History.Delete.Message">此操作无法撤消。&#10;&#10;您要删除所选的历史记录条目吗？</s:String>
+    
     
     
     
@@ -885,6 +913,7 @@
     
     
     
+    
     <!--  Options • Donations  -->
     <s:String x:Key="S.Options.Donate.Donate">捐赠</s:String>
     <s:String x:Key="S.Options.Donate.Donate.Dollar">捐赠美元 (US$)</s:String>
@@ -903,6 +932,7 @@
     <s:String x:Key="S.Options.Donate.Crypto.BitcoinCash">复制比特币现金地址。</s:String>
     <s:String x:Key="S.Options.Donate.Support">支持</s:String>
     <s:String x:Key="S.Options.Donate.Support.Visit">如果您想支持该项目 :)</s:String>
+    
     
     
     
@@ -942,6 +972,7 @@
     
     
     
+    
     <!--  Localization  -->
     <s:String x:Key="S.Localization">本地化</s:String>
     <s:String x:Key="S.Localization.GettingCodes">正在获取语言代码...</s:String>
@@ -964,6 +995,7 @@
     <s:String x:Key="S.Localization.Warning.Unknown.Info">无法将 “{0}” 及其家族识别为有效的语言代码。</s:String>
     <s:String x:Key="S.Localization.Warning.NotPossible">无法导入本地化资源。</s:String>
 
+    
     
     
     
@@ -1026,6 +1058,7 @@
     
     
     
+    
     <!--  New recorder  -->
     <s:String x:Key="S.Recorder.Area">区域</s:String>
     <s:String x:Key="S.Recorder.Area.Select">选择一个区域</s:String>
@@ -1066,6 +1099,7 @@
     
     
     
+    
     <!--  Webcam recorder  -->
     <s:String x:Key="S.Webcam.Title">ScreenToGif - 摄像头录像机</s:String>
     <s:String x:Key="S.Webcam.NoVideo">未检测到视频设备 :(</s:String>
@@ -1083,11 +1117,13 @@
     
     
     
+    
     <!--  Board recorder  -->
     <s:String x:Key="S.Board.Title">ScreenToGif - 画板录像机</s:String>
     <s:String x:Key="S.Board.AutoRecord">自动录制</s:String>
     <s:String x:Key="S.Board.AutoRecordToolTip">在绘图时启用录制</s:String>
     <s:String x:Key="S.Board.CtrlHold">Ctrl [按住]</s:String>
+    
     
     
     
@@ -1123,6 +1159,7 @@
     
     
     
+    
     <!--  Exception/Error viewers  -->
     <s:String x:Key="S.ExceptionViewer.Title">异常查看器</s:String>
     <s:String x:Key="S.ExceptionViewer.OpenInner">打开内部异常</s:String>
@@ -1133,6 +1170,7 @@
     <s:String x:Key="S.ErrorDialog.Observation">出现错误</s:String>
     <s:String x:Key="S.ErrorDialog.Send">发送报告</s:String>
 
+    
     
     
     
@@ -1155,6 +1193,7 @@
     <s:String x:Key="S.Preset.Warning.Readonly">默认预设的某些属性是只读的。</s:String>
     <s:String x:Key="S.Preset.Warning.Name">您必须为此预设命名。</s:String>
     <s:String x:Key="S.Preset.Warning.SameName">已经存在一个具有相同名称的预设。</s:String>
+    
     
     
     
@@ -1224,6 +1263,7 @@
     
     
     
+    
     <!--  Insert frames  -->
     <s:String x:Key="S.InsertFrames.Title">插入帧</s:String>
     <s:String x:Key="S.InsertFrames.Info">两侧应具有相同的大小，此窗口允许您重新定位和调整图像和画布的大小。点击选择并调整大小。</s:String>
@@ -1253,6 +1293,7 @@
     
     
     
+    
     <!--  Import frames from video  -->
     <s:String x:Key="S.ImportVideo.Title">从视频导入帧</s:String>
     <s:String x:Key="S.ImportVideo.Importer">开发商：</s:String>
@@ -1272,6 +1313,7 @@
     <s:String x:Key="S.ImportVideo.Error.Detail">预览器无法启动。请尝试使用其他导入器或检查视频是否未损坏。&#x0d;如果您使用的是 MediaPlayer，请检查 Windows 功能中 “媒体功能/Windows Media Player” 是否已打开，并确保您有所需的视频编解码器。</s:String>
     <s:String x:Key="S.ImportVideo.Timeout">获取帧预览超时。</s:String>
     <s:String x:Key="S.ImportVideo.Nothing">没有选择的帧将被导入。</s:String>
+    
     
     
     
@@ -1337,6 +1379,7 @@
     
     
     
+    
     <!--  Command output  -->
     <s:String x:Key="S.Encoder.Command.Title">ScreenToGif - 命令输出</s:String>
     <s:String x:Key="S.Encoder.Command.Header">命令输出</s:String>
@@ -1351,9 +1394,11 @@
     
     
     
+    
     <!--  Notifications  -->
     <s:String x:Key="S.Notifications">通知</s:String>
     <s:String x:Key="S.Notifications.Dismiss">关闭所有通知</s:String>
+    
     
     
     
@@ -1391,10 +1436,12 @@
     
     
     
+    
     <!--  Editor • Loading  -->
     <s:String x:Key="S.Editor.Preparing">正在准备帧</s:String>
     <s:String x:Key="S.Editor.InvalidLoadingFiles">加载无效 - 您不能一次导入多个文件。请只选择一个文件。</s:String>
     <s:String x:Key="S.Editor.InvalidLoadingProjects">加载无效 - 您不能一次加载多个项目。请只选择一个项目。</s:String>
+    
     
     
     
@@ -1442,6 +1489,7 @@
     
     
     
+    
     <!--  Editor • Welcome  -->
     <s:String x:Key="S.Editor.Welcome.New">转到“文件 > 新录制”来开始新录制</s:String>
     <s:String x:Key="S.Editor.Welcome.Import">拖入图片、视频或项目来导入</s:String>
@@ -1450,6 +1498,7 @@
     <s:String x:Key="S.Editor.Welcome.Contact">您希望联系我们？打开“选项 > 关于”可以找到联系方式</s:String>
     <s:String x:Key="S.Editor.Welcome.Trouble">遇到问题了？请通过“反馈”工具联系我</s:String>
     <s:String x:Key="S.Editor.Welcome.NewRecorder">您想试试新版录像机界面吗？转到“选项 > 录像机”以启用</s:String>
+    
     
     
     
@@ -1478,12 +1527,14 @@
     
     
     
+    
     <!--  Editor • File tab • Insert  -->
     <s:String x:Key="S.Editor.File.Insert.Recording">录制</s:String>
     <s:String x:Key="S.Editor.File.Insert.Webcam">摄像头&#x0d;录制</s:String>
     <s:String x:Key="S.Editor.File.Insert.Board">白板&#x0d;录制</s:String>
     <s:String x:Key="S.Editor.File.Insert.Media">媒体</s:String>
     <s:String x:Key="S.Editor.File.Insert">插入</s:String>
+    
     
     
     
@@ -1512,11 +1563,13 @@
     
     
     
+    
     <!--  Editor • Home tab • Action Stack  -->
     <s:String x:Key="S.Editor.Home.ActionStack">操作</s:String>
     <s:String x:Key="S.Editor.Home.Undo">撤消</s:String>
     <s:String x:Key="S.Editor.Home.Redo">重做</s:String>
     <s:String x:Key="S.Editor.Home.Reset">重置</s:String>
+    
     
     
     
@@ -1545,10 +1598,12 @@
     
     
     
+    
     <!--  Editor • Home tab • Zoom  -->
     <s:String x:Key="S.Editor.Home.Zoom">缩放</s:String>
     <s:String x:Key="S.Editor.Home.SizeToContent">根据内容&#x0d;调整窗口</s:String>
     <s:String x:Key="S.Editor.Home.FitImage">适合图像</s:String>
+    
     
     
     
@@ -1566,6 +1621,7 @@
     <s:String x:Key="S.Editor.Home.GoTo">转到</s:String>
     <s:String x:Key="S.Editor.Home.Inverse">反选</s:String>
     <s:String x:Key="S.Editor.Home.Deselect">取消选择</s:String>
+    
     
     
     
@@ -1596,10 +1652,12 @@
     
     
     
+    
     <!--  Editor • Playback tab • Playback Options  -->
     <s:String x:Key="S.Editor.PlaybackOptions.Header">播放选项</s:String>
     <s:String x:Key="S.Editor.PlaybackOptions.Loop">播放期间循环播放</s:String>
     <s:String x:Key="S.Editor.PlaybackOptions.Loop.Info">仅在播放期间使用。&#x0d;如果要更改用于导出 GIF 和 APNG 的循环设置，&#x0d;某些编码器的“另存为”面板中将提供该循环设置。</s:String>
+    
     
     
     
@@ -1630,12 +1688,14 @@
     
     
     
+    
     <!--  Editor • Edit tab • Reordering  -->
     <s:String x:Key="S.Editor.Edit.Reordering">重新排列</s:String>
     <s:String x:Key="S.Editor.Edit.Reverse">反转</s:String>
     <s:String x:Key="S.Editor.Edit.Yoyo">反转循环</s:String>
     <s:String x:Key="S.Editor.Edit.MoveLeft">左移</s:String>
     <s:String x:Key="S.Editor.Edit.MoveRight">右移</s:String>
+    
     
     
     
@@ -1663,11 +1723,13 @@
     
     
     
+    
     <!--  Editor • Image • Size and Rotation  -->
     <s:String x:Key="S.Editor.Image.SizePosition">大小和位置</s:String>
     <s:String x:Key="S.Editor.Image.Resize">调整大小</s:String>
     <s:String x:Key="S.Editor.Image.Crop">裁剪</s:String>
     <s:String x:Key="S.Editor.Image.FlipRotate">翻转/旋转</s:String>
+    
     
     
     
@@ -1685,6 +1747,7 @@
     <s:String x:Key="S.Editor.Image.FreeText">自由文本</s:String>
     <s:String x:Key="S.Editor.Image.TitleFrame">标题帧</s:String>
     <s:String x:Key="S.Editor.Image.KeyStrokes">按键</s:String>
+    
     
     
     
@@ -1718,10 +1781,12 @@
     
     
     
+    
     <!--  Editor • Transitions tab • Styles  -->
     <s:String x:Key="S.Editor.Transitions.Styles">样式</s:String>
     <s:String x:Key="S.Editor.Transitions.Fade">淡出</s:String>
     <s:String x:Key="S.Editor.Transitions.Slide">滑动</s:String>
+    
     
     
     
@@ -1743,6 +1808,7 @@
     <s:String x:Key="S.Editor.Statistics.CurrentTime.Info">基于显示的当前帧的当前时间（累积时间）。</s:String>
     <s:String x:Key="S.Editor.Statistics.FrameDpi">帧分辨率和比例</s:String>
     <s:String x:Key="S.Editor.Statistics.SelectedFrame">所选帧</s:String>
+    
     
     
     
@@ -1811,6 +1877,7 @@
     
     
     
+    
     <!--  Editor • Warnings  -->
     <s:String x:Key="S.Editor.Warning.Selection">您必须至少选择一帧才能应用叠加层。</s:String>
     <s:String x:Key="S.Editor.Warning.Ffmpeg">找不到 FFmpeg。将其添加到 PATH 环境变量或在设置中配置其路径。</s:String>
@@ -1818,6 +1885,7 @@
     <s:String x:Key="S.Editor.Warning.LowSpace">驱动器上没有足够的空间供应用程序存储缓存（{0}% 左右）。单击此处打开“选项” > “临时文件”，以释放一些空间。</s:String>
     <s:String x:Key="S.Editor.Warning.DifferentDpi">您试图导入多张不同 DPI 的图片，这不被支持。其中一些图片被导入，其他的则需要单独导入。</s:String>
     <s:String x:Key="S.Editor.Warning.DifferentSize">您试图导入多张不同尺寸的图片，这不被支持。其中一些图片被导入，其他的则需要单独导入。</s:String>
+    
     
     
     
@@ -1861,10 +1929,12 @@
     
     
     
+    
     <!--  Editor • Frame list  -->
     <s:String x:Key="S.Editor.List.Frame">帧：</s:String>
     <s:String x:Key="S.Editor.List.OpenImage">打开图像</s:String>
     <s:String x:Key="S.Editor.List.ExploreFolder">浏览文件夹</s:String>
+    
     
     
     
@@ -1890,6 +1960,7 @@
     
     
     
+    
     <!--  Editor • Context menu  -->
     <s:String x:Key="S.Context.SaveAs">另存为</s:String>
     <s:String x:Key="S.Context.RemoveFrames">删除所选帧</s:String>
@@ -1899,6 +1970,7 @@
     <s:String x:Key="S.Context.NewBlankAnimation">新建项目</s:String>
     <s:String x:Key="S.Context.NewFromMediaProject">从媒体或项目新建</s:String>
    
+    
     
     
     
@@ -1956,6 +2028,7 @@
     
     
     
+    
     <!--  Editor • Action panel  -->
     <s:String x:Key="S.Action.Hide">隐藏</s:String>
     <s:String x:Key="S.Action.Apply">应用</s:String>
@@ -1963,6 +2036,7 @@
     <s:String x:Key="S.Action.Save">保存</s:String>
     <s:String x:Key="S.Action.Cancel">取消</s:String>
 
+    
     
     
     
@@ -1992,6 +2066,7 @@
     
     
     
+    
     <!--  Editor • Clipboard  -->
     <s:String x:Key="S.Clipboard.Entries">剪贴板条目</s:String>
     <s:String x:Key="S.Clipboard.Entry">剪贴板条目：</s:String>
@@ -2002,6 +2077,7 @@
     <s:String x:Key="S.Clipboard.Behavior">粘贴行为</s:String>
     <s:String x:Key="S.Clipboard.Before">所选帧之前</s:String>
     <s:String x:Key="S.Clipboard.After">所选帧之后</s:String>
+    
     
     
     
@@ -2038,6 +2114,7 @@
     
     
     
+    
     <!--  Editor • Crop  -->
     <s:String x:Key="S.Crop.Points">点</s:String>
     <s:String x:Key="S.Crop.Top">顶部：</s:String>
@@ -2057,11 +2134,13 @@
     
     
     
+    
     <!--  Editor • Flip/rotate  -->
     <s:String x:Key="S.FlipRotate.FlipHorizontal">水平翻转</s:String>
     <s:String x:Key="S.FlipRotate.FlipVertical">垂直翻转</s:String>
     <s:String x:Key="S.FlipRotate.RotateLeft">向左旋转 90º</s:String>
     <s:String x:Key="S.FlipRotate.RotateRight">向右旋转 90º</s:String>
+    
     
     
     
@@ -2098,6 +2177,7 @@
     
     
     
+    
     <!--  Editor • Remove duplicates  -->
     <s:String x:Key="S.RemoveDuplicates.Header">删除重复项</s:String>
     <s:String x:Key="S.RemoveDuplicates.Similarity">相似度 (%)：</s:String>
@@ -2110,6 +2190,7 @@
     <s:String x:Key="S.RemoveDuplicates.Delay.Sum">使用总和</s:String>
     <s:String x:Key="S.RemoveDuplicates.Info">此操作会分析每个帧（逐个像素），并删除至少为 {0} %的类似于其最近邻的帧。&#x0d;您可以选择是否要调整帧的延迟（显示持续时间）。</s:String>
 
+    
     
     
     
@@ -2141,6 +2222,7 @@
     
     
     
+    
     <!--  Editor • Captions  -->
     <s:String x:Key="S.Caption.Text">文本</s:String>
     <s:String x:Key="S.Caption.Font">字体</s:String>
@@ -2158,6 +2240,7 @@
     <s:String x:Key="S.Caption.TextAlignment">对齐方式：</s:String>
     <s:String x:Key="S.Caption.TextDecoration">装饰：</s:String>
 
+    
     
     
     
@@ -2199,6 +2282,7 @@
     
     
     
+    
     <!--  Editor • Free drawing  -->
     <s:String x:Key="S.FreeDrawing.Mode">模式</s:String>
     <s:String x:Key="S.FreeDrawing.Pen">画笔</s:String>
@@ -2215,6 +2299,7 @@
     <s:String x:Key="S.FreeDrawing.FitToCurve">转为曲线</s:String>
     <s:String x:Key="S.FreeDrawing.Warning.NoDrawing">没有可以应用到所选帧的绘图。</s:String>
     <s:String x:Key="S.FreeDrawing.WarningSelection">您必须至少选择一帧来应用这条“自由绘图”。</s:String>
+    
     
     
     
@@ -2246,12 +2331,14 @@
     
     
     
+    
     <!--  Editor • Mouse events  -->
     <s:String x:Key="S.MouseEvents">鼠标事件</s:String>
     <s:String x:Key="S.MouseHighlight.Color">鼠标高亮颜色：</s:String>
     <s:String x:Key="S.MouseClicks.Color.Left">左键颜色：</s:String>
     <s:String x:Key="S.MouseClicks.Color.Middle">中键颜色：</s:String>
     <s:String x:Key="S.MouseClicks.Color.Right">右键颜色：</s:String>
+    
     
     
     
@@ -2282,10 +2369,12 @@
     
     
     
+    
     <!--  Editor • Border  -->
     <s:String x:Key="S.Border.Appearance">外观</s:String>
     <s:String x:Key="S.Border.Info">使用负值使边框扩大图像。这样做时，边框将应用于所有帧。&#10;如果不使用负值，则边框将仅应用于选定的帧。</s:String>
 
+    
     
     
     
@@ -2313,6 +2402,7 @@
     
     
     
+    
     <!--  Editor • Obfuscate  -->
     <s:String x:Key="S.Obfuscate.Type.Pixelate">像素化</s:String>
     <s:String x:Key="S.Obfuscate.Type.Blur">模糊</s:String>
@@ -2329,6 +2419,7 @@
     <s:String x:Key="S.Obfuscate.Info">使用选择工具选择应像素化的矩形区域。</s:String>
     <s:String x:Key="S.Obfuscate.Info2">使用选择工具选择不应混淆的帧部分。</s:String>
     <s:String x:Key="S.Obfuscate.Warning">您没有选择任何区域。请使用选择工具选择应像素化的矩形区域。</s:String>
+    
     
     
     
@@ -2379,6 +2470,7 @@
     
     
     
+    
     <!--  Editor • Delay  -->
     <s:String x:Key="S.Delay.Update">延迟更新</s:String>
     <s:String x:Key="S.Delay.Mode">延迟模式：</s:String>
@@ -2403,9 +2495,11 @@
     
     
     
+    
     <!--  Editor • Cinemagraph  -->
     <s:String x:Key="S.Cinemagraph.Info">使用笔在不应保持静态（即在不同帧之间变化）的像素上描画来进行选择</s:String>
 
+    
     
     
     
@@ -2425,6 +2519,7 @@
     <s:String x:Key="S.Transitions.Color">颜色</s:String>
     <s:String x:Key="S.Transitions.Info">转换将应用于已选帧与下一帧之间</s:String>
 
+    
     
     
     
@@ -2484,6 +2579,7 @@
     
     
     
+    
     <!--  Editor • Save as > Presets  -->
     <s:String x:Key="S.SaveAs.Presets">预设：</s:String>
     <s:String x:Key="S.SaveAs.Presets.Default">默认</s:String>
@@ -2503,6 +2599,7 @@
     
     
     
+    
     <!--  Editor • Save as > Presets > Dialogs  -->
     <s:String x:Key="S.SaveAs.Presets.Ask.Delete.Title">删除预设</s:String>
     <s:String x:Key="S.SaveAs.Presets.Ask.Delete.Instruction">您确定要删除预设吗？</s:String>
@@ -2510,6 +2607,7 @@
     <s:String x:Key="S.SaveAs.Presets.Ask.Reset.Title">重置预设</s:String>
     <s:String x:Key="S.SaveAs.Presets.Ask.Reset.Instruction">您确定要重置预设吗？</s:String>
     <s:String x:Key="S.SaveAs.Presets.Ask.Reset.Message">此操作无法撤消。&#10;&#10;是否要将所选预设重置为其默认设置？</s:String>
+    
     
     
     
@@ -2547,6 +2645,7 @@
     
     
     
+    
     <!--  Editor • Save as > FFmpeg  -->
     <s:String x:Key="S.SaveAs.Ffmpeg.UseParameters">启用高级模式。</s:String>
     <s:String x:Key="S.SaveAs.Ffmpeg.UseParameters.Info">手动输入参数以控制编码器。</s:String>
@@ -2558,6 +2657,7 @@
     <s:String x:Key="S.SaveAs.Ffmpeg.Help.Code">编解码器文档</s:String>
     <s:String x:Key="S.SaveAs.Ffmpeg.Help.Format">格式化文档</s:String>
     <s:String x:Key="S.SaveAs.Ffmpeg.Help.Filters">筛选文档</s:String>
+    
     
     
     
@@ -2609,6 +2709,7 @@
     <s:String x:Key="S.SaveAs.GifOptions.Dither">抖动：</s:String>
     <s:String x:Key="S.SaveAs.GifOptions.Dither.Scale">Bayer 缩放：</s:String>
 
+    
     
     
     
@@ -2732,6 +2833,7 @@
     
     
     
+    
     <!--  Editor • Save as > Apng options  -->
     <s:String x:Key="S.SaveAs.ApngOptions">Apng 选项</s:String>
     <s:String x:Key="S.SaveAs.ApngOptions.Prediction">预测：</s:String>
@@ -2754,6 +2856,7 @@
     
     
     
+    
     <!--  Editor • Save as > Webp options  -->
     <s:String x:Key="S.SaveAs.WebpOptions.CodecPreset">预设：</s:String>
     <s:String x:Key="S.SaveAs.WebpOptions.CodecPreset.None">无</s:String>
@@ -2764,6 +2867,7 @@
     <s:String x:Key="S.SaveAs.WebpOptions.CodecPreset.Icon">图标</s:String>
     <s:String x:Key="S.SaveAs.WebpOptions.CodecPreset.Text">文本</s:String>
     <s:String x:Key="S.SaveAs.WebpOptions.Lossless">使用无损模式。</s:String>
+    
     
     
     
@@ -2848,9 +2952,11 @@
     
     
     
+    
     <!--  Editor • Save as > Image options  -->
     <s:String x:Key="S.SaveAs.ImageOptions.Zip">压缩图片</s:String>
     <s:String x:Key="S.SaveAs.ImageOptions.Zip.Info">导出压缩文件夹中的图像。</s:String>
+    
     
     
     
@@ -2867,6 +2973,7 @@
     <s:String x:Key="S.SaveAs.PsdOptions.Compress.Info">使用 RLE 算法压缩图像数据。</s:String>
     <s:String x:Key="S.SaveAs.PsdOptions.Timeline">保存时间轴数据。</s:String>
     <s:String x:Key="S.SaveAs.PsdOptions.Timeline.Info">导出帧的时间，而不仅仅是帧。</s:String>
+    
     
     
     
@@ -2913,6 +3020,7 @@
     
     
     
+    
     <!--  Editor • Save As > Partial export  -->
     <s:String x:Key="S.SaveAs.Partial">部分导出</s:String>
     <s:String x:Key="S.SaveAs.Partial.Mode">模式：</s:String>
@@ -2943,6 +3051,7 @@
     
     
     
+    
     <!--  Editor • Save as > File  -->
     <s:String x:Key="S.SaveAs.File">文件</s:String>
     <s:String x:Key="S.SaveAs.File.Location">目标文件夹</s:String>
@@ -2955,6 +3064,7 @@
     <s:String x:Key="S.SaveAs.File.Decrease">减小文件编号</s:String>
     <s:String x:Key="S.SaveAs.File.Exists">已存在同名文件</s:String>
     <s:String x:Key="S.SaveAs.File.Clipboard">保存到剪贴板</s:String>
+    
     
     
     
@@ -2996,6 +3106,7 @@
     
     
     
+    
     <!--  Editor • Save As > Upload  -->
     <s:String x:Key="S.SaveAs.Upload">上传</s:String>
     <s:String x:Key="S.SaveAs.Upload.Info">选择上传预设，其中包含有关用于上传的服务的详细信息。</s:String>
@@ -3019,10 +3130,12 @@
     
     
     
+    
     <!--  Editor • Save as > Upload > Dialogs  -->
     <s:String x:Key="S.SaveAs.Upload.Ask.Delete.Title">删除上传预设</s:String>
     <s:String x:Key="S.SaveAs.Upload.Ask.Delete.Instruction">您确定要删除上传预设吗？</s:String>
     <s:String x:Key="S.SaveAs.Upload.Ask.Delete.Message">此操作无法撤消。&#10;&#10;您要删除所选的上传预设吗？</s:String>
+    
     
     
     
@@ -3054,11 +3167,13 @@
     
     
     
+    
     <!--  Command Preview  -->
     <s:String x:Key="S.CommandPreviewer.Title">命令预览器</s:String>
     <s:String x:Key="S.CommandPreviewer.Command">命令</s:String>
     <s:String x:Key="S.CommandPreviewer.Input">输入路径</s:String>
     <s:String x:Key="S.CommandPreviewer.Output">输出路径</s:String>
+    
     
     
     
@@ -3103,6 +3218,7 @@
     
     
     
+    
     <!--  Troubleshoot  -->
     <s:String x:Key="S.Troubleshoot.Title">疑难解答</s:String>
     <s:String x:Key="S.Troubleshoot.Windows">是否有任何窗口不见了？</s:String>
@@ -3122,10 +3238,12 @@
     
     
     
+    
     <!--  FontStyles  -->
     <s:String x:Key="S.FontStyles.Normal">正常</s:String>
     <s:String x:Key="S.FontStyles.Italic">斜体</s:String>
     <s:String x:Key="S.FontStyles.Oblique">伪斜体</s:String>
+    
     
     
     
@@ -3165,12 +3283,14 @@
     
     
     
+    
     <!--  VerticalAlignment  -->
     <s:String x:Key="S.VerticalAlignment.Top">顶部</s:String>
     <s:String x:Key="S.VerticalAlignment.Center">中心</s:String>
     <s:String x:Key="S.VerticalAlignment.Bottom">底部</s:String>
     <s:String x:Key="S.Alignment.Stretch">拉伸</s:String>
 
+    
     
     
     
@@ -3196,9 +3316,11 @@
     
     
     
+    
     <!--  Orientation  -->
     <s:String x:Key="S.Orientation.Horizontal">水平</s:String>
     <s:String x:Key="S.Orientation.Vertical">垂直</s:String>
+    
     
     
     
@@ -3215,6 +3337,7 @@
     <s:String x:Key="S.TextAlignment.Right">右侧</s:String>
     <s:String x:Key="S.TextAlignment.Center">中心</s:String>
     <s:String x:Key="S.TextAlignment.Justify">对齐</s:String>
+    
     
     
     

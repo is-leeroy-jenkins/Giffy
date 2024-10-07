@@ -1,60 +1,148 @@
-<n:ExWindow x:Class="ScreenToGif.Windows.Other.ErrorDialog"
-            xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
-            xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-            xmlns:n="clr-namespace:ScreenToGif.Controls"
-            Title="Dialog" Height="230" Width="500" MinHeight="230" MinWidth="400" SizeToContent="Height"
-            Topmost="True" WindowStartupLocation="CenterScreen" Icon="/ScreenToGif;component/Resources/Logo.ico">
+<n:ExWindow
+    x:Class="ScreenToGif.Windows.Other.ErrorDialog"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:n="clr-namespace:ScreenToGif.Controls"
+    Title="Dialog"
+    Width="500"
+    Height="230"
+    MinWidth="400"
+    MinHeight="230"
+    Icon="/ScreenToGif;component/Resources/Logo.ico"
+    SizeToContent="Height"
+    Topmost="True"
+    WindowStartupLocation="CenterScreen">
 
     <Grid>
         <Grid.RowDefinitions>
-            <RowDefinition Height="40"/>
-            <RowDefinition Height="*" MinHeight="100"/>
+            <RowDefinition Height="40" />
+            <RowDefinition
+                Height="*"
+                MinHeight="100" />
             <RowDefinition Height="40" />
         </Grid.RowDefinitions>
 
-        <Grid Grid.Row="0" Background="{DynamicResource Panel.Background.Level4}">
+        <Grid
+            Grid.Row="0"
+            Background="{DynamicResource Panel.Background.Level4}">
             <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="40"/>
-                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="40" />
+                <ColumnDefinition Width="*" />
             </Grid.ColumnDefinitions>
 
-            <Border x:Name="IconBorder" Margin="5" Background="{StaticResource Vector.Cancel.Round}" Opacity="{DynamicResource Element.Opacity}"/>
+            <Border
+                x:Name="IconBorder"
+                Margin="5"
+                Background="{StaticResource Vector.Cancel.Round}"
+                Opacity="{DynamicResource Element.Opacity}" />
 
-            <Label x:Name="InstructionLabel" Content="Instruction" Margin="5,0" Grid.Column="1" VerticalContentAlignment="Center" 
-                   FontFamily="Segoe UI Semilight" FontSize="18" Foreground="{DynamicResource Element.Foreground.Header}"/>
+            <Label
+                x:Name="InstructionLabel"
+                Grid.Column="1"
+                Margin="5,0"
+                VerticalContentAlignment="Center"
+                Content="Instruction"
+                FontFamily="Segoe UI Semilight"
+                FontSize="18"
+                Foreground="{DynamicResource Element.Foreground.Header}" />
         </Grid>
 
-        <ScrollViewer Grid.Row="1" VerticalScrollBarVisibility="Auto">
-            <TextBlock x:Name="ObservationTextBlock" Margin="25,5,10,5" FontSize="14" TextWrapping="WrapWithOverflow" Foreground="{DynamicResource Element.Foreground}">
-                <Run Text="{DynamicResource S.ErrorDialog.Observation}"/>
-                <LineBreak/>
-                <Run x:Name="DetailsRun"/>
+        <ScrollViewer
+            Grid.Row="1"
+            VerticalScrollBarVisibility="Auto">
+            <TextBlock
+                x:Name="ObservationTextBlock"
+                Margin="25,5,10,5"
+                FontSize="14"
+                Foreground="{DynamicResource Element.Foreground}"
+                TextWrapping="WrapWithOverflow">
+                <Run Text="{DynamicResource S.ErrorDialog.Observation}" />
+                <LineBreak />
+                <Run x:Name="DetailsRun" />
             </TextBlock>
         </ScrollViewer>
 
-        <Grid Grid.Row="2" Background="{DynamicResource Panel.Background.Level3}" Height="40">
+        <Grid
+            Grid.Row="2"
+            Height="40"
+            Background="{DynamicResource Panel.Background.Level3}">
             <Grid.ColumnDefinitions>
-                <ColumnDefinition/>
-                <ColumnDefinition Width="Auto"/>
-                <ColumnDefinition Width="Auto"/>
-                <ColumnDefinition Width="Auto"/>
-                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition />
+                <ColumnDefinition Width="Auto" />
+                <ColumnDefinition Width="Auto" />
+                <ColumnDefinition Width="Auto" />
+                <ColumnDefinition Width="Auto" />
             </Grid.ColumnDefinitions>
 
-            <n:ExtendedButton Grid.Column="1" x:Name="OkButton" Text="{DynamicResource S.Ok}" Icon="{StaticResource Vector.Ok}" 
-                              ContentWidth="18" ContentHeight="18" Padding="5,0" MinWidth="90" Margin="5" Click="TrueActionButton_Click"/>
-            <n:ExtendedButton Grid.Column="2" x:Name="CancelButton" Text="{DynamicResource S.Cancel}" Icon="{StaticResource Vector.Cancel}" 
-                              ContentWidth="18" ContentHeight="18" Padding="5,0" MinWidth="90" Margin="5" Click="FalseActionButton_Click" IsCancel="True"/>
+            <n:ExtendedButton
+                x:Name="OkButton"
+                Grid.Column="1"
+                MinWidth="90"
+                Margin="5"
+                Padding="5,0"
+                Click="TrueActionButton_Click"
+                ContentHeight="18"
+                ContentWidth="18"
+                Icon="{StaticResource Vector.Ok}"
+                Text="{DynamicResource S.Ok}" />
+            <n:ExtendedButton
+                x:Name="CancelButton"
+                Grid.Column="2"
+                MinWidth="90"
+                Margin="5"
+                Padding="5,0"
+                Click="FalseActionButton_Click"
+                ContentHeight="18"
+                ContentWidth="18"
+                Icon="{StaticResource Vector.Cancel}"
+                IsCancel="True"
+                Text="{DynamicResource S.Cancel}" />
 
-            <n:ExtendedButton Grid.Column="1" x:Name="YesButton" Text="{DynamicResource S.Yes}" Icon="{StaticResource Vector.Ok}" 
-                              ContentWidth="18" ContentHeight="18" Padding="5,0" MinWidth="90" Margin="5" Click="TrueActionButton_Click"/>
-            <n:ExtendedButton Grid.Column="2" x:Name="NoButton" Text="{DynamicResource S.No}" Icon="{StaticResource Vector.No}" 
-                              ContentWidth="18" ContentHeight="18" Padding="5,0" MinWidth="90" Margin="5" Click="FalseActionButton_Click"/>
+            <n:ExtendedButton
+                x:Name="YesButton"
+                Grid.Column="1"
+                MinWidth="90"
+                Margin="5"
+                Padding="5,0"
+                Click="TrueActionButton_Click"
+                ContentHeight="18"
+                ContentWidth="18"
+                Icon="{StaticResource Vector.Ok}"
+                Text="{DynamicResource S.Yes}" />
+            <n:ExtendedButton
+                x:Name="NoButton"
+                Grid.Column="2"
+                MinWidth="90"
+                Margin="5"
+                Padding="5,0"
+                Click="FalseActionButton_Click"
+                ContentHeight="18"
+                ContentWidth="18"
+                Icon="{StaticResource Vector.No}"
+                Text="{DynamicResource S.No}" />
 
-            <n:ExtendedButton Grid.Column="3" x:Name="DetailsButton" Text="{DynamicResource S.Encoder.Details}" Icon="{StaticResource Vector.Application}" 
-                              ContentWidth="18" ContentHeight="18" Padding="5,0" MinWidth="90" Margin="5" Click="DetailsButton_Click"/>
-            <n:ExtendedButton Grid.Column="4" x:Name="SendButton" Text="{DynamicResource S.ErrorDialog.Send}" Icon="{StaticResource Vector.Email}" 
-                              ContentWidth="18" ContentHeight="18" Padding="5,0" MinWidth="90" Margin="5" Click="SendButton_Click"/>
+            <n:ExtendedButton
+                x:Name="DetailsButton"
+                Grid.Column="3"
+                MinWidth="90"
+                Margin="5"
+                Padding="5,0"
+                Click="DetailsButton_Click"
+                ContentHeight="18"
+                ContentWidth="18"
+                Icon="{StaticResource Vector.Application}"
+                Text="{DynamicResource S.Encoder.Details}" />
+            <n:ExtendedButton
+                x:Name="SendButton"
+                Grid.Column="4"
+                MinWidth="90"
+                Margin="5"
+                Padding="5,0"
+                Click="SendButton_Click"
+                ContentHeight="18"
+                ContentWidth="18"
+                Icon="{StaticResource Vector.Email}"
+                Text="{DynamicResource S.ErrorDialog.Send}" />
         </Grid>
     </Grid>
 </n:ExWindow>

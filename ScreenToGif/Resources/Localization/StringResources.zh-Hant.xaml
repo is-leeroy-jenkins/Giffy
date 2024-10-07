@@ -14,7 +14,9 @@
     
     
     
+    
     <!--  To use a new line: &#x0d; or CarriageReturn + NewLine: &#x0d;&#x0a; or &#10;  -->
+    
     
     
     
@@ -36,8 +38,10 @@
     
     
     
+    
     <!--  Special texts like {0}, are place holders for dynamic values, such as numbers.  -->
 
+    
     
     
     
@@ -85,6 +89,7 @@
     
     
     
+    
     <!--  Warnings  -->
     <s:String x:Key="S.Crash">哦，不，程式崩潰了 :(</s:String>
     <s:String x:Key="S.Required">必填字段</s:String>
@@ -113,6 +118,7 @@
     
     
     
+    
     <!--  Warnings • Graphics engine  -->
     <s:String x:Key="S.Warning.Graphics.Title">切換顯示卡</s:String>
     <s:String x:Key="S.Warning.Graphics.Instruction">切換至正確的顯示卡以擷取所選的螢幕。</s:String>
@@ -121,6 +127,7 @@
     <s:String x:Key="S.Warning.Graphics.Action.Legacy">打開您顯示卡中的圖形設定，為 ScreenToGif 切換顯示卡。</s:String>
     <s:String x:Key="S.Warning.Graphics.Switch">開啟 Windows 設定</s:String>
 
+    
     
     
     
@@ -146,9 +153,11 @@
     
     
     
+    
     <!--  Mouse  -->
     <s:String x:Key="S.Mouse.Right">右鍵單擊</s:String>
 
+    
     
     
     
@@ -165,6 +174,7 @@
     <s:String x:Key="S.NewBoardRecording">新增畫板錄製</s:String>
     <s:String x:Key="S.Exit">離開</s:String>
 
+    
     
     
     
@@ -257,6 +267,7 @@
     
     
     
+    
     <!--  StartUp  -->
     <s:String x:Key="S.StartUp.Title">ScreenToGif - 啟動</s:String>
     <s:String x:Key="S.StartUp.Recorder">螢幕錄影</s:String>
@@ -271,6 +282,7 @@
     <s:String x:Key="S.StartUp.NewRelease">有新版本</s:String>
     <s:String x:Key="S.StartUp.NewRelease.Tooltip">下載最新版本的 ScreenToGif</s:String>
 
+    
     
     
     
@@ -312,11 +324,13 @@
     
     
     
+    
     <!--  Downloader  -->
     <s:String x:Key="S.Downloader.Title">ScreenToGif - 下載器</s:String>
     <s:String x:Key="S.Downloader.Header">下載器</s:String>
     <s:String x:Key="S.Downloader.Size">{0} / {1}</s:String>
 
+    
     
     
     
@@ -344,6 +358,7 @@
     <s:String x:Key="S.Options.Warning.Follow.Header">游標跟隨缺少快捷鍵</s:String>
     <s:String x:Key="S.Options.Warning.Follow.Message">為了使用游標跟隨功能，必須設定快捷鍵以在需要時將其啟停用。</s:String>
 
+    
     
     
     
@@ -413,6 +428,7 @@
     <s:String x:Key="S.Options.App.General.ForceUpdateAsAdmin">強制更新時提升執行權限</s:String>
     <s:String x:Key="S.Options.App.General.PromptToInstall">在安裝開始之前提示我</s:String>
 
+    
     
     
     
@@ -515,6 +531,7 @@
     
     
     
+    
     <!--  Options • Editor  -->
     <s:String x:Key="S.Options.Editor.Previewer">編輯器背景</s:String>
     <s:String x:Key="S.Options.Editor.Previewer.GridSize">網格大小</s:String>
@@ -564,6 +581,7 @@
     
     
     
+    
     <!--  Options • Tasks  -->
     <s:String x:Key="S.Options.Tasks.Title">自動化任務</s:String>
     <s:String x:Key="S.Options.Tasks.List">自動化任務列表</s:String>
@@ -575,6 +593,7 @@
     <s:String x:Key="S.Options.Tasks.SelectType.Info">從上方選擇一個任務</s:String>
     <s:String x:Key="S.Options.Tasks.Info">這些任務從列表的頂部到底部依次執行。&#10;在您第一次使用編輯器打開專案時，就會發生這種情況。</s:String>
 
+    
     
     
     
@@ -622,6 +641,7 @@
     
     
     
+    
     <!--  Options • Language  -->
     <s:String x:Key="S.Options.Language.AppLanguage">應用程式語系</s:String>
     <s:String x:Key="S.Options.Language.AppLanguage.AutoDetect">自動偵測</s:String>
@@ -638,6 +658,7 @@
     <s:String x:Key="S.Options.Language.AppLanguage.Translate.ImportLink.Tooltip">打開匯入頁面</s:String>
     <s:String x:Key="S.Options.Language.AppLanguage.Translate.EmailLink.Tooltip">打開電子郵件應用程式</s:String>
 
+    
     
     
     
@@ -693,6 +714,7 @@
     
     
     
+    
     <!--  Options • Storage > Clear cache  -->
     <s:String x:Key="S.Options.Storage.Cache.Title">ScreenToGif - 清除暫存</s:String>
     <s:String x:Key="S.Options.Storage.Cache.Header">您要清除暫存資料夾嗎？</s:String>
@@ -702,6 +724,7 @@
     <s:String x:Key="S.Options.Storage.Cache.IgnoreRecent.Yes">（僅會刪除 {0} 天之前尚未使用的專案）</s:String>
     <s:String x:Key="S.Options.Storage.Cache.IgnoreRecent.No">（所有目前未使用的專案將被刪除）</s:String>
 
+    
     
     
     
@@ -731,6 +754,7 @@
     <s:String x:Key="S.Options.Upload.Presets.Enabled">啟用</s:String>
 
      
+    
     
     
     
@@ -796,10 +820,12 @@
     
     
     
+    
     <!--  Options • Upload > Album  -->
     <s:String x:Key="S.Options.Upload.Pick.Album">選擇一個相簿（可選）</s:String>
     <s:String x:Key="S.Options.Upload.Pick.Album.Info">如果您願意，可以選擇目標相簿：</s:String>
 
+    
     
     
     
@@ -829,6 +855,7 @@
     
     
     
+    
     <!--  Options • Upload > History  -->
     <s:String x:Key="S.Options.Upload.History.Title">上傳記錄</s:String>
     <s:String x:Key="S.Options.Upload.History.Date">日期</s:String>
@@ -841,6 +868,7 @@
     <s:String x:Key="S.Options.Upload.History.Delete.Instruction">確定要刪除歷史記錄項目嗎？</s:String>
     <s:String x:Key="S.Options.Upload.History.Delete.Message">此操作無法撤消。&#10;&#10;確定要刪除所選的歷史記錄項目嗎？</s:String>
 
+    
     
     
     
@@ -882,6 +910,7 @@
     
     
     
+    
     <!--  Options • Donations  -->
     <s:String x:Key="S.Options.Donate.Donate">捐贈</s:String>
     <s:String x:Key="S.Options.Donate.Donate.Dollar">捐贈美金 US$</s:String>
@@ -901,6 +930,7 @@
     <s:String x:Key="S.Options.Donate.Support">支持</s:String>
     <s:String x:Key="S.Options.Donate.Support.Visit">如果您想支持該項目 :)</s:String>
 
+    
     
     
     
@@ -939,6 +969,7 @@
     
     
     
+    
     <!--  Localization  -->
     <s:String x:Key="S.Localization">本地化</s:String>
     <s:String x:Key="S.Localization.GettingCodes">正在取得語系代碼...</s:String>
@@ -961,6 +992,7 @@
     <s:String x:Key="S.Localization.Warning.Unknown.Info">"{0}" 及其家族不被識別為合法的語系代碼。</s:String>
     <s:String x:Key="S.Localization.Warning.NotPossible">匯入語系資源失敗</s:String>
 
+    
     
     
     
@@ -1023,6 +1055,7 @@
     
     
     
+    
     <!--  New recorder  -->
     <s:String x:Key="S.Recorder.Area">區域</s:String>
     <s:String x:Key="S.Recorder.Area.Select">選擇一個區域</s:String>
@@ -1063,6 +1096,7 @@
     
     
     
+    
     <!--  Webcam recorder  -->
     <s:String x:Key="S.Webcam.Title">ScreenToGif - 網路攝影機錄影</s:String>
     <s:String x:Key="S.Webcam.NoVideo">未偵測到視訊裝置:(</s:String>
@@ -1080,12 +1114,14 @@
     
     
     
+    
     <!--  Board recorder  -->
     <s:String x:Key="S.Board.Title">ScreenToGif - 繪圖板錄影程式</s:String>
     <s:String x:Key="S.Board.AutoRecord">自動錄影</s:String>
     <s:String x:Key="S.Board.AutoRecordToolTip">在繪圖時啟用錄影</s:String>
     <s:String x:Key="S.Board.CtrlHold">Ctrl [按住]</s:String>
 
+    
     
     
     
@@ -1120,6 +1156,7 @@
     
     
     
+    
     <!--  Exception/Error viewers  -->
     <s:String x:Key="S.ExceptionViewer.Title">例外檢視器</s:String>
     <s:String x:Key="S.ExceptionViewer.OpenInner">開啟內部異常</s:String>
@@ -1130,6 +1167,7 @@
     <s:String x:Key="S.ErrorDialog.Observation">出事了</s:String>
     <s:String x:Key="S.ErrorDialog.Send">傳送報告</s:String>
 
+    
     
     
     
@@ -1153,6 +1191,7 @@
     <s:String x:Key="S.Preset.Warning.Name">您必須為此預置設定命名。</s:String>
     <s:String x:Key="S.Preset.Warning.SameName">已經存在同名的預置設定。</s:String>
 
+    
     
     
     
@@ -1221,6 +1260,7 @@
     
     
     
+    
     <!--  Insert frames  -->
     <s:String x:Key="S.InsertFrames.Title">插入影格</s:String>
     <s:String x:Key="S.InsertFrames.Info">兩邊應具有相同的大小，此視窗允許您重新調整圖片和畫布的位置和大小。按一下選擇並調整大小。</s:String>
@@ -1240,6 +1280,7 @@
     <s:String x:Key="S.InsertFrames.Importing">正在匯入</s:String>
     <s:String x:Key="S.InsertFrames.SelectColorFill">選擇畫布填充顏色</s:String>
 
+    
     
     
     
@@ -1270,6 +1311,7 @@
     <s:String x:Key="S.ImportVideo.Timeout">預覽影格逾時</s:String>
     <s:String x:Key="S.ImportVideo.Nothing">沒有選擇要匯入的影格</s:String>
 
+    
     
     
     
@@ -1334,6 +1376,7 @@
     
     
     
+    
     <!--  Command output  -->
     <s:String x:Key="S.Encoder.Command.Title">ScreenToGId - 指令輸出</s:String>
     <s:String x:Key="S.Encoder.Command.Header">指令輸出</s:String>
@@ -1348,10 +1391,12 @@
     
     
     
+    
     <!--  Notifications  -->
     <s:String x:Key="S.Notifications">通知</s:String>
     <s:String x:Key="S.Notifications.Dismiss">關閉所有通知</s:String>
 
+    
     
     
     
@@ -1388,11 +1433,13 @@
     
     
     
+    
     <!--  Editor • Loading  -->
     <s:String x:Key="S.Editor.Preparing">正在準備影格</s:String>
     <s:String x:Key="S.Editor.InvalidLoadingFiles">載入無效 - 您無法一次同時匯入多個檔案。請試著只選擇一個檔案。</s:String>
     <s:String x:Key="S.Editor.InvalidLoadingProjects">載入無效 - 您無法一次同時匯入多個專案。請試著只選擇一個專案。</s:String>
 
+    
     
     
     
@@ -1439,6 +1486,7 @@
     
     
     
+    
     <!--  Editor • Welcome  -->
     <s:String x:Key="S.Editor.Welcome.New">從 [檔案 > 新增] 開始新的錄影</s:String>
     <s:String x:Key="S.Editor.Welcome.Import">拖放要匯入的圖片、影片或專案</s:String>
@@ -1448,6 +1496,7 @@
     <s:String x:Key="S.Editor.Welcome.Trouble">遇到麻煩？請透過意見反應工具與我聯繫</s:String>
     <s:String x:Key="S.Editor.Welcome.NewRecorder">您想試試新版錄製界面嗎？可以從 [選項 > 錄製] 來啟用</s:String>
 
+    
     
     
     
@@ -1475,6 +1524,7 @@
     
     
     
+    
     <!--  Editor • File tab • Insert  -->
     <s:String x:Key="S.Editor.File.Insert.Recording">錄製</s:String>
     <s:String x:Key="S.Editor.File.Insert.Webcam">網路攝影機&#10;錄製</s:String>
@@ -1482,6 +1532,7 @@
     <s:String x:Key="S.Editor.File.Insert.Media">媒體</s:String>
     <s:String x:Key="S.Editor.File.Insert">插入</s:String>
 
+    
     
     
     
@@ -1509,12 +1560,14 @@
     
     
     
+    
     <!--  Editor • Home tab • Action Stack  -->
     <s:String x:Key="S.Editor.Home.ActionStack">動作紀錄</s:String>
     <s:String x:Key="S.Editor.Home.Undo">還原</s:String>
     <s:String x:Key="S.Editor.Home.Redo">重做</s:String>
     <s:String x:Key="S.Editor.Home.Reset">重設</s:String>
 
+    
     
     
     
@@ -1542,11 +1595,13 @@
     
     
     
+    
     <!--  Editor • Home tab • Zoom  -->
     <s:String x:Key="S.Editor.Home.Zoom">縮放</s:String>
     <s:String x:Key="S.Editor.Home.SizeToContent">根據內容&#10;調整視窗</s:String>
     <s:String x:Key="S.Editor.Home.FitImage">符合圖片</s:String>
 
+    
     
     
     
@@ -1564,6 +1619,7 @@
     <s:String x:Key="S.Editor.Home.Inverse">反向</s:String>
     <s:String x:Key="S.Editor.Home.Deselect">取消選取</s:String>
 
+    
     
     
     
@@ -1593,11 +1649,13 @@
     
     
     
+    
     <!--  Editor • Playback tab • Playback Options  -->
     <s:String x:Key="S.Editor.PlaybackOptions.Header">播放選項</s:String>
     <s:String x:Key="S.Editor.PlaybackOptions.Loop">播放期間循環播放</s:String>
     <s:String x:Key="S.Editor.PlaybackOptions.Loop.Info">僅在播放期間使用&#10;如果要更改用於輸出 Gif 和 Apng 的循環設定，請至 "另存新檔" 中設定</s:String>
 
+    
     
     
     
@@ -1627,6 +1685,7 @@
     
     
     
+    
     <!--  Editor • Edit tab • Reordering  -->
     <s:String x:Key="S.Editor.Edit.Reordering">錄影</s:String>
     <s:String x:Key="S.Editor.Edit.Reverse">反轉</s:String>
@@ -1634,6 +1693,7 @@
     <s:String x:Key="S.Editor.Edit.MoveLeft">移動到&#10;左側</s:String>
     <s:String x:Key="S.Editor.Edit.MoveRight">移動到&#10;右側</s:String>
 
+    
     
     
     
@@ -1660,12 +1720,14 @@
     
     
     
+    
     <!--  Editor • Image • Size and Rotation  -->
     <s:String x:Key="S.Editor.Image.SizePosition">大小和位置</s:String>
     <s:String x:Key="S.Editor.Image.Resize">調整大小</s:String>
     <s:String x:Key="S.Editor.Image.Crop">裁減</s:String>
     <s:String x:Key="S.Editor.Image.FlipRotate">翻轉/旋轉</s:String>
 
+    
     
     
     
@@ -1683,6 +1745,7 @@
     <s:String x:Key="S.Editor.Image.TitleFrame">標題影格</s:String>
     <s:String x:Key="S.Editor.Image.KeyStrokes">鍵盤</s:String>
 
+    
     
     
     
@@ -1715,11 +1778,13 @@
     
     
     
+    
     <!--  Editor • Transitions tab • Styles  -->
     <s:String x:Key="S.Editor.Transitions.Styles">樣式</s:String>
     <s:String x:Key="S.Editor.Transitions.Fade">淡出</s:String>
     <s:String x:Key="S.Editor.Transitions.Slide">滑動</s:String>
 
+    
     
     
     
@@ -1741,6 +1806,7 @@
     <s:String x:Key="S.Editor.Statistics.FrameDpi">影格 DPI 和縮放</s:String>
     <s:String x:Key="S.Editor.Statistics.SelectedFrame">所選影格</s:String>
 
+    
     
     
     
@@ -1808,6 +1874,7 @@
     
     
     
+    
     <!--  Editor • Warnings  -->
     <s:String x:Key="S.Editor.Warning.Selection">您必須選擇至少一個影格來執行覆蓋。</s:String>
     <s:String x:Key="S.Editor.Warning.Ffmpeg">FFmpeg 不存在。將其加入至 Path 環境變數或在選項中設定好路徑。</s:String>
@@ -1816,6 +1883,7 @@
     <s:String x:Key="S.Editor.Warning.DifferentDpi">不支援匯入多張不同 DPI 的圖片。部分已匯入成功，其他則需分別匯入。</s:String>
     <s:String x:Key="S.Editor.Warning.DifferentSize">不支援匯入多張不同尺寸的圖片。某些圖片已被匯入，其他則須分別匯入。</s:String>
 
+    
     
     
     
@@ -1858,11 +1926,13 @@
     
     
     
+    
     <!--  Editor • Frame list  -->
     <s:String x:Key="S.Editor.List.Frame">影格：</s:String>
     <s:String x:Key="S.Editor.List.OpenImage">開啟圖片</s:String>
     <s:String x:Key="S.Editor.List.ExploreFolder">瀏覽資料夾</s:String>
 
+    
     
     
     
@@ -1887,6 +1957,7 @@
     
     
     
+    
     <!--  Editor • Context menu  -->
     <s:String x:Key="S.Context.SaveAs">另存成</s:String>
     <s:String x:Key="S.Context.RemoveFrames">移除所選影格</s:String>
@@ -1896,6 +1967,7 @@
     <s:String x:Key="S.Context.NewBlankAnimation">新增空白專案</s:String>
     <s:String x:Key="S.Context.NewFromMediaProject">從媒體或專案新增</s:String>
 
+    
     
     
     
@@ -1953,6 +2025,7 @@
     
     
     
+    
     <!--  Editor • Action panel  -->
     <s:String x:Key="S.Action.Hide">隱藏</s:String>
     <s:String x:Key="S.Action.Apply">套用</s:String>
@@ -1960,6 +2033,7 @@
     <s:String x:Key="S.Action.Save">儲存</s:String>
     <s:String x:Key="S.Action.Cancel">取消</s:String>
 
+    
     
     
     
@@ -1989,6 +2063,7 @@
     
     
     
+    
     <!--  Editor • Clipboard  -->
     <s:String x:Key="S.Clipboard.Entries">剪貼簿項目</s:String>
     <s:String x:Key="S.Clipboard.Entry">剪貼簿項目：</s:String>
@@ -2000,6 +2075,7 @@
     <s:String x:Key="S.Clipboard.Before">在所選影格之前</s:String>
     <s:String x:Key="S.Clipboard.After">在所選影格之後</s:String>
 
+    
     
     
     
@@ -2035,6 +2111,7 @@
     
     
     
+    
     <!--  Editor • Crop  -->
     <s:String x:Key="S.Crop.Points">點</s:String>
     <s:String x:Key="S.Crop.Top">上：</s:String>
@@ -2054,12 +2131,14 @@
     
     
     
+    
     <!--  Editor • Flip/rotate  -->
     <s:String x:Key="S.FlipRotate.FlipHorizontal">水平翻轉</s:String>
     <s:String x:Key="S.FlipRotate.FlipVertical">垂直翻轉</s:String>
     <s:String x:Key="S.FlipRotate.RotateLeft">向左旋轉 90 度</s:String>
     <s:String x:Key="S.FlipRotate.RotateRight">向右旋轉 90 度</s:String>
 
+    
     
     
     
@@ -2095,6 +2174,7 @@
     
     
     
+    
     <!--  Editor • Remove duplicates  -->
     <s:String x:Key="S.RemoveDuplicates.Header">刪除重複項</s:String>
     <s:String x:Key="S.RemoveDuplicates.Similarity">相似度 (%)：</s:String>
@@ -2107,6 +2187,7 @@
     <s:String x:Key="S.RemoveDuplicates.Delay.Sum">使用總和</s:String>
     <s:String x:Key="S.RemoveDuplicates.Info">此操作會分析每個影格（逐像素），並刪除至少為 {0}% 的類似於其最近鄰的影格。 &#10;您可以選擇是否要調整影格的延遲（顯示持續時間）。</s:String>
 
+    
     
     
     
@@ -2138,6 +2219,7 @@
     
     
     
+    
     <!--  Editor • Captions  -->
     <s:String x:Key="S.Caption.Text">文字</s:String>
     <s:String x:Key="S.Caption.Font">字型</s:String>
@@ -2155,6 +2237,7 @@
     <s:String x:Key="S.Caption.TextAlignment">對齊方式：</s:String>
     <s:String x:Key="S.Caption.TextDecoration">文字修飾：</s:String>
 
+    
     
     
     
@@ -2196,6 +2279,7 @@
     
     
     
+    
     <!--  Editor • Free drawing  -->
     <s:String x:Key="S.FreeDrawing.Mode">模式</s:String>
     <s:String x:Key="S.FreeDrawing.Pen">筆</s:String>
@@ -2213,6 +2297,7 @@
     <s:String x:Key="S.FreeDrawing.Warning.NoDrawing">沒有繪圖套用到您所選的影格</s:String>
     <s:String x:Key="S.FreeDrawing.WarningSelection">您必須至少選擇一個影格來套用自由繪圖</s:String>
 
+    
     
     
     
@@ -2243,6 +2328,7 @@
     
     
     
+    
     <!--  Editor • Mouse clicks  -->
     <s:String x:Key="S.MouseEvents">滑鼠點擊</s:String>
     <s:String x:Key="S.MouseClicks.Color.Left">左鍵顏色：</s:String>
@@ -2250,6 +2336,7 @@
     <s:String x:Key="S.MouseClicks.Color.Right">右鍵顏色：</s:String>
     <s:String x:Key="S.MouseClicks.Warning.None">您的專案沒有偵測到滑鼠點擊。</s:String>
 
+    
     
     
     
@@ -2279,10 +2366,12 @@
     
     
     
+    
     <!--  Editor • Border  -->
     <s:String x:Key="S.Border.Appearance">外觀</s:String>
     <s:String x:Key="S.Border.Info">使用負值使邊框擴大圖片。這樣做時，邊框將套用於所有影格。</s:String>
 
+    
     
     
     
@@ -2310,6 +2399,7 @@
     
     
     
+    
     <!--  Editor • Obfuscate  -->
     <s:String x:Key="S.Obfuscate.Type.Pixelate">像素化</s:String>
     <s:String x:Key="S.Obfuscate.Type.Blur">模糊化</s:String>
@@ -2327,6 +2417,7 @@
     <s:String x:Key="S.Obfuscate.Info2">使用選擇工具選擇不需套用效果的矩形區域。</s:String>
     <s:String x:Key="S.Obfuscate.Warning">您沒有選擇任何區域。請使用選擇工具選擇需套用效果的矩形區域。</s:String>
 
+    
     
     
     
@@ -2376,6 +2467,7 @@
     
     
     
+    
     <!--  Editor • Delay  -->
     <s:String x:Key="S.Delay.Update">延遲更新</s:String>
     <s:String x:Key="S.Delay.Mode">延遲模式：</s:String>
@@ -2400,9 +2492,11 @@
     
     
     
+    
     <!--  Editor • Cinemagraph  -->
     <s:String x:Key="S.Cinemagraph.Info">使用筆選擇不應該保持靜態的像素（應該在影格之間變更），透過在其上繪畫。</s:String>
 
+    
     
     
     
@@ -2422,6 +2516,7 @@
     <s:String x:Key="S.Transitions.Color">顏色</s:String>
     <s:String x:Key="S.Transitions.Info">轉場將套用到所選影格與下一影格之間。</s:String>
 
+    
     
     
     
@@ -2481,6 +2576,7 @@
     
     
     
+    
     <!--  Editor • Save as > Presets  -->
     <s:String x:Key="S.SaveAs.Presets">預設：</s:String>
     <s:String x:Key="S.SaveAs.Presets.Default">預設值</s:String>
@@ -2500,6 +2596,7 @@
     
     
     
+    
     <!--  Editor • Save as > Presets > Dialogs  -->
     <s:String x:Key="S.SaveAs.Presets.Ask.Delete.Title">刪除預置設定</s:String>
     <s:String x:Key="S.SaveAs.Presets.Ask.Delete.Instruction">您確定要刪除此預置設定嗎？</s:String>
@@ -2508,6 +2605,7 @@
     <s:String x:Key="S.SaveAs.Presets.Ask.Reset.Instruction">您確定要重置預置設定嗎？</s:String>
     <s:String x:Key="S.SaveAs.Presets.Ask.Reset.Message">此操作無法撤消。&#10;&#10;是否要將所選預置設定重置回預設？</s:String>
 
+    
     
     
     
@@ -2544,6 +2642,7 @@
     
     
     
+    
     <!--  Editor • Save as > FFmpeg  -->
     <s:String x:Key="S.SaveAs.Ffmpeg.UseParameters">啟用進階模式</s:String>
     <s:String x:Key="S.SaveAs.Ffmpeg.UseParameters.Info">手動輸入編碼器的參數。</s:String>
@@ -2556,6 +2655,7 @@
     <s:String x:Key="S.SaveAs.Ffmpeg.Help.Format">格式檔案</s:String>
     <s:String x:Key="S.SaveAs.Ffmpeg.Help.Filters">濾鏡檔案</s:String>
 
+    
     
     
     
@@ -2606,6 +2706,7 @@
     <s:String x:Key="S.SaveAs.GifOptions.Dither">抖動：</s:String>
     <s:String x:Key="S.SaveAs.GifOptions.Dither.Scale">拜耳縮放：</s:String>
 
+    
     
     
     
@@ -2728,6 +2829,7 @@
     
     
     
+    
     <!--  Editor • Save as > Apng options  -->
     <s:String x:Key="S.SaveAs.ApngOptions">Apng 選項</s:String>
     <s:String x:Key="S.SaveAs.ApngOptions.Prediction">預測：</s:String>
@@ -2750,6 +2852,7 @@
     
     
     
+    
     <!--  Editor • Save as > Webp options  -->
     <s:String x:Key="S.SaveAs.WebpOptions.CodecPreset">預置設定：</s:String>
     <s:String x:Key="S.SaveAs.WebpOptions.CodecPreset.None">無</s:String>
@@ -2761,6 +2864,7 @@
     <s:String x:Key="S.SaveAs.WebpOptions.CodecPreset.Text">文字</s:String>
     <s:String x:Key="S.SaveAs.WebpOptions.Lossless">使用無損模式。</s:String>
 
+    
     
     
     
@@ -2844,10 +2948,12 @@
     
     
     
+    
     <!--  Editor • Save as > Image options  -->
     <s:String x:Key="S.SaveAs.ImageOptions.Zip">壓縮圖片</s:String>
     <s:String x:Key="S.SaveAs.ImageOptions.Zip.Info">輸出壓縮後資料夾中的圖片</s:String>
 
+    
     
     
     
@@ -2864,6 +2970,7 @@
     <s:String x:Key="S.SaveAs.PsdOptions.Timeline">保存時間軸資料</s:String>
     <s:String x:Key="S.SaveAs.PsdOptions.Timeline.Info">輸出影格的時間，而不僅僅是影格。</s:String>
 
+    
     
     
     
@@ -2909,6 +3016,7 @@
     
     
     
+    
     <!--  Editor • Save As > Partial export  -->
     <s:String x:Key="S.SaveAs.Partial">部份輸出</s:String>
     <s:String x:Key="S.SaveAs.Partial.Mode">模式：</s:String>
@@ -2939,6 +3047,7 @@
     
     
     
+    
     <!--  Editor • Save as > File  -->
     <s:String x:Key="S.SaveAs.File">檔案</s:String>
     <s:String x:Key="S.SaveAs.File.Location">目的資料夾</s:String>
@@ -2952,6 +3061,7 @@
     <s:String x:Key="S.SaveAs.File.Exists">同名檔案已經存在</s:String>
     <s:String x:Key="S.SaveAs.File.Clipboard">儲存到剪貼簿</s:String>
 
+    
     
     
     
@@ -2992,6 +3102,7 @@
     
     
     
+    
     <!--  Editor • Save As > Upload  -->
     <s:String x:Key="S.SaveAs.Upload">上傳</s:String>
     <s:String x:Key="S.SaveAs.Upload.Info">選擇上傳預置設定，其中包含有關用於上傳的服務的詳細資訊。</s:String>
@@ -3015,11 +3126,13 @@
     
     
     
+    
     <!--  Editor • Save as > Upload > Dialogs  -->
     <s:String x:Key="S.SaveAs.Upload.Ask.Delete.Title">刪除上傳預置設定</s:String>
     <s:String x:Key="S.SaveAs.Upload.Ask.Delete.Instruction">您確定要刪除上傳預置設定嗎？</s:String>
     <s:String x:Key="S.SaveAs.Upload.Ask.Delete.Message">此操作無法撤消。&#10;&#10;您要刪除所選擇的上傳預置設定嗎？</s:String>
 
+    
     
     
     
@@ -3050,12 +3163,14 @@
     
     
     
+    
     <!--  Command Preview  -->
     <s:String x:Key="S.CommandPreviewer.Title">命令預覽</s:String>
     <s:String x:Key="S.CommandPreviewer.Command">命令</s:String>
     <s:String x:Key="S.CommandPreviewer.Input">輸入路徑</s:String>
     <s:String x:Key="S.CommandPreviewer.Output">輸出路徑</s:String>
 
+    
     
     
     
@@ -3099,6 +3214,7 @@
     
     
     
+    
     <!--  Troubleshoot  -->
     <s:String x:Key="S.Troubleshoot.Title">疑難解答</s:String>
     <s:String x:Key="S.Troubleshoot.Windows">是否有任何視窗不見了？</s:String>
@@ -3118,11 +3234,13 @@
     
     
     
+    
     <!--  FontStyles  -->
     <s:String x:Key="S.FontStyles.Normal">正常</s:String>
     <s:String x:Key="S.FontStyles.Italic">斜體</s:String>
     <s:String x:Key="S.FontStyles.Oblique">傾斜</s:String>
 
+    
     
     
     
@@ -3161,12 +3279,14 @@
     
     
     
+    
     <!--  VerticalAlignment  -->
     <s:String x:Key="S.VerticalAlignment.Top">上</s:String>
     <s:String x:Key="S.VerticalAlignment.Center">置中</s:String>
     <s:String x:Key="S.VerticalAlignment.Bottom">下</s:String>
     <s:String x:Key="S.Alignment.Stretch">延展</s:String>
 
+    
     
     
     
@@ -3192,10 +3312,12 @@
     
     
     
+    
     <!--  Orientation  -->
     <s:String x:Key="S.Orientation.Horizontal">水平</s:String>
     <s:String x:Key="S.Orientation.Vertical">垂直</s:String>
 
+    
     
     
     
@@ -3212,6 +3334,7 @@
     <s:String x:Key="S.TextAlignment.Center">置中</s:String>
     <s:String x:Key="S.TextAlignment.Justify">對齊</s:String>
 
+    
     
     
     
