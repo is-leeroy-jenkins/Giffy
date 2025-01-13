@@ -1,7 +1,8 @@
-<p align="center">__
+<p align="center">
 <a href="https://github.com/is-leeroy-jenkins/ScreenToGif" target="_blank">
 <img align="center" alt="screen recorder" src="https://www.screentogif.com/logos/ms-icon-144x144.png" />
 </a>
+__
 </p>
 <p align="center">
 <a href="https://chocolatey.org/packages/screentogif" target="_blank">
