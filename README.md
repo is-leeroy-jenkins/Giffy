@@ -21,9 +21,10 @@
 
 
 
+<p align="center">
+    
 <h2>Screenshots</h2>
 
-<p align="center">
  <img align="center" alt="start up" src="https://www.screentogif.com/media/Recorder.png" />
 </p>
 <p align="center">
