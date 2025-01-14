@@ -45,9 +45,9 @@
 
 ## ![](https://github.com/is-leeroy-jenkinss/Giffy/blob/master/ScreenToGif/Resources/Assets/GitHubImages/documentation.png) Documentation
 
-- [Compilation Guide](Resources/Github/Compilation.md) - instructions on how to compile Badger.
-- [User Guide](Resources/Github/Configuration.md) - information for the Giffy configuration file. 
-- [Distribution Guide](Resources/Github/Distribution.md) -  distributing Giffy.
+- [Compilation Guide](https://github.com/is-leeroy-jenkins/Giffy/blob/master/ScreenToGif/Resources/Github/Compilation.md) - instructions on how to compile Badger.
+- [User Guide](https://github.com/is-leeroy-jenkins/Giffy/blob/master/ScreenToGif/Resources/Github/Compilation.md) - information for the Giffy configuration file. 
+- [Distribution Guide](https://github.com/is-leeroy-jenkins/Giffy/blob/master/ScreenToGif/Resources/Github/Compilation.md) -  distributing Giffy.
 
 
 
