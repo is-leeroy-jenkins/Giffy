@@ -1,4 +1,5 @@
-<p align="center">__
+#### Giffy
+<p align="center">
 <a href="https://github.com/is-leeroy-jenkins/ScreenToGif" target="_blank">
 <img align="center" alt="screen recorder" src="https://www.screentogif.com/logos/ms-icon-144x144.png" />
 </a>
@@ -17,14 +18,38 @@
 <g-emoji ios-version="6.0" fallback-src="https://assets-cdn.github.com/images/icons/emoji/unicode/26a0.png" alias="warning">⚠️</g-emoji> Attention, it requires <a href="https://dotnet.microsoft.com/en-us/download/dotnet/6.0/runtime">.NET 6 Desktop Runtime</a> (or above). 
  <g-emoji ios-version="6.0" fallback-src="https://assets-cdn.github.com/images/icons/emoji/unicode/26a0.png" alias="warning">⚠️</g-emoji>
 </p>
-
-	
-<h2>Please, avoid selling this app as yours</h2>
-I don't care if you copy the source code to use in your project, but please avoid simply changing the name and selling as your work. 
-That's not why I'm sharing the source code, at all.
-
 <h2>Screenshots</h2>
 
+## ![](https://github.com/is-leeroy-jenkins/Giffy/blob/master/ScreenToGif/Resources/Assets/GitHubImages/system_requirements.png) System requirements
+
+- You need [VC++ 2019 Runtime](https://aka.ms/vs/17/release/vc_redist.x64.exe) 32-bit and 64-bit versions
+- You will need .NET 6.
+
+
+
+## ![](https://github.com/is-leeroy-jenkinss/Giffy/blob/master/ScreenToGif/Resources/Assets/GitHubImages/documentation.png) Documentation
+
+- [Compilation Guide](Resources/Github/Compilation.md) - instructions on how to compile Badger.
+- [User Guide](Resources/Github/Configuration.md) - information for the Giffy configuration file. 
+- [Distribution Guide](Resources/Github/Distribution.md) -  distributing Giffy.
+
+
+
+## ![](https://github.com/is-leeroy-jenkinss/Giffy/blob/master/ScreenToGif/Resources/Assets/GitHubImages/csharp.png) Code
+
+
+- [Windows](https://github.com/is-leeroy-jenkins/Giffy/tree/master/ScreenToGif/Windows) - main UI layer with numerous controls and related functionality.
+- [ViewModel](https://github.com/is-leeroy-jenkinss/Giffy/tree/master/ScreenToGif/ViewModel) - data presented through the UI.
+- [Controls](https://github.com/is-leeroy-jenkinss/Giffy/tree/master/ScreenToGif/Controls) - UI ccontrol for user interaction.
+- [WebCam](https://github.com/is-leeroy-jenkinss/Giffy/tree/master/ScreenToGif/WebCam])- classes providing web camera functionality.
+- [Themes](https://github.com/is-leeroy-jenkinss/Giffy/tree/master/ScreenToGif/Themes) - dark and light themes.
+- [Model](https://github.com/is-leeroy-jenkinss/Giffy/tree/master/ScreenToGif/Model) - classes that model frames and the project.
+- [Docs](https://github.com/is-leeroy-jenkinss/Giffy/tree/master/ScreenToGif/Docs) - useful documentation for Giffy.
+- [Cloud](https://github.com/is-leeroy-jenkinss/Giffy/tree/master/ScreenToGif/Cloud) - functionality for cloud interation.
+- [Capture](https://github.com/is-leeroy-jenkinss/Giffy/master/ScreenToGifs/Capture) - classes used capturing images/video.
+- `bin` - Binaries are included in the `bin` folder due to the complex Baby setup required. Don't empty this folder.
+
+  
 <p align="center">
  <img align="center" alt="start up" src="https://www.screentogif.com/media/Recorder.png" />
 </p>
