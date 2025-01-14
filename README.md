@@ -20,6 +20,22 @@
 </p>
 <h2>Screenshots</h2>
 
+<p align="center">
+ <img align="center" alt="start up" src="https://www.screentogif.com/media/Recorder.png" />
+</p>
+<p align="center">
+ <img align="center" alt="start up" src="https://www.screentogif.com/media/Startup.png" />
+</p>
+ <p align="center">
+ <img align="center" alt="editor" src="https://www.screentogif.com/media/Editor.gif" />
+ </p>
+ <p align="center">
+ <img align="center" alt="option" src="https://www.screentogif.com/media/Options.gif" />
+ </p>
+ <p align="center">
+ <img align="center" alt="keystrokes" src="https://www.screentogif.com/media/Keys.gif" />
+ </p>
+
 ## ![](https://github.com/is-leeroy-jenkins/Giffy/blob/master/ScreenToGif/Resources/Assets/GitHubImages/system_requirements.png) System requirements
 
 - You need [VC++ 2019 Runtime](https://aka.ms/vs/17/release/vc_redist.x64.exe) 32-bit and 64-bit versions
@@ -50,19 +66,3 @@
 - `bin` - Binaries are included in the `bin` folder due to the complex Baby setup required. Don't empty this folder.
 
   
-<p align="center">
- <img align="center" alt="start up" src="https://www.screentogif.com/media/Recorder.png" />
-</p>
-<p align="center">
- <img align="center" alt="start up" src="https://www.screentogif.com/media/Startup.png" />
-</p>
- <p align="center">
- <img align="center" alt="editor" src="https://www.screentogif.com/media/Editor.gif" />
- </p>
- <p align="center">
- <img align="center" alt="option" src="https://www.screentogif.com/media/Options.gif" />
- </p>
- <p align="center">
- <img align="center" alt="keystrokes" src="https://www.screentogif.com/media/Keys.gif" />
- </p>
-
