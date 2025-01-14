@@ -18,12 +18,6 @@
 <g-emoji ios-version="6.0" fallback-src="https://assets-cdn.github.com/images/icons/emoji/unicode/26a0.png" alias="warning">⚠️</g-emoji> Attention, it requires <a href="https://dotnet.microsoft.com/en-us/download/dotnet/6.0/runtime">.NET 6 Desktop Runtime</a> (or above). 
  <g-emoji ios-version="6.0" fallback-src="https://assets-cdn.github.com/images/icons/emoji/unicode/26a0.png" alias="warning">⚠️</g-emoji>
 </p>
-
-	
-<h2>Please, avoid selling this app as yours</h2>
-I don't care if you copy the source code to use in your project, but please avoid simply changing the name and selling as your work. 
-That's not why I'm sharing the source code, at all.
-
 <h2>Screenshots</h2>
 
 <p align="center">
