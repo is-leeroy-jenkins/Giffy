@@ -20,6 +20,26 @@
 </p>
 
 
+
+<h2>Screenshots</h2>
+
+<p align="center">
+ <img align="center" alt="start up" src="https://www.screentogif.com/media/Recorder.png" />
+</p>
+<p align="center">
+ <img align="center" alt="start up" src="https://www.screentogif.com/media/Startup.png" />
+</p>
+<p align="center">
+ <img align="center" alt="editor" src="https://www.screentogif.com/media/Editor.gif" />
+ </p>
+<p align="center">
+ <img align="center" alt="option" src="https://www.screentogif.com/media/Options.gif" />
+ </p>
+<p align="center">
+ <img align="center" alt="keystrokes" src="https://www.screentogif.com/media/Keys.gif" />
+ </p>
+  
+
 ## ![](https://github.com/is-leeroy-jenkins/Giffy/blob/master/ScreenToGif/Resources/Assets/GitHubImages/system_requirements.png) System requirements
 
 - You need [VC++ 2019 Runtime](https://aka.ms/vs/17/release/vc_redist.x64.exe) 32-bit and 64-bit versions
@@ -51,21 +71,42 @@
 
 
 
-<h2>Screenshots</h2>
+## 🙏 Acknowledgements
 
-<p align="center">
- <img align="center" alt="start up" src="https://www.screentogif.com/media/Recorder.png" />
-</p>
-<p align="center">
- <img align="center" alt="start up" src="https://www.screentogif.com/media/Startup.png" />
-</p>
-<p align="center">
- <img align="center" alt="editor" src="https://www.screentogif.com/media/Editor.gif" />
- </p>
-<p align="center">
- <img align="center" alt="option" src="https://www.screentogif.com/media/Options.gif" />
- </p>
-<p align="center">
- <img align="center" alt="keystrokes" src="https://www.screentogif.com/media/Keys.gif" />
- </p>
-  
+Badger uses the following projects and libraries. Please consider supporting them as well (e.g., by starring their repositories):
+
+|                                                                               |                                                                        |
+| ----------------------------------------------------------------------------- | ---------------------------------------------------------------------- |
+| [CefSharp.WPF.Core](https://github.com/cefsharp)                              | .NET (WPF/Windows Forms) bindings for the Chromium Embedded Framework  |
+| [Epplus](https://github.com/EPPlusSoftware/EPPlus)                  		    | EPPlus-Excel spreadsheets for .NET      								 |
+| [Google.Api.CustomSearchAPI.v1](https://developers.google.com/custom-search)  | Google APIs Client Library for working with Customsearch v1            |
+| [LiveCharts.Core](https://github.com/beto-rodriguez/LiveCharts2)              | Simple, flexible, interactive & powerful charts, maps        			 |
+| [Microsoft.Interop.Outlook](https://docusaurus.io/)                           | This an assembly you can use for Outlook 2013/2016/2019 COM interop    |
+| [ModernWpfUI](https://github.com/Kinnara/ModernWpf)                           | Modern styles and controls for your WPF applications                   |
+| [RestoreWindowPlace](https://github.com/punker76/gong-wpf-dragdrop)   	    | An easy to use window restore package									 |
+| [System.Data.SQLite](https://github.com/lduchosal/ipnetwork)                  | .NET Framework Data Provider for SQLite.								 |
+| [System.Data.SqlCe](https://github.com/zeluisping/LoadingIndicators.WPF)      | .NET Framework Data Provider for SQL Compact Edition.					 |
+| [System.Data.OleDb](https://github.com/zeluisping/LoadingIndicators.WPF) 	    | .NET Framework Data Provider for OLE DB.								 |
+| [System.Data.SqlClient](https://github.com/zeluisping/LoadingIndicators.WPF)  | A collection of loading indicators for WPF                             |  
+| [MahApps.Metro](https://mahapps.com/)                                         | UI toolkit for WPF applications                                        |
+| [ToastNotifications.Messages.Net6](https://github.com/rafallopatka)		    | Toast notifications for WPF 											 |
+| [ToastNotifications.Messages](https://github.com/rafallopatka)			    | Toast notifications for WPF											 |
+| [Syncfusion 24.1.41](https://www.syncfusion.com/)  							| Custom Controls Used in Badger                                         |
+
+
+
+
+## ![](https://github.com/is-leeroy-jenkins/Giffy/blob/master/ScreenToGif/Resources/Assets/GitHubImages/web.png) Privacy Policy
+
+This program will not transfer any information to other networked systems unless specifically requested by the user or the person installing or operating it.
+
+Giffy has integrated the following services for additional functions, which can be enabled or disabled at the first start (in the welcome dialog) or at any time in the settings:
+
+- [api.github.com](https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement) (Check for program updates)
+- [ipify.org](https://www.ipify.org/) (Retrieve the public IP address used by the client)
+- [ip-api.com](https://ip-api.com/docs/legal) (Retrieve network information such as geo location, ISP, DNS resolver used, etc. used by the client)
+
+## 📝 License
+
+Giffy is published under the [MIT General Public License v3](https://github.com/is-leeroy-jenkins/Giffy/blob/main/LICENSE).
+
