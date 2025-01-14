@@ -1,6 +1,6 @@
-#### 
+![]("https://github.com/is-leeroy-jenkins/Giffy/blob/master/ScreenToGif/Resources/Assets/GitHubImages/jiffie.gif" )
 <p align="center">
-## ![]("https://github.com/is-leeroy-jenkins/Giffy/blob/master/ScreenToGif/Resources/Assets/GitHubImages/jiffie.gif" ) Giffy
+#### Giffy
 <a href="" target="_blank">
 <img align="center" alt="screen recorder" src="https://www.screentogif.com/logos/ms-icon-144x144.png" />
 </a>
