@@ -19,11 +19,11 @@
  <g-emoji ios-version="6.0" fallback-src="https://assets-cdn.github.com/images/icons/emoji/unicode/26a0.png" alias="warning">⚠️</g-emoji>
 </p>
 
+    
+<p align="center"><h2>Screenshots</h2></p>
 
 
 <p align="center">
-    
-<h2>Screenshots</h2>
 
  <img align="center" alt="start up" src="https://www.screentogif.com/media/Recorder.png" />
 </p>
