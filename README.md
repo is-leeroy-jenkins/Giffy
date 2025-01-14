@@ -1,4 +1,24 @@
 
+<p align="center">
+<a href="" target="_blank">
+<img align="center" alt="screen recorder" src="https://www.screentogif.com/logos/ms-icon-144x144.png" />
+</a>
+</p>
+<p align="center">
+<a href="https://chocolatey.org/packages/screentogif" target="_blank">
+ <img alt="All Chocolatey releases" src="https://img.shields.io/chocolatey/dt/screentogif.svg" />
+</a>
+</p>
+<h1 align="center">ScreenToGif 🎬 <a href="http://www.screentogif.com/" target="_blank">screentogif.com</a></h1>
+
+<p align="center">This tool allows you to record a selected area of your <strong>screen</strong>, live feed from your <strong>webcam</strong> or live drawings from a <strong>sketchboard</strong>. Afterward, you can edit and save the animation as a gif, a png, video, psd or png image.</p>
+
+
+<p align="center">
+<g-emoji ios-version="6.0" fallback-src="https://assets-cdn.github.com/images/icons/emoji/unicode/26a0.png" alias="warning">⚠️</g-emoji> Attention, it requires <a href="https://dotnet.microsoft.com/en-us/download/dotnet/6.0/runtime">.NET 6 Desktop Runtime</a> (or above). 
+ <g-emoji ios-version="6.0" fallback-src="https://assets-cdn.github.com/images/icons/emoji/unicode/26a0.png" alias="warning">⚠️</g-emoji>
+</p>
+
 
 ## ![](https://github.com/is-leeroy-jenkins/Giffy/blob/master/ScreenToGif/Resources/Assets/GitHubImages/system_requirements.png) System requirements
 
@@ -31,25 +51,6 @@
 
 
 
-<p align="center">
-<a href="" target="_blank">
-<img align="center" alt="screen recorder" src="https://www.screentogif.com/logos/ms-icon-144x144.png" />
-</a>
-</p>
-<p align="center">
-<a href="https://chocolatey.org/packages/screentogif" target="_blank">
- <img alt="All Chocolatey releases" src="https://img.shields.io/chocolatey/dt/screentogif.svg" />
-</a>
-</p>
-<h1 align="center">ScreenToGif 🎬 <a href="http://www.screentogif.com/" target="_blank">screentogif.com</a></h1>
-
-<p align="center">This tool allows you to record a selected area of your <strong>screen</strong>, live feed from your <strong>webcam</strong> or live drawings from a <strong>sketchboard</strong>. Afterward, you can edit and save the animation as a gif, a png, video, psd or png image.</p>
-
-
-<p align="center">
-<g-emoji ios-version="6.0" fallback-src="https://assets-cdn.github.com/images/icons/emoji/unicode/26a0.png" alias="warning">⚠️</g-emoji> Attention, it requires <a href="https://dotnet.microsoft.com/en-us/download/dotnet/6.0/runtime">.NET 6 Desktop Runtime</a> (or above). 
- <g-emoji ios-version="6.0" fallback-src="https://assets-cdn.github.com/images/icons/emoji/unicode/26a0.png" alias="warning">⚠️</g-emoji>
-</p>
 <h2>Screenshots</h2>
 
 <p align="center">
