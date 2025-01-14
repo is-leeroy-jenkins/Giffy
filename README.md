@@ -62,7 +62,7 @@
 - [Model](https://github.com/is-leeroy-jenkinss/Giffy/tree/master/ScreenToGif/Model) - classes that model frames and the project.
 - [Docs](https://github.com/is-leeroy-jenkinss/Giffy/tree/master/ScreenToGif/Docs) - useful documentation for Giffy.
 - [Cloud](https://github.com/is-leeroy-jenkinss/Giffy/tree/master/ScreenToGif/Cloud) - functionality for cloud interation.
-- [Capture](https://github.com/is-leeroy-jenkinss/Giffy/master/ScreenToGifs/Capture) - classes used capturing images/video.
+- [Capture](https://github.com/is-leeroy-jenkinss/Giffy/tree/master/ScreenToGifs/Capture) - classes used capturing images/video.
 - `bin` - Binaries are included in the `bin` folder due to the complex Baby setup required. Don't empty this folder.
 
   
