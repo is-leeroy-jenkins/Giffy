@@ -1,6 +1,6 @@
 #### Giffy
 <p align="center">
-<a href="https://github.com/is-leeroy-jenkins/ScreenToGif" target="_blank">
+<a href="https://github.com/is-leeroy-jenkins/Giffy/blob/master/ScreenToGif/Resources/Assets/GitHubImages/jiffie.gif" target="_blank">
 <img align="center" alt="screen recorder" src="https://www.screentogif.com/logos/ms-icon-144x144.png" />
 </a>
 </p>
