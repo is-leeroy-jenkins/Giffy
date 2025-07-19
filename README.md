@@ -9,7 +9,7 @@
  <img alt="All Chocolatey releases" src="https://img.shields.io/chocolatey/dt/screentogif.svg" />
 </a>
 </p>
-<h1 align="center">ScreenToGif 🎬 <a href="http://www.screentogif.com/" target="_blank">screentogif.com</a></h1>
+<h1 align="center">Giffy 🎬 <a href="http://www.screentogif.com/" target="_blank">Giffy.com</a></h1>
 
 <p align="center">This tool allows you to record a selected area of your <strong>screen</strong>, live feed from your <strong>webcam</strong> or live drawings from a <strong>sketchboard</strong>. Afterward, you can edit and save the animation as a gif, a png, video, psd or png image.</p>
 
